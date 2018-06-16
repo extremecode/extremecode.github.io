@@ -2,7 +2,7 @@
 ## Table of Contents 
 * [IQR](#IQR)
 * [Continous vs Discrete](#cvd)
-* [](#)
+* [Range](#range)
 * [](#)
 * [](#)
 * [](#)
@@ -35,7 +35,29 @@ _Continuous Variables would (literally) take forever to count. In fact, you woul
 *	A baby’s age in months.
 ```markdown
 ```
-###  <a name=""></a>
+### Range  <a name="range"></a>
+Step 1: Sort the numbers in order, from smallest to largest:
+7, 10, 21, 33, 43, 45, 45, 65, 67, 87, 98, 99
+Step 2: Subtract the smallest number in the set from the largest number in the set:
+99 – 7 = 92
+The range is 92
+That’s it!
+Sample question 2: What is the range of these integers?
+14, -12, 7, 0, -5, -8, 17, -11, 19
+Step 1: Sort the numbers in order, from smallest to largest:
+-12, -11, -8, -5, 0, 7, 14, 17, 19
+Step 2: Subtract the smallest number in the set from the largest number in the set:
+19 – -12 = 19 + 12 = 31
+The range is 31.
+That’s it!
+Sample question 3: What is the range of the following times?
+2.7 hrs, 8.3 hrs, 3.5 hrs, 5.1 hrs, 4.9 hrs
+Step 1: Sort the numbers in order, from smallest to largest:
+2.7, 3.5, 4.9, 5.1, 8.3
+Step 2: Subtract the smallest number in the set from the largest number in the set:
+8.3 hr – 2.7 hr = 5.6 hr
+The range is 5.6 hr
+
 ```markdown
 ```
 ###  <a name=""></a>
