@@ -6,7 +6,7 @@
 * [Finding fake Statistics](#fake)
 * [Five value summary](#fivevalue)
 * [Sampling](#sampling)
-* [](#)
+* [Standard Deviation](#sd)
 * [](#)
 * [](#)
 * [](#)
@@ -147,7 +147,8 @@ Stratified sampling |	Strategy + random no equal from each group
 2  -1.1334614 -0.1973846
 10 -0.9060305  2.3234110
 ```
-###  <a name=""></a>
+### SD  <a name="sd"></a>
+![SD](images/basic/SD.png)
 ```markdown
 ```
 ###  <a name=""></a>
