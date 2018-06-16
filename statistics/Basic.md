@@ -36,7 +36,7 @@ _Continuous Variables would (literally) take forever to count. In fact, you woul
 ```markdown
 ```
 ### Range  <a name="range"></a>
-Step 1: Sort the numbers in order, from smallest to largest:
+Step 1: Sort the numbers in order, from smallest to largest:<br/>
 7, 10, 21, 33, 43, 45, 45, 65, 67, 87, 98, 99
 Step 2: Subtract the smallest number in the set from the largest number in the set:
 99 – 7 = 92
