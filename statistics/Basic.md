@@ -4,6 +4,12 @@
 * [Continous vs Discrete](#cvd)
 * [Range](#range)
 * [Finding fake Statistics](#fake)
+* [Five value summary](#fivevalue)
+* [](#)
+* [](#)
+* [](#)
+* [](#)
+* [](#)
 * [](#)
 * [](#)
 * [](#)
@@ -52,7 +58,8 @@ Step 2: Subtract the smallest number in the set from the largest number in the s
 19 – -12 = 19 + 12 = 31
 The range is 31.
 That’s it!
-Sample question 3: What is the range of the following times?
+Sample question 3: What is the ra
+nge of the following times?
 2.7 hrs, 8.3 hrs, 3.5 hrs, 5.1 hrs, 4.9 hrs
 Step 1: Sort the numbers in order, from smallest to largest:
 2.7, 3.5, 4.9, 5.1, 8.3
@@ -85,14 +92,41 @@ Step 7: Beware of precise numbers. If a national survey reports that 3,150,023 h
 
 There are many other examples of fake statistics. Newspapers sometimes print erroneous figures, drug companies print fake test results, governments present fake statistics in their favor. The golden rule is: question every statistic that you read
 
-```markdown
-```
-###  <a name=""></a>
-```markdown
-```
-###  <a name=""></a>
-```markdown
-```
+### Five Value Summary  <a name="fivevalue"></a>
+Step 1: Put your numbers in ascending order (from smallest to largest). For this particular data set, the order is:
+Example: 1,2,5,6,7,9,12,15,18,19,27.
+
+Step 2: Find the minimum and maximum for your data set. Now that your numbers are in order, this should be easy to spot.
+In the example in step 1, the minimum (the smallest number) is 1 and the maximum (the largest number) is 27.
+
+Step 3: Find the median. The median is the middle number. If you aren’t sure how to find the median, see: How to find the mean mode and median.
+
+Step 4: Place parentheses around the numbers above and below the median. 
+(This is not technically necessary, but it makes Q1 and Q3 easier to find).
+
+(1,2,5,6,7),9,(12,15,18,19,27).
+
+Step 5: Find Q1 and Q3. Q1 can be thought of as a median in the lower half of the data, and Q3 can be thought of as a median for the upper half of data.
+
+(1,2,5,6,7),  9, ( 12,15,18,19,27).
+
+Step 6: Write down your summary found in the above steps.
+
+minimum=1,  Q1 =5, median=9,  Q3=18, and maximum=27.
+
+Your data must be univariate. In other words, the data must be a single variable. For example, this list of weights is one variable: 120, 100, 130, 145. If you have a list of ages and you want to compare the ages to weights, it becomes bivariate data (two variables). For example: age 1 (25 pounds), 5 (60 pounds), 15 (129 pounds). The matching pairs makes it impossible to find a five number summary.
+
+Your data must be ordinal, interval, or ratio.
+
+### Sampling <a name="sampling"></a>
+type | description
+--------- | --------
+random sampling |	Random exclusive choose Repetition not allowed
+Simple random Sampling	| Repetition allowed
+Systematic Sampling	| Pattern ex- every 9th sequence
+Cluster sampling |	Take out a group Cost effective large 
+Stratified sampling |	Strategy + random no equal from each group
+
 ###  <a name=""></a>
 ```markdown
 ```
