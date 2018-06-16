@@ -5,7 +5,7 @@
 * [Range](#range)
 * [Finding fake Statistics](#fake)
 * [Five value summary](#fivevalue)
-* [](#)
+* [Sampling](#sampling)
 * [](#)
 * [](#)
 * [](#)
@@ -126,9 +126,26 @@ Simple random Sampling	| Repetition allowed
 Systematic Sampling	| Pattern ex- every 9th sequence
 Cluster sampling |	Take out a group Cost effective large 
 Stratified sampling |	Strategy + random no equal from each group
-
-###  <a name=""></a>
 ```markdown
+> df = data.frame(matrix(rnorm(20), nrow=10))
+> df
+           X1         X2
+1   0.7091409 -1.4061361
+2  -1.1334614 -0.1973846
+3   2.3343391 -0.4385071
+4  -0.9040278 -0.6593677
+5   0.4180331 -1.2592415
+6   0.7572246 -0.5463655
+7  -0.8996483  0.4231117
+8  -1.0356774 -0.1640883
+9  -0.3983045  0.7157506
+10 -0.9060305  2.3234110
+#Then select some rows at random
+> df[sample(nrow(df), 3), ]
+           X1         X2
+9  -0.3983045  0.7157506
+2  -1.1334614 -0.1973846
+10 -0.9060305  2.3234110
 ```
 ###  <a name=""></a>
 ```markdown
