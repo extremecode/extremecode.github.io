@@ -36,7 +36,29 @@ _Continuous Variables would (literally) take forever to count. In fact, you woul
 ```markdown
 ```
 ### Range  <a name="range"></a>
-Step 1: Sort the numbers in order, from smallest to largest:<br/>
+Step 1: Sort the numbers in order, from smallest to la rgest:<br/>
+7, 10, 21, 33, 43, 45, 45, 65, 67, 87, 98, 99 <br/>
+Step 2: Subtract the smallest number in the set from the largest number in the set: <br/>
+99 – 7 = 92 <br/>
+The range is 92 <br/>
+That’s it! <br/>
+Sample question 2: What is the range of these integers? <br/>
+14, -12, 7, 0, -5, -8, 17, -11, 19 <br/>
+Step 1: Sort the numbers in order, from smallest to largest: <br/>
+-12, -11, -8, -5, 0, 7, 14, 17, 19 <br/>
+Step 2: Subtract the smallest number in the set from the largest number in the set: <br/>
+19 – -12 = 19 + 12 = 31 <br/>
+The range is 31. <br/>
+That’s it! <br/>
+Sample question 3: What is the range of the following times? <br/>
+2.7 hrs, 8.3 hrs, 3.5 hrs, 5.1 hrs, 4.9 hrs <br/>
+Step 1: Sort the numbers in order, from smallest to largest: <br/>
+2.7, 3.5, 4.9, 5.1, 8.3 <br/>
+Step 2: Subtract the smallest number in the set from the largest number in the set: <br/>
+8.3 hr – 2.7 hr = 5.6 hr <br/>
+The range is 5.6 hr <br/>
+<pre>
+Step 1: Sort the numbers in order, from smallest to largest:
 7, 10, 21, 33, 43, 45, 45, 65, 67, 87, 98, 99
 Step 2: Subtract the smallest number in the set from the largest number in the set:
 99 – 7 = 92
@@ -57,6 +79,8 @@ Step 1: Sort the numbers in order, from smallest to largest:
 Step 2: Subtract the smallest number in the set from the largest number in the set:
 8.3 hr – 2.7 hr = 5.6 hr
 The range is 5.6 hr
+
+</pre>
 
 ```markdown
 ```
