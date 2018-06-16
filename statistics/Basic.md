@@ -148,7 +148,7 @@ Stratified sampling |	Strategy + random no equal from each group
 10 -0.9060305  2.3234110
 ```
 ### SD  <a name="sd"></a>
-![SD](extremecode.github.io/images/basic/SD.png)
+![SD](/images/basic/SD.png)
 
 ```markdown
 ```
