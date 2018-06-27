@@ -48,3 +48,4 @@ Confusion Matrix: Row labels: Actual class; Column labels: Predicted class
 8        5  27  11  10   4  12   4   4 414   7 0.1687 =    84 / 498
 9        6   2   2   6  22   3   1  23   6 420 0.1446 =    71 / 491
 Totals 467 622 467 494 508 463 496 523 476 484 0.1260 = 630 / 5,000
+```
