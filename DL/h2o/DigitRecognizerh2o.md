@@ -7,6 +7,7 @@ library('h2o')
 h2o.init()
 ```
 ### load data and divide ito train valid test
+_Download thw dataset from kaggle mnisit_
 ```markdown
 digits.data<-read.csv("train.csv")
 train<-digits.data[1:5000,]
