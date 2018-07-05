@@ -1,5 +1,5 @@
 # Deep learning using h2o
-# Hyperparameter Training
+## Hyperparameter Training
 ### load packages and start h2o
 nthreads =-1 will utilize all your cpu cores
 ```markdown
@@ -39,15 +39,50 @@ train_h2o<-as.h2o(data[splitsample==1,])
 val_h2o<-as.h2o(data[splitsample==2,])
 test_h2o<-as.h2o(data[splitsample==3,])
 ```
-###
+### hyper parameter tuning
+_try almost known combination of hyperparmeters and tuned it accordingly_
 ```markdown
+hyper_params<-list(
+  activation=c("Rectifier","Tanh","Maxout"
+                ,"RectifierWithDropout",
+                "TanhWithDropout","MaxoutWithDropout"),
+  hidden=list(c(20,20),c(50,50),c(30,30,30),c(25,25,25,25)),
+  input_dropout_ratio=c(0,0.5),
+  l1=seq(0,1e-4,1e-6),
+  l2=seq(0,1e-4,1e-6)
+)
 ```
-###
+### setting the search criteria
+_ max_runtime_secs= time in seconds max which a model train,
+  max_models=100 no of models to train,seed= same situation,stopping_rounds= iterations,
+  stopping_tolerance= max of % of train in no  ex = 1% e-2 two iteration_
+search_criteria<-list(
+  strategy="RandomDiscrete",max_runtime_secs=360,
+  max_models=100,seed=1234567,stopping_rounds=5,
+  stopping_tolerance=1e-2
+)
+dl_random_grid<-h2o.grid(
+  algorithm = "deeplearning",
+  grid_id = "dl_grid_random",
+  training_frame=train_h2o,
+  validation_frame=val_h2o,
+  x=1:9,
+  y=10,
+  epochs=1,
+  stopping_metric="logloss",
+  stopping_tolerance=1e-2,
+  stopping_rounds=2,
+  hyper_params = hyper_params,
+  search_criteria = search_criteria
+)
+### get the best grid on the basis of logloss
 ```markdown
+grid<-h2o.getGrid("dl_grid_random",sort_by="logloss",
+               decreasing=FALSE)
+grid@summary_table[1,]
 ```
-###
+### best model
 ```markdown
-```
-###
-```markdown
+best_model<-h2o.getModel(grid@model_ids[[1]])
+best_model
 ```
