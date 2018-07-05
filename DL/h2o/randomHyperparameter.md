@@ -56,6 +56,7 @@ hyper_params<-list(
 _ max_runtime_secs= time in seconds max which a model train,
   max_models=100 no of models to train,seed= same situation,stopping_rounds= iterations,
   stopping_tolerance= max of % of train in no  ex = 1% e-2 two iteration_
+  ```markdown
 search_criteria<-list(
   strategy="RandomDiscrete",max_runtime_secs=360,
   max_models=100,seed=1234567,stopping_rounds=5,
@@ -75,6 +76,7 @@ dl_random_grid<-h2o.grid(
   hyper_params = hyper_params,
   search_criteria = search_criteria
 )
+```
 ### get the best grid on the basis of logloss
 ```markdown
 grid<-h2o.getGrid("dl_grid_random",sort_by="logloss",
