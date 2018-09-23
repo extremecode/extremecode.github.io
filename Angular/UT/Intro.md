@@ -22,7 +22,6 @@ expect(helloWorld()) ③
 });
 ```
 ## Description
-```markdown
 ① The describe(string, function) function defines what we call a Test Suite, a collection of
 individual Test Specs.<br/>
 ② The it(string, function) function defines an individual Test Spec, this contains one or more
@@ -32,5 +31,4 @@ describes an expected piece of behaviour in the application.<br/>
 ④ The matcher(expected) expression is what we call a Matcher. It does a boolean comparison with
 the expected value passed in vs. the actual value passed to the expect function, if they are false
 the spec fails.<br/>
-```
 
