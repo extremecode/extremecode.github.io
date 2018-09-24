@@ -6,14 +6,6 @@ We will continue to use ATB for the rest of this section because: <br/>
 * It allows us to test and use Angulars DI framework,
 * It allows us to test using the NgModule configuration we use in our application.
 * It allows us to test user interaction via clicks & input fields
-## Testing Change Detection
-Trying to test whether changes in the state of our application trigger changes in the view without
-the Angular Test Bed is complicated. However with the ATB it’s much simple
-* How to inspect a components view.
-* How to trigger change detection so a components view updates based on state changes in our
-Application
-
-
 ```markdown
 import {TestBed, ComponentFixture} from '@angular/core/testing';
 import {LoginComponent} from './login.component';
