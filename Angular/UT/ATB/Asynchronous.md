@@ -89,11 +89,39 @@ component.ngOnInit();
 1. We wrap our test spec function in another function called async. <br/>
 2. We place the tests we need to run after the isAuthenticated promise resolves inside this
 function. <br/>
+This async function executes the code inside it’s body in a special async test zone. This intercepts
+and keeps track of all promises created in it’s body. <br/>
+Only when all of those pending promises have been resolved does it then resolves the promise
+returned from whenStable. <br/>
+So by using the async and whenStable functions we now don’t need to use the Jasmine spy
+mechanism of detecting when the isAuthenticated promise has been resolved<br/>
+### fakeAsync and tick
 ```markdown
+it('Button label via fakeAsync() and tick()', fakeAsync(() => { ①
+expect(el.nativeElement.textContent.trim()).toBe('');
+fixture.detectChanges();
+expect(el.nativeElement.textContent.trim()).toBe('Login');
+spyOn(authService, 'isAuthenticated').and.returnValue(Promise.resolve(true));
+component.ngOnInit();
+tick(); ②
+fixture.detectChanges();
+expect(el.nativeElement.textContent.trim()).toBe('Logout');
+}));
 ```
-```markdown
-```
-```markdown
-```
-
-
+1 Like async we wrap the test spec function in a function called fakeAsync.<br/>
+2 We call tick() when there are pending asynchronous activities we want to complete <br/>
+Like the async function the fakeAsync function executes the code inside it’s body in a special fake
+async test zone. This intercepts and keeps track of all promises created in it’s body.<br/>
+The tick() function blocks execution and simulates the passage of time until all pending
+asynchronous activities complete.<br/>
+So when we call tick() the application sits and waits for the promise returned from
+isAuthenticated to be resolved and then lets execution move to the next line.<br/>
+### what to use when
+The jasmine done function and spy callbacks. We attach specific callbacks to spies so we know when
+promises are resolves, we add our test code to thos callbacks and then we call the done function.
+This works but means we need to know about all the promises in our application and be able to
+hook into them.<br/>
+We can use the Angular async and whenStable functions, we don’t need to track the promises
+ourselves but we still need to lay our code out via callback functions which can be hard to read.<br/>
+We can use the Angular fakeAsync and tick functions, this additionally lets us lay out our async test
+code as if it were synchronous.<br/>
