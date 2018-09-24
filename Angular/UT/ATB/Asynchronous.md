@@ -117,11 +117,11 @@ asynchronous activities complete.<br/>
 So when we call tick() the application sits and waits for the promise returned from
 isAuthenticated to be resolved and then lets execution move to the next line.<br/>
 ### what to use when
-The jasmine done function and spy callbacks. We attach specific callbacks to spies so we know when
+* The jasmine done function and spy callbacks. We attach specific callbacks to spies so we know when
 promises are resolves, we add our test code to thos callbacks and then we call the done function.
 This works but means we need to know about all the promises in our application and be able to
 hook into them.<br/>
-We can use the Angular async and whenStable functions, we don’t need to track the promises
+* We can use the Angular async and whenStable functions, we don’t need to track the promises
 ourselves but we still need to lay our code out via callback functions which can be hard to read.<br/>
-We can use the Angular fakeAsync and tick functions, this additionally lets us lay out our async test
+* We can use the Angular fakeAsync and tick functions, this additionally lets us lay out our async test
 code as if it were synchronous.<br/>
