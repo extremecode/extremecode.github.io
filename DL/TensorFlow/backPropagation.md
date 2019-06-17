@@ -1,5 +1,57 @@
 # backpropagation
 
+## import libraries
+```markdown
+import numpy as np
+import matplotlib.pyplot as plt
+from builtins import range
+```
+
+## define forward function
+```markdown
+def forward(X,W1,b1,W2,b2):
+    Z = 1/( 1 + np.exp(-X.dot(W1)-b1))
+    expA = np.exp(Z.dot(W2)+b2)
+    Y = expA/expA.sum(axis=1,keepdims = True)
+    return Y,Z
+    
+def classification_rate(Y,P):
+    n_total = 0
+    n_correct = 0
+    for i in range(len(Y)):
+        n_total +=1
+        if(Y[i] == P[i]):
+            n_correct +=1
+    return float(n_correct) / n_total    
+```
+
+## define gaussian clouds as our input
+```markdown
+Nclass = 500
+
+D = 2
+M = 3
+K = 3
+
+X1 = np.random.randn(Nclass,2) + np.array([0,-2])
+X2 = np.random.randn(Nclass,2) + np.array([2,2])
+X3 = np.random.randn(Nclass,2) + np.array([-2,2])
+
+X = np.vstack([X1,X2,X3])
+Y = np.array([0]*Nclass + [1]*Nclass + [2]*Nclass)
+
+N = len(Y)
+T = np.zeros((N,K))
+
+for i in range(N):
+    T[i,Y[i]] = 1
+    
+plt.scatter(X[:,0],X[:,1],c = Y,alpha=0.5,s = 100)
+plt.show()
+
+```
+
+## backpropagation equation
 ```markdown
 def cost(T,Y):
     tot = T*np.log(Y)
