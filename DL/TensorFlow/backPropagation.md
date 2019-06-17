@@ -112,3 +112,34 @@ def derivative_b1(T,Y,W2,Z):
     return ((T-Y).dot(W2.T)*Z*(1-Z)).sum(axis =0)
         
 ```
+
+
+## train model and predict
+
+```markdown
+W1 = np.random.randn(D,M)
+b1 = np.random.randn(M)
+W2 = np.random.randn(M,K)
+b2 = np.random.randn(K)
+
+
+learning_rate = 10e-7
+costs = []
+
+for epoch in range(100000):
+    output , hidden = forward(X,W1,b1,W2,b2)
+    if epoch%100 == 0:
+        c = cost(T,output)
+        P = np.argmax(output,axis=1)
+        print("cost is ",c," and classification rate at epoch",epoch,"is",classification_rate(Y,P))
+        costs.append(c)
+        
+        
+    W2 +=learning_rate*derivative_W2(T,output,hidden)
+    b2 +=learning_rate*derivative_b2(T,output)
+    W1 +=learning_rate*derivative_W1(X,T,output,hidden,W2)
+    b1 +=learning_rate*derivative_b1(T,output,W2,hidden)
+
+plt.plot(costs)
+plt.show()
+```
