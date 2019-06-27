@@ -38,5 +38,21 @@ Sampling can be:
 *	without replacement: a member of the population may be chosen only once (lottery ticket)
 
 
+Sampling methods:
+Sampling methods can be:
+
+*	random (each member of the population has an equal chance of being selected)
+*	nonrandom
+
+The actual process of sampling causes sampling errors. For example, the sample may not be large enough or representative of the population. Factors not related to the sampling process cause non                              sampling errors.
+Descriptive Statistics
+*	Collect data
+*	e.g., Survey
+*	Present data
+*	e.g., Tables and graphs
+*	Summarize data
+e.g., Sample mean
+
+
 ```markdown
 ```
