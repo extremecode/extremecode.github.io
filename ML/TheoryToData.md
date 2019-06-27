@@ -27,6 +27,8 @@
 Methods of organizing, summarizing, and presenting data in an informative way
 #### Inferential statistics  
 The methods used to determine something about a population on the basis of a sample
+*	Population –The entire set of individuals or objects of interest or the measurements obtained from all individuals or objects of interest
+*	Sample – A portion, or part, of the population of interest
 
 ```markdown
 ```
