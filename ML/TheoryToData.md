@@ -69,6 +69,20 @@ Put simply: Discrete data is counted, Continuous data is measured
 ### what data do
 <img src="./images/datado.png" alt="data" class="inline"/>
 
+Census or Sample
+* A Census is when we collect data for every member of the group (the whole "population").
+* A Sample is when we collect data just for selected members of the group.
+* A census is accurate, but hard to do. A sample is not as accurate, but may be good enough, and is a lot easier.
+We collect data by doing a Survey.
+
+Here are four steps to a successful survey:
+*	Step one: create the questions
+*	Step two: ask the questions
+*	Step three: tally the results
+*	Step four: present the results
+You can also summarise the results using statistics, such as Mean, Median, Mode, Standard Deviation and Quartiles
+
+<img src="./images/dslifecycle.png" alt="data" class="inline"/>
 
 
 
