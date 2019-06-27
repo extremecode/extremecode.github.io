@@ -27,9 +27,13 @@
 Methods of organizing, summarizing, and presenting data in an informative way
 #### Inferential statistics  
 The methods used to determine something about a population on the basis of a sample
-*	Population –The entire set of individuals or objects of interest or the measurements obtained from all individuals or objects of interest
-*	Sample – A portion, or part, of the population of interest
+#####	Population –The entire set of individuals or objects of interest or the measurements obtained from all individuals or objects of interest
+#####	Sample – A portion, or part, of the population of interest
 <img src="./images/statpopulation.png" alt="applications" class="inline"/>
+A sample should have the same characteristics as the population it is representing.
+Sampling can be:
+*	with replacement: a member of the population may be chosen more than once (picking the candy from the bowl)
+*	without replacement: a member of the population may be chosen only once (lottery ticket)
 
 
 ```markdown
