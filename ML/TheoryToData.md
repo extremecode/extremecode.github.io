@@ -53,6 +53,11 @@ Descriptive Statistics
 *	Summarize data
 e.g., Sample mean
 
+## What is Data?
+Data is a collection of facts, such as numbers, words, measurements, observations or even just descriptions of things.
+Data can be qualitative or quantitative.
+*	Qualitative data is descriptive information (it describes something)
+*	Quantitative data, is numerical information (numbers).
 
 ```markdown
 ```
