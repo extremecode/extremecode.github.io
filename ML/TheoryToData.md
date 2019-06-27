@@ -15,7 +15,7 @@
 *	Personel – hypothesis testing, chi-square tests, nonparametric tests
 *	Operating  management – hypothesis testing, estimation, analysis of variance, time series analysis
 
-<img src="ML/images/mlApplication.png" alt="applications" class="inline"/>
+<img src="./images/mlApplication.png" alt="applications" class="inline"/>
 
 
 ```markdown
