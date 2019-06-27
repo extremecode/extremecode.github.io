@@ -59,5 +59,18 @@ Data can be qualitative or quantitative.
 *	Qualitative data is descriptive information (it describes something)
 *	Quantitative data, is numerical information (numbers).
 
+<img src="./images/data.png" alt="data" class="inline"/>
+
+And Quantitative data can also be Discrete or Continuous:
+•	Discrete data can only take certain values (like whole numbers)
+•	Continuous data can take any value (within a range)
+Put simply: Discrete data is counted, Continuous data is measured
+
+### what data do
+<img src="./images/datado.png" alt="data" class="inline"/>
+
+
+
+
 ```markdown
 ```
