@@ -18,5 +18,15 @@
 <img src="./images/mlApplication.png" alt="applications" class="inline"/>
 
 
+## statistics
+*	The science of collectiong, organizing, presenting, analyzing, and interpreting data to assist in making more effective decisions
+*	Statistical analysis – used to manipulate  summarize, and investigate data, so that useful decision-making information results.
+
+### types
+#### Descriptive statistics
+Methods of organizing, summarizing, and presenting data in an informative way
+#### Inferential statistics  
+The methods used to determine something about a population on the basis of a sample
+
 ```markdown
 ```
