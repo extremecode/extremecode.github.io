@@ -118,6 +118,8 @@ Answer: Half-way between, which is 5.
 You can calculate it by adding 3 and 7 and then dividing the result by 2:
 (3+7) / 2 = 10/2 = 5
 ```
+<img src="./images/2num.png" alt="data" class="inline"/>
+
 #### 3 or More Numbers
 ```markdown
 You can use the same idea when you have 3 or more numbers:
@@ -125,6 +127,53 @@ Example: what is the central value of 3, 7 and 8?
 Answer: You calculate it by adding 3, 7 and 8 and then dividing the results by 3 (because there are 3 numbers):
 (3+7+8) / 3 = 18/3 = 6
 ```
+<img src="./images/3num.png" alt="data" class="inline"/>
+
+#### mean
+The mean is the average of the numbers.
+Mean: Add up the numbers and divide by how many numbers.
+But sometimes the Mean can let you down:
+##### Example: Birthday Activities
+Uncle Bob wants to know the average age at the party, to choose an activity.
+There will be 6 kids aged 13, and also 5 babies aged 1.
+Add up all the ages, and divide by 11 (because there are 11 numbers):
+(13+13+13+13+13+13+1+1+1+1+1) / 11 = 7.5...
+<img src="./images/mean.png" alt="data" class="inline"/>
+
+ 	The mean age is about 7½, so he gets a Jumping Castle!
+The 13 year olds are embarrassed, 
+and the 1 year olds can't jump!
+The Mean was accurate, but in this case it was not useful.
+
+#### Median Value
+The Median is the "middle" of a sorted list of numbers.
+Example: Birthday Activities (continued)
+List the ages in order:
+1, 1, 1, 1, 1, 13, 13, 13, 13, 13, 13
+Choose the middle number:
+1, 1, 1, 1, 1, 13, 13, 13, 13, 13, 13
+The Median age is 13 ... so let's have a Disco!
+Sometimes there are two middle numbers. Just average them:
+##### Example: What is the Median of 3, 4, 7, 9, 12, 15
+There are two numbers in the middle:
+3, 4, 7, 9, 12, 15
+So we average them:
+(7+9) / 2 = 16/2 = 8
+The Median is 8
+
+#### Mode
+##### Finding the Mode
+To find the mode, or modal value, first put the numbers in order, then count how many of each number. A number that appears most often is the mode.
+Example: Birthday Activities (continued)
+Group the numbers so we can count them:
+1, 1, 1, 1, 1, 13, 13, 13, 13, 13, 13
+"13" occurs 6 times, "1" occurs only 5 times, so the mode is 13.
+How to remember? Think "mode is most"
+But Mode can be tricky, there can sometimes be more than one Mode.
+##### Example: What is the Mode of 3, 4, 4, 5, 6, 6, 7
+Well ... 4 occurs twice but 6 also occurs twice.
+So both 4 and 6 are modes.
+When there are two modes it is called "bimodal", when there are three or more modes we call it "multimodal".
 
 
 ```markdown
