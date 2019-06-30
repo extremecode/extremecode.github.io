@@ -84,6 +84,20 @@ You can also summarise the results using statistics, such as Mean, Median, Mode,
 
 <img src="./images/dslifecycle.png" alt="data" class="inline"/>
 
+### Accuracy
+Accuracy is how close a measured value is to the actual (true) value
+
+### Precision
+Precision is how close the measured values are to each other.
+
+#### Examples of Precision and Accuracy:
+<img src="./images/accandprec.png" alt="data" class="inline"/>
+
+So, if you are playing soccer and you always hit the left goal post instead of scoring, then you are not accurate, but you are precise!
+
+#### Note -- to remember
+*	aCcurate is Correct (a bullseye).
+*	pRecise is Repeating (hitting the same spot, but maybe not the correct spot)
 
 
 ```markdown
