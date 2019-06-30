@@ -99,6 +99,33 @@ So, if you are playing soccer and you always hit the left goal post instead of s
 *	aCcurate is Correct (a bullseye).
 *	pRecise is Repeating (hitting the same spot, but maybe not the correct spot)
 
+### Bias (don't let precision fool you!)
+When we measure something several times and all values are close, they may all be wrong if there is a "Bias"
+Bias is a systematic (built-in) error which makes all measurements wrong by a certain amount
+
+#### Examples of Bias
+*	The scales read "1 kg" when there is nothing on them
+*	You always measure your height wearing shoes with thick soles.
+*	A stopwatch that takes half a second to stop when clicked
+In each case all measurements are wrong by the same amount. That is bias.
+
+#### 2 Numbers
+```markdown
+With just 2 numbers the answer is easy: go half-way between.
+Example: what is the central value for 3 and 7?
+Answer: Half-way between, which is 5.
+ 
+You can calculate it by adding 3 and 7 and then dividing the result by 2:
+(3+7) / 2 = 10/2 = 5
+```
+#### 3 or More Numbers
+```markdown
+You can use the same idea when you have 3 or more numbers:
+Example: what is the central value of 3, 7 and 8?
+Answer: You calculate it by adding 3, 7 and 8 and then dividing the results by 3 (because there are 3 numbers):
+(3+7+8) / 3 = 18/3 = 6
+```
+
 
 ```markdown
 ```
