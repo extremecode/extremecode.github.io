@@ -705,6 +705,66 @@ In other words, because 0.043 < 0.05 we think that Gender is linked to Pet Prefe
 Just out of interest, notice that the numbers in our two examples are similar, but the resulting p-values are very different: 0.132 and 0.043. This shows how sensitive the test is!
 </pre>
 
+##### Why p<0.05 ?
+It is just a choice! Using p<0.05 is common, but we could have chosen p<0.01 to be even more sure that the groups behave differently, or any value really.
+##### Calculating P-Value
+So how do we calculate this p-value? We use the Chi-Square Test!
+##### Chi-Square Test
+Note: Chi Sounds like "Hi" but with a K, so say Chi-Square like "Ki square"
+And Chi is the greek letter Χ, so we can also write it Χ2
+Important points before we get started:
+•	This test only works for categorical data (data in categories), such as Gender {Men, Women} or colour {Red, Yellow, Green, Blue} etc, but not numerical data such as height or weight.
+•	The numbers must be large enough. Each entry must be 5 or more. In our example we have values such as 209, 282, etc, so we are good to go.
+Our first step is to state our hypotheses:
+Hypothesis: A statement that might be true, which can then be tested.
+The two hypotheses are.
+•	Gender and preference for cats or dogs are independent.
+•	Gender and preference for cats or dogs are not independent.
+Lay the data out in a table:
+	Cat	Dog
+Men	207	282
+Women	231	242
+Add up rows and columns:
+	Cat	Dog	
+Men	207	282	489
+Women	231	242	473
+	438	524	962
+Calculate "Expected Value" for each entry:
+Multiply each row total by each column total and divide by the overall total:
+	Cat	Dog	
+Men	489×438/962	489×524/962	489
+Women	473×438/962	473×524/962	473
+	438	524	962
+Which gives us:
+	Cat	Dog	
+Men	222.64	266.36	489
+Women	215.36	257.64	473
+	438	524	962
+Subtract expected from actual, square it, then divide by expected:
+	Cat	Dog	
+Men	(207-222.64)2222.64	(282-266.36)2266.36	489
+Women	(231-215.36)2215.36	(242-257.64)2257.64	473
+	438	524	962
+Which is:
+	Cat	Dog	
+Men	1.099	0.918	489
+Women	1.136	0.949	473
+	438	524	962
+##### Now add up those values:
+1.099 + 0.918 + 1.136 + 0.949 = 4.102
+Chi-Square is 4.102
+From Chi-Square to p
+To get from Chi-Square to p-value is a difficult calculation, so either look it up in a table, or use the Chi-Square Calculator.
+But first you will need a "Degree of Freedom" (DF)
+Calculate Degrees of Freedom
+Multiply (rows − 1) by (columns − 1)
+Example: DF = (2 − 1)(2 − 1) = 1×1 = 1
+Result
+The result is:
+p = 0.04283
+Done!
+
+
 ```markdown
 ```
 <img src="./images/bivariate.png" alt="data" class="inline"/>
