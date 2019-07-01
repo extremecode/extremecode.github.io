@@ -327,6 +327,45 @@ Firstly:
 •	x is each value (such as 3 or 16)
 •	N is the number of values (in our example N = 8)
 </pre>
+#### Absolute Deviation
+Each distance we calculated is called an Absolute Deviation, because it is the Absolute Value of the deviation (how far from the mean).
+ <img src="./images/ad.png" alt="data" class="inline"/>
+	To show "Absolute Value" we put "|" marks either side like this: |-3| = 3
+For any value x:
+Absolute Deviation = |x - μ|
+From our example, the value 16 has Absolute Deviation = |x - μ| = |16 - 9| = |7| = 7
+And now let's add them all up ...
+Sigma
+The symbol for "Sum Up" is Σ (called Sigma Notation), so we have:
+Sum of Absolute Deviations = Σ|x - μ|
+Divide by how many values N and we have:
+Mean Deviation =	Σ|x - μ|
+	N
+
+Let's do our example again, using the proper symbols:
+Example: the Mean Deviation of 3, 6, 6, 7, 8, 11, 15, 16
+Step 1: Find the mean:
+μ =	3 + 6 + 6 + 7 + 8 + 11 + 15 + 16	=	72	= 9
+	8		8	
+Step 2: Find the Absolute Deviations:
+x	|x - μ|
+3	6
+6	3
+6	3
+7	2
+8	1
+11	2
+15	6
+16	7
+	Σ|x - μ| = 30
+
+Step 3. Find the Mean Deviation:
+Mean Deviation =	Σ|x - μ|	=	30	= 3.75
+	N		8	
+Note: the mean deviation is sometimes called the Mean Absolute Deviation (MAD) because it is the mean of the absolute deviations.
+What Does It "Mean" ?
+Mean Deviation tells us how far, on average, all values are from the middle.
+Here is an example (using the same data as on the Standard Deviation page):
 
 
 ```markdown
