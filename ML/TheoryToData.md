@@ -175,6 +175,85 @@ Well ... 4 occurs twice but 6 also occurs twice.
 So both 4 and 6 are modes.
 When there are two modes it is called "bimodal", when there are three or more modes we call it "multimodal".
 
+#### Outliers
+Outlier share values that "lie outside" the other values.
+ <img src="./images/outlier.png" alt="data" class="inline"/>
+
+They can change the mean a lot, so we can either not use them (and say so) or use the median or mode instead.
+##### Example: 3, 4, 4, 5 and 104
+Mean: Add them up, and divide by 5 (as there are 5 numbers):
+(3+4+4+5+104) / 5 = 24
+24 does not represent those numbers well at all!
+Without the 104 the mean is:
+(3+4+4+5) / 4 = 4
+But please tell people you are not including the outlier.
+
+#### Examples
+Median: They are in order, so just choose the middle number, which is 4:
+3, 4, 4, 5, 104
+Mode: 4 occurs most often, so the Mode is 4
+3, 4, 4, 5, 104
+The Mean from a Frequency Table
+It is easy to calculate the Mean:
+Add up all the numbers, 
+then divide by how many numbers there are.
+Example 1: What is the Mean of these numbers?
+6, 11, 7
+•	Add the numbers: 6 + 11 + 7 = 24
+•	Divide by how many numbers (there are 3 numbers): 24 ÷ 3 = 8
+The Mean is 8
+
+But sometimes we don't have a simple list of numbers, it might be a frequency table like this (the "frequency" says how often they occur):
+Score	Frequency
+1	2
+2	5
+3	4
+4	2
+5	1
+(it says that score 1 occurred 2 times, score 2 occurred 5 times, etc)
+We could list all the numbers like this:
+Mean = 1+1 + 2+2+2+2+2 + 3+3+3+3 + 4+4 + 5(how many numbers)
+But rather than do lots of adds (like 3+3+3+3) it is easier to use multiplication:
+Mean = 2×1 + 5×2 + 4×3 + 2×4 + 1×5(how many numbers)
+And rather than count how many numbers there are, we can add up the frequencies:
+Mean = 2×1 + 5×2 + 4×3 + 2×4 + 1×52 + 5 + 4 + 2 + 1
+And now we calculate:
+Mean = 2 + 10 + 12 + 8 + 514  
+=  3714  =  2.64...
+And that is how to calculate the mean from a frequency table!
+Here is another example:
+Example: Parking Spaces per House in Hampton Street
+Isabella went up and down the street to find out how many parking spaces each house has. Here are her results:
+
+Parking
+Spaces	Frequency
+1	15
+2	27
+3	8
+4	5
+
+What is the mean number of Parking Spaces?
+Answer:
+Mean =	15×1 + 27×2 + 8×3 + 5×4
+       ------------------------
+          15+27+8+5
+
+=	15 + 54 + 24 + 20
+  -----------------  
+         55
+=	2.05...
+The Mean is 2.05 (to 2 decimal places)
+(much easier than adding all numbers separately!)
+Notation
+Now you know how to do it, let's do that last example again, but using formulas.
+ 	This symbol (called Sigma) means "sum up"
+(read more at Sigma Notation)
+
+So we can say "add up all frequencies" this way:
+ 
+(where f is frequency)
+
 
 ```markdown
 ```
+<img src="./images/mean.png" alt="data" class="inline"/>
