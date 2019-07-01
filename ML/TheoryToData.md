@@ -258,7 +258,31 @@ So we can say "add up all frequencies" this way:
 (where f is frequency)
  <img src="./images/sumfequ2.png" alt="data" class="inline"/>
 
+So now we are ready to do our example above, but with correct notation.
+Example: Calculate the Mean of this Frequency Table
+x	F
+1	15
+2	27
+3	8
+4	5
+And here it is:
+ 
+There you go! You can use sigma notation.
+Calculate in the Table
+It is often better to do the calculations in the table.
+Example: (continued)
+From the previous example, calculate f  × x in the right-hand column and then do totals:
+x	f	fx
+1	15	15
+2	27	54
+3	8	24
+4	5	20
+TOTALS:	55	113
+<img src="./images/sumfequ3.png" alt="data" class="inline"/>
+
+And the Mean is then easy:
+Mean = 113 / 55 = 2.05...
 
 ```markdown
 ```
-<img src="./images/mean.gif" alt="data" class="inline"/>
+<img src="./images/mean.png" alt="data" class="inline"/>
