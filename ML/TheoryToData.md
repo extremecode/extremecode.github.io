@@ -488,6 +488,82 @@ In fact this method is a similar idea to distance between points, just applied i
 And it is easier to use algebra on squares and square roots than absolute values, which makes the standard deviation easy to use in other areas of mathematics.
 </pre>
 
+
+### Univariate and Bivariate Data
+Univariate: one variable, 
+Bivariate: two variables
+
+#### Univariate means "one variable" (one type of data)
+Example: Travel Time (minutes): 15, 29, 8, 42, 35, 21, 18, 42, 26
+The variable is Travel Time
+ <img src="./images/univariate.png" alt="data" class="inline"/>
+Example: Puppy Weights
+You weigh the pups and get these results:
+2.5, 3.5, 3.3, 3.1, 2.6, 3.6, 2.4
+The variable is Puppy Weight
+We can do lots of things with univariate data:
+•	Find a central value using mean, median and mode
+•	Find how spread out it is using range, quartiles and standard deviation
+•	Make plots like Bar Graphs, Pie Charts and Histograms
+
+
+#### Bivariate means "two variables", in other words there are two types of data
+With bivariate data you have two sets of related data that you want to compare:
+Example:
+An ice cream shop keeps track of how much ice cream they sell versus the temperature on that day.
+The two variables are Ice Cream Sales and Temperature.
+Here are their figures for the last 12 days:
+Ice Cream Sales vs Temperature
+Temperature °C	Ice Cream Sales
+14.2°	$215
+16.4°	$325
+11.9°	$185
+15.2°	$332
+18.5°	$406
+22.1°	$522
+19.4°	$412
+25.1°	$614
+23.4°	$544
+18.1°	$421
+22.6°	$445
+17.2°	$408
+And here is the same data as a Scatter Plot:
+ <img src="./images/bivariate.png" alt="data" class="inline"/>
+
+Now we can easily see that warmer weather and more ice cream sales are linked, but the relationship is not perfect.
+So with bivariate data we are interested in comparing the two sets of data and finding any relationships.
+We can use Tables, Scatter Plots, Correlation, Line of Best Fit, and plain old common sense.
+
+
+We can use Tables, Scatter Plots, Correlation, Line of Best Fit, and plain old common sense.
+
+Scatter Plots
+ <img src="./images/bivariate1.png" alt="data" class="inline"/>
+ 		A Scatter (XY) Plot has points that show the relationship between two sets of data.
+In this example, each dot shows one person's weight versus their height.
+(The data is plotted on the graph as "Cartesian (x,y) Coordinates")
+
+Example:
+The local ice cream shop keeps track of how much ice cream they sell versus the noon temperature on that day. Here are their figures for the last 12 days:
+Ice Cream Sales vs Temperature
+Temperature °C	Ice Cream Sales
+14.2°	$215
+16.4°	$325
+11.9°	$185
+15.2°	$332
+18.5°	$406
+22.1°	$522
+19.4°	$412
+25.1°	$614
+23.4°	$544
+18.1°	$421
+22.6°	$445
+17.2°	$408
+And here is the same data as a Scatter Plot:
+  <img src="./images/bivariate2.png" alt="data" class="inline"/>
+
+It is now easy to see that warmer weather leads to more sales, but the relationship is not perfect.
+
 ```markdown
 ```
-<img src="./images/mean.png" alt="data" class="inline"/>
+<img src="./images/bivariate.png" alt="data" class="inline"/>
