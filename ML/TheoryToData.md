@@ -245,14 +245,19 @@ Mean =	15×1 + 27×2 + 8×3 + 5×4
 </pre>
 The Mean is 2.05 (to 2 decimal places)
 (much easier than adding all numbers separately!)
-Notation
+Notation <img src="./images/sum.png" alt="data" class="inline"/>
+
 Now you know how to do it, let's do that last example again, but using formulas.
+<img src="./images/sumf.png" alt="data" class="inline"/>
  	This symbol (called Sigma) means "sum up"
 (read more at Sigma Notation)
+<img src="./images/sumfequ.png" alt="data" class="inline"/>
 
 So we can say "add up all frequencies" this way:
- 
+ <img src="./images/sumfequ1.png" alt="data" class="inline"/>
+
 (where f is frequency)
+ <img src="./images/sumfequ2.png" alt="data" class="inline"/>
 
 
 ```markdown
