@@ -565,7 +565,7 @@ And here is the same data as a Scatter Plot:
 It is now easy to see that warmer weather leads to more sales, but the relationship is not perfect.
 
 
-Correlation
+#### Correlation
 When the two sets of data are strongly linked together we say they have a High Correlation.
 The word Correlation is made of Co- (meaning "together"), and Relation
 •	Correlation is Positive when the values increase together, and
@@ -574,7 +574,7 @@ Like this:
    <img src="./images/corr1.png" alt="data" class="inline"/>
 
 (Learn More About Correlation)
-Negative Correlation
+#### Negative Correlation
 Correlations can be negative, which means there is a correlation but one value goes down as the other value increases.
 Example : Birth Rate vs Income
 The birth rate tends to be lower in richer countries.
@@ -592,7 +592,7 @@ Norway	$40,000	1.78
 
  
 It has a negative correlation (the line slopes down)
-Outliers
+#### Outliers
 "Outliers" are values that "lie outside" the other values.
 When we collect data, sometimes there are values that are "far away" from the main group of data ... what do we do with them?	 
    <img src="./images/corr3.png" alt="data" class="inline"/>
