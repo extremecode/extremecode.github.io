@@ -461,6 +461,32 @@ Sample Variance = 108,520 / 4 = 27,130
 Sample Standard Deviation = √27,130 = 164 (to the nearest mm)
 Think of it as a "correction" when your data is only a sample.
 
+#### Formulas
+Here are the two formulas, explained at Standard Deviation Formulas if you want to know more:
+
+The "Population Standard Deviation":	<img src="./images/pop.png" alt="data" class="inline"/>
+	 
+The "Sample Standard Deviation":	 <img src="./images/std.png" alt="data" class="inline"/>
+	 
+Looks complicated, but the important change is to 
+divide by N-1 (instead of N) when calculating a Sample Variance.
+
+
+*Footnote: Why square the differences?
+If we just add up the differences from the mean ... the negatives cancel the positives:
+<img src="./images/sd1.png" alt="data" class="inline"/> 		4 + 4 − 4 − 44 = 0
+So that won't work. How about we use absolute values?
+<img src="./images/sd2.png" alt="data" class="inline"/> 		|4| + |4| + |−4| + |−4|4 = 4 + 4 + 4 + 44 = 4
+That looks good (and is the Mean Deviation), but what about this case:
+<img src="./images/sd3.png" alt="data" class="inline"/> 		|7| + |1| + |−6| + |−2|4 = 7 + 1 + 6 + 24 = 4
+Oh No! It also gives a value of 4, Eve2n though the differences are more spread out.
+So let us try squaring each difference (and taking the square root at the end):
+ 		√(42 + 42 + 42 + 424) = √(644) = 4
+ 		√(72 + 12 + 62 + 224) = √(904) = 4.74...
+That is nice! The Standard Deviation is bigger when the differences are more spread out ... just what we want.
+In fact this method is a similar idea to distance between points, just applied in a different way.
+And it is easier to use algebra on squares and square roots than absolute values, which makes the standard deviation easy to use in other areas of mathematics.
+
 
 ```markdown
 ```
