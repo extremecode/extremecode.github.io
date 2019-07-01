@@ -626,6 +626,58 @@ Mean = (0.15+0.11+0.06+0.06+0.12)/5 = 0.1 m
 Hey, the coach looks much better now!
 But is that fair? Can we just get rid of values we don't like?
 
+
+#### What To Do?
+You need to think "why is that value over there?"
+It may be quite normal to have high or low values
+•	People can be short or tall
+•	Some days there is no rain, other days there can be a downpour
+•	Athletes can perform better or worse on different days
+Or there may be an unusual reason for extreme data
+Example: Long Jump (continued)
+We find out that Sam was feeling sick that day. Not the coach's fault at all.
+So it is a good idea in this case to remove Sam's result.
+When we remove outliers we are changing the data, it is no longer "pure", so we shouldn't just get rid of the outliers without a good reason!
+And when we do get rid of them, we should explain what we are doing and why.
+
+
+#### Mean, Median and Mode
+We saw how outliers affect the mean, but what about the median or mode?
+Example: Long Jump (continued)
+The median ("middle" value):
+*	including Sam is: 0.085
+*	without Sam is: 0.11 (went up a little)
+The mode (the most common value):
+*	including Sam is: 0.06
+*	without Sam is: 0.06 (stayed the same)
+The mode and median didn't change very much.
+They also stayed around where most of the data is.
+So it seems that outliers have the biggest effect on the mean, and not so much on the median or mode.
+
+### Chi-Square Test
+<img src="./images/chi.png" alt="data" class="inline"/>
+Groups and Numbers
+You research two groups and put them in categories single, married or divorced:
+
+The numbers are definitely different, but ...
+•	Is that just random chance?
+•	Or have you found something interesting?
+
+The Chi-Square Test gives a "p" value to help you decide!
+Example: "Which holiday do you prefer?"
+<pre>
+	Beach	Cruise
+Men	209	280
+Women	225	248
+</pre>
+Does Gender affect Preferred Holiday?
+If Gender (Man or Woman) does affect Preferred Holiday we say they are dependent.
+By doing some special calculations (explained later), we come up with a "p" value:
+p value is 0.132
+Now, p < 0.05 is the usual test for dependence. In this case p is greater than 0.05, so we believe the variables are independent (ie not linked together).
+In other words Men and Women probably do not have a different preference for Beach Holidays or Cruises.
+
+
 ```markdown
 ```
 <img src="./images/bivariate.png" alt="data" class="inline"/>
