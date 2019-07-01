@@ -231,7 +231,7 @@ Spaces	Frequency
 2	27
 3	8
 4	5
-
+<pre>
 What is the mean number of Parking Spaces?
 Answer:
 Mean =	15×1 + 27×2 + 8×3 + 5×4
@@ -242,6 +242,7 @@ Mean =	15×1 + 27×2 + 8×3 + 5×4
   -----------------  
          55
 =	2.05...
+</pre>
 The Mean is 2.05 (to 2 decimal places)
 (much easier than adding all numbers separately!)
 Notation
