@@ -283,6 +283,52 @@ TOTALS:	55	113
 And the Mean is then easy:
 Mean = 113 / 55 = 2.05...
 
+### Mean Deviation
+The mean of the distances of each value from their mean.
+Yes, we use "mean" twice: Find the mean ... use it to work out distances ... then find the mean of those distances!
+Three steps:
+•	1. Find the mean of all values
+•	2. Find the distance of each value from that mean (subtract the mean from each value, ignore minus signs)
+•	3. Then find the mean of those distances
+Like this:
+Example: the Mean Deviation of 3, 6, 6, 7, 8, 11, 15, 16
+Step 1: Find the mean:
+Mean =	3 + 6 + 6 + 7 + 8 + 11 + 15 + 16	=	72	= 9
+	8		8	
+Step 2: Find the distance of each value from that mean:
+Value	Distance from 9
+3	6
+6	3
+6	3
+7	2
+8	1
+11	2
+15	6
+16	7
+Which looks like this:
+ <img src="./images/mean1.png" alt="data" class="inline"/>
+Step 3. Find the mean of those distances:
+Mean Deviation =	6 + 3 + 3 + 2 + 1 + 2 + 6 + 7	=	30	= 3.75
+	8		8	
+
+So, the mean = 9, and the mean deviation = 3.75
+It tells us how far, on average, all values are from the middle.
+In that example the values are, on average, 3.75 away from the middle.
+For deviation just think distance
+Formula
+The formula is:
+<pre>
+Mean Deviation =	Σ|x - μ|
+                ---------
+	                   N
+Let's learn more about those symbols!
+Firstly:
+•	μ is the mean (in our example μ = 9)
+•	x is each value (such as 3 or 16)
+•	N is the number of values (in our example N = 8)
+</pre>
+
+
 ```markdown
 ```
 <img src="./images/mean.png" alt="data" class="inline"/>
