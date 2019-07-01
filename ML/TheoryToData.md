@@ -677,6 +677,32 @@ p value is 0.132
 Now, p < 0.05 is the usual test for dependence. In this case p is greater than 0.05, so we believe the variables are independent (ie not linked together).
 In other words Men and Women probably do not have a different preference for Beach Holidays or Cruises.
 
+##### Understanding "p" Value
+"p" is the probability the variables are independent.
+Imagine that the previous example was in fact two random samples of Men each time:
+ 	 
+Men:
+<img src="./images/pmen.png" alt="data" class="inline"/>
+
+Beach 209, Cruise 280	Men:
+<img src="./images/pwomen.png" alt="data" class="inline"/>
+
+Beach 225, Cruise 248
+Is it likely you would get such different results surveying Men each time?
+Well the "p" value of 0.132 says that it really could happen every so often.
+Surveys are random after all. We expect slightly different results each time, right?
+So most people want to see a p value less than 0.05 before they are happy to say the results show the groups have a different response.
+Let's see another example:
+Example: "Which pet do you prefer?"
+	Cat	Dog
+Men	207	282
+Women	231	242
+By doing the calculations (shown later), we come up with:
+P value is 0.043
+In this case p < 0.05, so this result is thought of as being "significant" meaning we think the variables are not independent.
+In other words, because 0.043 < 0.05 we think that Gender is linked to Pet Preference (Men and Women have different preferences for Cats and Dogs).
+Just out of interest, notice that the numbers in our two examples are similar, but the resulting p-values are very different: 0.132 and 0.043. This shows how sensitive the test is!
+
 
 ```markdown
 ```
