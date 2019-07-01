@@ -564,6 +564,68 @@ And here is the same data as a Scatter Plot:
 
 It is now easy to see that warmer weather leads to more sales, but the relationship is not perfect.
 
+
+Correlation
+When the two sets of data are strongly linked together we say they have a High Correlation.
+The word Correlation is made of Co- (meaning "together"), and Relation
+•	Correlation is Positive when the values increase together, and
+•	Correlation is Negative when one value decreases as the other increases
+Like this:
+   <img src="./images/corr1.png" alt="data" class="inline"/>
+
+(Learn More About Correlation)
+Negative Correlation
+Correlations can be negative, which means there is a correlation but one value goes down as the other value increases.
+Example : Birth Rate vs Income
+The birth rate tends to be lower in richer countries.
+
+Below is a scatter plot for about 100 different countries.	Country	Yearly
+Production
+per Person	Birth
+Rate
+Madagascar	$800	5.70
+India	$3,100	2.85
+Mexico	$9,600	2.49
+Taiwan	$25,300	1.57
+Norway	$40,000	1.78
+   <img src="./images/corr2.png" alt="data" class="inline"/>
+
+ 
+It has a negative correlation (the line slopes down)
+Outliers
+"Outliers" are values that "lie outside" the other values.
+When we collect data, sometimes there are values that are "far away" from the main group of data ... what do we do with them?	 
+   <img src="./images/corr3.png" alt="data" class="inline"/>
+
+Example: Long Jump
+    <img src="./images/corr4.png" alt="data" class="inline"/>
+
+A new coach has been working with the Long Jump team this month, and the athletes' performance has changed.
+Augustus can now jump 0.15m further, June and Carol can jump 0.06m further.
+Here are all the results:
+•	Augustus: +0.15m
+•	Tom: +0.11m
+•	June: +0.06m
+•	Carol: +0.06m
+•	Bob: + 0.12m
+•	Sam: -0.56m
+Oh no! Sam got worse.
+Here are the results on the number line:
+    <img src="./images/corr5.png" alt="data" class="inline"/>
+
+The mean is:
+(0.15+0.11+0.06+0.06+0.12-0.56) / 6 = -0.06 / 6 = -0.01m
+So, on average the performance went DOWN.
+The coach is obviously useless ... right?
+Sam's result is an "Outlier" ... what if we remove Sam's result?
+    <img src="./images/corr6.png" alt="data" class="inline"/>
+
+Example: Long Jump (continued)
+Let us try the results WITHOUT Sam:
+Mean = (0.15+0.11+0.06+0.06+0.12)/5 = 0.1 m
+Hey, the coach looks much better now!
+But is that fair? Can we just get rid of values we don't like?
+
 ```markdown
 ```
 <img src="./images/bivariate.png" alt="data" class="inline"/>
