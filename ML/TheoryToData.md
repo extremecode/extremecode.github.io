@@ -367,6 +367,31 @@ What Does It "Mean" ?
 Mean Deviation tells us how far, on average, all values are from the middle.
 Here is an example (using the same data as on the Standard Deviation page):
 
+Example: You and your friends have just measured the heights of your dogs (in millimetres):
+ 
+The heights (at <img src="./images/mean4.png" alt="data" class="inline"/>
+the shoulders) are: 600mm, 470mm, 170mm, 430mm and 300mm.
+
+Step 1: Find the mean:
+μ =	600 + 470 + 170 + 430 + 300	=	1970	= 394
+	5		5	
+Step 2: Find the Absolute Deviations:
+x	|x - μ|
+600	206
+470	76
+170	224
+430	36
+300	94
+	Σ|x - μ| = 636
+
+Step 3. Find the Mean Deviation:
+Mean Deviation =	Σ|x - μ|	=	636	= 127.2
+	N		5	
+
+So, on average, the dogs' heights are 127.2 mm from the mean.
+(Compare that with the Standard Deviation of 147 mm)
+The heights (at <img src="./images/mean5.png" alt="data" class="inline"/>
+
 
 ```markdown
 ```
