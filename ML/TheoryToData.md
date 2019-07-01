@@ -390,7 +390,76 @@ Mean Deviation =	Σ|x - μ|	=	636	= 127.2
 
 So, on average, the dogs' heights are 127.2 mm from the mean.
 (Compare that with the Standard Deviation of 147 mm)
-The heights (at <img src="./images/mean5.png" alt="data" class="inline"/>
+
+
+A Useful Check
+The deviations on one side of the mean should equal the deviations on the other side.
+From our first example:
+Example: 3, 6, 6, 7, 8, 11, 15, 16
+The deviations are:
+ The heights (at <img src="./images/mean5.png" alt="data" class="inline"/>
+
+6 + 3 + 3 + 2 + 1	=	2 + 6 + 7
+15	=	15
+Likewise:
+Example: Dogs
+Deviations left of mean: 224 + 94 = 318
+Deviations right of mean: 206 + 76 + 36 = 318
+If they are not equal ... you may have made a msitake!
+
+#### Standard Deviation
+The Standard Deviation is a measure of how spread out numbers are.
+Its symbol is σ (the greek letter sigma)
+The formula is easy: it is the square root of the Variance. So now you ask, "What is the Variance?"
+#### Variance
+The Variance is defined as:
+The average of the squared differences from the Mean.
+To calculate the variance follow these steps:
+•	Work out the Mean (the simple average of the numbers)
+•	Then for each number: subtract the Mean and square the result (the squared difference).
+•	Then work out the average of those squared differences. (Why Square?)
+Example
+<img src="./images/dog1.png" alt="data" class="inline"/>
+You and your friends have just measured the heights of your dogs (in millimetres):
+ 
+The heights (at the shoulders) are: 600mm, 470mm, 170mm, 430mm and 300mm.
+Find out the Mean, the Variance, and the Standard Deviation.
+Your first step is to find the Mean:
+Answer:
+Mean  =  600 + 470 + 170 + 430 + 3005  =  19705  =  394
+so the mean (average) height is 394 mm. Let's plot this on the chart:
+ <img src="./images/dog2.png" alt="data" class="inline"/>
+Now we calculate each dog's difference from the Mean:
+ 
+To calculate the Variance, take each difference, square it, and then average the result:
+  <img src="./images/dog3.png" alt="data" class="inline"/>
+
+So the Variance is 21,704
+And the Standard Deviation is just the square root of Variance, so:
+Standard Deviation
+ <img src="./images/dog4.png" alt="data" class="inline"/>
+
+σ	= √21,704
+	= 147.32...
+	= 147 (to the nearest mm)
+
+And the good thing about the Standard Deviation is that it is useful. Now we can show which heights are within one Standard Deviation (147mm) of the Mean:
+  <img src="./images/dog5.png" alt="data" class="inline"/>
+
+So, using the Standard Deviation we have a "standard" way of knowing what is normal, and what is extra large or extra small.
+Rottweilers are tall dogs. And Dachshunds are a bit short ... but don't tell them!
+Now try the Standard Deviation Calculator.
+But ... there is a small change with Sample Data
+Our example has been for a Population (the 5 dogs are the only dogs we are interested in).
+But if the data is a Sample (a selection taken from a bigger Population), then the calculation changes!
+When you have "N" data values that are:
+•	The Population: divide by N when calculating Variance (like we did)
+•	A Sample: divide by N-1 when calculating Variance
+All other calculations stay the same, including how we calculated the mean.
+Example: if our 5 dogs are just a sample of a bigger population of dogs, we divide by 4 instead of 5 like this:
+Sample Variance = 108,520 / 4 = 27,130
+Sample Standard Deviation = √27,130 = 164 (to the nearest mm)
+Think of it as a "correction" when your data is only a sample.
 
 
 ```markdown
