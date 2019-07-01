@@ -703,7 +703,7 @@ P value is 0.043
 In this case p < 0.05, so this result is thought of as being "significant" meaning we think the variables are not independent.
 In other words, because 0.043 < 0.05 we think that Gender is linked to Pet Preference (Men and Women have different preferences for Cats and Dogs).
 Just out of interest, notice that the numbers in our two examples are similar, but the resulting p-values are very different: 0.132 and 0.043. This shows how sensitive the test is!
-</pre>
+
 
 ##### Why p<0.05 ?
 It is just a choice! Using p<0.05 is common, but we could have chosen p<0.01 to be even more sure that the groups behave differently, or any value really.
@@ -764,7 +764,7 @@ The result is:
 p = 0.04283
 Done!
 
-
+</pre>
 ```markdown
 ```
 <img src="./images/bivariate.png" alt="data" class="inline"/>
