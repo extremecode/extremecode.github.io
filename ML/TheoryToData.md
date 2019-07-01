@@ -692,6 +692,7 @@ Is it likely you would get such different results surveying Men each time?
 Well the "p" value of 0.132 says that it really could happen every so often.
 Surveys are random after all. We expect slightly different results each time, right?
 So most people want to see a p value less than 0.05 before they are happy to say the results show the groups have a different response.
+<pre>
 Let's see another example:
 Example: "Which pet do you prefer?"
 	Cat	Dog
@@ -702,7 +703,7 @@ P value is 0.043
 In this case p < 0.05, so this result is thought of as being "significant" meaning we think the variables are not independent.
 In other words, because 0.043 < 0.05 we think that Gender is linked to Pet Preference (Men and Women have different preferences for Cats and Dogs).
 Just out of interest, notice that the numbers in our two examples are similar, but the resulting p-values are very different: 0.132 and 0.043. This shows how sensitive the test is!
-
+</pre>
 
 ```markdown
 ```
