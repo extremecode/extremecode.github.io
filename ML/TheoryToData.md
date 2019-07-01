@@ -471,7 +471,7 @@ The "Sample Standard Deviation":	 <img src="./images/std.png" alt="data" class="
 Looks complicated, but the important change is to 
 divide by N-1 (instead of N) when calculating a Sample Variance.
 
-
+<pre>
 *Footnote: Why square the differences?
 If we just add up the differences from the mean ... the negatives cancel the positives:
 <img src="./images/sd1.png" alt="data" class="inline"/> 		4 + 4 − 4 − 44 = 0
@@ -486,7 +486,7 @@ So let us try squaring each difference (and taking the square root at the end):
 That is nice! The Standard Deviation is bigger when the differences are more spread out ... just what we want.
 In fact this method is a similar idea to distance between points, just applied in a different way.
 And it is easier to use algebra on squares and square roots than absolute values, which makes the standard deviation easy to use in other areas of mathematics.
-
+</pre>
 
 ```markdown
 ```
