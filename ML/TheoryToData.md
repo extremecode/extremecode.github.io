@@ -843,12 +843,47 @@ Eg: if error y-y^ is 50 throughout then its homoscedasticity
 * If error is variant then it’s Heteroscedasticity
 * Multivariance: Choosing variables wrt dependent variables. One single variable related to multivariable.
 * No Auto correlation: the errors should be independent, output should not affect the previous or next error.
-Auto correlation: errors are not independent means errors are dependent
-No auto correlation: errors are independent
+* Auto correlation: errors are not independent means errors are dependent
+* No auto correlation: errors are independent
 * Correlation is degree of relation between 2 variables
 * Auto correlation is relation with one single variable but at different time lapse.
 Eg: salary amount in two different months or checking temperature at different time.
 * Multi collinearity exists: Independent variables are not independent with each other means independent variables has sum dependency between them. One independent variable affects another independent variable.
+
+
+A simple linear regression model defines the relationship between a dependent variable and a single independent predictor variable using a line defined by an equation in the following form:
+
+ <pre>
+Y= predicted value
+x- independent value
+e-errors
+a-	Intersept , if x=0 y will have sum value ie intersept
+b-	Slope, every increase of x, y will increase
+The intercept, α (alpha), describes where the line crosses the y axis, while the slope, β (beta), describes the change in y given an increase of x.
+</pre>
+
+#### Ordinary least squares estimation
+In order to determine the optimal estimates of α and β, an estimation method known as Ordinary Least Squares (OLS) was used. In OLS regression, the slope and intercept are chosen so that they minimize the sum of the squared errors, that is, the vertical distance between the predicted y value and the actual y value. These errors are known as residuals, and are illustrated for several points in the following diagram:
+ <img src="./images/lr1.png" alt="data" class="inline"/>
+
+In mathematical terms, the goal of OLS regression can be expressed as the task of minimizing the following equation:
+
+ <img src="./images/lr2.png" alt="data" class="inline"/>
+
+In plain language, this equation defines e (the error) as the difference between the actual y value and the predicted y value. The error values are squared and summed across all the points in the data.
+
+The solution for a depends on the value of b. It can be obtained using the following formula
+
+ <img src="./images/lr3.png" alt="data" class="inline"/>
+ <img src="./images/lr4.png" alt="data" class="inline"/>
+
+If we break this equation apart into its component pieces, we can simplify it a bit. The denominator for b should look familiar; it is very similar to the variance of x, which is denoted as Var(x), the variance involves finding the average squared deviation from the mean of x. This can be expressed as:
+ <img src="./images/lr5.png" alt="data" class="inline"/>
+The numerator involves taking the sum of each data point's deviation from the mean x value multiplied by that point's deviation away from the mean y value. This is similar to the covariance function for x and y, denoted as Cov(x, y). The covariance formula is:
+  <img src="./images/lr6.png" alt="data" class="inline"/>
+
+If we divide the covariance function by the variance function, the n terms get cancelled and we can rewrite the formula for b as:
+ <img src="./images/lr7.png" alt="data" class="inline"/>
 
 ```markdown
 ```
