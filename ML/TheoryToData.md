@@ -764,6 +764,7 @@ The result is:
 p = 0.04283
 Done!
 
+</pre>
 ##### Chi-Square Formula
 This is the formula for Chi-Square:
 
@@ -786,7 +787,6 @@ Or it can be all jumbled up
 
 But there are many cases where the data tends to be around a central value with no bias left or right, and it gets close to a "Normal Distribution" like this:
 
-</pre>
 ```markdown
 ```
 <img src="./images/bivariate.png" alt="data" class="inline"/>
