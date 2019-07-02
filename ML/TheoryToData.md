@@ -827,6 +827,29 @@ The field of study interested in the development of computer algorithms to trans
 <img src="./images/ml2.png" alt="data" class="inline"/>
 <img src="./images/ml3.png" alt="data" class="inline"/>
 
+
+### Linear Regression:
+Regression is concerned with specifying the relationship between a single numeric dependent variable (the value to be predicted) and one or more numeric independent variables (the predictors). As the name implies, the dependent variable depends upon the value of the independent variable or variables. The simplest forms of regression assume that the relationship between the independent and dependent variables follows a straight line.
+Lines can be defined in a slope-intercept form similar to y = a + bx. In this form, the letter y indicates the dependent variable and x indicates the independent variable. The slope term b specifies how much the line rises for each increase in x. Positive values define lines that slope upward while negative values define lines that slope downward. The term is known as the intercept because it specifies the point where the line crosses, or intercepts, the vertical y axis. It indicates the value of y when x = 0.
+<img src="./images/lr.png" alt="data" class="inline"/>
+When there is only a single independent variable it is known as simple linear regression. In the case of two or more independent variables, this is known as multiple linear regression, or simply "multiple regression". Both of these techniques assume that the dependent variable is measured on a continuous scale.
+
+#### Linearity Assumptions:
+*	Linearity : correlation should be present either +ve or –ve.
+*	Data should be normalized : mean =0 and SD=1( test to check normality is shapiro test where P>0.05
+*	No outliers, P>0.05
+*	Homoscedasticity, p>0.05: Y-Y^ is the error , which should be distributed in a homogenous way .
+Eg: if error y-y^ is 50 throughout then its homoscedasticity
+* If error is variant then it’s Heteroscedasticity
+* Multivariance: Choosing variables wrt dependent variables. One single variable related to multivariable.
+* No Auto correlation: the errors should be independent, output should not affect the previous or next error.
+Auto correlation: errors are not independent means errors are dependent
+No auto correlation: errors are independent
+* Correlation is degree of relation between 2 variables
+* Auto correlation is relation with one single variable but at different time lapse.
+Eg: salary amount in two different months or checking temperature at different time.
+* Multi collinearity exists: Independent variables are not independent with each other means independent variables has sum dependency between them. One independent variable affects another independent variable.
+
 ```markdown
 ```
 <img src="./images/bivariate.png" alt="data" class="inline"/>
