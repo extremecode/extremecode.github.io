@@ -885,6 +885,16 @@ The numerator involves taking the sum of each data point's deviation from the me
 If we divide the covariance function by the variance function, the n terms get cancelled and we can rewrite the formula for b as:
  <img src="./images/lr7.png" alt="data" class="inline"/>
 
+
+#### Correlations:
+The correlation between two variables is a number that indicates how closely their relationship follows a straight line.
+The correlation ranges between -1 and +1. The extreme values indicate a perfectly linear relationship, while a correlation close to zero indicates the absence of a linear relationship
+The following formula defines Pearson's correlation:
+  <img src="./images/mlcorr.png" alt="data" class="inline"/>
+
+Measuring the correlation between two variables gives us a way to quickly gauge the relationships among the independent and dependent variables.
+
+
 ```markdown
 ```
 <img src="./images/bivariate.png" alt="data" class="inline"/>
