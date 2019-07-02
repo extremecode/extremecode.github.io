@@ -787,6 +787,35 @@ Or it can be all jumbled up
 
 But there are many cases where the data tends to be around a central value with no bias left or right, and it gets close to a "Normal Distribution" like this:
 
+
+But there are many cases where the data tends to be around a central value with no bias left or right, and it gets close to a "Normal Distribution" like this:
+ 
+A Normal Distribution
+The "Bell Curve" is a Normal Distribution. 
+ <img src="./images/chigrp3.png" alt="data" class="inline"/>
+
+And the yellow histogram shows some data that 
+follows it closely, but not perfectly (which is usual).
+  <img src="./images/chigrp4.png" alt="data" class="inline"/>
+	It is often called a "Bell Curve"
+because it looks like a bell.
+Many things closely follow a Normal Distribution:
+•	heights of people
+•	size of things produced by machines
+•	errors in measurements
+•	blood pressure
+•	marks on a test
+We say the data is "normally distributed":
+ 
+The Normal Distribution has:
+•	mean = median = mode
+•	symmetry about the centre
+•	50% of values less than the mean
+•	and 50% greater than the mean
+ <img src="./images/chigrp5.png" alt="data" class="inline"/>
+
+
+
 ```markdown
 ```
 <img src="./images/bivariate.png" alt="data" class="inline"/>
