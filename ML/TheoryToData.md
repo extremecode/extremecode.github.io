@@ -753,7 +753,7 @@ Women	1.136	0.949	473
 ##### Now add up those values:
 1.099 + 0.918 + 1.136 + 0.949 = 4.102
 Chi-Square is 4.102
-From Chi-Square to p
+##### From Chi-Square to p
 To get from Chi-Square to p-value is a difficult calculation, so either look it up in a table, or use the Chi-Square Calculator.
 But first you will need a "Degree of Freedom" (DF)
 Calculate Degrees of Freedom
@@ -763,6 +763,28 @@ Result
 The result is:
 p = 0.04283
 Done!
+
+##### Chi-Square Formula
+This is the formula for Chi-Square:
+
+<img src="./images/chiformula.png" alt="data" class="inline"/>
+
+•	O = the Observed (actual) value
+•	E = the Expected value
+Normal Distribution
+Data can be "distributed" (spread out) in different ways.
+It can be spread out 
+more on the left	
+<img src="./images/chigrp.png" alt="data" class="inline"/>
+
+Or more on the right
+ 		<img src="./images/chigrp1.png" alt="data" class="inline"/>
+ 
+		
+Or it can be all jumbled up
+ <img src="./images/chigrp2.png" alt="data" class="inline"/>
+
+But there are many cases where the data tends to be around a central value with no bias left or right, and it gets close to a "Normal Distribution" like this:
 
 </pre>
 ```markdown
