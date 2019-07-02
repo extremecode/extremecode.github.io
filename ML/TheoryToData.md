@@ -815,6 +815,17 @@ The Normal Distribution has:
  <img src="./images/chigrp5.png" alt="data" class="inline"/>
 
 
+## MACHINE LEARNING:
+The origins of machine learning
+Since birth, we are inundated with data. Our body's sensors—the eyes, ears, nose, tongue, and nerves—are continually assailed with raw data that our brain translates into sights, sounds, smells, tastes, and textures. Using language, we are able to share these experiences with others.
+From the advent of written language, human observations have been recorded. Hunters monitored the movement of animal herds, early astronomers recorded the alignment of planets and stars, and cities recorded tax payments, births, and deaths. Today, such observations, and many more, are increasingly automated and recorded in the ever-growing computerized databases.
+
+
+The field of study interested in the development of computer algorithms to transform data into intelligent action is known as machine learning
+<img src="./images/ml.png" alt="data" class="inline"/>
+<img src="./images/ml1.png" alt="data" class="inline"/>
+<img src="./images/ml2.png" alt="data" class="inline"/>
+<img src="./images/ml3.png" alt="data" class="inline"/>
 
 ```markdown
 ```
