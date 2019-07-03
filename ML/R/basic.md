@@ -107,3 +107,35 @@ is.integer(num2)
 [1] 40
 Levels: 40
 ```
+
+#### for a character variable
+ char1<-'Hello'
+ char1
+ ```markdown
+ [1] "Hello"
+ ```
+ is.character(char1)
+ ```markdown
+[1] TRUE
+```
+ class(char1)
+ ```markdown
+[1] "character"
+```
+ as.factor(char1)
+ ```markdown
+[1] Hello
+Levels: Hello
+```
+ as.logical(char1)
+ ```markdown
+[1] NA
+```
+ as.numeric(char1)
+ ```markdown
+[1] NA
+```
+ as.integer(char1)
+ ```markdown
+[1] NA
+```
