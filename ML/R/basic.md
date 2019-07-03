@@ -42,7 +42,7 @@ class(b)
 ```
 
 
-# We can do type conversions
+###  We can do type conversions as shown above
 class(num1)
 ```markdown
 [1] "numeric"
