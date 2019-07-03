@@ -66,3 +66,29 @@ is.integer(num2)
 ```markdown
 [1] FALSE
 ```
+#### do type conversion on a list
+ a<-c("5","4")
+ class(a)
+```markdown
+[1] "character"
+ b<-as.integer(a)
+ is.integer(b)
+[1] TRUE
+ class(b)
+[1] "integer"
+ b
+[1] 5 4
+ num1<-40
+ is.numeric(num1)
+[1] TRUE
+ class(num1)
+[1] "numeric"
+ as.character(num1)
+[1] "40"
+ as.logical(num1)
+[1] TRUE
+ as.integer(num1)
+[1] 40
+ as.factor(num1)
+[1] 40
+Levels: 40
