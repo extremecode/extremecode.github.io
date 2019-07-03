@@ -139,3 +139,70 @@ Levels: Hello
  ```markdown
 [1] NA
 ```
+
+
+## vectors
+v1 <- c(12,14,15,20,25) -- Numerical
+v1  -- numerical vector
+ ```markdown
+[1] 12 14 15 20 25
+ ```
+v2 <- c("ram","sam","irfan","uma","zora" ) 
+ v2
+```markdown
+[1] "ram"   "sam"   "irfan" "uma"   "zora" 
+```
+ v3<-c("M","M","F","M")
+ v3
+```markdown
+[1] "M" "M" "F" "F"
+```
+v4 <- c(TRUE,TRUE,FALSE,TRUE,TRUE)  #logical
+ v4
+```markdown
+[1]  TRUE  TRUE FALSE  TRUE  TRUE
+```
+v5 <-c(12000,14000,0,20000,25000) 
+ v5
+```markdown
+[1] 12000 14000     0 20000 25000
+```
+ income
+```markdown
+[1] 12000 14000 15000 20000 25000
+```
+ cust<-data.frame(id,v1,v2,v3,v4)
+ cust 
+```markdown
+  id v1    v2 v3    v4
+1  1 12   ram  M  TRUE
+2  2 14   sam  M  TRUE
+3  3 15 irfan  F FALSE
+4  4 20   uma  F  TRUE
+5  5 25  zora  M  TRUE
+```
+ newincome
+```markdown
+[1] 12 20 30 40 60
+```
+ mode(cust)
+```markdown
+[1] "list"
+```
+ class(cust)
+```markdown
+[1] "data.frame"
+```
+ dim(cust)
+```markdown
+[1] 5 5
+```
+ str(cust)
+```markdown
+'data.frame':   5 obs. of  5 variables:
+ $ id: num  1 2 3 4 5
+ $ v1: num  12 14 15 20 25
+ $ v2: Factor w/ 5 levels "irfan","ram",..: 2 3 1 4 5
+ $ v3: Factor w/ 2 levels "F","M": 2 2 1 1 2
+ $ v4: logi  TRUE TRUE FALSE TRUE TRUE
+ ```
