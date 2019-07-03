@@ -71,24 +71,39 @@ is.integer(num2)
  class(a)
 ```markdown
 [1] "character"
+```
  b<-as.integer(a)
  is.integer(b)
+ ```markdown
 [1] TRUE
+```
  class(b)
-[1] "integer"
- b
-[1] 5 4
+ ```markdown
+[1] "integer
+```
  num1<-40
  is.numeric(num1)
+ ```markdown
 [1] TRUE
+```
  class(num1)
+ ```markdown
 [1] "numeric"
+```
  as.character(num1)
+```markdown
 [1] "40"
+```
  as.logical(num1)
+ ```markdown
 [1] TRUE
+```
  as.integer(num1)
+ ```markdown
 [1] 40
+```
  as.factor(num1)
+ ```markdown
 [1] 40
 Levels: 40
+```
