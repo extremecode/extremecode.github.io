@@ -51,3 +51,18 @@ int2<-as.integer(num1)
 ```markdown
 [1] "integer"
 ```
+
+### Override data types post creation
+num2<-as.numeric(int2)
+class(num2)
+```markdown
+[1] "numeric"
+```
+is.numeric(num2)
+```markdown
+[1] TRUE
+```
+is.integer(num2)
+```markdown
+[1] FALSE
+```
