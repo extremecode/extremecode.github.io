@@ -455,7 +455,7 @@ matr1[3]
 ```
 matr1
 ```markdown
-col1 col2 col3 col4
+      col1 col2 col3 col4
 emp1    1    4    7   10
 emp2    2    5    8   11
 emp3    3    6    9   12
@@ -466,7 +466,7 @@ matr1[4]
 ```
 matr1
 ```markdown
-col1 col2 col3 col4
+      col1 col2 col3 col4
 emp1    1    4    7   10
 emp2    2    5    8   11
 emp3    3    6    9   12
