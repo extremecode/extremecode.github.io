@@ -391,26 +391,44 @@ matr1
 ```
 
 
-####  to select and negate range in a matrix  
-selectmat<-mat[1:2,1:3]
-selectmat
+ 
+matr1
 ```markdown
-            [,1] [,2] [,3]
-      [1,]    1    4    7
-      [2,]    2    5    8
+       col1 col2 col3 col4
+emp1    1    4    7   10
+emp2    2    5    8   11
+emp3    3    6    9   12
 ```
-selectmat1<-mat[,-4]
-selectmat1
+matr2
 ```markdown
-           [,1] [,2] [,3]
-      [1,]    1    4    7
-      [2,]    2    5    8
-      [3,]    3    6    9
+      [,1] [,2] [,3]
+[1,]    1    5    9
+[2,]    2    6   10
+[3,]    3    7   11
+[4,]    4    8   12
 ```
-selectmat1<-mat[-3,-4]
-selectmat1
+mulmat <- matr1  *  1
+mulmat <- matr1 %*% matr2
+mulmat
 ```markdown
-            [,1] [,2] [,3]
-      [1,]    1    4    7
-      [2,]    2    5    8
+      [,1] [,2] [,3]
+emp1   70  158  246
+emp2   80  184  288
+emp3   90  210  330
 ```
+matr1
+```markdown
+      col1 col2 col3 col4
+emp1    1    4    7   10
+emp2    2    5    8   11
+emp3    3    6    9   12
+```
+matr2
+```markdown
+      [,1] [,2] [,3]
+[1,]    1    5    9
+[2,]    2    6   10
+[3,]    3    7   11
+[4,]    4    8   12
+```
+
