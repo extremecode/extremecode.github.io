@@ -389,3 +389,28 @@ matr1
       emp2    2    5    8  11
       emp3    3    6    9  12
 ```
+
+
+####  to select and negate range in a matrix  
+selectmat<-mat[1:2,1:3]
+selectmat
+```markdown
+            [,1] [,2] [,3]
+      [1,]    1    4    7
+      [2,]    2    5    8
+```
+selectmat1<-mat[,-4]
+selectmat1
+```markdown
+           [,1] [,2] [,3]
+      [1,]    1    4    7
+      [2,]    2    5    8
+      [3,]    3    6    9
+```
+selectmat1<-mat[-3,-4]
+selectmat1
+```markdown
+            [,1] [,2] [,3]
+      [1,]    1    4    7
+      [2,]    2    5    8
+```
