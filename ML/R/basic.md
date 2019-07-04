@@ -364,3 +364,28 @@ t(idv1)
 ```
 
 
+
+#### assign names to ro and columns to a matrix
+matr1
+```markdown
+             [,1] [,2] [,3] [,4]
+      [1,]    1    4    7   10
+      [2,]    2    5    8   11
+      [3,]    3    6    9   12
+```      
+row.names(matr1)<-c("emp1","emp2","emp3")
+matr1
+```markdown
+            [,1] [,2] [,3] [,4]
+      emp1    1    4    7   10
+      emp2    2    5    8   11
+      emp3    3    6    9   12
+```
+colnames(matr1)<-c("col1","col2","col3","col")
+matr1
+```markdown
+            col1 col2 col3 col
+      emp1    1    4    7  10
+      emp2    2    5    8  11
+      emp3    3    6    9  12
+```
