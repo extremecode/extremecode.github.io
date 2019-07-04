@@ -237,3 +237,23 @@ cust$v3<-as.factor(v3)
  $ v3: Factor w/ 2 levels "F","M": 2 2 1 1 2
  $ v4: logi  TRUE TRUE FALSE TRUE TRUE
  ```
+
+### to  edit the loaded dataset
+fix(cust)
+
+### similar like data frame character mode
+news<-c("north","east","west","south")
+news
+```markdown
+[1] "north" "east"  "west"  "south"
+```
+mode(news)
+```markdown
+[1] "character"
+```
+news<-as.factor(news)
+str(news)
+```markdown
+ Factor w/ 4 levels "east","north",..: 2 1 4 3
+```
+
