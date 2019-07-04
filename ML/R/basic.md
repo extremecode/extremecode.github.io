@@ -485,3 +485,41 @@ col1 col2 col3 col4
 ```
 
 
+cust[1,3]<-"peter"
+cust
+```markdown
+  id v1    v2 v3    v4
+1  1 12 peter  M  TRUE
+2  2 14   sam  M  TRUE
+3  3 15 irfan  F FALSE
+4  4 20   uma  F  TRUE
+5  5 25  zora  M  TRUE
+```
+array1<-array(1:27,dim=c(3,3,3))
+array1
+```markdown
+, , 1
+
+     [,1] [,2] [,3]
+[1,]    1    4    7
+[2,]    2    5    8
+[3,]    3    6    9
+
+, , 2
+
+     [,1] [,2] [,3]
+[1,]   10   13   16
+[2,]   11   14   17
+[3,]   12   15   18
+
+, , 3
+
+     [,1] [,2] [,3]
+[1,]   19   22   25
+[2,]   20   23   26
+[3,]   21   24   27
+```
+class(array1
+```markdown
+[1] "array"
+```
