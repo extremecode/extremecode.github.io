@@ -206,3 +206,34 @@ v5 <-c(12000,14000,0,20000,25000)
  $ v3: Factor w/ 2 levels "F","M": 2 2 1 1 2
  $ v4: logi  TRUE TRUE FALSE TRUE TRUE
  ```
+
+
+cust<-data.frame(id,v1,v2,v3,v4,stringsAsFactors = FALSE)
+str(cust)
+```markdown
+'data.frame':	5 obs. of  5 variables:
+ $ id: num  1 2 3 4 5
+ $ v1: num  12 14 15 20 25
+ $ v2: chr  "ram" "sam" "irfan" "uma" ...
+ $ v3: chr  "M" "M" "F" "F" ...
+ $ v4: logi  TRUE TRUE FALSE TRUE TRUE
+ ```
+cust$v3<-as.factor(v3)
+v3
+```markdown
+[1] "M" "M" "F" "F" "M"
+```
+cust$v3<-as.factor(v3)
+ str(v3)
+ ```markdown
+ chr [1:5] "M" "M" "F" "F" "M"
+ ```
+ str(cust)
+ ```markdown
+'data.frame':	5 obs. of  5 variables:
+ $ id: num  1 2 3 4 5
+ $ v1: num  12 14 15 20 25
+ $ v2: chr  "ram" "sam" "irfan" "uma" ...
+ $ v3: Factor w/ 2 levels "F","M": 2 2 1 1 2
+ $ v4: logi  TRUE TRUE FALSE TRUE TRUE
+ ```
