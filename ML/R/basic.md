@@ -432,3 +432,56 @@ matr2
 [4,]    4    8   12
 ```
 
+
+
+
+
+objlist1<-list(1,"ram",100)
+objlist1
+```markdown
+[[1]]
+[1] 1
+
+[[2]]
+[1] "ram"
+
+[[3]]
+[1] 100
+```
+
+matr1[3]
+```markdown
+[1] 3
+```
+matr1
+```markdown
+col1 col2 col3 col4
+emp1    1    4    7   10
+emp2    2    5    8   11
+emp3    3    6    9   12
+```
+matr1[4]
+```markdown
+[1] 4
+```
+matr1
+```markdown
+col1 col2 col3 col4
+emp1    1    4    7   10
+emp2    2    5    8   11
+emp3    3    6    9   12
+```
+rowsum<-rowSums(matr1)
+rowsum
+```markdown
+emp1 emp2 emp3 
+22   26   30 
+```
+colsum<-colSums(matr1)
+colsum
+```markdown
+col1 col2 col3 col4 
+6   15   24   33 
+```
+
+
