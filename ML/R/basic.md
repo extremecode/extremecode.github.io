@@ -292,3 +292,35 @@ dim(matr2)
 ```
 
 
+matdf<-as.data.frame(matr1)
+matdf
+```markdown
+  V1 V2 V3 V4
+1  1  4  7 10
+2  2  5  8 11
+3  3  6  9 12
+```
+class(matdf)
+```markdown
+[1] "data.frame"
+```
+mat<-as.matrix(matr1)
+class(mat)
+```markdown
+[1] "matrix"
+```
+edit(matdf)
+```markdown
+  V1 V2 V3 V4
+1  1  4  7 10
+2  2  5  8 11
+3  3  6  9 12
+```
+id
+```markdown
+[1] 1 2 3 4 5
+```
+v1
+```markdown
+[1] 12 14 15 20 25
+```
