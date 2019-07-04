@@ -495,6 +495,8 @@ cust
 4  4 20   uma  F  TRUE
 5  5 25  zora  M  TRUE
 ```
+
+#### fill a vector values i matrix
 array1<-array(1:27,dim=c(3,3,3))
 array1
 ```markdown
@@ -524,7 +526,7 @@ class(array1)
 [1] "array"
 ```
 
-
+#### filling repeating values in a matrix
 array2<-array(1:0,dim=c(3,3,3))
 array2
 ```markdown
