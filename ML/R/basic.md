@@ -391,7 +391,7 @@ matr1
 ```
 
 
- 
+ #### matrix multiplication
 matr1
 ```markdown
        col1 col2 col3 col4
@@ -407,7 +407,7 @@ matr2
 [3,]    3    7   11
 [4,]    4    8   12
 ```
-mulmat <- matr1  *  1
+mulmat <- matr-1  *  1
 mulmat <- matr1 %*% matr2
 mulmat
 ```markdown
