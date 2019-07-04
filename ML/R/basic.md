@@ -324,3 +324,43 @@ v1
 ```markdown
 [1] 12 14 15 20 25
 ```
+
+#### do a horizontal or row level matrix creation
+idv1<-rbind(id,v1)
+idv1
+```markdown
+    [,1] [,2] [,3] [,4] [,5]
+id    1    2    3    4    5
+v1   12   14   15   20   25
+```
+class(idv1)
+```markdown
+[1] "matrix"
+```
+#### do a horizontal or row level matrix creation
+idv1cbind<-cbind(id,v1)
+idv1cbind
+```markdown
+      id v1
+[1,]  1 12
+[2,]  2 14
+[3,]  3 15
+[4,]  4 20
+[5,]  5 25
+```
+class(idv1cbind)
+```markdown
+[1] "matrix"
+```
+#### transpose a matrix
+t(idv1)
+```markdown
+      id v1
+[1,]  1 12
+[2,]  2 14
+[3,]  3 15
+[4,]  4 20
+[5,]  5 25
+```
+
+
