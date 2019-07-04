@@ -257,3 +257,38 @@ str(news)
  Factor w/ 4 levels "east","north",..: 2 1 4 3
 ```
 
+
+
+
+### matrix operation and definations
+matr1<-matrix(1:12,ncol=4)
+matr1
+```markdown
+[,1] [,2] [,3] [,4]
+[1,]    1    4    7   10
+[2,]    2    5    8   11
+[3,]    3    6    9   12
+```
+matr2<-matrix(1:12,nrow=4)
+matr2
+```markdown
+[,1] [,2] [,3]
+[1,]    1    5    9
+[2,]    2    6   10
+[3,]    3    7   11
+[4,]    4    8   12
+```
+class(matr2)
+```markdown
+[1] "matrix"
+```
+str(matr2)
+```markdown
+int [1:4, 1:3] 1 2 3 4 5 6 7 8 9 10 ...
+```
+dim(matr2)
+```markdown
+[1] 4 3
+```
+
+
