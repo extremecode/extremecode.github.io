@@ -166,3 +166,24 @@ head(emp_cat)
 5  5   Male 09-02-1955 Clerical     138       No
 6  6   Male 22-08-1958 Clerical      67       No
 ```
+
+
+summary(emp)
+```markdown
+       id           gender           bdate          educ             jobcat        salary          salbegin        jobtime     
+ Min.   :  1.0   Female:216   04-02-1934:  2   Min.   : 8.00   Clerical :363   Min.   : 15750   Min.   : 9000   Min.   :63.00  
+ 1st Qu.:119.2   Male  :258   05-04-1966:  2   1st Qu.:12.00   Custodial: 27   1st Qu.: 24000   1st Qu.:12488   1st Qu.:72.00  
+ Median :237.5                08-02-1962:  2   Median :12.00   Manager  : 84   Median : 28875   Median :15000   Median :81.00  
+ Mean   :237.5                10-11-1965:  2   Mean   :13.49                   Mean   : 34420   Mean   :17016   Mean   :81.11  
+ 3rd Qu.:355.8                11-05-1965:  2   3rd Qu.:15.00                   3rd Qu.: 36938   3rd Qu.:17490   3rd Qu.:90.00  
+ Max.   :474.0                12-02-1964:  2   Max.   :21.00                   Max.   :135000   Max.   :79980   Max.   :98.00  
+                              (Other)   :462                                                                                   
+    prevexp    minority 
+ Min.   :  2   No :370  
+ 1st Qu.: 24   Yes:104  
+ Median : 59            
+ Mean   :101            
+ 3rd Qu.:144            
+ Max.   :476            
+ NA's   :24 
+ ```
