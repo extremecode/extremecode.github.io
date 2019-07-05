@@ -614,3 +614,30 @@ Mean   :3   Mean   :17.2                            NA's :0
  3rd Qu.:4   3rd Qu.:20.0                                           
  Max.   :5   Max.   :25.0                                           
 ```
+### to directly refer a data 
+attach(emp)
+#### as u can see we defined the table
+count<-table(gender,jobcat)
+count
+```markdown
+        jobcat
+gender   Clerical Custodial Manager
+  Female      206         0      10
+  Male        157        27      74
+```
+table(gender,jobcat,minority)
+```markdown
+, , minority = No
+
+        jobcat
+gender   Clerical Custodial Manager
+  Female      166         0      10
+  Male        110        14      70
+
+, , minority = Yes
+
+        jobcat
+gender   Clerical Custodial Manager
+  Female       40         0       0
+  Male         47        13       4
+```
