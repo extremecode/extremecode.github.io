@@ -187,3 +187,34 @@ summary(emp)
  Max.   :476            
  NA's   :24 
  ```
+
+
+### to see summary about a featue column
+summary(emp$salary)
+Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+15750   24000   28880   34420   36940  135000 
+#### if you use summary more thn one parameter
+summary(emp$salary,emp$educ)
+Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+15750   24000   28880   34420   36940  135000 
+#### only first variable will be selected
+summary(emp$educ,emp$salary)
+Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+8.00   12.00   12.00   13.49   15.00   21.00 
+summary1<-summary(emp$salary,emp$educ) //only first variable data is coming..
+
+### load library psych
+library('psych')
+#### use describe command to see detailed analysis of stat equations
+describe(emp)
+          vars   n     mean       sd  median  trimmed     mad   min    max  range  skew kurtosis     se
+id           1 474   237.50   136.98   237.5   237.50  175.69     1    474    473  0.00    -1.21   6.29
+gender*      2 474     1.54     0.50     2.0     1.56    0.00     1      2      1 -0.18    -1.97   0.02
+bdate*       3 474   231.01   133.15   230.5   230.91  170.50     1    462    461  0.01    -1.21   6.12
+educ         4 474    13.49     2.88    12.0    13.54    4.45     8     21     13 -0.11    -0.29   0.13
+jobcat*      5 474     1.41     0.77     1.0     1.27    0.00     1      3      2  1.45     0.24   0.04
+salary       6 474 34419.57 17075.66 28875.0 31199.14 8562.01 15750 135000 119250  2.11     5.27 784.31
+salbegin     7 474 17016.09  7870.64 15000.0 15469.86 3736.15  9000  79980  70980  2.83    12.18 361.51
+jobtime      8 474    81.11    10.06    81.0    81.15   13.34    63     98     35 -0.05    -1.16   0.46
+prevexp      9 450   100.97   104.91    59.0    82.24   67.46     2    476    474  1.46     1.50   4.95
+minority*   10 474     1.22     0.41     1.0     1.15    0.00     1      2      1  1.35    -0.17   0.02
