@@ -207,6 +207,7 @@ summary1<-summary(emp$salary,emp$educ) //only first variable data is coming..
 library('psych')
 #### use describe command to see detailed analysis of stat equations
 describe(emp)
+```markdown
           vars   n     mean       sd  median  trimmed     mad   min    max  range  skew kurtosis     se
 id           1 474   237.50   136.98   237.5   237.50  175.69     1    474    473  0.00    -1.21   6.29
 gender*      2 474     1.54     0.50     2.0     1.56    0.00     1      2      1 -0.18    -1.97   0.02
@@ -218,3 +219,41 @@ salbegin     7 474 17016.09  7870.64 15000.0 15469.86 3736.15  9000  79980  7098
 jobtime      8 474    81.11    10.06    81.0    81.15   13.34    63     98     35 -0.05    -1.16   0.46
 prevexp      9 450   100.97   104.91    59.0    82.24   67.46     2    476    474  1.46     1.50   4.95
 minority*   10 474     1.22     0.41     1.0     1.15    0.00     1      2      1  1.35    -0.17   0.02
+```
+
+
+
+describe(emp$salary)
+```markdown
+   vars   n     mean       sd median  trimmed     mad   min    max  range skew kurtosis     se
+X1    1 474 34419.57 17075.66  28875 31199.14 8562.01 15750 135000 119250 2.11     5.27 784.31
+```
+### on cateogarical columns we can see a tabular result of no of occurences
+count<-table(emp$jobcat)
+count
+```markdown
+ Clerical Custodial   Manager 
+      363        27        84 
+```
+countgender<-table(emp$gender)
+countgender
+```markdown
+Female   Male 
+   216    258 
+```   
+prop.table(count)
+```markdown
+  Clerical  Custodial    Manager 
+0.76582278 0.05696203 0.17721519
+```
+#### functions
+round(prop.table(table(emp$jobcat)),digits=2)
+```markdown
+ Clerical Custodial   Manager 
+     0.77      0.06      0.18 
+```
+prop.table(count)*100
+```markdown
+ Clerical Custodial   Manager 
+76.582278  5.696203 17.721519 
+```
