@@ -134,3 +134,35 @@ str(emp)
  ```
  ### edit the dataset if needed
 fix(emp)
+
+### write the data to a file
+write.csv(emp,file='emp.csv')
+write.table(emp,file='location/emp.txt',sep="\t")
+### to work with excel files
+install.packages("readxl")
+#### to load a package use library command
+library(readxl)
+Xldata<-read_excel("Path file.xlsx",sheet="sheetname")
+
+### check the variable type
+class(emp)
+```markdown
+[1] "data.frame"
+```
+### select observation and variables
+emp10obs<-emp[1:10,]
+emp5var<-emp[,1:5]
+### select column or feature vectors specify columns as a vector
+emp_cont<-emp[ ,c(4,6,7,8)]
+emp_cat<-emp[,-c(4,6,7,8)]
+### to see first 6 record 
+head(emp_cat)
+```markdown
+  id gender      bdate   jobcat prevexp minority
+1  1   Male 03-02-1952  Manager     144       No
+2  2   Male 23-05-1958 Clerical      36       No
+3  3 Female 26-07-1929 Clerical     381       No
+4  4 Female 15-04-1947 Clerical     190       No
+5  5   Male 09-02-1955 Clerical     138       No
+6  6   Male 22-08-1958 Clerical      67       No
+```
