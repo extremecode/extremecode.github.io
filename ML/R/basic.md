@@ -1,5 +1,4 @@
-* TOC
-{:toc}
+
 
 # R walkthrough
 ## setting the current working directory
