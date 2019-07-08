@@ -174,3 +174,47 @@ hist(emp$salary,breaks=5,col="green",xlab="Salary",Main="Salary Distribution")
 
 hist(emp$salary,breaks=3,col="green",xlab="Salary",main = "Salary Distribution")
 <img src="./images/salary3hist.png" alt="data" class="inline"/>
+
+CONT & CONT
+attach(emp)
+plot(educ,salary)
+<img src="./images/educsalary.png" alt="data" class="inline"/>
+
+
+CONT BY CAT
+
+boxplot(salary~jobcat,data=emp)  ##Salary is CONT and Jobcat is CAT
+<img src="./images/salaryjobcatbox.png" alt="data" class="inline"/>
+
+boxplot(salary~gender,data=emp)
+<img src="./images/salarygenderbox.png" alt="data" class="inline"/>
+
+
+count<-table(gender,salary)
+barplot(count,col=c('darkblue','red'),legend=rownames(count))
+<img src="./images/gendersalarybar.png" alt="data" class="inline"/>
+
+library(ggplot2)
+ggplot(emp,aes(x=jobcat))+geom_bar()
+<img src="./images/jobcatgg.png" alt="data" class="inline"/>
+ggplot(emp,aes(x=jobcat,fill=gender))+geom_bar()
+<img src="./images/jobcatgendergg.png" alt="data" class="inline"/>
+ggplot(emp,aes(x=educ,fill=gender))+geom_bar(position='dodge')
+<img src="./images/educgendergg.png" alt="data" class="inline"/>
+
+Scatterplot
+ggplot(emp,aes(x=educ,y=salary))+geom_point()
+<img src="./images/educsalarygg.png" alt="data" class="inline"/>
+
+library(lattice)
+xyplot(salary~salbegin|factor(jobcat),data=emp)
+<img src="./images/salaryxy.png" alt="data" class="inline"/>
+
+barchart(jobcat~salary,data=emp)
+<img src="./images/jobcatbar.png" alt="data" class="inline"/>
+
+bwplot(minority~salary|factor(jobcat),data=emp)
+<img src="./images/minoritybw.png" alt="data" class="inline"/>
+
+densityplot(salary~educ,data=emp)
+<img src="./images/salarydensity.png" alt="data" class="inline"/>
