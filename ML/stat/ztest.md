@@ -1,4 +1,4 @@
 # Z test
 
-<img src="./images/ztest.png" alt="data" class="inline"/>
+<img src="./images/ztest.jpg" alt="data" class="inline"/>
 
