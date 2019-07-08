@@ -1,3 +1,5 @@
+{:toc}
+
 # R walkthrough
 ## setting the current working directory
 setwd("C:\\Users\\...")
