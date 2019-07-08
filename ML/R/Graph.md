@@ -130,17 +130,15 @@ Error in pie(slice) : 'x' values must be positive.
 pie(emp$educ)
 slice<-table(slice)
 pie(slice)
+<img src="./images/genderpie.png" alt="data" class="inline"/>
 pie(table(emp$jobcat))
-library(plotrix)
-
-Attaching package: ‘plotrix’
-
-The following object is masked from ‘package:psych’:
-
-    rescale
-
-pie3D(slice)
+<img src="./images/jobcatpie.png" alt="data" class="inline"/>
 pie3D(slice,labels = c("male","female"))
+<img src="./images/genderpie3d.png" alt="data" class="inline"/>
 hist(emp$salary)  ## Histogram is used for Single CONT Variable.
+<img src="./images/salaryhist.png" alt="data" class="inline"/>
 hist(emp$salary,breaks=5,col="green",xlab="Salary",Main="Salary Distribution")
+<img src="./images/salary5hist.png" alt="data" class="inline"/>
+
 hist(emp$salary,breaks=3,col="green",xlab="Salary",main = "Salary Distribution")
+<img src="./images/salary3hist.png" alt="data" class="inline"/>
