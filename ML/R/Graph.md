@@ -217,4 +217,4 @@ bwplot(minority~salary|factor(jobcat),data=emp)
 <img src="./images/minoritybw.png" alt="data" class="inline"/>
 
 densityplot(salary~educ,data=emp)
-<img src="./images/salarydensity.png" alt="data" class="inline"/>
+<img src="./images/salaryeducdensity.png" alt="data" class="inline"/>
