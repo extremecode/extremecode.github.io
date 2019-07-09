@@ -53,9 +53,9 @@ Set these numbers aside for a moment.
 
 Step 5: Insert your numbers into the following formula and solve:
 t test formula a
-
+```
 <img src="./images/ttest1.png" alt="data" class="inline"/>
-
+```markdown
 (ΣA)2: Sum of data set A, squared (Step 2).
 (ΣB)2: Sum of data set B, squared (Step 2).
 μA: Mean of data set A (Step 3)
@@ -64,9 +64,9 @@ t test formula a
 ΣB2: Sum of the squares of data set B (Step 4)
 nA: Number of items in data set A
 nB: Number of items in data set B
-
+```
 <img src="./images/ttest2.png" alt="data" class="inline"/>
-
+```markdown
 Step 6: Find the Degrees of freedom (nA-1 + nB-1) = 18
 
 Step 7: Look up your degrees of freedom (Step 6) in the t-table. If you don’t know what your alpha level is, use 5% (0.05).
