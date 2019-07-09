@@ -31,7 +31,48 @@ It’s whether you are replicating your test(s) with multiple groups. With a two
 ## Types of Tests.
 There are two main types: one-way and two-way. Two-way tests can be with or without replication.
 
-One-way ANOVA between groups: used when you want to test two groups to see if there’s a difference between them.
-Two way ANOVA without replication: used when you have one group and you’re double-testing that same group. For example, you’re testing one set of individuals before and after they take a medication to see if it works or not.
-Two way ANOVA with replication: Two groups, and the members of those groups are doing more than one thing. For example, two groups of patients from different hospitals trying two different therapies.
+* One-way ANOVA between groups: used when you want to test two groups to see if there’s a difference between them.
+* Two way ANOVA without replication: used when you have one group and you’re double-testing that same group. For example, you’re testing one set of individuals before and after they take a medication to see if it works or not.
+* Two way ANOVA with replication: Two groups, and the members of those groups are doing more than one thing. For example, two groups of patients from different hospitals trying two different therapies.
 
+### One Way ANOVA
+A one way ANOVA is used to compare two means from two independent (unrelated) groups using the F-distribution. The null hypothesis for the test is that the two means are equal. Therefore, a significant result means that the two means are unequal.
+
+#### When to use a one way ANOVA
+##### Situation 1: 
+You have a group of individuals randomly split into smaller groups and completing different tasks. For example, you might be studying the effects of tea on weight loss and form three groups: green tea, black tea, and no tea.
+##### Situation 2: 
+Similar to situation 1, but in this case the individuals are split into groups based on an attribute they possess. For example, you might be studying leg strength of people according to weight. You could split participants into weight categories (obese, overweight and normal) and measure their leg strength on a weight machine.
+
+#### Limitations of the One Way ANOVA
+A one way ANOVA will tell you that at least two groups were different from each other. But it won’t tell you what groups were different. If your test returns a significant f-statistic, you may need to run an ad hoc test (like the Least Significant Difference test) to tell you exactly which groups had a difference in means.
+
+### Two Way ANOVA
+A Two Way ANOVA is an extension of the One Way ANOVA. With a One Way, you have one independent variable affecting a dependent variable. With a Two Way ANOVA, there are two independents. Use a two way ANOVA when you have one measurement variable (i.e. a quantitative variable) and two nominal variables. In other words, if your experiment has a quantitative outcome and you have two categorical explanatory variables, a two way ANOVA is appropriate.
+
+#### example
+you might want to find out if there is an interaction between income and gender for anxiety level at job interviews. The anxiety level is the outcome, or the variable that can be measured. Gender and Income are the two categorical variables. These categorical variables are also the independent variables, which are called factors in a Two Way ANOVA.
+
+The factors can be split into levels. In the above example, income level could be split into three levels: low, middle and high income. Gender could be split into three levels: male, female, and transgender. Treatment groups are all possible combinations of the factors. In this example there would be 3 x 3 = 9 treatment groups.
+
+### Main Effect and Interaction Effect
+The results from a Two Way ANOVA will calculate a main effect and an interaction effect. The main effect is similar to a One Way ANOVA: each factor’s effect is considered separately. With the interaction effect, all factors are considered at the same time. Interaction effects between factors are easier to test if there is more than one observation in each cell. For the above example, multiple stress scores could be entered into cells. If you do enter multiple observations into cells, the number in each cell must be equal.
+
+<pre>
+Two null hypotheses are tested if you are placing one observation in each cell. For this example, those hypotheses would be:
+H01: All the income groups have equal mean stress.
+H02: All the gender groups have equal mean stress.
+
+
+ 
+For multiple observations in cells, you would also be testing a third hypothesis:
+H03: The factors are independent or the interaction effect does not exist.
+
+An F-statistic is computed for each hypothesis you are testing.
+
+Assumptions for Two Way ANOVA
+The population must be close to a normal distribution.
+Samples must be independent.
+Population variances must be equal.
+Groups must have equal sample sizes.
+</pre>
