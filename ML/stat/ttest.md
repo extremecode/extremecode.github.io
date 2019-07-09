@@ -25,3 +25,51 @@ There are three main types of t-test:
 * A Paired sample t-test compares means from the same group at different times (say, one year apart).
 * A One sample t-test tests the mean of a single group against a known mean
 -
+
+
+Calculating an Independent Samples T Test By hand
+
+Sample question: Calculate an independent samples t test for the following data sets:
+Data set A: 1,2,2,3,3,4,4,5,5,6
+Data set B: 1,2,4,5,5,5,6,6,7,9
+
+Step 1: Sum the two groups:
+A: 1 + 2 + 2 + 3 + 3 + 4 + 4 + 5 + 5 + 6 = 35
+B: 1 + 2 + 4 + 5 + 5 + 5 + 6 + 6 + 7 + 9 = 50
+
+Step 2: Square the sums from Step 1:
+352 = 1225
+492 = 2500
+Set these numbers aside for a moment.
+
+Step 3: Calculate the means for the two groups:
+A: (1 + 2 + 2 + 3 + 3 + 4 + 4 + 5 + 5 + 6)/10 = 35/10 = 3.5
+B: (1 + 2 + 4 + 5 + 5 + 5 + 6 + 6 + 7 + 9) = 50/10 = 5
+Set these numbers aside for a moment.
+
+Step 4: Square the individual scores and then add them up:
+A: 11 + 22 + 22 + 33 + 33 + 44 + 44 + 55 + 55 + 66 = 145
+B: 12 + 22 + 44 + 55 + 55 + 55 + 66 + 66 + 77 + 99 = 298
+Set these numbers aside for a moment.
+
+Step 5: Insert your numbers into the following formula and solve:
+t test formula a
+
+
+(ΣA)2: Sum of data set A, squared (Step 2).
+(ΣB)2: Sum of data set B, squared (Step 2).
+μA: Mean of data set A (Step 3)
+μB: Mean of data set B (Step 3)
+ΣA2: Sum of the squares of data set A (Step 4)
+ΣB2: Sum of the squares of data set B (Step 4)
+nA: Number of items in data set A
+nB: Number of items in data set B
+
+
+Step 6: Find the Degrees of freedom (nA-1 + nB-1) = 18
+
+Step 7: Look up your degrees of freedom (Step 6) in the t-table. If you don’t know what your alpha level is, use 5% (0.05).
+18 degrees of freedom at an alpha level of 0.05 = 2.10.
+
+Step 8: Compare your calculated value (Step 5) to your table value (Step 7). The calculated value of -1.79 is less than the cutoff of 2.10 from the table. Therefore p > .05. As the p-value is greater than the alpha level, we cannot conclude that there is a difference between means.
+
