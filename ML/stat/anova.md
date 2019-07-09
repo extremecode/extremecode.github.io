@@ -28,6 +28,7 @@ Let’s say you are studying if Alcoholics Anonymous and individual counseling c
 ### What Does “Replication” Mean?
 It’s whether you are replicating your test(s) with multiple groups. With a two way ANOVA with replication , you have two groups and individuals within that group are doing more than one thing (i.e. two groups of students from two colleges taking two tests). If you only have one group taking two tests, you would use without replication.
 
+
 ## Types of Tests.
 There are two main types: one-way and two-way. Two-way tests can be with or without replication.
 
@@ -76,3 +77,56 @@ Samples must be independent.
 Population variances must be equal.
 Groups must have equal sample sizes.
 </pre>
+
+
+### What is MANOVA?
+Analysis of variance (ANOVA) tests for differences between means. MANOVA is just an ANOVA with several dependent variables. It’s similar to many other tests and experiments in that it’s purpose is to find out if the response variable (i.e. your dependent variable) is changed by manipulating the independent variable. The test helps to answer many research questions, including:
+
+Do changes to the independent variables have statistically significant effects on dependent variables?
+* What are the interactions among dependent variables?
+* What are the interactions among independent variables?
+#### MANOVA Example
+Suppose you wanted to find out if a difference in textbooks affected students’ scores in math and science. Improvements in math and science means that there are two dependent variables, so a MANOVA is appropriate.
+
+An ANOVA will give you a single (“univariate”) f-value while a MANOVA will give you a multivariate F value. MANOVA tests the multiple dependent variables by creating new, artificial, dependent variables that maximize group differences. These new dependent variables are linear combinations of the measured dependent variables
+
+#### Interpreting the MANOVA results
+If the multivariate F value indicates the test is statistically significant, this means that something is significant. In the above example, you would not know if math scores have improved, science scores have improved (or both). Once you have a significant result, you would then have to look at each individual component (the univariate F tests) to see which dependent variable(s) contributed to the statistically significant result.
+
+#### Advantages and Disadvantages of MANOVA vs. ANOVA
+Advantages
+* MANOVA enables you to test multiple dependent variables.
+* MANOVA can protect against Type I errors.
+Disadvantages
+* MANOVA is many times more complicated than ANOVA, making it a challenge to see which independent variables are affecting dependent variables.
+* One degree of freedom is lost with the addition of each new variable.
+* The dependent variables should be uncorrelated as much as possible. If they are correlated, the loss in degrees of freedom means that there isn’t much advantages in including more than one dependent variable on the test
+
+## What is Factorial ANOVA?
+A factorial ANOVA is an Analysis of Variance test with more than one independent variable, or “factor“. It can also refer to more than one Level of Independent Variable. For example, an experiment with a treatment group and a control group has one factor (the treatment) but two levels (the treatment and the control). The terms “two-way” and “three-way” refer to the number of factors or the number of levels in your test. Four-way ANOVA and above are rarely used because the results of the test are complex and difficult to interpret.
+
+A two-way ANOVA has two factors (independent variables) and one dependent variable. For example, time spent studying and prior knowledge are factors that affect how well you do on a test.
+A three-way ANOVA has three factors (independent variables) and one dependent variable. For example, time spent studying, prior knowledge, and hours of sleep are factors that affect how well you do on a test
+
+Factorial ANOVA is an efficient way of conducting a test. Instead of performing a series of experiments where you test one independent variable against one dependent variable, you can test all independent variables at the same time.
+
+### Variability
+In a one-way ANOVA, variability is due to the differences between groups and the differences within groups. In factorial ANOVA, each level and factor are paired up with each other (“crossed”). This helps you to see what interactions are going on between the levels and factors. If there is an interaction then the differences in one factor depend on the differences in another.
+
+Let’s say you were running a two-way ANOVA to test male/female performance on a final exam. The subjects had either had 4, 6, or 8 hours of sleep.
+
+IV1: SEX (Male/Female)
+IV2: SLEEP (4/6/8)
+DV: Final Exam Score
+
+#### A two-way factorial ANOVA would help you answer the following questions:
+
+Is sex a main effect? In other words, do men and women differ significantly on their exam performance?
+Is sleep a main effect? In other words, do people who have had 4,6, or 8 hours of sleep differ significantly in their performance?
+Is there a significant interaction between factors? In other words, how do hours of sleep and sex interact with regards to exam performance?
+Can any differences in sex and exam performance be found in the different levels of sleep?
+
+#### Assumptions of Factorial ANOVA
+Normality: the dependent variable is normally distributed.
+Independence: Observations and groups are independent from each other.
+Equality of Variance: the population variances are equal across factors/levels.
