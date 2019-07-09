@@ -24,15 +24,14 @@ There are three main types of t-test:
 * An Independent Samples t-test compares the means for two groups.
 * A Paired sample t-test compares means from the same group at different times (say, one year apart).
 * A One sample t-test tests the mean of a single group against a known mean
--
 
-
-Calculating an Independent Samples T Test By hand
+### Calculating an Independent Samples T Test By hand
 
 Sample question: Calculate an independent samples t test for the following data sets:
 Data set A: 1,2,2,3,3,4,4,5,5,6
 Data set B: 1,2,4,5,5,5,6,6,7,9
 
+```markdown
 Step 1: Sum the two groups:
 A: 1 + 2 + 2 + 3 + 3 + 4 + 4 + 5 + 5 + 6 = 35
 B: 1 + 2 + 4 + 5 + 5 + 5 + 6 + 6 + 7 + 9 = 50
@@ -74,4 +73,4 @@ Step 7: Look up your degrees of freedom (Step 6) in the t-table. If you don’t 
 18 degrees of freedom at an alpha level of 0.05 = 2.10.
 
 Step 8: Compare your calculated value (Step 5) to your table value (Step 7). The calculated value of -1.79 is less than the cutoff of 2.10 from the table. Therefore p > .05. As the p-value is greater than the alpha level, we cannot conclude that there is a difference between means.
-
+```
