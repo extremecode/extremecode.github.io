@@ -12,3 +12,16 @@ The t score is a ratio between the difference between two groups and the differe
 
 * A large t-score tells you that the groups are different.
 * A small t-score tells you that the groups are similar
+
+## T-Values and P-values
+
+How big is “big enough”? Every t-value has a p-value to go with it. A p-value is the probability that the results from your sample data occurred by chance. P-values are from 0% to 100%. They are usually written as a decimal. For example, a p value of 5% is 0.05. Low p-values are good; They indicate your data did not occur by chance. For example, a p-value of .01 means there is only a 1% probability that the results from an experiment happened by chance. In most cases, a p-value of 0.05 (5%) is accepted to mean the data is valid.
+
+
+## Calculating the Statistic / Test Types
+
+There are three main types of t-test:
+* An Independent Samples t-test compares the means for two groups.
+* A Paired sample t-test compares means from the same group at different times (say, one year apart).
+* A One sample t-test tests the mean of a single group against a known mean
+-
