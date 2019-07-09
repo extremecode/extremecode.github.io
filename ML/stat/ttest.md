@@ -74,3 +74,67 @@ Step 7: Look up your degrees of freedom (Step 6) in the t-table. If you don’t 
 
 Step 8: Compare your calculated value (Step 5) to your table value (Step 7). The calculated value of -1.79 is less than the cutoff of 2.10 from the table. Therefore p > .05. As the p-value is greater than the alpha level, we cannot conclude that there is a difference between means.
 ```
+
+### paired t test
+A paired t test (also called a correlated pairs t-test, a paired samples t test or dependent samples t test) is where you run a t test on dependent samples. Dependent samples are essentially connected — they are tests on the same person or thing. For example:
+
+* Knee MRI costs at two different hospitals,
+* Two tests on the same person before and after training,
+* Two blood pressure measurements on the same person using different equipment.
+
+#### use cases
+##### 1
+Choose the paired t-test if you have two measurements on the same item, person or thing. You should also choose this test if you have two items that are being measured with a unique condition. For example, you might be measuring car safety performance in Vehicle Research and Testing and subject the cars to a series of crash tests. Although the manufacturers are different, you might be subjecting them to the same conditions.
+
+With a “regular” two sample t test, you’re comparing the means for two different samples. For example, you might test two different groups of customer service associates on a business-related test or testing students from two universities on their English skills. If you take a random sample each group separately and they have different conditions, your samples are independent and you should run an independent samples t test (also called between-samples and unpaired-samples).
+
+he null hypothesis for the for the independent samples t-test is μ1 = μ2. In other words, it assumes the means are equal. With the paired t test, the null hypothesis is that the pairwise difference between the two tests is equal (H0: µd = 0). The difference between the two tests is very subtle; which one you choose is based on your data collection method.
+
+### Calculating an paired T Test By hand
+
+Sample question: Calculate a paired t test by hand for the following data:
+paired t test example 2
+<img src="./images/ttest11.png" alt="data" class="inline"/>
+
+
+Step 1: Subtract each Y score from each X score.
+paired t test example 3
+<img src="./images/ttest12.png" alt="data" class="inline"/>
+
+Step 2: Add up all of the values from Step 1.
+Set this number aside for a moment.
+paired t test example 4
+<img src="./images/ttest13.png" alt="data" class="inline"/>
+
+
+Step 3: Square the differences from Step 1.
+paired t test example 5
+<img src="./images/ttest14.png" alt="data" class="inline"/>
+
+
+Step 4: Add up all of the squared differences from Step 3.
+paired t test example 6
+<img src="./images/ttest15.png" alt="data" class="inline"/>
+
+Step 5: Use the following formula to calculate the t-score:
+paired samples t test example
+
+<img src="./images/ttest16.png" alt="data" class="inline"/>
+
+ΣD: Sum of the differences (Sum of X-Y from Step 2)
+ΣD2: Sum of the squared differences (from Step 4)
+(ΣD)2: Sum of the differences (from Step 2), squared.
+paired t test example 7v3
+
+<img src="./images/ttest17.png" alt="data" class="inline"/>
+
+
+ 
+Step 6: Subtract 1 from the sample size to get the degrees of freedom. We have 11 items, so 11-1 = 10.
+
+Step 7: Find the p-value in the t-table, using the degrees of freedom in Step 6. If you don’t have a specified alpha level, use 0.05 (5%). For this sample problem, with df=10, the t-value is 2.228.
+
+Step 8: Compare your t-table value from Step 7 (2.228) to your calculated t-value (-2.74). The calculated t-value is greater than the table value at an alpha level of .05. The p-value is less than the alpha level: p <.05. We can reject the null hypothesis that there is no difference between means.
+
+Note: You can ignore the minus sign when comparing the two t-values, as ± indicates the direction; the p-value remains the same for both directions.
+
