@@ -55,6 +55,7 @@ Set these numbers aside for a moment.
 Step 5: Insert your numbers into the following formula and solve:
 t test formula a
 
+<img src="./images/ttest1.png" alt="data" class="inline"/>
 
 (ΣA)2: Sum of data set A, squared (Step 2).
 (ΣB)2: Sum of data set B, squared (Step 2).
@@ -65,6 +66,7 @@ t test formula a
 nA: Number of items in data set A
 nB: Number of items in data set B
 
+<img src="./images/ttest2.png" alt="data" class="inline"/>
 
 Step 6: Find the Degrees of freedom (nA-1 + nB-1) = 18
 
