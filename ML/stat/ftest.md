@@ -26,6 +26,7 @@ Step 5: Look at the f-value you calculated in Step 3 in the f-table. Note that t
 
 Step 6: Compare your calculated value (Step 3) with the table f-value in Step 5. If the f-table value is smaller than the calculated value, you can reject the null hypothesis.
 
+
 </pre>
 
 
@@ -36,7 +37,7 @@ Ha = σ21 ≠ σ2 2
 Sample problem: Conduct a two tailed F Test on the following samples:
 Sample 1: Variance = 109.63, sample size = 41.
 Sample 2: Variance = 65.99, sample size = 21.
-
+```markdown
 Step 1: Write your hypothesis statements:
 Ho: No difference in variances.
 Ha: Difference in variances.
@@ -59,3 +60,9 @@ F calculated value: 1.66
 F value from table: 2.287.
 1.66 < 2 .287.
 So we cannot reject the null hypothesis.
+```
+
+<img src="./images/ftest3.png" alt="data" class="inline"/>
+<img src="./images/ftest1.png" alt="data" class="inline"/>
+<img src="./images/ftest2.png" alt="data" class="inline"/>
+
