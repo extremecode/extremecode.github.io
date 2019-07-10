@@ -12,3 +12,5 @@ The null hypothesis for this test is that the medians of two samples are equal. 
 
 As a non-parametric alternative to the one-sample t test or paired t test.
 For ordered (ranked) categorical variables without a numerical scale.
+
+
