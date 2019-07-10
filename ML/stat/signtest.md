@@ -38,3 +38,4 @@ Step 4: Find the p-value using a [binomial distribution table](https://www.stati
 4 for the number of successes. “Successes” here is the smaller of either the positive or negative signs from Step 2.
 The p-value is 0.038, which is smaller than the alpha level of 0.05. We can reject the null hypothesis and say there is a significant difference.
 
+
