@@ -36,4 +36,4 @@ Administration, Analysis, and Reporting
 Statistics Solutions consists of a team of professional methodologists and statisticians that can assist the student or professional researcher in administering the survey instrument, collecting the data, conducting the analyses and explaining the results.
 
 ## Example
-<img src="./images/man21.jpg" alt="data" class="inline"/>
+<img src="./images/man21.png" alt="data" class="inline"/>
