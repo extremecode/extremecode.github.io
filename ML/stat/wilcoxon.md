@@ -18,19 +18,23 @@ For ordered (ranked) categorical variables without a numerical scale.
 Is there a difference between the median values for the following sets of treatment data for the twelve groups?
 wilcoxon signed rank test 1
 
+<img src="./images/wilcoxon.png" alt="data" class="inline"/>
 
 Step 1: Subtract treatment 2 from treatment 1 to get the differences:
 wilcoxon signed rank test 2
+<img src="./images/wilcoxon1.png" alt="data" class="inline"/>
 
 
 Note: If you only have one sample, calculate the differences between each variable and zero (the hypothesized median) instead of the difference between pairs.
 
 Step 2: Place the differences in order (column 2 in the picture below), and then rank them. Ignore the sign when placing in rank order.
 wilcoxon signed rank test 3
+<img src="./images/wilcoxon2.png" alt="data" class="inline"/>
 
 
 Step 3: Make a third column and note the sign of the difference (the one you ignored in Step 2!).
 wilcoxon signed rank test 4
+<img src="./images/wilcoxon3.png" alt="data" class="inline"/>
 
 
 The next two steps calculate the Wilcoxon signed rank sums:
@@ -50,6 +54,7 @@ Use the following formula for σ: √((n(n+1)(2n+1))/24)
 If you have tied ranks, you must reduce σ by t3-t/48 for each of t tied ranks. There are two tied ranks (5.5 + 5.5), so reduce σ by 8-2/48 = 0.125.
 This gives a z-score of:
 wilcoxin z v2
+<img src="./images/wilcoxon4.png" alt="data" class="inline"/>
 
 
 Looking up this score in the z-table*, we get an area of 0.9880, equal to a two-tailed p-value of 0.012. This is a tiny p-value, a strong indication that the medians are significantly different.
