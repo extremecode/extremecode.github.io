@@ -229,7 +229,7 @@ A nested ANOVA (also called a hierarchical ANOVA) is an extension of a simple AN
 Let’s say you wanted to investigate the wage gap between men and women. You also think that height affects wages (which is true — see The Atlantic’s story on Why Tall People Make More) as does obesity (also true: see Forbes’ story The Price of Obesity). Your factors or levels (sex, height, weight) are nested within each other. For example, “weight” is not a standalone factor — it’s nested under male/female. The following image shows the hierarchical model:
 nested anova
 
-<img src="./images/nested-annova-1.png" alt="data" class="inline"/>
+<img src="./images/nested-anova-1.png" alt="data" class="inline"/>
 
 In the following example, 5 different seedlings have been sampled from 5 different flowers in two different fields A and B:
 <img src="./images/nested-annova-2.png" alt="data" class="inline"/>
