@@ -130,3 +130,27 @@ Can any differences in sex and exam performance be found in the different levels
 Normality: the dependent variable is normally distributed.
 Independence: Observations and groups are independent from each other.
 Equality of Variance: the population variances are equal across factors/levels.
+
+#### steps to find annova
+Find the mean for each of the groups.
+Find the overall mean (the mean of the groups combined).
+Find the Within Group Variation; the total deviation of each member’s score from the Group Mean.
+Find the Between Group Variation: the deviation of each Group Mean from the Overall Mean.
+Find the F statistic: the ratio of Between Group Variation to Within Group Variation.
+
+
+
+### ANOVA vs. T Test
+A Student’s t-test will tell you if there is a significant variation between groups. A t-test compares means, while the ANOVA compares variances between populations.
+You could technically perform a series of t-tests on your data. However, as the groups grow in number, you may end up with a lot of pair comparisons that you need to run. ANOVA will give you a single number (the f-statistic) and one p-value to help you support or reject the null hypothesis.
+Back to Top
+
+### Repeated Measures ANOVA
+A repeated measures ANOVA is almost the same as one-way ANOVA, with one main difference: you test related groups, not independent ones. It’s called Repeated Measures because the same group of participants is being measured over and over again. For example, you could be studying the cholesterol levels of the same group of patients at 1, 3, and 6 months after changing their diet. For this example, the independent variable is “time” and the dependent variable is “cholesterol.” The independent variable is usually called the within-subjects factor.
+
+Repeated measures ANOVA is similar to a simple multivariate design. In both tests, the same participants are measured over and over. However, with repeated measures the same characteristic is measured with a different condition. For example, blood pressure is measured over the condition “time”. For simple multivariate design it is the characteristic that changes. For example, you could measure blood pressure, heart rate and respiration rate over time.
+
+#### Reasons to use Repeated Measures ANOVA
+When you collect data from the same participants over a period of time, individual differences (a source of between group differences) are reduced or eliminated.
+Testing is more powerful because the sample size isn’t divided between groups.
+The test can be economical, as you’re using the same participants.
