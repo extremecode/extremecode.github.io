@@ -34,3 +34,6 @@ Does the rank order of university preferences differ by geographic region of stu
 Administration, Analysis, and Reporting
 
 Statistics Solutions consists of a team of professional methodologists and statisticians that can assist the student or professional researcher in administering the survey instrument, collecting the data, conducting the analyses and explaining the results.
+
+## Example
+<img src="./images/man2.jpg" alt="data" class="inline"/>
