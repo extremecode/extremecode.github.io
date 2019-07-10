@@ -12,5 +12,6 @@
 [Mann Whitney](https://extremecode.github.io/ML/stat/mannwhitney)
 [Kruskal Wallis](https://extremecode.github.io/ML/stat/kruskalwallis)
 [Mood MEdian](https://extremecode.github.io/ML/stat/moodmedian)
+[Fried Man](https://extremecode.github.io/ML/stat/friedman)
 
 
