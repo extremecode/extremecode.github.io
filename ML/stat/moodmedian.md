@@ -12,6 +12,7 @@ Example 1: Repeat Example 2 of Two Sample t-Test with Equal Variance to determin
 Two samples data
 
 Figure 1 – Data for Example 1
+<img src="./images/moodmedian1.png" alt="data" class="inline"/>
 
 As can be seen in Wilcoxon Ranked Sum Test when we repeat this example using the Wilcoxon ranked sum test, this data is not normally distributed and so we need to use a non-parametric test.
 
@@ -20,6 +21,8 @@ We execute the steps in Mood’s Median Test as shown in Figure 2. Column I show
 Mood's two-sample test
 
 Figure 2 – Mood’s Median Tests for two samples
+<img src="./images/moodmedian2.png" alt="data" class="inline"/>
+
 
 Since p-value = .0405 < .05 = α, we reject the null-hypothesis, and conclude there is a significant difference between the two population medians.
 
