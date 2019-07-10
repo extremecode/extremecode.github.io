@@ -199,6 +199,8 @@ Age and weight,
 Weight and pre-existing conditions,
 Age and hereditary factors.
 </pre>
+<img src="./images/Mauchlys-test-for-phericity.gif" alt="data" class="inline"/>
+
 #### usage
 Nested models are used for several statistical tests and analyses, including multiple regression, likelihood-ratio tests, conjoint analysis, and independent of irrelevant alternatives (IIA). 
 In multiple regression and structural equation modeling (SEM), the idea is the same — that one model is nested inside another. More technically, both models must have identical terms and one of the models must have one or more extra terms. For example:
