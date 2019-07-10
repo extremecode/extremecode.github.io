@@ -16,13 +16,16 @@ The null hypothesis for the test is that the treatments all have identical effec
 Step 1: Sort your data into blocks (columns in a spreadsheet).for this example, we have 12 patients getting three different treatments.
 friedman 1
 
+<img src="./images/friedman-1.png" alt="data" class="inline"/>
 
 Step 2: Rank each column separately. The smallest score should get a rank of 1. I am ranking across rows here so each patient is being ranked a 1, 2, or 3 for each treatment.
 friedman test 2
+<img src="./images/friedman-2.png" alt="data" class="inline"/>
 
 
 Step 3: Sum the ranks (find a total for each column).
 friedman test 3
+<img src="./images/friedman-3.png" alt="data" class="inline"/>
 
 
 2. Run the Test
@@ -36,6 +39,7 @@ R: The total ranks for each of the three columns (32, 27, 13).
 Insert these into the following formula and solve:
 friedman calculations 1
 
+<img src="./images/friedman-1.jpg" alt="data" class="inline"/>
 
 
 Step 5: Find the FM critical value from the table of critical values for Friedman (see table below).
