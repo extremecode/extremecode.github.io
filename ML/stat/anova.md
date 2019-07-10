@@ -219,3 +219,32 @@ As a reminder, a “factor” is a set of observed variables that have similar r
 
 As an example, let’s say factor “A” is family and factor “B” is children. A child can be Simpson or Lawson, but not both. Bill, Frank, or Ellis are Simpson; Jace, Renee, or Polly are Lawson. These two factors (family/child) are nested because any given child exists in only one family. In more formal terms, we say that every value of B exists for one and only one value of A.
 
+#### What is nested annova
+A nested ANOVA (also called a hierarchical ANOVA) is an extension of a simple ANOVA for experiments where each group is divided into two or more random subgroups. It tests to see if there is variation between groups, or within nested subgroups of the attribute variable. You should use nested ANOVA when you have:
+
+* One measurement variable,
+* Two or more nested nominal variables (factors).
+
+#### Examples
+Let’s say you wanted to investigate the wage gap between men and women. You also think that height affects wages (which is true — see The Atlantic’s story on Why Tall People Make More) as does obesity (also true: see Forbes’ story The Price of Obesity). Your factors or levels (sex, height, weight) are nested within each other. For example, “weight” is not a standalone factor — it’s nested under male/female. The following image shows the hierarchical model:
+nested anova
+
+<img src="./images/nested-annova-1.png" alt="data" class="inline"/>
+
+In the following example, 5 different seedlings have been sampled from 5 different flowers in two different fields A and B:
+<img src="./images/nested-annova-2.png" alt="data" class="inline"/>
+
+
+#### Model I and Model II in Nested ANOVA
+A model I ANOVA (also called a fixed-effects model) is where the treatments are fixed by the experimenter. For example, if you are comparing how different weights affect health you might choose specific weight ranges. If a nested ANOVA has a highest level of Model I, it’s called a mixed model nested ANOVA.
+
+Model II ANOVAs are where the treatments are random and not fixed. For example, instead of the researcher choosing weights, they would be chosen at random. If a nested ANOVA has a highest level of model II, it’s called a pure model II nested ANOVA.
+
+#### Nested vs. Crossed Designs
+While nested models can be represented by a purely hierarchical graph — such as the ones above — crossed models involve some crossover between the levels of independent variable. An example of a pure crossed model is where two groups of students are taught different ways to solve math problems by teacher A and teacher B. As all students in both groups are exposed to teacher A’s methods and teacher B’s methods, the model is crossed. If it was nested, one group of students would only experience one teacher’s methods.
+
+Crossed designs are preferable, because they are better at detecting differences between groups than nested models. However, it may not be possible to always use crossed models — some experiments necessitate the used of nested models.
+
+In many experiments, it may not be clear if your model is nested or crossed — and in some cases you might have a combination of both. Figuring out if your design is nested or not can be challenging. Drawing a hierarchical graph like the ones above can help.
+
+The above example of the wage gap between men and women would be crossed instead of nested if it was possible for the factor levels to cross over. For example, if a man could be both short and tall, or normal weight and overweight. While this is theoretically possible (for example, you could have twins, one of whom is overweight and one is normal weight), in this case the scenario is not crossed.
