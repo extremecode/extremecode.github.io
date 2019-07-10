@@ -65,3 +65,28 @@ Step 3: Add up the different ranks for each group/sample.
 Women: 23K, 41K, 54K, 66K, 90K = 2 + 6 + 9 + 12 + 15 = 44.
 Men: 45K, 55K, 60K, 70K, 72K = 8 + 10 + 11 + 13 + 14 = 56.
 Minorities: 20K, 30K, 34K, 40K, 44K = 1 + 3 + 4 + 5 + 7 = 20.
+
+Step 4: Calculate the H statistic:
+h-test
+
+
+Where:
+
+n = sum of sample sizes for all samples,
+c = number of samples,
+Tj = sum of ranks in the jth sample,
+nj = size of the jth sample.
+h-test-2
+
+
+H = 6.72
+
+Step 5: Find the critical chi-square value, with c-1 degrees of freedom. For 3 – 1 degrees of freedom and an alpha level of .05, the critical chi square value is 5.9915.
+
+Step 6: Compare the H value from Step 4 to the critical chi-square value from Step 5.
+
+If the critical chi-square value is less than the H statistic, reject the null hypothesis that the medians are equal.
+
+If the chi-square value is not less than the H statistic, there is not enough evidence to suggest that the medians are unequal.
+
+In this case, 5.9915 is less than 6.72, so you can reject the null hypothesis.
