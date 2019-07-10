@@ -11,6 +11,7 @@ H0: σ12 ≠ σ22 ≠… ≠ σk2.
 
 The test statistic is rather ugly:
 bartlett's test
+<img src="./images/bartlett.png" alt="data" class="inline"/>
 
 
 
