@@ -7,3 +7,5 @@
 
 [Bartlett](https://extremecode.github.io/ML/stat/Bartlett)
 [Sign test](https://extremecode.github.io/ML/stat/signtest)
+[Wilcoxon](https://extremecode.github.io/ML/stat/wilcoxon)
+
