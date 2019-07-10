@@ -54,7 +54,10 @@ Step 4: Choose an alpha level. No alpha was stated in the question, so use 0.05 
 
 Step 5: Find the critical F Value using the F Table. There are several tables, so make sure you look in the alpha = .025 table. Critical F (40,20) at alpha (0.025) = 2.287.
 f-test
+```
 
+<img src="./images/ftest3.png" alt="data" class="inline"/>
+```markdown
 Step 6: Compare your calculated value (Step 2) to your table value (Step 5). If your calculated value is higher than the table value, you can reject the null hypothesis:
 F calculated value: 1.66
 F value from table: 2.287.
@@ -62,7 +65,6 @@ F value from table: 2.287.
 So we cannot reject the null hypothesis.
 ```
 
-<img src="./images/ftest3.png" alt="data" class="inline"/>
 <img src="./images/ftest1.png" alt="data" class="inline"/>
 <img src="./images/ftest2.png" alt="data" class="inline"/>
 
