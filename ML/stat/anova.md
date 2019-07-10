@@ -209,3 +209,10 @@ The larger model is called the full model and the smaller model is called the re
 
 Caution: not all nested models are as obvious as the ones I have highlighted above. Rigdon (1999) suggest caution when deciding to analyze nested models because of this fact. At the time of writing there isn’t any software that can analyze if two different structural models are similar (Bentler & Satorra).
 
+#### Nested Factors
+Nested factors ‘fit inside each other’.
+
+As a reminder, a “factor” is a set of observed variables that have similar response patterns. Two factors A and B are nested if there is an entirely different set of values of B for every value of A.
+
+As an example, let’s say factor “A” is family and factor “B” is children. A child can be Simpson or Lawson, but not both. Bill, Frank, or Ellis are Simpson; Jace, Renee, or Polly are Lawson. These two factors (family/child) are nested because any given child exists in only one family. In more formal terms, we say that every value of B exists for one and only one value of A.
+
