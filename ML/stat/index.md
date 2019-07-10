@@ -9,5 +9,6 @@
 
 [Sign test](https://extremecode.github.io/ML/stat/signtest)
 [Wilcoxon](https://extremecode.github.io/ML/stat/wilcoxon)
+[Mann Whitney](https://extremecode.github.io/ML/stat/mannwhitney)
 
 
