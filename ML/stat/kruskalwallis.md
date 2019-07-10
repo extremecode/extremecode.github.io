@@ -77,7 +77,8 @@ n = sum of sample sizes for all samples,
 c = number of samples,
 Tj = sum of ranks in the jth sample,
 nj = size of the jth sample.
-h-test-2
+
+<img src="./images/h-test1.png" alt="data" class="inline"/>
 
 
 H = 6.72
