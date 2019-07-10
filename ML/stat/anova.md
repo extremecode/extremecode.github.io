@@ -213,6 +213,7 @@ Caution: not all nested models are as obvious as the ones I have highlighted abo
 Nested factors ‘fit inside each other’.
 
 As a reminder, a “factor” is a set of observed variables that have similar response patterns. Two factors A and B are nested if there is an entirely different set of values of B for every value of A.
+<img src="./images/nestedannova.png" alt="data" class="inline"/>
 
 As an example, let’s say factor “A” is family and factor “B” is children. A child can be Simpson or Lawson, but not both. Bill, Frank, or Ellis are Simpson; Jace, Renee, or Polly are Lawson. These two factors (family/child) are nested because any given child exists in only one family. In more formal terms, we say that every value of B exists for one and only one value of A.
 
