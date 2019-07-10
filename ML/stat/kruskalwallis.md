@@ -12,3 +12,11 @@ The Kruskal Wallis test will tell you if there is a significant difference betwe
 ## Examples
 * You want to find out how test anxiety affects actual test scores. The independent variable “test anxiety” has three levels: no anxiety, low-medium anxiety and high anxiety. The dependent variable is the exam score, rated from 0 to 100%.
 * You want to find out how socioeconomic status affects attitude towards sales tax increases. Your independent variable is “socioeconomic status” with three levels: working class, middle class and wealthy. The dependent variable is measured on a 5-point Likert scale from strongly agree to strongly disagree.
+
+## Assumptions for the Kruskal Wallis Test
+Your variables should have:
+
+* One independent variable with two or more levels (independent groups). The test is more commonly used when you have three or more levels. For two levels, consider using the Mann Whitney U Test instead.
+* Ordinal scale, Ratio Scale or Interval scale dependent variables.
+* Your observations should be independent. In other words, there should be no relationship between the members in each group or between groups. For more information on this point, see: Assumption of Independence.
+* All groups should have the same shape distributions. Most software (i.e. SPSS, Minitab) will test for this condition as part of the test.
