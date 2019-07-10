@@ -69,6 +69,7 @@ Minorities: 20K, 30K, 34K, 40K, 44K = 1 + 3 + 4 + 5 + 7 = 20.
 Step 4: Calculate the H statistic:
 h-test
 
+<img src="./images/h-test.png" alt="data" class="inline"/>
 
 Where:
 
