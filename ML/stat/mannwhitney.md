@@ -11,6 +11,7 @@ Mann-Whitney U test is a non-parametric test, so it does not assume any assumpti
 
 Calculation of the Mann-Whitney U:
 
+<img src="./images/man1.jpg" alt="data" class="inline"/>
 
 Where:
 U=Mann-Whitney U test
