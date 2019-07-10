@@ -154,3 +154,58 @@ Repeated measures ANOVA is similar to a simple multivariate design. In both test
 When you collect data from the same participants over a period of time, individual differences (a source of between group differences) are reduced or eliminated.
 Testing is more powerful because the sample size isn’t divided between groups.
 The test can be economical, as you’re using the same participants.
+
+#### Assumptions for Repeated Measures ANOVA
+The results from your repeated measures ANOVA will be valid only if the following assumptions haven’t been violated:
+
+There must be one independent variable and one dependent variable.
+The dependent variable must be continuous, on an interval scale or a ratio scale.
+The independent variable must be categorical, either on the nominal scale or ordinal scale.
+Ideally, levels of dependence between pairs of groups is equal (“sphericity”). Corrections are possible if this assumption is violated.
+
+
+### Sphericity
+In statistics, sphericity (ε) refers to Mauchly’s sphericity test, which was developed in 1940 by John W. Mauchly, who co-developed the first general-purpose electronic computer.
+
+#### Definition
+Sphericity is used as an assumption in repeated measures ANOVA. The assumption states that the variances of the differences between all possible group pairs are equal. If your data violates this assumption, it can result in an increase in a Type I error (the incorrect rejection of the null hypothesis).
+
+It’s very common for repeated measures ANOVA to result in a violation of the assumption. If the assumption has been violated, corrections have been developed that can avoid increases in the type I error rate. The correction is applied to the degrees of freedom in the F-distribution.
+
+
+#### Mauchly’s Sphericity Test
+Mauchly’s test for sphericity can be run in the majority of statistical software, where it tends to be the default test for sphericity. Mauchly’s test is ideal for mid-size samples. It may fail to detect sphericity in small samples and it may over-detect in large samples.
+If the test returns a small p-value (p ≤.05), this is an indication that your data has violated the assumption. The following picture of SPSS output for ANOVA shows that the significance “sig” attached to Mauchly’s is .274. This means that the assumption has not been violated for this set of data.
+
+ou would report the above result as “Mauchly’s Test indicated that the assumption of sphericity had not been violated, χ2(2) = 2.588, p = .274.”
+
+If your test returned a small p-value, you should apply a correction, usually either the:
+* Greehnouse-Geisser correction.
+* Huynh-Feldt correction.
+When ε ≤ 0.75 (or you don’t know what the value for the statistic is), use the Greenhouse-Geisser correction.
+When ε > .75, use the Huynh-Feldt correction.
+
+### nested anova
+<pre>
+Very simply, “nested” means that one model is a subset of another. For example, take a model for pregnancy outcomes that includes four categorical independent variables:
+
+Age,
+Weight,
+Pre-existing conditions,
+Hereditary factors.
+Several smaller models can be derived from this main one, and each is “nested” inside the main model. For example:
+
+Age and weight,
+Weight and pre-existing conditions,
+Age and hereditary factors.
+</pre>
+#### usage
+Nested models are used for several statistical tests and analyses, including multiple regression, likelihood-ratio tests, conjoint analysis, and independent of irrelevant alternatives (IIA). 
+In multiple regression and structural equation modeling (SEM), the idea is the same — that one model is nested inside another. More technically, both models must have identical terms and one of the models must have one or more extra terms. For example:
+
+y = β0 + β1x1 + β2x2 + 10
+y = β0 + β1x1 + β2x2 + β3x1x2 + 10
+The larger model is called the full model and the smaller model is called the reduced model.
+
+Caution: not all nested models are as obvious as the ones I have highlighted above. Rigdon (1999) suggest caution when deciding to analyze nested models because of this fact. At the time of writing there isn’t any software that can analyze if two different structural models are similar (Bentler & Satorra).
+
