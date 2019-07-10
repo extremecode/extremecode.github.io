@@ -18,6 +18,7 @@ H1: Median of the signed differences is less than zero
 
 Step 1: Subtract set 2 from set 1 and put the result in the third column.
 sign test
+<img src="./images/sign-test.png" alt="data" class="inline"/>
 
 
 Step 2: Add a fourth column indicating the sign of the number in column 3.
