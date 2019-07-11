@@ -7,4 +7,4 @@
 [DataSet Operations](https://extremecode.github.io/ML/R/DatasetOperations)
 
 ## R Graphs
-[Graph ](https://extremecode.github.io/ML/R/Graph)
+[Graph](https://extremecode.github.io/ML/R/Graph)
