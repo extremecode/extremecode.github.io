@@ -178,6 +178,54 @@ A standard normal distribution is defined as the distribution with mean 0 and st
 
 
 ### Poisson Distribution <a name="PoissonDistribution"></a>
+
+Suppose you work at a call center, approximately how many calls do you get in a day? It can be any number. Now, the entire number of calls at a call center in a day is modeled by Poisson distribution. Some more examples are
+
+The number of emergency calls recorded at a hospital in a day.
+The number of thefts reported in an area on a day.
+The number of customers arriving at a salon in an hour.
+The number of suicides reported in a particular city.
+The number of printing errors at each page of the book.
+You can now think of many examples following the same course. Poisson Distribution is applicable in situations where events occur at random points of time and space wherein our interest lies only in the number of occurrences of the event.
+
+A distribution is called Poisson distribution when the following assumptions are valid:
+
+1. Any successful event should not influence the outcome of another successful event.
+2. The probability of success over a short interval must equal the probability of success over a longer interval.
+3. The probability of success in an interval approaches zero as the interval becomes smaller.
+
+Now, if any distribution validates the above assumptions then it is a Poisson distribution. Some notations used in Poisson distribution are:
+
+λ is the rate at which an event occurs,
+t is the length of a time interval,
+And X is the number of events in that time interval.
+Here, X is called a Poisson Random Variable and the probability distribution of X is called Poisson distribution.
+
+Let µ denote the mean number of events in an interval of length t. Then, µ = λ*t.
+
+The PMF of X following a Poisson distribution is given by:
+
+<img src="./images/distribution13.png" alt="data" class="inline"/>
+
+
+The mean µ is the parameter of this distribution. µ is also defined as the λ times length of that interval. The graph of a Poisson distribution is shown below:
+<img src="./images/distribution14.png" alt="data" class="inline"/>
+
+
+
+The graph shown below illustrates the shift in the curve due to increase in mean.
+<img src="./images/distribution15.png" alt="data" class="inline"/>
+
+
+
+It is perceptible that as the mean increases, the curve shifts to the right.
+
+The mean and variance of X following a Poisson distribution:
+
+Mean -> E(X) = µ
+Variance -> Var(X) = µ
+
+ 
 ### Exponential Distribution <a name="ExponentialDistribution"></a>
 ## Relations between the Distributions  <a name="RelationsbetweentheDistributions"></a>
 ## Test your Knowledge <a name="TestyourKnowledge"></a>
@@ -188,4 +236,4 @@ A standard normal distribution is defined as the distribution with mean 0 and st
 
 
 
-<img src="./images/distribution10.png" alt="data" class="inline"/>
+<img src="./images/distribution16.png" alt="data" class="inline"/>
