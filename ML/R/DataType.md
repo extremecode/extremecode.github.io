@@ -69,7 +69,7 @@ When you are dealing with ordinal data, you can use the same methods like with n
 
 In Data Science, you can use one label encoding, to transform ordinal data into a numeric feature.
 
-Continuous Data
+#### Continuous Data
 When you are dealing with continuous data, you can use the most methods to describe your data. You can summarize your data using percentiles, median, interquartile range, mean, mode, standard deviation, and range.
 
 Visualization Methods:
