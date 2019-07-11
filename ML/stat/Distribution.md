@@ -146,6 +146,37 @@ Variance -> Var(X) = n*p*q
 
  
 ### Normal Distribution <a name="NormalDistribution"></a>
+Normal distribution represents the behavior of most of the situations in the universe (That is why it’s called a “normal” distribution. I guess!). The large sum of (small) random variables often turns out to be normally distributed, contributing to its widespread application. Any distribution is known as Normal distribution if it has the following characteristics:
+
+The mean, median and mode of the distribution coincide.
+The curve of the distribution is bell-shaped and symmetrical about the line x=μ.
+The total area under the curve is 1.
+Exactly half of the values are to the left of the center and the other half to the right.
+A normal distribution is highly different from Binomial Distribution. However, if the number of trials approaches infinity then the shapes will be quite similar.
+
+The PDF of a random variable X following a normal distribution is given by:
+<img src="./images/distribution10.png" alt="data" class="inline"/>
+
+
+
+The mean and variance of a random variable X which is said to be normally distributed is given by:
+<img src="./images/distribution11.png" alt="data" class="inline"/>
+
+Mean -> E(X) = µ
+
+Variance -> Var(X) = σ^2
+
+Here, µ (mean) and σ (standard deviation) are the parameters.
+The graph of a random variable X ~ N (µ, σ) is shown below.
+<img src="./images/distribution12.png" alt="data" class="inline"/>
+
+
+
+A standard normal distribution is defined as the distribution with mean 0 and standard deviation 1.  For such a case, the PDF becomes:
+
+
+
+
 ### Poisson Distribution <a name="PoissonDistribution"></a>
 ### Exponential Distribution <a name="ExponentialDistribution"></a>
 ## Relations between the Distributions  <a name="RelationsbetweentheDistributions"></a>
@@ -157,4 +188,4 @@ Variance -> Var(X) = n*p*q
 
 
 
-<img src="./images/distribution1.png" alt="data" class="inline"/>
+<img src="./images/distribution10.png" alt="data" class="inline"/>
