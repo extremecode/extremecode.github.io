@@ -13,9 +13,10 @@ Set this number aside for a moment.
 
 Step 3: Insert the numbers from Step 1 and Step 2 into the test statistic formula:
 two-proprtion-z-test
-
-
+<img src="./images/prop1.png" alt="data" class="inline"/>
 two-proprtion-z-test-2
+<img src="./images/prop2.png" alt="data" class="inline"/>
+
 
 
 Solving the formula, we get:
@@ -25,6 +26,7 @@ We need to find out if the z-score falls into the “rejection region.”
 
 Step 4: Find the z-score associated with α/2. I’ll use the following table of known values:
 z alpha
+<img src="./images/prop3.png" alt="data" class="inline"/>
 
 
 The z-score associated with a 5% alpha level / 2 is 1.96.
