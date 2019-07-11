@@ -16,26 +16,29 @@ While the concept of probability gives us the mathematical calculations, distrib
 
 
 ## Table of Contents
-1. Common Data Types
-2. Types of Distributions
+1. [Common Data Types](#CommonDataTypes)
+2. [Types of Distributions](#TypesofDistributions)
    - [Bernoulli Distribution](#BernoulliDistribution)
    - [Uniform Distribution](#UniformDistribution)
    - [Binomial Distribution](#BinomialDistribution)
    - [Normal Distribution](#NormalDistribution)
    - [Poisson Distribution](#PoissonDistribution)
    - [Exponential Distribution](#ExponentialDistribution)
-3. Relations between the Distributions
-4. Test your Knowledge!
+3. [Relations between the Distributions](#RelationsbetweentheDistributions)
+4. [Test your Knowledge!](#TestyourKnowledge)
 
 - [](#)
 
+## Common Data Types <a name="CommonDataTypes"></a>
+## Types of Distributions <a name="TypesofDistributions"></a>
 ### Bernoulli Distribution <a name="BernoulliDistribution"></a>
 ### Uniform Distribution <a name="UniformDistribution"></a>
 ### Binomial Distribution <a name="BinomialDistribution"></a>
 ### Normal Distribution <a name="NormalDistribution"></a>
 ### Poisson Distribution <a name="PoissonDistribution"></a>
 ### Exponential Distribution <a name="ExponentialDistribution"></a>
-###  <a name=""></a>
+## Relations between the Distributions  <a name="RelationsbetweentheDistributions"></a>
+## Test your Knowledge <a name="TestyourKnowledge"></a>
 
 
 
