@@ -18,7 +18,7 @@ While the concept of probability gives us the mathematical calculations, distrib
 ## Table of Contents
 1. Common Data Types
 2. Types of Distributions
-   - Bernoulli Distribution
+   - [Bernoulli Distribution](#BernoulliDistribution)
    - Uniform Distribution
    - Binomial Distribution
    - Normal Distribution
@@ -26,6 +26,11 @@ While the concept of probability gives us the mathematical calculations, distrib
    - Exponential Distribution
 3. Relations between the Distributions
 4. Test your Knowledge!
+
+- [](#)
+## Bernoulli Distribution <a name="BernoulliDistribution"></a>
+
+##  <a name=""></a>
 
 
 
