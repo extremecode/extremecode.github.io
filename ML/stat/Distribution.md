@@ -227,8 +227,110 @@ Variance -> Var(X) = µ
 
  
 ### Exponential Distribution <a name="ExponentialDistribution"></a>
+
+Let’s consider the call center example one more time. What about the interval of time between the calls ? Here, exponential distribution comes to our rescue. Exponential distribution models the interval of time between the calls.
+
+Other examples are:
+
+1. Length of time beteeen metro arrivals,
+2. Length of time between arrivals at a gas station
+3. The life of an Air Conditioner
+
+Exponential distribution is widely used for survival analysis. From the expected life of a machine to the expected life of a human, exponential distribution successfully delivers the result.
+
+A random variable X is said to have an exponential distribution with PDF:
+
+f(x) = { λe-λx,  x ≥ 0
+
+and parameter λ>0 which is also called the rate.
+
+For survival analysis, λ is called the failure rate of a device at any time t, given that it has survived up to t.
+
+Mean and Variance of a random variable X following an exponential distribution:
+
+Mean -> E(X) = 1/λ
+
+Variance -> Var(X) = (1/λ)²
+
+Also, the greater the rate, the faster the curve drops and the lower the rate, flatter the curve. This is explained better with the graph shown below.
+
+ <img src="./images/distribution16.png" alt="data" class="inline"/>
+
+
+
+
+To ease the computation, there are some formulas given below.
+P{X≤x} = 1 – e-λx, corresponds to the area under the density curve to the left of x.
+
+P{X>x} = e-λx, corresponds to the area under the density curve to the right of x.
+
+P{x1<X≤ x2} = e-λx1 – e-λx2, corresponds to the area under the density curve between x1 and x2.
+
 ## Relations between the Distributions  <a name="RelationsbetweentheDistributions"></a>
+Relation between Bernoulli and Binomial Distribution
+1. Bernoulli Distribution is a special case of Binomial Distribution with a single trial.
+
+2. There are only two possible outcomes of a Bernoulli and Binomial distribution, namely success and failure.
+
+3. Both Bernoulli and Binomial Distributions have independent trails.
+
+ 
+
+Relation between Poisson and Binomial Distribution
+Poisson Distribution is a limiting case of binomial distribution under the following conditions:
+
+The number of trials is indefinitely large or n → ∞.
+The probability of success for each trial is same and indefinitely small or p →0.
+np = λ, is finite.
+ 
+
+Relation between Normal and Binomial Distribution & Normal and Poisson Distribution:
+Normal distribution is another limiting form of binomial distribution under the following conditions:
+
+The number of trials is indefinitely large, n → ∞.
+Both p and q are not indefinitely small.
+The normal distribution is also a limiting case of Poisson distribution with the parameter λ →∞.
+
+ 
+
+Relation between Exponential and Poisson Distribution:
+If the times between random events follow exponential distribution with rate λ, then the total number of events in a time period of length t follows the Poisson distribution with parameter λt.
+
+ 
+
 ## Test your Knowledge <a name="TestyourKnowledge"></a>
+
+You have come this far. Now, are you able to answer the following questions? Let me know in the comments below!
+
+1. The formula to calculate standard normal random variable is:
+
+a. (x+µ) / σ
+b. (x-µ) / σ
+c. (x-σ) / µ
+
+ 
+
+2. In Bernoulli Distribution, the formula for calculating standard deviation is given by:
+
+a. p (1 – p)
+b. SQRT(p(p – 1))
+c. SQRT(p(1 – p))
+
+ 
+
+3. For a normal distribution, an increase in the mean will:
+
+a. shift the curve to the left
+b. shift the curve to the right
+c. flatten the curve
+
+ 
+
+4. The lifetime of a battery is exponentially distributed with λ = 0.05 per hour. The probability for a battery to last between 10 and 15 hours is:
+
+a.0.1341
+b.0.1540
+c.0.0079
 
 
 
