@@ -18,3 +18,5 @@
 [Levene](https://extremecode.github.io/ML/stat/levene)
 
 
+[Proportion](https://extremecode.github.io/ML/stat/proportion)
+
