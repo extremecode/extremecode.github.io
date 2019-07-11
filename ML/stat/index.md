@@ -15,3 +15,6 @@
 [Fried Man](https://extremecode.github.io/ML/stat/friedman)
 
 
+[Levene](https://extremecode.github.io/ML/stat/levene)
+
+
