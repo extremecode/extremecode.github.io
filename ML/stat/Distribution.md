@@ -18,12 +18,12 @@ While the concept of probability gives us the mathematical calculations, distrib
 ## Table of Contents
 1. Common Data Types
 2. Types of Distributions
- - Bernoulli Distribution
- - Uniform Distribution
- - Binomial Distribution
- - Normal Distribution
- - Poisson Distribution
- - Exponential Distribution
+   - Bernoulli Distribution
+   - Uniform Distribution
+   - Binomial Distribution
+   - Normal Distribution
+   - Poisson Distribution
+   - Exponential Distribution
 3. Relations between the Distributions
 4. Test your Knowledge!
 
