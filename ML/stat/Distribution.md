@@ -27,8 +27,6 @@ While the concept of probability gives us the mathematical calculations, distrib
 3. [Relations between the Distributions](#RelationsbetweentheDistributions)
 4. [Test your Knowledge!](#TestyourKnowledge)
 
-- [](#)
-
 ## Common Data Types <a name="CommonDataTypes"></a>
 ## Types of Distributions <a name="TypesofDistributions"></a>
 ### Bernoulli Distribution <a name="BernoulliDistribution"></a>
