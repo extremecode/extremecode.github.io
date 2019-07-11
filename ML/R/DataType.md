@@ -46,3 +46,35 @@ Ratio values are also ordered units that have the same difference. Ratio values 
 
 ### Why Data Types are important?
 Datatypes are an important concept because statistical methods can only be used with certain data types. You have to analyze continuous data differently than categorical data otherwise it would result in a wrong analysis. Therefore knowing the types of data you are dealing with, enables you to choose the correct method of analysis.
+
+### How to choose graph and test on type of data
+#### Nominal Data
+When you are dealing with nominal data, you collect information through:
+
+Frequencies: The Frequency is the rate at which something occurs over a period of time or within a dataset.
+
+Proportion: You can easily calculate the proportion by dividing the frequency by the total number of events. (e.g how often something happened divided by how often it could happen)
+
+Percentage.
+
+Visualization Methods: To visualize nominal data you can use a pie chart or a bar chart.
+
+
+In Data Science, you can use one hot encoding, to transform nominal data into a numeric feature.
+<img src="./images/datatype1.png" alt="data" class="inline"/>
+
+
+#### Ordinal Data
+When you are dealing with ordinal data, you can use the same methods like with nominal data, but you also have access to some additional tools. Therefore you can summarize your ordinal data with frequencies, proportions, percentages. And you can visualize it with pie and bar charts. Additionally, you can use percentiles, median, mode and the interquartile range to summarize your data.
+
+In Data Science, you can use one label encoding, to transform ordinal data into a numeric feature.
+
+Continuous Data
+When you are dealing with continuous data, you can use the most methods to describe your data. You can summarize your data using percentiles, median, interquartile range, mean, mode, standard deviation, and range.
+
+Visualization Methods:
+
+To visualize continuous data, you can use a histogram or a box-plot. With a histogram, you can check the central tendency, variability, modality, and kurtosis of a distribution. Note that a histogram can’t show you if you have any outliers. This is why we also use box-plots.
+
+<img src="./images/datatype2.png" alt="data" class="inline"/>
+
