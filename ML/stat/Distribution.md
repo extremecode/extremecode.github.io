@@ -28,9 +28,82 @@ While the concept of probability gives us the mathematical calculations, distrib
 4. [Test your Knowledge!](#TestyourKnowledge)
 
 ## Common Data Types <a name="CommonDataTypes"></a>
+Before we jump on to the explanation of distributions, let’s see what kind of data can we encounter. The data can be discrete or continuous.
+
+Discrete Data, as the name suggests, can take only specified values. For example, when you roll a die, the possible outcomes are 1, 2, 3, 4, 5 or 6 and not 1.5 or 2.45.
+
+Continuous Data can take any value within a given range. The range may be finite or infinite. For example, A girl’s weight or height, the length of the road. The weight of a girl can be any value from 54 kgs, or 54.5 kgs, or 54.5436kgs.
+
+Now let us start with the types of distributions.
 ## Types of Distributions <a name="TypesofDistributions"></a>
 ### Bernoulli Distribution <a name="BernoulliDistribution"></a>
+Let’s start with the easiest distribution that is Bernoulli Distribution. It is actually easier to understand than it sounds!
+
+All you cricket junkies out there! At the beginning of any cricket match, how do you decide who is going to bat or ball? A toss! It all depends on whether you win or lose the toss, right? Let’s say if the toss results in a head, you win. Else, you lose. There’s no midway.
+
+A Bernoulli distribution has only two possible outcomes, namely 1 (success) and 0 (failure), and a single trial. So the random variable X which has a Bernoulli distribution can take value 1 with the probability of success, say p, and the value 0 with the probability of failure, say q or 1-p.
+
+Here, the occurrence of a head denotes success, and the occurrence of a tail denotes failure.
+Probability of getting a head = 0.5 = Probability of getting a tail since there are only two possible outcomes.
+
+The probability mass function is given by: px(1-p)1-x  where x € (0, 1).
+It can also be written as
+<img src="./images/distribution2.png" alt="data" class="inline"/>
+
+
+
+The probabilities of success and failure need not be equally likely, like the result of a fight between me and Undertaker. He is pretty much certain to win. So in this case probability of my success is 0.15 while my failure is 0.85
+
+Here, the probability of success(p) is not same as the probability of failure. So, the chart below shows the Bernoulli Distribution of our fight.
+<img src="./images/distribution3.png" alt="data" class="inline"/>
+
+
+Here, the probability of success = 0.15 and probability of failure = 0.85. The expected value is exactly what it sounds. If I punch you, I may expect you to punch me back. Basically expected value of any distribution is the mean of the distribution. The expected value of a random variable X from a Bernoulli distribution is found as follows:
+
+E(X) = 1*p + 0*(1-p) = p
+
+The variance of a random variable from a bernoulli distribution is:
+
+V(X) = E(X²) – [E(X)]² = p – p² = p(1-p)
+
+There are many examples of Bernoulli distribution such as whether it’s going to rain tomorrow or not where rain denotes success and no rain denotes failure and Winning (success) or losing (failure) the game.
 ### Uniform Distribution <a name="UniformDistribution"></a>
+When you roll a fair die, the outcomes are 1 to 6. The probabilities of getting these outcomes are equally likely and that is the basis of a uniform distribution. Unlike Bernoulli Distribution, all the n number of possible outcomes of a uniform distribution are equally likely.
+
+A variable X is said to be uniformly distributed if the density function is:
+
+<img src="./images/distribution4.png" alt="data" class="inline"/>
+
+
+The graph of a uniform distribution curve looks like
+
+
+<img src="./images/distribution5.png" alt="data" class="inline"/>
+
+You can see that the shape of the Uniform distribution curve is rectangular, the reason why Uniform distribution is called rectangular distribution.
+
+For a Uniform Distribution, a and b are the parameters. 
+
+The number of bouquets sold daily at a flower shop is uniformly distributed with a maximum of 40 and a minimum of 10.
+
+Let’s try calculating the probability that the daily sales will fall between 15 and 30.
+
+The probability that daily sales will fall between 15 and 30 is (30-15)*(1/(40-10)) = 0.5
+
+Similarly, the probability that daily sales are greater than 20 is  = 0.667
+
+The mean and variance of X following a uniform distribution is:
+
+Mean -> E(X) = (a+b)/2
+
+Variance -> V(X) =  (b-a)²/12
+
+The standard uniform density has parameters a = 0 and b = 1, so the PDF for standard uniform density is given by:
+
+<img src="./images/distribution6.png" alt="data" class="inline"/>
+
+
+ 
 ### Binomial Distribution <a name="BinomialDistribution"></a>
 ### Normal Distribution <a name="NormalDistribution"></a>
 ### Poisson Distribution <a name="PoissonDistribution"></a>
