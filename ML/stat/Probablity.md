@@ -4,20 +4,22 @@ What is probability?
 
 Probability is the chance that something will happen — how likely it is that some event will happen.
 
+<img src="./images/Prob17.png" alt="data" class="inline"/>
 
-Courtesy: https://www.mathsisfun.com/data/probability.html
+[Courtesy](https://www.mathsisfun.com/data/probability.html)
+
 Probability of an event happening P(E) = Number of ways it can happen n(E)/ Total number of outcomes n(T)
 
 Probability is the measure of the likelihood that an event will occur. Probability is quantified as a number between 0 and 1, where 0 indicates impossibility and 1 indicates certainty.
 
-Why probability is important?
+## Why probability is important?
 
 Uncertainty and randomness occur in many aspects of our daily life and having a good knowledge of probability helps us make sense of these uncertainties. Learning about probability helps us make informed judgments on what is likely to happen, based on a pattern of data collected previously or an estimate.
 
-Why is Learning About Probability Important?
+## Why is Learning About Probability Important?
 
 Uncertainty and randomness occur in many aspects of our daily life and having a good knowledge of probability helps us…
-medium.com	
+
 How Probability is used in Data Science?
 
 Data science often uses statistical inferences to predict or analyze trends from data, while statistical inferences uses probability distributions of data. Hence knowing probability and its applications are important to work effectively on data science problems.
