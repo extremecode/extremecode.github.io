@@ -11,6 +11,7 @@ ls()
 
 ### create an numeric 
 num1 <- 40
+
 class(num1)
 ```markdown
 [1] "numeric"
@@ -19,6 +20,7 @@ class(num1)
 ### Create an integer
 
 int1<- 40L
+
 class(int1)
 ```markdown
 [1] "integer"
@@ -27,16 +29,19 @@ class(int1)
 Note-- Operations remain the same only the storage type changes
 
 a=num1+10
+
 class(a)
 ```markdown
 [1] "numeric"
 ```
 int1=int1 +10
+
 class(a)
 ```markdown
 [1] "numeric"
 ```
 int1<-40L
+
 b=int1+10L
 class(b)
 ```markdown
@@ -56,6 +61,7 @@ int2<-as.integer(num1)
 
 ### Override data types post creation
 num2<-as.numeric(int2)
+
 class(num2)
 ```markdown
 [1] "numeric"
@@ -70,11 +76,13 @@ is.integer(num2)
 ```
 #### do type conversion on a list
  a<-c("5","4")
+ 
  class(a)
 ```markdown
 [1] "character"
 ```
  b<-as.integer(a)
+ 
  is.integer(b)
  ```markdown
 [1] TRUE
@@ -84,6 +92,7 @@ is.integer(num2)
 [1] "integer
 ```
  num1<-40
+ 
  is.numeric(num1)
  ```markdown
 [1] TRUE
@@ -112,6 +121,7 @@ Levels: 40
 
 #### for a character variable
  char1<-'Hello'
+ 
  char1
  ```markdown
  [1] "Hello"
@@ -144,27 +154,32 @@ Levels: Hello
 
 
 ## vectors
-v1 <- c(12,14,15,20,25) -- Numerical
-v1  -- numerical vector
+v1 <- c(12,14,15,20,25) # Numerical
+
+v1  # numerical vector
  ```markdown
 [1] 12 14 15 20 25
  ```
-v2 <- c("ram","sam","irfan","uma","zora" ) 
+v2 <- c("ram","sam","irfan","uma","zora" )
+
  v2
 ```markdown
 [1] "ram"   "sam"   "irfan" "uma"   "zora" 
 ```
  v3<-c("M","M","F","M")
+ 
  v3
 ```markdown
 [1] "M" "M" "F" "F"
 ```
 v4 <- c(TRUE,TRUE,FALSE,TRUE,TRUE)  #logical
+
  v4
 ```markdown
 [1]  TRUE  TRUE FALSE  TRUE  TRUE
 ```
 v5 <-c(12000,14000,0,20000,25000) 
+
  v5
 ```markdown
 [1] 12000 14000     0 20000 25000
@@ -174,6 +189,7 @@ v5 <-c(12000,14000,0,20000,25000)
 [1] 12000 14000 15000 20000 25000
 ```
  cust<-data.frame(id,v1,v2,v3,v4)
+ 
  cust 
 ```markdown
   id v1    v2 v3    v4
@@ -211,6 +227,7 @@ v5 <-c(12000,14000,0,20000,25000)
 
 
 cust<-data.frame(id,v1,v2,v3,v4,stringsAsFactors = FALSE)
+
 str(cust)
 ```markdown
 'data.frame':	5 obs. of  5 variables:
@@ -221,12 +238,14 @@ str(cust)
  $ v4: logi  TRUE TRUE FALSE TRUE TRUE
  ```
 cust$v3<-as.factor(v3)
+
 v3
 ```markdown
 [1] "M" "M" "F" "F" "M"
 ```
 cust$v3<-as.factor(v3)
- str(v3)
+
+str(v3)
  ```markdown
  chr [1:5] "M" "M" "F" "F" "M"
  ```
@@ -245,6 +264,7 @@ fix(cust)
 
 ### similar like data frame character mode
 news<-c("north","east","west","south")
+
 news
 ```markdown
 [1] "north" "east"  "west"  "south"
@@ -254,6 +274,7 @@ mode(news)
 [1] "character"
 ```
 news<-as.factor(news)
+
 str(news)
 ```markdown
  Factor w/ 4 levels "east","north",..: 2 1 4 3
@@ -264,6 +285,7 @@ str(news)
 
 ### matrix operation and definations
 matr1<-matrix(1:12,ncol=4)
+
 matr1
 ```markdown
 [,1] [,2] [,3] [,4]
@@ -272,6 +294,7 @@ matr1
 [3,]    3    6    9   12
 ```
 matr2<-matrix(1:12,nrow=4)
+
 matr2
 ```markdown
 [,1] [,2] [,3]
@@ -295,6 +318,7 @@ dim(matr2)
 
 
 matdf<-as.data.frame(matr1)
+
 matdf
 ```markdown
   V1 V2 V3 V4
@@ -307,6 +331,7 @@ class(matdf)
 [1] "data.frame"
 ```
 mat<-as.matrix(matr1)
+
 class(mat)
 ```markdown
 [1] "matrix"
@@ -329,6 +354,7 @@ v1
 
 #### do a horizontal or row level matrix creation
 idv1<-rbind(id,v1)
+
 idv1
 ```markdown
     [,1] [,2] [,3] [,4] [,5]
@@ -339,8 +365,9 @@ class(idv1)
 ```markdown
 [1] "matrix"
 ```
-#### do a horizontal or row level matrix creation
+#### do a horizontal or column level matrix creation
 idv1cbind<-cbind(id,v1)
+
 idv1cbind
 ```markdown
       id v1
@@ -393,7 +420,7 @@ matr1
 ```
 
 
- #### matrix multiplication
+#### matrix multiplication
 matr1
 ```markdown
        col1 col2 col3 col4
@@ -410,7 +437,9 @@ matr2
 [4,]    4    8   12
 ```
 mulmat <- matr-1  *  1
+
 mulmat <- matr1 %*% matr2
+
 mulmat
 ```markdown
       [,1] [,2] [,3]
@@ -439,6 +468,7 @@ matr2
 
 
 objlist1<-list(1,"ram",100)
+
 objlist1
 ```markdown
 [[1]]
@@ -474,12 +504,14 @@ emp2    2    5    8   11
 emp3    3    6    9   12
 ```
 rowsum<-rowSums(matr1)
+
 rowsum
 ```markdown
 emp1 emp2 emp3 
 22   26   30 
 ```
 colsum<-colSums(matr1)
+
 colsum
 ```markdown
 col1 col2 col3 col4 
@@ -488,6 +520,7 @@ col1 col2 col3 col4
 
 
 cust[1,3]<-"peter"
+
 cust
 ```markdown
   id v1    v2 v3    v4
@@ -500,6 +533,7 @@ cust
 
 #### fill a vector values i matrix
 array1<-array(1:27,dim=c(3,3,3))
+
 array1
 ```markdown
 , , 1
@@ -530,6 +564,7 @@ class(array1)
 
 #### filling repeating values in a matrix
 array2<-array(1:0,dim=c(3,3,3))
+
 array2
 ```markdown
 , , 1
@@ -582,6 +617,7 @@ array2
 
 
 array2<-array(rnorm(50),dim=c(3,3,3))
+
 array2
 ```markdown
 , , 1
@@ -620,6 +656,7 @@ Mean   :3   Mean   :17.2                            NA's :0
 attach(emp)
 #### as u can see we defined the table
 count<-table(gender,jobcat)
+
 count
 ```markdown
         jobcat
