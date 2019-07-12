@@ -105,9 +105,92 @@ You can also see that the total probability is 1. There are only these 2 possibi
 Let’s see how these probabilities look like. The probability function for a discrete random variable is the probability mass function. It shows the exact probabilities for a particular value of the random variable.
 
 Here is an important thing to note, a sum of 2.5 is not possible on the throw of two dice. So essentially, my random variable is discrete. There are only fixed integer values that it can take and we can see the probabilities of each occurring.
+<img src="./images/Prob1.png" alt="data" class="inline"/>
+
 ## Binomial Distribution <a name="BinomialDistribution"></a>
+Most of the times, the situations we encounter are pass-fail type. The democrats either win or lose the election. I either get a heads or tails on the coin toss. You either win or lose your football game (assuming that there is always a forced outcome). So there are only two outcomes – win and lose or success and failure. The likelihood of the two may or may not be the same.
+
+Let us understand this through an interesting example.
+
+Let’s say your football team is playing a series of 5 games against your opponent. Who ever wins more games (out of 5) wins the title.
+
+Let us say, your team might is more skilled and has 75% chances of winning. So, there is a 25% chance of losing it.
+
+What is the probability of you winning the series? Is it 75% or is it something else?
+
+Let us find out. What are the possible scenarios in playing 5 games?
+
+WWWWW, WWWWL, WWWLL, WWLLL, WLLLL, LLLLL, LWWWW and so on….
+
+So for the first game, there are two possibilities, you either win or lose, again for the second game we have two possibilities. Assuming that the first game has no effect on the outcome of the second – No one gets tired, no one gets under pressure after losing etc.
+
+So let’s define our random variable X to be a number of wins in 5 games. Remember probability of winning is 0.75 and losing is 0.25. Assume that a tie doesn’t happen.
+
+X=Number of wins in 5 games
+
+So the first game has 2 outcomes – win and lose, second again has 2 and so on.
+
+So total possibilities is 2*2*2*2*2 = 32
+
+P (X=0) denotes the probability that you lose all the games and there is only one way that can happen i.e. {LLLLL} = 0.25*0.25*0.25*0.25*0.25 (multiplying the probabilities of losing the each time, lost first time and second time and third time and so on..)
+P(X=1) denotes the probability that you win only 1 game i.e.(WLLLL or LWLLL or LLWLL or LLLWL or LLLLW). So there are 5 cases where you win 1 game = 5*0.75*0.25*0.25*0.25*0.25=0.0146
+While we can count each of these possible outcomes, it becomes very exhaustive and intensive exercise. Let us take help of combinatorics here. Choose 2 wins out of 5 games = 5C2 ()
+
+so, the Probability for getting k successes in n Bernoulli trails is given by:
+
+P(X=k) = nCk pk qn-k  ,  here p is the probability of success and q is the probability of failure
+
+Let’s see how this comes.
+
+P(X=2) denotes the probability that you win 2 games. So there are 5C2() = 10 cases where you win 2 games. Hence probability = 10*0.75*0.75*0.25*0.25*0.25=0.088
+P(X=3) denotes the probability that you win 3 games. So, there are 5C3() =10 cases where you win 3 games. Hence probability = 10*0.75*0.75*0.75*0.25*0.25=0.264
+Similarly,  P(X=4) = 0.395
+P(X=5) = 0.237
+What we just calculated were discrete probabilities for a Binomial distribution. If we look at these probabilities we get something like:
+As you can see the probability of winning the series is much higher than 0.75.
+
+The general definition of a binomial distribution is the discrete probability distribution of the number of success in a sequence of n independent Bernoulli trials (having only yes/no or true/false outcomes).
+
+If the events are equally likely to occur i.e. p = q = 0.5, the probability distribution looks something like the graph below. Here the probability of success and failure is the same.
+
+<img src="./images/Prob2.png" alt="data" class="inline"/>
+
+
+What difference do we see in the two probability distributions?  The first one is skewed towards right. Reason being the likelihood to win is more, hence more wins are more likely than more losses.
+
+In the second case when wins and losses are equally likely, so the distribution is symmetrical.
+
+ <img src="./images/Prob3.png" alt="data" class="inline"/>
+
+
+Let’s assume that probability of winning and losing is equal. p=q=0.5
+
+Now, What if I increase my number of trials? What if I play 20 games of football with a probability of winning and losing to be 50-50? There are a lot more possibilities and combinations. The bars get thinner and thinner.
+
+The bars get thinner and thinner.
+
+<img src="./images/Prob4.png" alt="data" class="inline"/>
+
+
+What if I play an infinite number of times with equal probability for winning and losing?
+
+The bars get infinitely small and the probability distribution looks something like a continuous set of bars which are very close, almost continuous. This now becomes a probability density function. Notice that this now becomes a continuous function.
+
+<img src="./images/Prob5.png" alt="data" class="inline"/>
+
+
+
+Let’s point out some interesting things that happened.
+
+The probabilities are high for the mean values of the random variables. When we were playing 5 football games, the random variable (X = the wins) could take values between 0 – 5. The mean value being 2.5. The probability is highest for 2 and 3. When we move towards the continuous curve, the probability is highest for the exact mean
+The probabilities are low as we move away from the mean.
+ 
+
 ## Continuous Random variable <a name="ContinuousRandomvariable"></a>
 ## Central Limit Theorem <a name="CentralLimitTheorem"></a>
 ## Area under a Normal Distribution <a name="AreaunderaNormalDistribution"></a>
 ## Z scores <a name="Zscores"></a>
 ## Open Challenges <a name="OpenChallenges"></a>
+
+
+<img src="./images/Prob1.png" alt="data" class="inline"/>
