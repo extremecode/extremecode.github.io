@@ -12,4 +12,12 @@ Statistically, the probability of any one of us being here is so small that youâ
 ### [Z scores](#)
 ### [Open Challenges](#)
 
-## What is Probability?
+## What is Probability? <a name="WhatisProbability"></a>
+## Random Variables <a name="RandomVariables"></a>
+## Calculating Probability <a name="CalculatingProbability"></a>
+## Binomial Distribution <a name="BinomialDistribution"></a>
+## Continuous Random variable <a name="ContinuousRandomvariable"></a>
+## <a name=""></a>
+## <a name=""></a>
+## <a name=""></a>
+## <a name=""></a>
