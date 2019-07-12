@@ -187,10 +187,147 @@ The probabilities are low as we move away from the mean.
  
 
 ## Continuous Random variable <a name="ContinuousRandomvariable"></a>
+
+Let’s see some cases where the random variables are continuous. Let’s say the weatherman is trying to measure the amount of rainfall that will happen tomorrow.
+
+Let’s say the rainfall likely to happen is around 2 cm. But will it be exactly 2 cm? It can be 2.001 or 2.000001 or 2.000000001 and an infinite number of values in between. It’s even impossible for us to measure if it’s exactly 2 cm.
+
+So, we calculate the probability of it, being in a range. We calculate the probability of rainfall being in the range of 2 cm to 2.01 cm. It will be the sum of probabilities for all values between 2 and 2.01. The area under the probability density function with limits 2 and 2.01 will give us that.
+<img src="./images/Prob6.png" alt="data" class="inline"/>
+
+
+
+The probability density function may or may not be symmetrical.
+
+Life of an insect
+Suppose there is an insect whose lifespan ranges from 0 to 16 days. We’re looking for the probability that it will die in around 5 to 6 days. Again we would need the sum of probabilities for all values between 5 days and 6 days.
+
+We look at the probability density function and find the area of the graph under the limits of 5 and 6. We can use definite integration under the desired limits for the probability density to find the area. We’re often interested in the probability of a range of values rather than the probability of an exact value.
+
+<img src="./images/Prob7.png" alt="data" class="inline"/>
+
+
+We can now imagine that the probability at a particular point would be the area of the thinnest possible bar we can imagine. To calculate the probability at x, we would need the area from x to x+Δ, where Δ is very very small.
+
+The total probability density function would then be the collection of all such areas / probabilities.
+
+The formula of the probability density function can be written as:
+
+
+<img src="./images/Prob8.png" alt="data" class="inline"/>
+
+For a point x, Δ is the small value right after the point x.  We try to calculate the probability from x to x+ Δ, with limit if Δ tends to 0.
+
+
 ## Central Limit Theorem <a name="CentralLimitTheorem"></a>
+So when you have huge amount of data, you can be confused how to make sense of it. It is difficult to know what’s happening underneath it. To tackle this problem, what we do is take a small chunk of data & look at it. But we won’t be satisfied with just a single chunk. We’d try to look at multiple chunks to be sure of results.
+
+Let’s say we have the cholesterol levels of all the people in India, we can look at the mean, median and mode of the data.  Maybe plot a histogram with sensible ranges and look at the data. Let’s assume this is how the data looks like. The mean of this data is 153.2
+
+<img src="./images/Prob9.png" alt="data" class="inline"/>
+
+
+But this huge amount of data is really tough to process. To process it, we take the data of some 50 people and calculate their mean.
+
+We again take a sample of some 50 people and calculate the mean and we keep doing that for quite a number of times. We now plot the means of these samples.
+<img src="./images/Prob10.png" alt="data" class="inline"/>
+
+
+We see that these sample means form a frequency distribution which looks very symmetrical. The frequency around the mean of the actual data is the highest and gradually reduces as we move away from the mean on the either side.
+
+So when we take means of cholesterol levels of 50 people, again and again, we observe the mean values are around 150-160. Only a few mean values is more than 170 and less than 140. There are very, very few over 190 or less than 110.
+
+We can easily convert the frequencies to see probabilities. If we divide the frequency of a bin (range like 110 to 120) by the total number of data points, we get the probabilities of each bin. So, now the frequency distribution becomes a probability distribution of the same shape. The probability distribution approaches more and more towards
+
+The probability distribution approaches more and more towards symmetry, when the sample size that we use to create those means, is very large. As the sample size approaches infinity, the probability distribution becomes a perfectly symmetrical where the center of the curve is the mean of the population. The curve is known as normal distribution.
 ## Area under a Normal Distribution <a name="AreaunderaNormalDistribution"></a>
+What is a normal distribution?
+The normal distribution informally called as a bell curve looks like this:
+
+<img src="./images/Prob11.png" alt="data" class="inline"/>
+
+
+The equation of the normal distribution happens to be:
+
+<img src="./images/Prob12.png" alt="data" class="inline"/>
+
+
+Here µ is the mean of the data while σ is the standard deviation of the data.
+
+The normal distribution is perfectly symmetrical about the mean. The probabilities move similarly in both directions around the mean. The total area under the curve is 1, since summing up all the possible probabilities would give 1.
+
+The distribution might vary a bit depending upon how spread the data is. If the data has a very high range and standard deviation, the normally distributed curve would be spread out and flatter, since a large number of values would be sufficiently away from the mean.
+
+Also, if a lot of values are away from the mean, the probability for data being around the mean also drops. Similarly, if the standard deviation is low, which means most of the values are near around the mean, there is high probability of the sample mean being around the mean and the distribution is a lot skinnier. The higher the standard deviation, the thicker and flatter the curve.
+
+<img src="./images/Prob13.png" alt="data" class="inline"/>
+
+
+Let’s summarise the main points we saw:
+
+Area under a probability density function gives the probability for the random variable to be in that range.
+If I have a population data and I take random samples of equal size from the data, the sample means are approximately normally distributed
+There is large probability for the means to be around the actual mean of the data, than to be farther away
+Normal distributions for higher standard deviations are flatter as compared to those for lower standard deviations
+ 
+
+7. Area Under the Normal Distribution
+Now, let’s say I have a dataset of cholesterol levels of a number of patients and we need to calculate the probability of how many patients are healthy.
+
+The mean value (µ) for cholesterol of all the patients is equal to 150 and standard deviation (σ) is equal to 15. The probability density function is a normal distribution given by the above equation.
+
+We need to calculate the probability of cholesterol levels to be between 135 (150-15) and 165 (150+15) – the healthy cholesterol range.
+
+Can you see that the healthy patients that we are talking about are one standard deviation on either side of the mean? This means we need to calculate the area under the curve with 135 and 165 as limits. Don’t worry, this area for normal distribution is already calculated for us and is ~68%.
+
+So always for a normally distributed data, around 68% of the data falls within 1 standard deviation of the mean. So probability of the data being within 1 standard deviation if the mean = 0.68
+
+<img src="./images/Prob14.png" alt="data" class="inline"/>
+
+
+Let’s also calculate the probability of being 2 standard deviations away from the mean. Let’s say we need to warn the patients who are two standard deviations away.
+
+This means 150+30 and 150-30.
+
+The range of area to be calculated now is 120 to 180.
+
+To your surprise, 95% of the values fall in this range.
+
+<img src="./images/Prob15.png" alt="data" class="inline"/>
+
+
+So the major chunk of the data falls within 2 standard deviations of the mean. So, we can safely say, that for the data to be more than 2 standard deviations away from the mean is highly unlikely – only 5% likely.
+
+So, 95% of the patients have their cholesterol levels between 120 and 180. And the remaining 5% are really critical and different from the average values.
 ## Z scores <a name="Zscores"></a>
+We will encounter a lot of cases, where we would need to know the probability for the data to be less than or more than a particular value. This value will not be equal to 1σ or 2σ away from the mean.
+
+The distance in terms of number of standard deviations, the observed value is away from the mean, is the standard score or the Z score.
+
+A positive Z score indicates that the observed value is Z standard deviations above the mean. Negative Z score indicates that the value is below the mean.
+
+Observed value = µ+zσ [µ is the mean and σ is the standard deviation]
+
+In our cholesterol example, let’s see where 172 falls on the distribution. We will calculate the Z score to find the percentage of people having cholesterol less than 172.
+
+172 = 150+Z*15
+
+Here, we see that 172 is 1.47 {(142-150)/15} standard deviations more than the mean. This 1.47 is known as the z value.
+
+Now, we would need to use these limits to calculate the area under the curve. Remember that the area under the curve is 1. Let’s calculate the probability of people having a cholesterol level of less than 172.
+
+To your happiness, you will never have to actually calculate the area under the normal curve, we have the z table that can be used to calculate the probabilities for particular z values. The rows of the Z table have the Z score in tens, while the hundredths decimal is given by the columns. The value is the area under the curve less than that Z score.
+
+<img src="./images/Prob16.png" alt="data" class="inline"/>
+
+
+For a particular z score, we can look into the table to find the probability for values to fall less than that particular z value. It can be –ve or +ve. If we look out for 1.47, we find that ~93% data falls less than that. Therefore, 93% patients have cholesterol less than 172. Also, we can safely say that 7% have cholesterol more than 172.
+
+ 
 ## Open Challenges <a name="OpenChallenges"></a>
 
+Hope you found the guide simple and useful. I hope some one would have given this early in my career. Here are a few challenges for you to try:
 
-<img src="./images/Prob1.png" alt="data" class="inline"/>
+Challenge 1: Contrary to the popular expectation, try calculating the probability of getting 50 heads and 50 tails on 100 flips of fair coins? This expectation is known as the gambler’s fallacy! An approximate answer would suffice!
+
+Challenge 2: Try another one – In the United States, the average IQ is 100, with a standard deviation of 15. What percentage of the population would you expect to have an IQ more than 120?
