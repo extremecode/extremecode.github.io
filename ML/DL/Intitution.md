@@ -50,3 +50,9 @@ In (1), we often take some linear combination of the inputs. In layman terms, if
 
 
 
+where the individual blanks are parameters to be optimized for later (i.e. learn from the data what numbers best fill in those blanks). In mathematical terms, the blanks that are attached to the inputs (x1, x2 and x3) are called weights and the blank that is not attached to any input is called the bias.
+With the linear combination, we apply some function (called the activation function) to achieve our eventual output. Common examples of these functions are:
+Sigmoid Function (A function which ‘squeezes’ all the initial output to be between 0 and 1)
+tanh Function (A function which ‘squeezes’ all the initial output to be between -1 and 1)
+ReLU Function (If the initial output is negative, then output 0. If not, do nothing to the initial output)
+That’s all there is to a neuron!
