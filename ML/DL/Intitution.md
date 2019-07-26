@@ -15,5 +15,15 @@ Add to a large bowl __ cups of flour, __ tablespoon of salt and __ tablespoons o
 In a separate bowl, dissolve __ package of yeast in warm water.
 Combine the two bowls and knead for __ minutes.
 
+### Lets try to understand
+The blanks are numbers that are not specified in the beginning but we will have to find out. We then write an algorithm (another series of instructions) to figure out those numbers according to what is “best” (we’ll define this later), relying on the data that we have access to.
+At a very high level, the task of Machine Learning is thus two-fold:
+Find the best template that is best suited for the task. Deep Learning is simply a subset of the templates we get to choose from that have proven effective across many tasks.
+Use the data to figure out what are the best numbers to fill up the template. This is the “Learning” part of “Machine Learning”.
+
+To give a more concrete example, consider the task of predicting house prices based on features such as house size (in sq m), number of stories, distance to nearest school (in m) etc.
+```markdown
+A standard algorithm might perhaps be something like this: The house price is approximately (100 * house size) + (1000 * number of stories) — (30 * distance to nearest school. A (parametric) Machine Learning approach would look something like this:
+```
 
 
