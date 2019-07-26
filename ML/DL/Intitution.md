@@ -201,6 +201,30 @@ The purpose of the pooling layer, ultimately, is to reduce the spatial size (wid
 To give a quick example, let’s suppose after our first conv layer (with pooling), we have an output dimension of 256 * 256 * 64. We now apply a max-pooling (with filter size 2x2 and stride 2) operation to this, what are the output dimensions after the max pooling layer?
 — —
 Answer: 128 * 128 * 64, since the max-pool operator reduces the dimensions on the width and height by half, while leaving the depth dimension unchanged.
-<img src="./images/dl_intitution10.png" alt="data" class="inline"/>
-<img src="./images/dl_intitution10.png" alt="data" class="inline"/>
-<img src="./images/dl_intitution10.png" alt="data" class="inline"/>
+
+
+The last layer that commonly appears in CNNs is one that we’ve seen before in earlier parts — and that is the Fully-Connected (FC) layer. The FC layer is the same as our standard neural network — every neuron in the next layer takes as input every neuron in the previous layer’s output. Hence, the name Fully Connected, since all neurons in the next layer are always connected to all the neurons in the previous layer
+<img src="./images/dl_intitution20.png" alt="data" class="inline"/>
+
+We usually use FC layers at the very end of our CNNs. So when we reach this stage, we can flatten the neurons into a one-dimensional array of features. If the output of the previous layer was 7 * 7 * 5, we can flatten them into a row of 7*7*5 = 245 features as our input layer in the above diagram. Then, we apply the hidden layers as per usual.
+Summary: We also typically use our traditional Fully-Connected layers at the end of our CNNs.
+Now let’s put them all together. One important benchmark that is commonly used amongst researchers in Computer Vision is this challenge called ImageNet Large Scale Visual Recognition Challenge (ILSVRC). ImageNet refers to a huge database of images, and the challenge of ILSVRC is to accurately classify an input image into 1,000 separate object categories.
+One of the models that was hailed at the turning point in using deep learning is AlexNet, which won the ILSVRC in 2012. In a paper titled “The History Began from AlexNet: A Comprehensive Survey on Deep Learning Approaches”, I quote:
+AlexNet achieved state-of-the-art recognition accuracy against all the traditional machine learning and computer vision approaches. It was a significant breakthrough in the field of machine learning and computer vision for visual recognition and classification tasks and is the point in history where interest in deep learning increased rapidly.
+
+
+AlexNet showed that amazing improvements in accuracy can be achieved when we go deep — i.e. stack more and more layers together like we’ve seen. In fact, architectures after AlexNet decided to keep going deeper, with more than a hundred layers!
+AlexNet’s architecture can be summarized somewhat as follows:
+
+As you can see, AlexNet is simply made out of the building blocks of:
+* Conv Layers (with ReLU acitvations)
+* Max Pool Layers
+* FC Layers
+* Softmax Layers
+These are layers we’ve all seen in one way or another thus far! As you can see, we’ve already covered the building blocks for powerful Deep Learning models and all we need to do is stack many of these layers together. Why does stacking so many layers together work, and what is each layer really doing?
+We can visualize some of the intermediate layers. This is a visualization of the first conv layer of AlexNet:
+<img src="./images/dl_intitution21.png" alt="data" class="inline"/>
+We can see that in the first few layers, the neural network is trying to extract out some low-level features. These first few layers then combine in subsequent layers to form more and more complex features, and in the end, figure out what represents objects like cats, dogs etc.
+Why did the neural network pick out those features in particular in the first layer? It just figured out that these are the best parameters to characterize the first few layers; they simply produced the minimal loss.
+Summary: AlexNet was a CNN which revolutionized the field of Deep Learning, and is built from conv layers, max-pooling layers and FC layers. When many layers are put together, the earlier layers learn low-level features and combine them in later layers for more complex representations.
+<img src="./images/dl_intitution22.png" alt="data" class="inline"/>
