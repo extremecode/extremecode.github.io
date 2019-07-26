@@ -24,6 +24,29 @@ Use the data to figure out what are the best numbers to fill up the template. Th
 To give a more concrete example, consider the task of predicting house prices based on features such as house size (in sq m), number of stories, distance to nearest school (in m) etc.
 ```markdown
 A standard algorithm might perhaps be something like this: The house price is approximately (100 * house size) + (1000 * number of stories) — (30 * distance to nearest school. A (parametric) Machine Learning approach would look something like this:
+Step 1: I’ve specified the template: The house price is __ * house size + __ * number of stories + __ * distance to nearest school.
+Step 2: Looking at the data of all the houses I have listed, it seems that the best numbers to fill in the blanks is (90.3, 1006.2, -40.5) respectively.
 ```
+
+### examples of such input-output pairs are:
+* Input: Image (a series of pixels) from a photograph; Output: TRUE/FALSE on whether there is a car in the image or not
+* Input: Image (a series of pixels) from a Chest X-Ray; Output: Probability on the likelihood the person has a chest infection
+* Input: Sound Recording of a customer-service call; Output: A prediction on how the customer felt about the call with a score from 1–10
+* Input: Sequence of words in English; Output: The corresponding translation in French
+
+### Idea
+Summary: Machine Learning consists of two steps: specify a template and find the best parameters for that template.
+
+
+
+## Deep Learning 
+Deep Learning is simply a subset of the architectures (or templates) that employs “neural networks” which we can specify during Step 1. “Neural networks” (more specifically, artificial neural networks) are loosely based on how our human brain works, and the basic unit of a neural network is a neuron.
+At the basic level, a neuron does two things:
+Receive input from other neurons and combine them together
+Perform some kind of transformation to give the neuron’s output
+In (1), we often take some linear combination of the inputs. In layman terms, if we had three inputs to the neuron (let’s call them x1, x2, and x3), then we would combine them like this:
+
+
+
 
 
