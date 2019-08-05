@@ -37,5 +37,37 @@ It is simple enough to find the partial derivative with respect to either of the
 Let us take sample values as inputs to the function.
 The partial derivative on variable x ( ∂f/ ∂x) and variable y ( ∂f/ ∂y) are 3 and -2 respectively. This gives us an understanding that increasing the variable x by an amount ε would increase the output function by 3ε. Similarly, increasing the variable y by an amount ε would decrease the output function by 2ε. Thus, the derivative of a function on each variable tells us the sensitivity of the function with respect to that variable.
 
+### Analogy
+Drawing a parallel analogy, by computing the gradients of the loss function with respect to the weights and the inputs of the neural network, we can determine the sensitivity of the loss function with respect to these parameters. These gradients are a measure of how well the neural network is performing and how the parameters of the model are affecting the loss function. It also helps us in fine tuning the weights of the network to minimize our loss and find a model that fits our data
+
+### How to backpropagate?
+We’ll be using the following example throughout the rest of the article.
+
+This example will be used throughout the rest of the article.
+It’s a good practice to draw computation graphs and analyse the expressions, albeit easier only for simple expressions. So, let’s draw one. We also introduce intermediary variables like x and y to make our calculations simpler.
+<img src="./images/backprop1.jpeg" alt="data" class="inline"/>
+
+Every node in a computational graph can compute two things — the output of the node and the local gradient of the node without even being aware of the rest of the graph. Local gradients of a node are the derivatives of the output of the node with respect to each of the inputs.
+
+
+
+<img src="./images/backprop3.png" alt="data" class="inline"/>
+We have marked the outputs on the graph and have also calculated the local gradients of the nodes. Backpropagation is a “local” process and can be viewed as a recursive application of the chain rule. Now, we want the sensitivity of our output (loss) function w.r.t to the input variables a, b and c of the graph (i.e. ∂f/ ∂a, ∂f/ ∂b and ∂f/ ∂c). We start with the output variable and find the derivative of the output of the graph w.r.t to every variable by recursive chain rule. The derivative of the output variable w.r.t itself is one.
+<img src="./images/backprop4.png" alt="data" class="inline"/>
+
+Backpropagating and finding the gradient of f w.r.t all the variables in the graph by the application of chain rule. Blue elements represent the outputs of the nodes whereas red element represents the gradients that were calculated during backpropagation. (Note that f = (a+b)(b+c), x= a+b and y = b+c)
+
+
+Let us take one node in the graph and get a clear picture.
+<img src="./images/backprop2.jpeg" alt="data" class="inline"/>
+
+A closer look of backpropagation — considering a single node.
+We computed the outputs and local gradients of every node before we started backpropagating. The graph which was unaware of the existence of other nodes when we calculated the outputs and local gradients, interacts with the other nodes and learns the derivative of its output value on the final output of the graph ( ∂f/ ∂x). Thus, we find the derivative of the output of the graph w.r.t a variable ( ∂f/ ∂a) by multiplying its local gradient ( ∂x/ ∂a) with the upstream gradient that we receive from the node’s output value. ( ∂f/ ∂x). This is the essence of backpropagation. If we look at variable b, we can use the multivariate chain rule to find the derivative of the output f w.r.t the variable b.
+
+<img src="./images/backprop5.png" alt="data" class="inline"/>
+We can also interpret this multivariate chain rule by saying “gradients add at branches”. Thus, we have found the sensitivity of variables a, b and c on the output f by computing the derivatives through backpropagation.
+
+<img src="./images/backprop2.png" alt="data" class="inline"/>
+
 
 
