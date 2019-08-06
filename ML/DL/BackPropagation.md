@@ -67,7 +67,41 @@ We computed the outputs and local gradients of every node before we started back
 <img src="./images/backprop5.png" alt="data" class="inline"/>
 We can also interpret this multivariate chain rule by saying “gradients add at branches”. Thus, we have found the sensitivity of variables a, b and c on the output f by computing the derivatives through backpropagation.
 
-<img src="./images/backprop2.png" alt="data" class="inline"/>
+
+### Why backpropagation?
+Let us look at two strategies by which we can compute gradients.
+#### Strategy 1: Forward differentiation
+It is the usual way of finding gradients, the way that we all learnt in our high school. Let us consider the same example again. Without loss of generality, we choose variable b and find gradients upwards.
+
+
+<img src="./images/backprop6.png" alt="data" class="inline"/>
+<img src="./images/backprop7.png" alt="data" class="inline"/>
 
 
 
+Thus, we have computed the derivative of f (our output) w.r.t. variable b (one of the inputs).
+Forward differentiation determines how one of the inputs affect every node in the graph.
+#### Strategy 2: Reverse Differentiation:
+We already implemented reverse differentiation when we learnt how to do backpropagation. Just to have a recap, let’s look at the graph without any chain-rule steps written on the graph.
+<img src="./images/backprop8.png" alt="data" class="inline"/>
+
+If you notice properly, by doing reverse differentiation (or backpropagation), we have computed the derivative of f (our output or loss function) with respect to every node in the graph. Yeah, you saw that right, with respect to every single node in the graph!
+Forward-mode differentiation gave us the derivative of our output with respect to one of the inputs, but reverse-mode differentiation gives us all of them.
+As we have only three variables as input to the graph, we can see a thrice speedup by performing backpropagation (reverse differentiation) instead of forward differentiation.
+Why thrice speedup?
+
+We found only the derivative of f w.r.t b in forward differentiation.
+
+Whereas, we found the derivative of f w.r.t all the three input variables, by backprop in one fell swoop.
+So, is that all?
+<img src="./images/backprop9.png" alt="data" class="inline"/>
+
+Image result for gradient descent
+<img src="./images/backprop10.png" alt="data" class="inline"/>
+
+Gradient Descent. J(w) represents the loss and w represents the weight. Source: Google Images
+<img src="./images/backprop10.png" alt="data" class="inline"/>
+
+To reiterate, loss function quantifies the quality of our weights. Having calculated the gradients of our loss function with respect to all the parameters of the neural networks, its time to update the model parameters using these gradients to make our model more fit to the data. A commonly used technique to optimize weight parameters is gradient descent. In gradient descent, we take small baby steps in the direction of the minima to get optimized weight parameters. The size of the steps that we take to reach the optimum value is determined by a parameter called learning rate. Other commonly used techniques for weight updation are AdaGrad, RMSProp and Adam optimization. Thus, by making use of the gradients computed through an efficient backprop, we are able to find the best set of weights that minimizes our loss function. We do this by backpropagating the neural network multiple times until we reach a steady loss.
+
+<img src="./images/backprop10.png" alt="data" class="inline"/>
