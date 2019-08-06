@@ -104,4 +104,75 @@ Gradient Descent. J(w) represents the loss and w represents the weight. Source: 
 
 To reiterate, loss function quantifies the quality of our weights. Having calculated the gradients of our loss function with respect to all the parameters of the neural networks, its time to update the model parameters using these gradients to make our model more fit to the data. A commonly used technique to optimize weight parameters is gradient descent. In gradient descent, we take small baby steps in the direction of the minima to get optimized weight parameters. The size of the steps that we take to reach the optimum value is determined by a parameter called learning rate. Other commonly used techniques for weight updation are AdaGrad, RMSProp and Adam optimization. Thus, by making use of the gradients computed through an efficient backprop, we are able to find the best set of weights that minimizes our loss function. We do this by backpropagating the neural network multiple times until we reach a steady loss.
 
-<img src="./images/backprop10.png" alt="data" class="inline"/>
+
+
+## Backpropagation Mathematical Intiution Derivation
+Consider the following network architecture:
+<img src="./images/backprop11.jpeg" alt="data" class="inline"/>
+
+Notations
+For every layer in the network, there are certain parameters associated with it. Let us define some notations.
+<img src="./images/backprop12.jpeg" alt="data" class="inline"/>
+
+Notations used in the derivations
+Now that we have the notations in place, let’s dive into the math.
+We know that training a network requires three steps.
+* Forward propagation — The first step is calculating the activation of each layer one by one, starting from the first layer, until we have the activation of the last layer, a[3] or y hat.
+* Computing the cost — The second step is calculating the value of the cost function C(y hat, y) and
+* Backpropagation — The final step is updating the weights and biases of the network using the backpropagation algorithm.
+
+### Forward Propagation
+Let X be the input vector to the neural network, i.e. a[0] = X.
+Now, we need to calculate a[l] for every layer l in the network.
+Before calculating the activation, a[l], we will calculate an intermediate value z[l]. Each element k in z[l] is just the sum of bias for the neuron k in the layer l with the weighted sum of the activation of the previous layer, l-1.
+We can calculate z[l] from the following equation:
+
+<img src="./images/backprop13.jpeg" alt="data" class="inline"/>
+Where ‘.’ refers to the matrix multiplication operation, and + refers to the matrix addition. 
+Now that we have z[l], we can compute a[l] easily by applying the activation function g[l] element-wise to the vector z[l].
+<img src="./images/backprop14.jpeg" alt="data" class="inline"/>
+
+Equation for calculating the activation of layer l
+With the above two equations, we can calculate the activation of each layer in the network. The activation of the last layer gives us the predicted output of the network, y hat.
+
+Selecting the Cost Function C, and computing the cost
+Okay, now we know how we will forward propagate the input X through the network and obtain the predictions. But now that we have the predictions, we need a way to quantitatively determine how good/bad these predictions are.
+
+So, how do we go about this?
+
+To do this, we define some function, known as the cost function, which will be a function of the predicted values and the ground truth.
+This function will estimate how badly the model is performing. Put simply, a cost function is a measure of how wrong the model is in terms of its ability to estimate the relationship between the input and the output. This cost function (also referred to as loss or error) can be estimated by iteratively running the model to compare estimated predictions, y hat against “ground truth” — the known values of y.
+
+The objective of a the model, therefore, is to find parameters, weights and biases, that minimize the cost function.
+That is why choosing the right cost function for achieving the desired result is a critical point of machine learning problems. The choice of the cost function depends on the application. Here is a good discussion about choosing the right cost function.
+In this article we will be using the cross-entropy cost function, which is calculated as follows:
+
+<img src="./images/backprop15.jpeg" alt="data" class="inline"/>
+Here y is the actual output, the ground truth, and y hat is the predicted output, or, a[3] in this case. 
+
+*Note: Here log refers to the natural logarithm.
+
+
+### Backpropagation
+The goal of backpropagation is to compute the partial derivatives of the cost function C with respect to any weight w or bias b in the network. 
+
+Once we have these partial derivatives, we will update the weights and biases in the network by the product of some constant alpha and the partial derivative of that quantity with respect to the cost function. This is the popular gradient descent algorithm. 
+The partial derivatives give us the direction of greatest ascent. So, we take a small step in the opposite direction — the direction of the greatest descent, i.e. the direction which will take us to the local minima of the cost function.
+<img src="./images/backprop16.gif" alt="data" class="inline"/>
+
+The update rules looks like this:
+
+<img src="./images/backprop17.jpeg" alt="data" class="inline"/>
+Here alpha is known as the learning rate of the network, because it decides how big updates we perform, in other words, it tells us how big steps are we taking in the direction of the local minima, i.e. what is the rate at which we are learning.
+To better understand the flow of computations, let us draw a computation graph.
+
+
+<img src="./images/backprop18.jpeg" alt="data" class="inline"/>
+From the above computation graph, we can make a few observations which will help us calculate the partial derivatives. 
+C is a function of a[3], a[3] is in turn a function of z[3], and z[3] is a function of w[3], b[3] and a[2]. So to calculate the partial derivative of the cost function C with respect to w[3], b[3], we will have to use the chain rule.
+This gives us:
+
+<img src="./images/backprop17.jpeg" alt="data" class="inline"/>
+<img src="./images/backprop17.jpeg" alt="data" class="inline"/>
+<img src="./images/backprop17.jpeg" alt="data" class="inline"/>
+
