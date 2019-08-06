@@ -172,7 +172,21 @@ From the above computation graph, we can make a few observations which will help
 C is a function of a[3], a[3] is in turn a function of z[3], and z[3] is a function of w[3], b[3] and a[2]. So to calculate the partial derivative of the cost function C with respect to w[3], b[3], we will have to use the chain rule.
 This gives us:
 
-<img src="./images/backprop17.jpeg" alt="data" class="inline"/>
-<img src="./images/backprop17.jpeg" alt="data" class="inline"/>
+<img src="./images/backprop19.jpeg" alt="data" class="inline"/>
+
+Similarly, we need the derivative of C with respect to w[2], b[2]. From the above computation graph, we can see that z[3] is a function of a[2], which(a[2]) is a function of z[2], and in turn z[2] is a function of w[2], b[2] and a[1]. 
+So applying the chain rule again, we get:
+<img src="./images/backprop20.jpeg" alt="data" class="inline"/>
+
+Equations for calculating the partial derivative of the cost function with respect to the weights and biases of layer 2
+Likewise, for calculating the partial derivatives with respect to w[1], b[1], we would use:
+<img src="./images/backprop22.jpeg" alt="data" class="inline"/>
+
+Equations for calculating the partial derivative of the cost function with respect to the weights and biases of layer 1
+This can be better understood from the following figure:
+<img src="./images/backprop21.jpeg" alt="data" class="inline"/>
+
+
+
 <img src="./images/backprop17.jpeg" alt="data" class="inline"/>
 
