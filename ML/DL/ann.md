@@ -25,5 +25,11 @@ Stochastic gradient descent (SGD) performs a parameter update for each observati
 
 ## Momentum <a name="Momentum"></a>
 <img src="./images/ann2.png" alt="data" class="inline"/>
+<img src="./images/ann3.png" alt="data" class="inline"/>
+<img src="./images/ann4.png" alt="data" class="inline"/>
+<img src="./images/ann5.png" alt="data" class="inline"/>
+<img src="./images/ann6.png" alt="data" class="inline"/>
+<img src="./images/ann7.png" alt="data" class="inline"/>
+
 
 ## Batch gradient descent <a name="Momentum"></a>
