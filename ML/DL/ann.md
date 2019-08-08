@@ -18,6 +18,7 @@ It is an optimization algorithm used in training a model. In simple words, Gradi
 
 ## Basic Imports
 ```markdown
+
 from __future__ import print_function, division
 from builtins import range
 # Note: you may need to update your version of future
@@ -135,6 +136,7 @@ Stochastic gradient descent (SGD) performs a parameter update for each observati
 <img src="./images/ann6.png" alt="data" class="inline"/>
 <img src="./images/ann7.png" alt="data" class="inline"/>
 ```markdown
+
 W1 = W1_0.copy()
 b1 = b1_0.copy()
 W2 = W2_0.copy()
@@ -198,6 +200,7 @@ print("Final error rate:", error_rate(pY, Ytest))
 <img src="./images/ann10.png" alt="data" class="inline"/>
 <img src="./images/ann11.png" alt="data" class="inline"/>
 ```markdown
+
 W1 = W1_0.copy()
 b1 = b1_0.copy()
 W2 = W2_0.copy()
@@ -261,6 +264,7 @@ print("Final error rate:", error_rate(pY, Ytest))
 <img src="./images/ann14.png" alt="data" class="inline"/>
 <img src="./images/ann15.png" alt="data" class="inline"/>
 ```markdown
+
 W1 = W1_0.copy()
 b1 = b1_0.copy()
 W2 = W2_0.copy()
@@ -333,6 +337,7 @@ print("Final error rate:", error_rate(pY, Ytest))
 <img src="./images/ann17.png" alt="data" class="inline"/>
 <img src="./images/ann18.png" alt="data" class="inline"/>
 ```markdown
+
 W1 = W1_0.copy()
 b1 = b1_0.copy()
 W2 = W2_0.copy()
@@ -423,6 +428,7 @@ for i in range(max_iter):
 
 pY, _ = forward(Xtest, W1, b1, W2, b2)
 print("Final error rate:", error_rate(pY, Ytest))
+
 ```
 
 ## RMS With Momnetum <a name="rms1"></a>
@@ -441,6 +447,7 @@ print("Final error rate:", error_rate(pY, Ytest))
 <img src="./images/ann31.png" alt="data" class="inline"/>
 <img src="./images/ann32.png" alt="data" class="inline"/>
 ```markdown
+
 W1 = W1_0.copy()
 b1 = b1_0.copy()
 W2 = W2_0.copy()
@@ -511,6 +518,7 @@ print("Final error rate:", error_rate(pY, Ytest))
 
 ### Plot the learnings
 ```markdown
+
 plt.plot(Losses_batch, label="batch")
 plt.plot(Losses_momentum, label="momentum")
 plt.plot(Losses_nesterov, label="nesterov")
@@ -519,6 +527,7 @@ plt.plot(loss_adam, label="adam")
 plt.plot(Losses_rms_with_momentum, label="rms_with_momentum")
 plt.legend()
 plt.show()
+
 ```
 
 <img src="./images/ann33.png" alt="data" class="inline"/>
