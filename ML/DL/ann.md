@@ -17,7 +17,7 @@ It is an optimization algorithm used in training a model. In simple words, Gradi
 <img src="./images/ann1.png" alt="data" class="inline"/>
 
 ## Basic Imports
-```markdown
+<pre>
 
 from __future__ import print_function, division
 from builtins import range
@@ -87,10 +87,10 @@ W1_0 = W1.copy()
 b1_0 = b1.copy()
 W2_0 = W2.copy()
 b2_0 = b2.copy()
-```
+</pre>
 
 ## Batch gradient descent <a name="Batch"></a>
-```markdown
+<pre>
 Losses_batch = []
 errors_batch = []
 for i in range(max_iter):
@@ -119,7 +119,7 @@ pY, _ = forward(Xtest, W1, b1, W2, b2)
 print("Final error rate:", error_rate(pY, Ytest))
         
         
-```
+</pre>
 
 ## Stochastic gradient descent <a name="Stochastic"></a>
 <img src="./images/ann.png" alt="data" class="inline"/>
@@ -135,8 +135,7 @@ Stochastic gradient descent (SGD) performs a parameter update for each observati
 <img src="./images/ann5.png" alt="data" class="inline"/>
 <img src="./images/ann6.png" alt="data" class="inline"/>
 <img src="./images/ann7.png" alt="data" class="inline"/>
-```markdown
-
+<pre>
 W1 = W1_0.copy()
 b1 = b1_0.copy()
 W2 = W2_0.copy()
@@ -191,7 +190,7 @@ for i in range(max_iter):
 pY, _ = forward(Xtest, W1, b1, W2, b2)
 print("Final error rate:", error_rate(pY, Ytest))
         
-```
+</pre>
 
 ## Nesterov Momentum <a name="Nesterov"></a>
 
@@ -199,7 +198,7 @@ print("Final error rate:", error_rate(pY, Ytest))
 <img src="./images/ann9.png" alt="data" class="inline"/>
 <img src="./images/ann10.png" alt="data" class="inline"/>
 <img src="./images/ann11.png" alt="data" class="inline"/>
-```markdown
+<pre>
 
 W1 = W1_0.copy()
 b1 = b1_0.copy()
@@ -255,7 +254,7 @@ for i in range(max_iter):
 pY, _ = forward(Xtest, W1, b1, W2, b2)
 print("Final error rate:", error_rate(pY, Ytest))
         
-```
+</pre>
 
 ## RMS <a name="rms"></a>
 
@@ -263,7 +262,7 @@ print("Final error rate:", error_rate(pY, Ytest))
 <img src="./images/ann13.png" alt="data" class="inline"/>
 <img src="./images/ann14.png" alt="data" class="inline"/>
 <img src="./images/ann15.png" alt="data" class="inline"/>
-```markdown
+<pre>
 
 W1 = W1_0.copy()
 b1 = b1_0.copy()
@@ -328,7 +327,7 @@ for i in range(max_iter):
 pY, _ = forward(Xtest, W1, b1, W2, b2)
 print("Final error rate:", error_rate(pY, Ytest))
         
-```
+</pre>
 
 ## Adam Optimizer <a name="adam"></a>
 
@@ -336,7 +335,7 @@ print("Final error rate:", error_rate(pY, Ytest))
 <img src="./images/ann16.png" alt="data" class="inline"/>
 <img src="./images/ann17.png" alt="data" class="inline"/>
 <img src="./images/ann18.png" alt="data" class="inline"/>
-```markdown
+<pre>
 
 W1 = W1_0.copy()
 b1 = b1_0.copy()
@@ -429,7 +428,7 @@ for i in range(max_iter):
 pY, _ = forward(Xtest, W1, b1, W2, b2)
 print("Final error rate:", error_rate(pY, Ytest))
 
-```
+</pre>
 
 ## RMS With Momnetum <a name="rms1"></a>
 <img src="./images/ann19.png" alt="data" class="inline"/>
@@ -446,7 +445,7 @@ print("Final error rate:", error_rate(pY, Ytest))
 <img src="./images/ann30.png" alt="data" class="inline"/>
 <img src="./images/ann31.png" alt="data" class="inline"/>
 <img src="./images/ann32.png" alt="data" class="inline"/>
-```markdown
+<pre>
 
 W1 = W1_0.copy()
 b1 = b1_0.copy()
@@ -513,11 +512,11 @@ for i in range(max_iter):
 pY, _ = forward(Xtest, W1, b1, W2, b2)
 print("Final error rate:", error_rate(pY, Ytest))
         
-```
+</pre>
 
 
 ### Plot the learnings
-```markdown
+<pre>
 
 plt.plot(Losses_batch, label="batch")
 plt.plot(Losses_momentum, label="momentum")
@@ -528,6 +527,6 @@ plt.plot(Losses_rms_with_momentum, label="rms_with_momentum")
 plt.legend()
 plt.show()
 
-```
+</pre>
 
 <img src="./images/ann33.png" alt="data" class="inline"/>
