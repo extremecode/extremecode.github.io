@@ -60,8 +60,20 @@ Stochastic gradient descent (SGD) performs a parameter update for each observati
 
 
 ## RMS With Momnetum <a name="rms1"></a>
+<img src="./images/ann19.png" alt="data" class="inline"/>
+<img src="./images/ann20.png" alt="data" class="inline"/>
+<img src="./images/ann21.png" alt="data" class="inline"/>
+<img src="./images/ann22.png" alt="data" class="inline"/>
+<img src="./images/ann23.png" alt="data" class="inline"/>
+<img src="./images/ann24.png" alt="data" class="inline"/>
+<img src="./images/ann25.png" alt="data" class="inline"/>
+<img src="./images/ann26.png" alt="data" class="inline"/>
+<img src="./images/ann27.png" alt="data" class="inline"/>
+<img src="./images/ann28.png" alt="data" class="inline"/>
+<img src="./images/ann29.png" alt="data" class="inline"/>
+<img src="./images/ann30.png" alt="data" class="inline"/>
+<img src="./images/ann31.png" alt="data" class="inline"/>
+<img src="./images/ann32.png" alt="data" class="inline"/>
 
-<img src="./images/ann8.png" alt="data" class="inline"/>
-<img src="./images/ann9.png" alt="data" class="inline"/>
-<img src="./images/ann10.png" alt="data" class="inline"/>
-<img src="./images/ann11.png" alt="data" class="inline"/>
+
+
