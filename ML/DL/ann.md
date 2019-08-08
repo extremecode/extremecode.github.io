@@ -45,18 +45,19 @@ Stochastic gradient descent (SGD) performs a parameter update for each observati
 
 ## RMS <a name="rms"></a>
 
-<img src="./images/ann8.png" alt="data" class="inline"/>
-<img src="./images/ann9.png" alt="data" class="inline"/>
-<img src="./images/ann10.png" alt="data" class="inline"/>
-<img src="./images/ann11.png" alt="data" class="inline"/>
+<img src="./images/ann12.png" alt="data" class="inline"/>
+<img src="./images/ann13.png" alt="data" class="inline"/>
+<img src="./images/ann14.png" alt="data" class="inline"/>
+<img src="./images/ann15.png" alt="data" class="inline"/>
 
 
 ## Adam Optimizer <a name="adam"></a>
 
-<img src="./images/ann8.png" alt="data" class="inline"/>
-<img src="./images/ann9.png" alt="data" class="inline"/>
-<img src="./images/ann10.png" alt="data" class="inline"/>
-<img src="./images/ann11.png" alt="data" class="inline"/>
+
+<img src="./images/ann16.png" alt="data" class="inline"/>
+<img src="./images/ann17.png" alt="data" class="inline"/>
+<img src="./images/ann18.png" alt="data" class="inline"/>
+
 
 ## RMS With Momnetum <a name="rms1"></a>
 
