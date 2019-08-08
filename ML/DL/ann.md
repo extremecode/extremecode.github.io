@@ -10,6 +10,9 @@ It is an optimization algorithm used in training a model. In simple words, Gradi
 * [Full gradient descent](#Full)
 * [Momentum](#Momentum)
 * [Nesterov Momentum](#Nesterov)
+* [RMS w/o Momentum](#rms)
+* [Adam Momentum](#adam)
+* [RMS Momentum](#rms1)
 
 <img src="./images/ann1.png" alt="data" class="inline"/>
 
@@ -39,3 +42,25 @@ Stochastic gradient descent (SGD) performs a parameter update for each observati
 <img src="./images/ann10.png" alt="data" class="inline"/>
 <img src="./images/ann11.png" alt="data" class="inline"/>
 
+
+## RMS <a name="rms"></a>
+
+<img src="./images/ann8.png" alt="data" class="inline"/>
+<img src="./images/ann9.png" alt="data" class="inline"/>
+<img src="./images/ann10.png" alt="data" class="inline"/>
+<img src="./images/ann11.png" alt="data" class="inline"/>
+
+
+## Adam Optimizer <a name="adam"></a>
+
+<img src="./images/ann8.png" alt="data" class="inline"/>
+<img src="./images/ann9.png" alt="data" class="inline"/>
+<img src="./images/ann10.png" alt="data" class="inline"/>
+<img src="./images/ann11.png" alt="data" class="inline"/>
+
+## RMS With Momnetum <a name="rms1"></a>
+
+<img src="./images/ann8.png" alt="data" class="inline"/>
+<img src="./images/ann9.png" alt="data" class="inline"/>
+<img src="./images/ann10.png" alt="data" class="inline"/>
+<img src="./images/ann11.png" alt="data" class="inline"/>
