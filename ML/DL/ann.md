@@ -9,7 +9,7 @@ It is an optimization algorithm used in training a model. In simple words, Gradi
 * [Stochastic gradient descent](#Stochastic)
 * [Full gradient descent](#Full)
 * [Momentum](#Momentum)
-* [Full gradient descent](#Full)
+* [Nesterov Momentum](#Nesterov)
 
 <img src="./images/ann1.png" alt="data" class="inline"/>
 
@@ -32,4 +32,10 @@ Stochastic gradient descent (SGD) performs a parameter update for each observati
 <img src="./images/ann7.png" alt="data" class="inline"/>
 
 
-## Batch gradient descent <a name="Momentum"></a>
+## Nesterov Momentum <a name="Nesterov"></a>
+
+<img src="./images/ann8.png" alt="data" class="inline"/>
+<img src="./images/ann9.png" alt="data" class="inline"/>
+<img src="./images/ann10.png" alt="data" class="inline"/>
+<img src="./images/ann11.png" alt="data" class="inline"/>
+
