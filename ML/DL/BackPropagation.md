@@ -9,7 +9,12 @@
 ### Example
 Let us take the task of classifying our images into four categories ‘cat’, ‘dog’, ‘frog’ and ‘horse’. The values in the input layer represent the pixel values of a given image that we want to classify into four categories. The small circles in each layer are called neurons. The values of the output layer represent the score for each category. We classify the image into the category that gets the highest score. For instance, if the ‘frog’ neuron in the output layer receives the highest value in comparison to the other neurons of the layer, we say the image is a ‘frog’. The other intermediary layers are called hidden layers.
 
+## Table of Contents 
+* [Back PropagtionIntiution](#Intiution)
+* [Backpropagation Mathematical Intiution Derivation](#Mathematical)
+* [Backpropagtion in code ](#code)
 
+## Intiution <a href="Intiution"></a>
 ### Understand the Architecture of  neuron
 <img src="./images/backprop.png" alt="data" class="inline"/>
 
@@ -106,7 +111,7 @@ To reiterate, loss function quantifies the quality of our weights. Having calcul
 
 
 
-## Backpropagation Mathematical Intiution Derivation
+## Backpropagation Mathematical Intiution Derivation <a href="Mathematical"></a>
 Consider the following network architecture:
 <img src="./images/backprop11.jpeg" alt="data" class="inline"/>
 
@@ -186,7 +191,7 @@ Equations for calculating the partial derivative of the cost function with respe
 This can be better understood from the following figure:
 <img src="./images/backprop21.jpeg" alt="data" class="inline"/>
 
-## BackPropagation in Code
+## BackPropagation in Code <a href="code"></a>
 
 ### import libraries
 ```markdown
