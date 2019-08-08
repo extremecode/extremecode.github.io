@@ -9,6 +9,8 @@ It is an optimization algorithm used in training a model. In simple words, Gradi
 * [Batch gradient descent](#Batch)
 * [Stochastic gradient descent](#Stochastic)
 * [Full gradient descent](#Full)
+* [Momentum](#Momentum)
+* [Full gradient descent](#Full)
 
 
 
@@ -18,3 +20,7 @@ It is an optimization algorithm used in training a model. In simple words, Gradi
 ## Normal Distribution <a name="Stochastic"></a>
 
 ## Normal Distribution <a name="Full"></a>
+
+## Normal Distribution <a name="Momentum"></a>
+
+## Normal Distribution <a name="Momentum"></a>
