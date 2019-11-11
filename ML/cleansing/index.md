@@ -1,4 +1,4 @@
 # Cleansing
 
-## Tntro
-[Tntro](https://extremecode.github.io/ML/cleansing/intro)
+## Intro
+[Intro](https://extremecode.github.io/ML/cleansing/intro)
