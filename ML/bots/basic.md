@@ -19,3 +19,6 @@ In retrieval-based models, a chatbot uses some heuristic to select a response fr
 #### Generative Models <a name="gm"></a>
 Generative bots can generate the answers and not always replies with one of the answers from a set of answers. This makes them more intelligent as they take word by word from the query and generates the answers.
 
+<img src="./images/anatomy.png" alt="data" class="inline"/>
+
+
