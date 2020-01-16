@@ -1,0 +1,1 @@
+# repositiory for bot images
