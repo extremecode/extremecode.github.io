@@ -70,3 +70,9 @@ The term frequency (i.e., tf) for phone is then (5 / 100) = 0.05. Now, assume we
 Tf-IDF can be implemented in scikit learn as:
 from sklearn.feature_extraction.text import TfidfVectorizer
 
+### Cosine Similarity
+TF-IDF is a transformation applied to texts to get two real-valued vectors in vector space. We can then obtain the Cosine similarity of any pair of vectors by taking their dot product and dividing that by the product of their norms. That yields the cosine of the angle between the vectors. Cosine similarity is a measure of similarity between two non-zero vectors. Using this formula we can find out the similarity between any two documents d1 and d2.
+Cosine Similarity (d1, d2) =  Dot product(d1, d2) / ||d1|| * ||d2||
+where d1,d2 are two non zero vectors.
+For a detailed explanation and practical example of TF-IDF and Cosine Similarity refer to the document below.
+
