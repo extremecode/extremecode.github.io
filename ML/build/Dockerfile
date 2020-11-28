@@ -1,8 +1,7 @@
 From centos:7
 
-
-ENV http_proxy=http://web-proxy.in.softwaregrp.net:8080/ \
-    https_proxy=http://web-proxy.in.softwaregrp.net:8080/
+ENV http_proxy=<http proxy url>/ \
+    https_proxy=<https proxy url>/
 
 RUN yum update -y
 
