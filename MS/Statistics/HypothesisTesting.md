@@ -309,5 +309,130 @@ https://cdn.upgrad.com/uploads/production/00cbc683-e8dc-4ff1-978c-844424e0c14a/S
 
 
 
+when to use
+![image](https://user-images.githubusercontent.com/20191454/157250128-f5c23e40-89f8-4f31-b418-2fcba7c2a5cc.png)
 
 
+As you saw in the video, when you know the population standard deviation, you approach the problem in the following way:
+
+Formulate the null and alternative hypotheses (
+H
+0
+ and 
+H
+a
+).
+Decide the level of significance (
+α
+).
+Compute the test z-statistic and p-value. (In this case, you could find the z-statistic because you knew the value of population standard deviation (
+σ
+)).
+          The z-statistic can be calculated using the following formula:
+
+Z
+=
+¯
+X
+−
+μ
+σ
+√
+n
+
+ 
+
+          Where,
+
+          
+¯
+X
+ is the sample mean,
+           
+μ
+  is the hypothesized population mean,
+           
+σ
+ is the population standard deviation, and
+           n is the sample size.
+
+ 
+
+Note: Before you find the p-value, it is important to identify whether it is a right-tailed, left-tailed or two-tailed test. In the YouTube example, since your alternative hypothesis 
+H
+a
+ had a “>” sign, it was a case of a right-tailed test. Now that you have established the type of test, you can calculate the p-value.
+ 
+
+Once you have the p-value, you can now move on to the last step.
+
+ 
+
+             4. Compare the p-value with the level of significance (
+α
+).
+
+ 
+
+If:
+
+p-value 
+≤
+  : We reject the null hypothesis
+p-value 
+>
+  : We fail to reject the null hypothesis
+ 
+
+So, in this case, we had sufficient evidence to be able to reject the null hypothesis. Therefore, considering our YouTube example, our inference would be: “We have sufficient evidence to prove that it is really unlikely that if we use the new algorithm, the average time spent by users would be less than or equal to 700 seconds.”
+
+
+
+![image](https://user-images.githubusercontent.com/20191454/157254283-5d0cf665-6fe6-4d20-b3f2-7bb6cdc9ac30.png)
+
+
+
+
+Second, you understood how we tweaked the YouTube algorithm problem and brought in further uncertainty into our problem by making:
+
+Sample size n = 21 (as compared to n = 40 in the previous scenario)
+Population standard deviation unknown (as opposed to the previous scenario)
+ 
+
+Third, you learned that the overall approach to solving the problem remains the same, except that in the third step, we calculate t-statistic instead of z-statistic. 
+
+ 
+
+We calculate the t-statistic using the formula:
+
+t
+=
+¯
+X
+−
+μ
+s
+√
+n
+
+Where,
+
+X is the sample mean,
+μ
+is the hypothesized population mean,
+s is the standard deviation of the sample, and
+n is the sample size.
+ 
+
+And with the help of t-statistic and degree of freedom (df) = sample size(n) - 1, we calculate the p-value.
+
+ 
+
+Finally, you saw in this example that our p-value exceeded the significance level (), and we, thus, failed to reject the null hypothesis. Therefore, our inference in this case would be as follows: “We don’t have sufficient evidence to conclude that the average time spent will be greater than 700 seconds if the new algorithm was deployed.”
+
+
+t table
+https://cdn.upgrad.com/uploads/production/ebc8f72d-da0a-4c81-966b-d332ac1b0fd7/t-table.pdf
+
+
+![image](https://user-images.githubusercontent.com/20191454/157264975-ac78cbf0-8f71-4913-917c-ebae1b300a41.png)
