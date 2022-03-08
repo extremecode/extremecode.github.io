@@ -458,3 +458,11 @@ Increasing the confidence level will make it more likely that you fail to reject
 * Comparing matched samples (when the two samples under study are related)
 * Comparing population proportions
 * Conducting A/B testing
+
+![image](https://user-images.githubusercontent.com/20191454/157281853-ed236cee-ec8b-4a66-96f5-bb270f4565dd.png)
+
+![image](https://user-images.githubusercontent.com/20191454/157282993-99966ee1-5a13-47ec-8420-2ad29ec9b1ec.png)
+
+![image](https://user-images.githubusercontent.com/20191454/157290878-05389d85-a25d-4bb7-a86f-79fc08c269f7.png)
+
+
