@@ -436,3 +436,25 @@ https://cdn.upgrad.com/uploads/production/ebc8f72d-da0a-4c81-966b-d332ac1b0fd7/t
 
 
 ![image](https://user-images.githubusercontent.com/20191454/157264975-ac78cbf0-8f71-4913-917c-ebae1b300a41.png)
+
+
+In the video above, you learned about the two types of errors that can occur while performing a hypothesis test. These are as follows:
+
+Type- I error: This error is committed when you reject a null hypothesis that is actually true. The probability of committing a type-I error is denoted by the significance level (
+α
+) of the test.
+Type-II error: This error is committed when you fail to reject a null hypothesis that is actually false. The probability of committing a type-II error is denoted by β.
+Effect of confidence level on type-I and type-II errors:
+
+Increasing the confidence level of the test decreases the size of the rejection region, thereby lowering the chances of rejecting the null hypothesis (irrespective of whether it is false or not). Hence, increasing the confidence level of the test (say, from 95% to 99%) decreases the probability of committing a type-I error.
+Increasing the confidence level will make it more likely that you fail to reject the null hypothesis. This is because it is difficult to reject the null hypothesis at higher confidence levels. Thus, the probability of committing the type-II error will increase.
+
+![image](https://user-images.githubusercontent.com/20191454/157269447-9d7fd247-2efb-4abe-a602-8ff41566ab8a.png)
+
+![image](https://user-images.githubusercontent.com/20191454/157269490-147e3cf4-e4c4-4934-ad06-6fae2caab72e.png)
+
+* Comparing population means with a known variance (or standard deviation)
+* Comparing population means with an unknown variance (or standard deviation)
+* Comparing matched samples (when the two samples under study are related)
+* Comparing population proportions
+* Conducting A/B testing
