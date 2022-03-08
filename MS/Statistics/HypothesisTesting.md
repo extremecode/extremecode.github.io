@@ -449,6 +449,9 @@ Effect of confidence level on type-I and type-II errors:
 Increasing the confidence level of the test decreases the size of the rejection region, thereby lowering the chances of rejecting the null hypothesis (irrespective of whether it is false or not). Hence, increasing the confidence level of the test (say, from 95% to 99%) decreases the probability of committing a type-I error.
 Increasing the confidence level will make it more likely that you fail to reject the null hypothesis. This is because it is difficult to reject the null hypothesis at higher confidence levels. Thus, the probability of committing the type-II error will increase.
 
+
+![image](https://user-images.githubusercontent.com/20191454/157295313-37afd6f3-cd68-4348-a9e7-081c80f216e1.png)
+
 ![image](https://user-images.githubusercontent.com/20191454/157269447-9d7fd247-2efb-4abe-a602-8ff41566ab8a.png)
 
 ![image](https://user-images.githubusercontent.com/20191454/157269490-147e3cf4-e4c4-4934-ad06-6fae2caab72e.png)
@@ -466,3 +469,31 @@ Increasing the confidence level will make it more likely that you fail to reject
 ![image](https://user-images.githubusercontent.com/20191454/157290878-05389d85-a25d-4bb7-a86f-79fc08c269f7.png)
 
 
+
+
+In the video above, you encountered a situation where the p-value of the test (0.0499) was barely less than the chosen 5% significance level. Even though the rejection rule advises us to reject the null hypothesis, in such borderline cases it is best to weigh the costs and benefits of the alternatives available before making a decision.
+
+ 
+
+While the value of 5% for the significance level serves us well in most cases, it is essentially an arbitrary value. Hence, it is not set in stone and once you have performed a hypothesis test, you can use your own judgement to decide what action you want to take, taking into consideration other factors that might influence the outcome of your decision.
+
+ 
+
+In your career as a manager, you will have to take many such difficult decisions. Hypothesis testing only provides you with a framework to test claims and gain a better understanding of how things actually play out. It is you, however, who will have to weigh in other factors and make a decision.
+
+![image](https://user-images.githubusercontent.com/20191454/157300540-ea2577c4-db63-48ec-94ed-0e0df87a4667.png)
+
+
+![image](https://user-images.githubusercontent.com/20191454/157300597-152e06f1-0615-4ec1-a8dd-8e6732368bb9.png)
+
+
+![image](https://user-images.githubusercontent.com/20191454/157300632-1b953411-2fb8-460b-b943-3bcd1fd26a37.png)
+
+![image](https://user-images.githubusercontent.com/20191454/157300690-d9738b9d-12f6-4469-a07e-efe98c0738b9.png)
+
+https://www.cengage.co.in/category/higher-education/business-economics/operation-decision-sciences/eee/statistics-for-management-and-economics-qm
+
+
+https://www.mathsisfun.com/data/index.html#probability
+
+https://www.mathsisfun.com/data/index.html#probability
