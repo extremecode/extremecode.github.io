@@ -28,6 +28,7 @@ ex -
 * Hypothesis testing using two samples
 
 <image 1 placeholder>
+![image](https://user-images.githubusercontent.com/20191454/157242874-2b58fa7b-dcab-4627-aef4-3a08a283b6a6.png)
 
 
 
@@ -45,12 +46,17 @@ Mutually Exclusive Events
 The null and alternate hypotheses must be collectively exhaustive events.
 
 <image 2 placeholder>
+![image](https://user-images.githubusercontent.com/20191454/157242894-3ab9b058-4e1b-4190-9798-bbe1dcc8aaf2.png)
+
+
 
 This means that at least one of these events must be true at any given time. The two events cover the complete sample space. Since these are perfect opposites of each other, we can also call them complementary events.
 
  Complementary Events.
  
  <image 3 placeholder>
+![image](https://user-images.githubusercontent.com/20191454/157242931-68bc5409-2541-4390-a6e2-868c6ce692c3.png)
+
 
 Complementary Events.
 As you can see, both the events are perfect opposites and cover the whole sample space.
@@ -83,6 +89,7 @@ One of the examples of hypothesis testing could be proving a person guilty of co
 
 
 <image 4 placeholder>
+![image](https://user-images.githubusercontent.com/20191454/157242962-fed13bae-a14a-4efb-86ec-9824792e9870.png)
 
 
 
@@ -170,4 +177,23 @@ in this case, is the hypothesized mean.
 
 
 ![image](https://user-images.githubusercontent.com/20191454/157242633-b77b6070-d3e5-4710-a2bb-65339bf1503f.png)
+
+It is important to note that in the context of z-tests, the term sample z-score is often used interchangeably with z-statistic. The term test statistic is also commonly used to refer to the standardized sample mean.
+
+ 
+
+In the OnePlus example, we took a sample of 100 smartphones and measured the time taken to charge each of them to 100%. This data became our sample. We then calculated the mean (30.37) and standard deviation (2.477) of the sample. Using these values, the sample z-score comes out to be 1.4937.
+ 
+
+Step 5: Reach a decision and interpret the result.
+
+ 
+
+Finally, we compare the sample z-score with the critical z-scores of the test.
+
+If the sample z-score lies in the non-rejection (or acceptance) region, we fail to reject the null hypothesis and conclude that the assumption that the null hypothesis is true remains.
+If the sample z-score lies in the rejection region, we reject the null hypothesis and conclude that the null hypothesis is false and the alternative hypothesis is true.
+In the OnePlus example, as the sample z-score lies in the acceptance region, we fail to reject the null hypothesis. Therefore, we do not have sufficient evidence to conclude that the time taken to charge the phone is not 30 minutes.
+
+
 
