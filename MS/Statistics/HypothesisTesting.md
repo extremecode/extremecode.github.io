@@ -197,3 +197,28 @@ In the OnePlus example, as the sample z-score lies in the acceptance region, we 
 
 
 
+One-tailed tests can be either left-tailed or right-tailed, depending on which side of the curve the rejection region lies on. The formulation of the null and alternate hypotheses determines the type of the test and the position of the rejection region(s) in the distribution of sample means.
+
+ 
+
+You can tell the type of the test and the position of the rejection region(s) on the basis of the ‘sign’ used in the alternate hypothesis.
+
+ 
+
+       '<’ in H⍺    →   Left-tailed test     →     Rejection region on the left side of the distribution
+
+ 
+
+       ‘>’ in H⍺    →   Right-tailed test  →     Rejection region on the right side of the distribution
+
+ 
+
+       ‘≠’ in H⍺    →   Two-tailed test     →     Rejection region on both sides of the distribution
+
+ 
+
+Considering our OnePlus example, with a significance level =0.05, let’s look at the table given below to understand all three approaches.
+
+![image](https://user-images.githubusercontent.com/20191454/157244337-12489949-ebb4-4cef-b59d-57aef2762a96.png)
+
+
