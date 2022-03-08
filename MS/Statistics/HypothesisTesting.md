@@ -222,3 +222,92 @@ Considering our OnePlus example, with a significance level =0.05, let’s look a
 ![image](https://user-images.githubusercontent.com/20191454/157244337-12489949-ebb4-4cef-b59d-57aef2762a96.png)
 
 
+In this video, you learned that the p-value is the shaded region, i.e., the area that lies farther away from the hypothesized mean than the calculated sample z-score. 
+
+ 
+
+So, intuitively, you can also understand the p-value as the probability of the null hypothesis being true. Thus, a higher p-value indicates greater evidence in favor of the null hypothesis. Similarly, a lower p-value indicates greater evidence against the null hypothesis (and in favor of the alternate hypothesis).
+
+ 
+
+In this video, you also learned how to use the “p-value calculator” to compute the p-value for both one-tailed and two-tailed tests.
+
+ 
+
+The simple rule that you can follow while using the p-value method to test a hypothesis is as follows:
+
+ 
+
+If p-value 
+≤
+ ⍺ → Reject the null hypothesis.
+If p-value 
+>
+ ⍺ → Fail to reject the null hypothesis.
+
+ 
+
+Considering the same example of OnePlus, with ⍺ = 0.05, let’s look at the table given below to understand all three approaches.
+
+
+
+![image](https://user-images.githubusercontent.com/20191454/157245747-2c252800-101e-4804-b07c-50a89a0c8377.png)
+
+Stat Z score calculator
+http://courses.atlas.illinois.edu/spring2016/STAT/STAT200/pnormal.html
+
+
+summary:
+A hypothesis is a claim or an assumption that you make about one or more population parameters.
+
+ 
+
+You learned about the types of hypotheses:
+
+Null hypothesis (H0): Makes an assumption about the status quo and always contains the symbols ‘=’, ‘≤’ or ‘≥’
+Alternate hypothesis (Ha): Challenges and complements the null hypothesis and always contains the symbols ‘≠’, ‘<’ or ‘>’
+Testing Process
+You also learned about the process followed for testing a hypothesis, which is described below:
+
+State relevant null and alternate hypotheses.
+Decide on the significance level.
+Find the relevant critical value that divides the probability distribution into ‘non-rejection’ and ‘rejection’ regions.
+Compute the test statistic and compare it with the relevant critical value.
+Decide to either fail to reject the null hypothesis or reject it in the favor of the alternate hypothesis.
+ 
+
+p-Value Method
+ 
+
+p-Value signifies the probability of the null hypothesis being true. A higher p-value indicates a stronger evidence in favor of the null hypothesis and a lower p-value indicates a stronger evidence against the null hypothesis.
+
+ 
+
+As a rule, we know:
+
+If p-value 
+≤
+α
+ - We reject the null hypothesis.
+
+If p-value
+>
+α
+ - We fail to reject the null hypothesis.
+
+ 
+
+Types of Tests
+Finally, you learnt about the three types of tests that are used in making a decision about the hypothesis. These are described below:
+
+Two-tailed test: The critical region lies on both sides of the distribution. The alternate hypothesis contains the ≠ sign.
+Lower-tailed test: The critical region lies on the left side of the distribution. The alternate hypothesis contains the < sign.
+Upper-tailed test: The critical region lies on the right side of the distribution. The alternate hypothesis contains the > sign.
+You can also go through the summary document provided below:
+
+https://cdn.upgrad.com/uploads/production/00cbc683-e8dc-4ff1-978c-844424e0c14a/Session%2BSummary.pdf
+
+
+
+
+
