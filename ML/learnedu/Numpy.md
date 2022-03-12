@@ -35,3 +35,39 @@ array([-1.,  2.,  5.], dtype=float32)
 
 ```
 
+Numpy-
+# Will result in a ValueError: If we uncomment line int32 and run again.
+#np.array([np.nan, 1, 2], dtype=np.int32)
+print(repr(np.array([np.nan, 1, 2], dtype=np.float32)))
+special values
+np.nan
+np.inf
+# Will result in a OverflowError: If we uncomment below line  and run again.
+np.array([np.inf, 3], dtype=np.int32)
+
+
+A. Ranged data#
+While np.array can be used to create any array, it is equivalent to hardcoding an array. This won't work when the array has hundreds of values. Instead, NumPy provides an option to create ranged data arrays using np.arange. The function acts very similar to the range function in Python, and will always return a 1-D array.
+
+```markdown
+arr = np.arange(5)
+print(repr(arr))
+
+arr = np.arange(5.1)
+print(repr(arr))
+
+arr = np.arange(-1, 4)
+print(repr(arr))
+
+arr = np.arange(-1.5, 4, 2)
+print(repr(arr))
+
+array([0, 1, 2, 3, 4])
+array([0., 1., 2., 3., 4., 5.])
+array([-1,  0,  1,  2,  3])
+array([-1.5,  0.5,  2.5])
+
+
+```
+
+
