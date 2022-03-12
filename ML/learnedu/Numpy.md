@@ -17,3 +17,21 @@
 * Model Persistence: Finally, after training and validating the model’s performance, you need to be able to properly save the model weights and possibly push the model to production. This means setting up a process with which new users can easily use your pre-trained model to make predictions.
 
 * We don't have better algorithms than anyone else; we just have more data."
+
+#DML
+When we deal with numeric data, the best Python library to use is NumPy. The NumPy library allows us to perform many operations on numeric data, and convert the data to more usable forms.
+
+```markdown
+import numpy as np  # import the NumPy library
+
+# Initializing a NumPy array
+arr = np.array([-1, 2, 5], dtype=np.float32)
+
+# Print the representation of the array
+print(repr(arr))
+
+
+array([-1.,  2.,  5.], dtype=float32)
+
+```
+
