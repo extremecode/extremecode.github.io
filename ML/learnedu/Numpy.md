@@ -71,3 +71,17 @@ array([-1.5,  0.5,  2.5])
 ```
 
 
+https://drive.google.com/file/d/15mYwCuoqkEaKNwpvPKXfUMU21hGcf3rC/view?usp=sharing
+
+Venu Gopalhttps://drive.google.com/file/d/1CD2XlL3deHMeKB8YG_wzru-kf6mg2BMX/view?usp=sharing
+02:29 PM
+VG
+Venu Gopalhttps://drive.google.com/file/d/18XlUmj03J1jJCwnW0mW3iRU7kD3VWrdh/view?usp=sharing
+02:29 PM
+VG
+Venu Gopalhttps://drive.google.com/file/d/1pVWZ31621DtLk4aCsw3VJ6u5tEwenZY2/view?usp=sharing
+02:30 PM
+VG
+Venu Gopalhttps://drive.google.com/file/d/1X0iQ7015ZDcwAyvgfEOanipLZO19D3Yl/view?usp=sharing
+02:30 PM
+
