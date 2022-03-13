@@ -497,3 +497,32 @@ https://www.cengage.co.in/category/higher-education/business-economics/operation
 https://www.mathsisfun.com/data/index.html#probability
 
 https://www.mathsisfun.com/data/index.html#probability
+
+https://drive.google.com/file/d/1gM1DT9KnpBnl7PmFsRKzugtwsOzAwqTX/view?usp=sharing
+
+https://drive.google.com/drive/folders/1ohtnLLVn0DlvVbbPp4yNz2JD_rkUG4DT?usp=sharing
+
+https://drive.google.com/drive/folders/1UHBuOEv3eEqQOq0bMxFE-uYNzxVNrRQb?usp=sharing
+
+
+```markdown
+arr = np.array([[1, 2], [3, 4]])
+# Add 1 to element values
+print(repr(arr + 1))
+# Subtract element values by 1.2
+print(repr(arr - 1.2))
+# Double element values
+print(repr(arr * 2))
+# Halve element values
+print(repr(arr / 2))
+# Integer division (half)
+print(repr(arr // 2))
+# Square element values
+print(repr(arr**2))
+# Square root element values
+print(repr(arr**0.5))
+
+```
+
+
+
