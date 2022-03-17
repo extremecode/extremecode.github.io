@@ -25,8 +25,12 @@
 
 ![image](https://user-images.githubusercontent.com/20191454/158769317-5b0463ce-71f4-492f-9a57-b13e02edf6e2.png)
 
+![image](https://user-images.githubusercontent.com/20191454/158769875-f14a5934-713d-4eec-99ee-50771499b240.png)
 
-usecases
+![image](https://user-images.githubusercontent.com/20191454/158770202-32036bdf-6734-426b-a8f8-bee83a3a283b.png)
+
+
+Numpy usecases
 * create a array of 55 ones - np.ones(55) , multi np.ones((2,2)) similary zeros
 * create a array equidistant - np.arange(start,end,step_size) end is excluded
 * np.random.randint(start_range,end_range,size) size no of elements to generate ,multi np.random.random([2,2]) np.random.randint(1,10,[2,2])
@@ -38,4 +42,8 @@ usecases
 * np.empty - use to create empty array and populate later.y = np.empty(4) np.multiply(arr,2,out=y) print(y)
 * reduce function - to reduce to a single value - np.add.reuduce(np.arange(10)) - 45 - 0+...+9 = 45
 * accumulate - to apply as  commulative function sequentially - np.add.accumulate(np.arange(10)) - array([ 0,  1,  3,  6, 10, 15, 21, 28, 36, 45], dtype=int32)
-
+Pandas Usecases-
+* load in tabular format dict,json,csv,excel - we will create a data frame pd.DataFrame({'name':["akash","vikash"],'age':[24,25]}) - 
+* read a csv - pd.read_csv(filename,filepath)
+* rename header/add/override headers - df.columns = ['Track Name','Artist Name','Genre','Beats Per Minute']
+* 
