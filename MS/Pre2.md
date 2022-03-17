@@ -21,6 +21,10 @@
 
 ![image](https://user-images.githubusercontent.com/20191454/158615737-d758dd0d-e662-4032-83fc-9cad35b61206.png)
 
+![image](https://user-images.githubusercontent.com/20191454/158768524-511af687-433c-4101-b86a-5a5344eca99d.png)
+
+![image](https://user-images.githubusercontent.com/20191454/158769317-5b0463ce-71f4-492f-9a57-b13e02edf6e2.png)
+
 
 usecases
 * create a array of 55 ones - np.ones(55) , multi np.ones((2,2)) similary zeros
@@ -32,4 +36,6 @@ usecases
 * np.reshape - reshape an array - np.reshape(np.arange(10),(1,2,5)) - [[[0,1,2,3,4],[5,6,7,8,9]]]
 * np.log, - transfromation function power etc
 * np.empty - use to create empty array and populate later.y = np.empty(4) np.multiply(arr,2,out=y) print(y)
-* 
+* reduce function - to reduce to a single value - np.add.reuduce(np.arange(10)) - 45 - 0+...+9 = 45
+* accumulate - to apply as  commulative function sequentially - np.add.accumulate(np.arange(10)) - array([ 0,  1,  3,  6, 10, 15, 21, 28, 36, 45], dtype=int32)
+
