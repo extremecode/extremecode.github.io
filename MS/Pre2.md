@@ -52,7 +52,7 @@
 ![image](https://user-images.githubusercontent.com/20191454/159056949-a622f553-aa28-4cd3-8241-3b63327d4582.png)
 ![image](https://user-images.githubusercontent.com/20191454/159057867-b446afbe-3783-4184-8bea-ead3f52fa48b.png)
 
-Numpy usecases
+#### Numpy usecases
 * create a array of 55 ones - np.ones(55) , multi np.ones((2,2)) similary zeros
 * create a array equidistant - np.arange(start,end,step_size) end is excluded
 * np.random.randint(start_range,end_range,size) size no of elements to generate ,multi np.random.random([2,2]) np.random.randint(1,10,[2,2])
@@ -64,7 +64,7 @@ Numpy usecases
 * np.empty - use to create empty array and populate later.y = np.empty(4) np.multiply(arr,2,out=y) print(y)
 * reduce function - to reduce to a single value - np.add.reuduce(np.arange(10)) - 45 - 0+...+9 = 45
 * accumulate - to apply as  commulative function sequentially - np.add.accumulate(np.arange(10)) - array([ 0,  1,  3,  6, 10, 15, 21, 28, 36, 45], dtype=int32)
-Pandas Usecases-
+#### Pandas Usecases-
 * load in tabular format dict,json,csv,excel - we will create a data frame pd.DataFrame({'name':["akash","vikash"],'age':[24,25]}) - 
 * read a csv - pd.read_csv(filepath)
 * rename header/add/override headers - df.columns = ['Track Name','Artist Name','Genre','Beats Per Minute']
@@ -80,7 +80,7 @@ Pandas Usecases-
 * groupby and aggregation = df.groupby(by="column name").aggregation_Func().head() 
 * merge two dataframe- df1.merge(df2,on="common column name",how=(left,right,inner,outer)) - left - from first df all rows , right - from secondf df all rows, outer - union on df1,df2, , inner - intersection of df1,df2
 * create a agg table - comaring index and a range of columns - df.pivot_table(index="Track Name",columns="Energy",values="Liveness",aggfunc="count").head()
-* 
+
 
 
 
