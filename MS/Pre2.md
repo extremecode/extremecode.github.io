@@ -37,6 +37,14 @@
 
 ![image](https://user-images.githubusercontent.com/20191454/159046682-93c57f31-1d45-47db-b794-0ede187a0105.png)
 
+![image](https://user-images.githubusercontent.com/20191454/159047891-2a0f8672-8876-4b6e-971d-1bb06c03be25.png)
+
+![image](https://user-images.githubusercontent.com/20191454/159048576-eb3da932-c86d-4b8f-87d1-ff81a8e5247b.png)
+![image](https://user-images.githubusercontent.com/20191454/159048956-03cd525b-beef-4a54-b272-df24c104edc7.png)
+![image](https://user-images.githubusercontent.com/20191454/159049593-329521ba-3110-4189-b555-c4d83e7ae4eb.png)
+![image](https://user-images.githubusercontent.com/20191454/159050012-92a1304e-56b8-48da-ab98-65c108e83ec4.png)
+![image](https://user-images.githubusercontent.com/20191454/159050448-681a329f-b001-419e-a8ad-cbebe618f3ee.png)
+
 Numpy usecases
 * create a array of 55 ones - np.ones(55) , multi np.ones((2,2)) similary zeros
 * create a array equidistant - np.arange(start,end,step_size) end is excluded
@@ -55,4 +63,14 @@ Pandas Usecases-
 * rename header/add/override headers - df.columns = ['Track Name','Artist Name','Genre','Beats Per Minute']
 * index a column - for columns - pd.read_csv(filepath,index_col=[col_no list]) for multiple - df.set_index(["Track Name","Genre"])
 * describe data - print top n rows - df.head(no) default 5, print last n rows df.tail(no) default -5 ,  df.info() - get type of col,non null val count etc, df.describe() - give detail mean,stddev,min,max,quantiles values of numeric,float columns, for categarical - count,uniq,top,freq
-* slicing and index of data - 
+* slicing and index of data - select a range for a index col - df = pd.read_csv("top50.csv",index_col=[1]) , df['canadian pop':'dance pop'], selecting single column - df[column name].head(), selecting multiple columns df[["col1","col2"]].head() 
+* row indexing - to locate rows - df.loc[["canadian pop","reggaeton flow"]] 
+* column indexing  - to select filtered columns - df.loc[:,["Track Name","Artist Name"]]
+* access rows and columns using index no - df.iloc[1,2] row 1 column 2 value for multiple - df.iloc[[0,1],[1,2]], for a range - df.iloc[1:13,1:4]
+
+
+
+
+
+
+
