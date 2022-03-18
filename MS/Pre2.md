@@ -29,6 +29,13 @@
 
 ![image](https://user-images.githubusercontent.com/20191454/158770202-32036bdf-6734-426b-a8f8-bee83a3a283b.png)
 
+![image](https://user-images.githubusercontent.com/20191454/159044727-c0eae57b-e4f9-4149-8fc7-11b9a0714872.png)
+
+![image](https://user-images.githubusercontent.com/20191454/159046067-a549db3c-4db0-48eb-8a15-165c8cc8346f.png)
+
+![image](https://user-images.githubusercontent.com/20191454/159046171-398973e8-2294-425f-9305-86790e92fa08.png)
+
+![image](https://user-images.githubusercontent.com/20191454/159046682-93c57f31-1d45-47db-b794-0ede187a0105.png)
 
 Numpy usecases
 * create a array of 55 ones - np.ones(55) , multi np.ones((2,2)) similary zeros
@@ -44,6 +51,8 @@ Numpy usecases
 * accumulate - to apply as  commulative function sequentially - np.add.accumulate(np.arange(10)) - array([ 0,  1,  3,  6, 10, 15, 21, 28, 36, 45], dtype=int32)
 Pandas Usecases-
 * load in tabular format dict,json,csv,excel - we will create a data frame pd.DataFrame({'name':["akash","vikash"],'age':[24,25]}) - 
-* read a csv - pd.read_csv(filename,filepath)
+* read a csv - pd.read_csv(filepath)
 * rename header/add/override headers - df.columns = ['Track Name','Artist Name','Genre','Beats Per Minute']
-* 
+* index a column - for columns - pd.read_csv(filepath,index_col=[col_no list]) for multiple - df.set_index(["Track Name","Genre"])
+* describe data - print top n rows - df.head(no) default 5, print last n rows df.tail(no) default -5 ,  df.info() - get type of col,non null val count etc, df.describe() - give detail mean,stddev,min,max,quantiles values of numeric,float columns, for categarical - count,uniq,top,freq
+* slicing and index of data - 
