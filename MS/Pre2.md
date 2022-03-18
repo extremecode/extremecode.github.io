@@ -44,6 +44,12 @@
 ![image](https://user-images.githubusercontent.com/20191454/159049593-329521ba-3110-4189-b555-c4d83e7ae4eb.png)
 ![image](https://user-images.githubusercontent.com/20191454/159050012-92a1304e-56b8-48da-ab98-65c108e83ec4.png)
 ![image](https://user-images.githubusercontent.com/20191454/159050448-681a329f-b001-419e-a8ad-cbebe618f3ee.png)
+![image](https://user-images.githubusercontent.com/20191454/159051917-3acb2ccc-35c3-4c5c-a759-0a40eca6ce7e.png)
+![image](https://user-images.githubusercontent.com/20191454/159055014-cb13aea1-9caf-484b-b0ce-93371f2df024.png)
+![image](https://user-images.githubusercontent.com/20191454/159055142-231aecbb-194e-4745-ae88-c986ed1f750f.png)
+![image](https://user-images.githubusercontent.com/20191454/159055264-6a4bdd6a-677a-4407-b816-b31e9c590906.png)
+![image](https://user-images.githubusercontent.com/20191454/159056292-e77af17d-a2d4-4f3a-ac23-8fc215bf5180.png)
+![image](https://user-images.githubusercontent.com/20191454/159056949-a622f553-aa28-4cd3-8241-3b63327d4582.png)
 
 Numpy usecases
 * create a array of 55 ones - np.ones(55) , multi np.ones((2,2)) similary zeros
@@ -67,6 +73,11 @@ Pandas Usecases-
 * row indexing - to locate rows - df.loc[["canadian pop","reggaeton flow"]] 
 * column indexing  - to select filtered columns - df.loc[:,["Track Name","Artist Name"]]
 * access rows and columns using index no - df.iloc[1,2] row 1 column 2 value for multiple - df.iloc[[0,1],[1,2]], for a range - df.iloc[1:13,1:4]
+* filtering data based on a criteria/slice - filter by column value -  df[df["Track Name"]=="Señorita"] , contains - df[df["Track Name"].isin(["China"])], multiple criteria - df[df["Track Name"].isin(["China"]) & (df["Energy"]=="81")] = df[(crtiteria 1) & (criteria 2) and so on]
+* handling time series data - pd.DatetimeIndex(df["col"]).(year/day/month)
+* create a custom column - df["newcol"] = df["col"]*2 or using apply df["columns"].apply(lambda expression) - df["Energy"].apply(lambda x: "fifty five" if x == "55" else "not fifty five" )
+* groupby and aggregation = df.groupby(by="column name").aggregation_Func().head() 
+* merge two dataframe- 
 
 
 
