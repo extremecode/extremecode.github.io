@@ -50,6 +50,7 @@
 ![image](https://user-images.githubusercontent.com/20191454/159055264-6a4bdd6a-677a-4407-b816-b31e9c590906.png)
 ![image](https://user-images.githubusercontent.com/20191454/159056292-e77af17d-a2d4-4f3a-ac23-8fc215bf5180.png)
 ![image](https://user-images.githubusercontent.com/20191454/159056949-a622f553-aa28-4cd3-8241-3b63327d4582.png)
+![image](https://user-images.githubusercontent.com/20191454/159057867-b446afbe-3783-4184-8bea-ead3f52fa48b.png)
 
 Numpy usecases
 * create a array of 55 ones - np.ones(55) , multi np.ones((2,2)) similary zeros
@@ -77,7 +78,9 @@ Pandas Usecases-
 * handling time series data - pd.DatetimeIndex(df["col"]).(year/day/month)
 * create a custom column - df["newcol"] = df["col"]*2 or using apply df["columns"].apply(lambda expression) - df["Energy"].apply(lambda x: "fifty five" if x == "55" else "not fifty five" )
 * groupby and aggregation = df.groupby(by="column name").aggregation_Func().head() 
-* merge two dataframe- 
+* merge two dataframe- df1.merge(df2,on="common column name",how=(left,right,inner,outer)) - left - from first df all rows , right - from secondf df all rows, outer - union on df1,df2, , inner - intersection of df1,df2
+* create a agg table - comaring index and a range of columns - df.pivot_table(index="Track Name",columns="Energy",values="Liveness",aggfunc="count").head()
+* 
 
 
 
