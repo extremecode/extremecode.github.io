@@ -81,6 +81,12 @@
 ![image](https://user-images.githubusercontent.com/20191454/159114679-88902633-c98a-4093-905a-fe1535c21c71.png)
 
 
+![image](https://user-images.githubusercontent.com/20191454/159118771-d653e8cd-c388-48c9-bb1a-974f7483abe1.png)
+![image](https://user-images.githubusercontent.com/20191454/159118665-196cdf22-8492-4ccb-85da-b5389215a108.png)
+![image](https://user-images.githubusercontent.com/20191454/159119026-b744eafb-5989-4619-aeeb-811d92d4b44a.png)
+![image](https://user-images.githubusercontent.com/20191454/159120581-7888a7c6-b9f4-4638-89ab-ab89db9f8d8f.png)
+![image](https://user-images.githubusercontent.com/20191454/159120609-1cdb634d-5acd-475f-87e7-49d100a9a4eb.png)
+![image](https://user-images.githubusercontent.com/20191454/159120732-7f4cec21-2835-4007-abba-70b92742cab7.png)
 
 
 
@@ -475,12 +481,38 @@ EDA use cases-
 *            - Filter rows - filter by segment, filter by date period to get rows relevant to analysis
 *            - Filter columns - pick columns relevant to anaylsis
 *            - aggregate data - group by required keys and aggregate the rest
+* Univariate analysis - 
+*            - Metadata description - It is the data that describes each variable in detail. Informationsuch as the size of the data set, how and when the data set was created, what the rows and variables represent, etc., are captured in metadata.
+*            - Data distribution plots reveal exciting insights about the data. You can observe various
+visible patterns in the plots and try to understand how they came to be.
+*            - Summary metrics are used to obtain a quantitative summary of the data. Not all metrics
+can be used everywhere. Thus, it is essential to understand the data and choose what
+metric to summarize it.
+*          - cateogarical univariate unordered analysis - means type of loan , org of a person sales , marketing - df.Genre.value_counts(normalize=True).plot.barh()
+plt.show()
+*          - cateogarical univariate ordered analysis - means salary high,low , month jan,feb - df["Artist Name"].value_counts(normalize=True).plot.pie()
+plt.show()
+*          - statisics on numeric variable - this are nivaiat that can be sum mulitplied ,divide etc ex - salary
+*          - transistion of a numeric variable into a cateogarical value - sometime its essential to convert a numeric value into cateogarical value using binning
+*          - univariate analysis - 
+*             basics of segementation - take raw data,group by dimensions, use a relevant metric mean,medain etc, compare across multiple cateogaries
+*             comare of avaerages - check if the bins diff is signifcant enough if not we will use hypothesis testing to draw a conclusion
+*             comparison of other method
+*          - Mulitvariate analysis - we can do for multiple variables effect on each other in terms of correlation etc
+*             - scatter plot - plt.scatter(col1,col2)
+*             - pair plot - sns.pairplot(data=df,vars=["salary","balance","age"])
+*             - correlation matrix - heatmap - sns.heatmap(df[[col1,col2,coln]]).corr(),annot=True,cmap="Reds")
+*             - correlation vs causation - there is no gurrantee means corr will result in causation
+*             - define a custom aggregate - def p75percentile(x): return np.quantile(x,0.75) df.groupby("Artist.Name")["Energy"].aggregate(["mean","median",p75percentile])
+*             - aggregate plot - df.groupby("Artist.Name")["Energy"].aggregate(["mean","median",p75percentile]).plot.barh()
+*             - analysis between two cateogarical variables - convert a new col to numeric np.where(df.col=="cretiera",1,0)
+*             - mutivariate analysis = create a pivot table res=pd.pivot_table(data=df,index="Genre",columns="Artist.Name",values="HighEnergy")sns.heatmap(res,annot=True,cmap="RdYlGn",center=0.117)plt.show()
 
-![image](https://user-images.githubusercontent.com/20191454/159118771-d653e8cd-c388-48c9-bb1a-974f7483abe1.png)
-![image](https://user-images.githubusercontent.com/20191454/159118665-196cdf22-8492-4ccb-85da-b5389215a108.png)
-![image](https://user-images.githubusercontent.com/20191454/159119026-b744eafb-5989-4619-aeeb-811d92d4b44a.png)
-![image](https://user-images.githubusercontent.com/20191454/159120581-7888a7c6-b9f4-4638-89ab-ab89db9f8d8f.png)
-![image](https://user-images.githubusercontent.com/20191454/159120609-1cdb634d-5acd-475f-87e7-49d100a9a4eb.png)
-![image](https://user-images.githubusercontent.com/20191454/159120732-7f4cec21-2835-4007-abba-70b92742cab7.png)
 
-
+![image](https://user-images.githubusercontent.com/20191454/159130370-69a91488-0110-46f1-bed3-241697b5cc4e.png)
+![image](https://user-images.githubusercontent.com/20191454/159128802-a3d09265-5249-4d0d-8cc6-c68b4647e073.png)
+![image](https://user-images.githubusercontent.com/20191454/159122629-0cf883f3-1724-4468-9452-68a2c1c02698.png)
+![image](https://user-images.githubusercontent.com/20191454/159122507-4d4a0c70-cf72-47f0-8d20-2cbf6050009c.png)
+![image](https://user-images.githubusercontent.com/20191454/159122384-69a3fbee-2df8-4437-91e7-b8968245464f.png)
+![image](https://user-images.githubusercontent.com/20191454/159128673-2572e6bc-4482-4319-bfaf-77fc04573111.png)
+![image](https://user-images.githubusercontent.com/20191454/159129173-1a443a64-5517-4ac2-b9f1-c43d5c1007a1.png)
