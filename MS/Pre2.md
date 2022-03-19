@@ -83,16 +83,32 @@
 
 ![image](https://user-images.githubusercontent.com/20191454/159105658-b3ef6fa7-8b0b-4c6c-8836-e8a4fb984b1e.png
 ![image](https://user-images.githubusercontent.com/20191454/159107441-685fa48d-d00f-4345-b7ac-43c88f7607b4.png)
+![image](https://user-images.githubusercontent.com/20191454/159107946-21d1e934-9b12-440a-be75-810cf0178e67.png)
 #### Data Visualization usecases -
 * [Bar chart -
 ```markdown
 product_cateogary= np.array(["Furntitue","Technology","Office Supplier"])
 product_sales= np.array([1000.11,2002,1500]) 
-plt.bar(product_cateogary,product_sales)
+# align - center , bar surrounding color =edgeColor , barcolor = color
+plt.bar(product_cateogary,product_sales,width=0.5,align='center',edgeColor='Orange',color='cyan')
+# for title
+plt.title("Product cateogaries vs sales",fontdict={'fontsize':12,'fontweight':5,'color':'brown'})
+# for xlabel
+plt.xlabel("Sales in Thousand",fontdict={'fontsize':12,'fontweight':5,'color':'black'})
+# for ylable
+plt.ylabel("Product cateogaries",fontdict={'fontsize':12,'fontweight':5,'color':'black'})
+# for y lables
+yticks = np.arange(0,4000,1000)
+ylabels = ["{}K".format(i//1000) for i in yticks]
+plt.yticks(yticks,ylabels)
 plt.show()
 ```
 ](./comparision/among-items/one-variable-per-item/few-catrogaries/many-items)
-* [Columns chart](./comparision/among-items/one-variable-per-item/few-catrogaries/few-items)
+* [Columns chart
+```markdown
+
+```
+](./comparision/among-items/one-variable-per-item/few-catrogaries/few-items)
 
 
 
