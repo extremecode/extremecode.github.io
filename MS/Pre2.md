@@ -68,6 +68,23 @@
 ![image](https://user-images.githubusercontent.com/20191454/159112815-e2d35d24-d520-4b44-884b-1cbb2dd42ea0.png)
 ![image](https://user-images.githubusercontent.com/20191454/159113278-41e02298-e6ef-4efb-92f5-9e8dea54d8e8.png)
 ![image](https://user-images.githubusercontent.com/20191454/159113602-b80dcde4-2fe3-412e-b8c8-6cbd6461ed8f.png)
+![image](https://user-images.githubusercontent.com/20191454/159114618-63dadf28-934c-44c0-aee9-6f00b70b967a.png)
+![image](https://user-images.githubusercontent.com/20191454/159113627-8eb7a21a-3290-4abd-8531-f395db45804b.png)
+![image](https://user-images.githubusercontent.com/20191454/159113935-7fd0c7de-47fa-4125-bb21-257920728c0e.png)
+![image](https://user-images.githubusercontent.com/20191454/159114081-d1a5ae5a-5468-4f82-a7a1-df14a77c520b.png)
+![image](https://user-images.githubusercontent.com/20191454/159114085-6c884aa0-5a09-4614-8bd6-61e2178852e6.png)
+![image](https://user-images.githubusercontent.com/20191454/159114115-8d55d1e1-2fc1-48cc-93dc-0a06eb5fdcb9.png)
+![image](https://user-images.githubusercontent.com/20191454/159114129-75ff772d-0b57-4eec-8905-a35945bdbc3c.png)
+![image](https://user-images.githubusercontent.com/20191454/159114140-6e9269e0-4f32-4193-b419-da749b63e485.png)
+![image](https://user-images.githubusercontent.com/20191454/159114154-58aafb69-c2e2-4622-844d-8fc39198e26d.png)
+![image](https://user-images.githubusercontent.com/20191454/159114410-06e90114-0c14-4af3-bbb0-5c136d6c043e.png)
+![image](https://user-images.githubusercontent.com/20191454/159114679-88902633-c98a-4093-905a-fe1535c21c71.png)
+
+
+
+
+
+
 
 
 #### Numpy usecases
@@ -423,22 +440,27 @@ plt.show()
 ```
 ]
 
+EDA use cases-
+* making sense - it is used to find the most obvious pattern in the dataset - statistician make use of it to have a bird eye view - we observe to have hyo=pthesis testing 
+* Data Sourcing - to collect data - from public / private forum 
+* Data Cleaning -
+* - Fix - rows  - Unecassary header and footer rows, delete summary row, delete extra header and footers
+*       - columns - add col name if missing , delete unecssary column , split columns for more data , merge columns for identifiers, align misalogned columns
+* - Fix missing values - set values as missing values - "NA", "00" etc, adding is good exgagareting is bad, delete rows if insignificant
+*       - Fix partial missing values using business judgement - ex zone century etc.
+*          - MCAR - missing completely at random not dependent on others. reason not dependedent on others
+*          - MAR - missing at random - reason may be dependedent on others
+*          - MNAR - missing not at random - reason dependent on others 
+*       - strategies
+*          - DROPPING - df[~df["Energy"].isnull()].copy()   
+*          - IMPUTE - with mean,median, mode - since its not missing completely at random - 100*df.Energy.value_counts(normalize=True) replace with mode
+*          - identify missing value and find a suitable value - ex if -1 is indication of value not present replace it with nan df[dp["days"]<0,"days"]= np.nan
+* - standarizing values -  
+* - Fix invalid values - 
+* - Filter Data -  
 
-
-
-![image](https://user-images.githubusercontent.com/20191454/159114618-63dadf28-934c-44c0-aee9-6f00b70b967a.png)
-![image](https://user-images.githubusercontent.com/20191454/159113627-8eb7a21a-3290-4abd-8531-f395db45804b.png)
-![image](https://user-images.githubusercontent.com/20191454/159113935-7fd0c7de-47fa-4125-bb21-257920728c0e.png)
-![image](https://user-images.githubusercontent.com/20191454/159114081-d1a5ae5a-5468-4f82-a7a1-df14a77c520b.png)
-![image](https://user-images.githubusercontent.com/20191454/159114085-6c884aa0-5a09-4614-8bd6-61e2178852e6.png)
-![image](https://user-images.githubusercontent.com/20191454/159114115-8d55d1e1-2fc1-48cc-93dc-0a06eb5fdcb9.png)
-![image](https://user-images.githubusercontent.com/20191454/159114129-75ff772d-0b57-4eec-8905-a35945bdbc3c.png)
-![image](https://user-images.githubusercontent.com/20191454/159114140-6e9269e0-4f32-4193-b419-da749b63e485.png)
-![image](https://user-images.githubusercontent.com/20191454/159114154-58aafb69-c2e2-4622-844d-8fc39198e26d.png)
-![image](https://user-images.githubusercontent.com/20191454/159114410-06e90114-0c14-4af3-bbb0-5c136d6c043e.png)
-![image](https://user-images.githubusercontent.com/20191454/159114679-88902633-c98a-4093-905a-fe1535c21c71.png)
-
-
-
+![image](https://user-images.githubusercontent.com/20191454/159118771-d653e8cd-c388-48c9-bb1a-974f7483abe1.png)
+![image](https://user-images.githubusercontent.com/20191454/159118665-196cdf22-8492-4ccb-85da-b5389215a108.png)
+![image](https://user-images.githubusercontent.com/20191454/159119026-b744eafb-5989-4619-aeeb-811d92d4b44a.png)
 
 
