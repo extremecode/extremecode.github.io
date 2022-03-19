@@ -52,6 +52,20 @@
 ![image](https://user-images.githubusercontent.com/20191454/159056949-a622f553-aa28-4cd3-8241-3b63327d4582.png)
 ![image](https://user-images.githubusercontent.com/20191454/159057867-b446afbe-3783-4184-8bea-ead3f52fa48b.png)
 
+![image](https://user-images.githubusercontent.com/20191454/159105658-b3ef6fa7-8b0b-4c6c-8836-e8a4fb984b1e.png
+![image](https://user-images.githubusercontent.com/20191454/159107441-685fa48d-d00f-4345-b7ac-43c88f7607b4.png)
+![image](https://user-images.githubusercontent.com/20191454/159107946-21d1e934-9b12-440a-be75-810cf0178e67.png)
+![image](https://user-images.githubusercontent.com/20191454/159108670-fcf8d12e-9b8d-4717-9588-bed8a8761a72.png)
+![image](https://user-images.githubusercontent.com/20191454/159109037-1fd0e805-2db7-48a8-8702-c11f940d82a6.png)
+![image](https://user-images.githubusercontent.com/20191454/159109485-c253454e-423d-4ad2-8ec6-c70371698488.png)
+![image](https://user-images.githubusercontent.com/20191454/159109656-04c59f71-de1a-44ae-9a4f-bd255e492916.png)
+![image](https://user-images.githubusercontent.com/20191454/159109955-85c31070-c13c-40e2-a381-02ebf74e3957.png)
+![image](https://user-images.githubusercontent.com/20191454/159110373-f57d9b5e-d2cf-4cde-b8b4-483a70af0d21.png)
+![image](https://user-images.githubusercontent.com/20191454/159110988-86da5f03-1eb8-498b-a002-aea4de1a212c.png)
+![image](https://user-images.githubusercontent.com/20191454/159111014-f6afefcf-7fbc-4403-9e77-ae461a64716e.png)
+![image](https://user-images.githubusercontent.com/20191454/159111379-5f922834-5bcc-4206-af35-3b3478487c13.png)
+
+
 #### Numpy usecases
 * create a array of 55 ones - np.ones(55) , multi np.ones((2,2)) similary zeros
 * create a array equidistant - np.arange(start,end,step_size) end is excluded
@@ -320,18 +334,10 @@ plt.show()
 ```
 ]
 
-![image](https://user-images.githubusercontent.com/20191454/159105658-b3ef6fa7-8b0b-4c6c-8836-e8a4fb984b1e.png
-![image](https://user-images.githubusercontent.com/20191454/159107441-685fa48d-d00f-4345-b7ac-43c88f7607b4.png)
-![image](https://user-images.githubusercontent.com/20191454/159107946-21d1e934-9b12-440a-be75-810cf0178e67.png)
-![image](https://user-images.githubusercontent.com/20191454/159108670-fcf8d12e-9b8d-4717-9588-bed8a8761a72.png)
-![image](https://user-images.githubusercontent.com/20191454/159109037-1fd0e805-2db7-48a8-8702-c11f940d82a6.png)
-![image](https://user-images.githubusercontent.com/20191454/159109485-c253454e-423d-4ad2-8ec6-c70371698488.png)
-![image](https://user-images.githubusercontent.com/20191454/159109656-04c59f71-de1a-44ae-9a4f-bd255e492916.png)
-![image](https://user-images.githubusercontent.com/20191454/159109955-85c31070-c13c-40e2-a381-02ebf74e3957.png)
-![image](https://user-images.githubusercontent.com/20191454/159110373-f57d9b5e-d2cf-4cde-b8b4-483a70af0d21.png)
-![image](https://user-images.githubusercontent.com/20191454/159110988-86da5f03-1eb8-498b-a002-aea4de1a212c.png)
-![image](https://user-images.githubusercontent.com/20191454/159111014-f6afefcf-7fbc-4403-9e77-ae461a64716e.png)
-![image](https://user-images.githubusercontent.com/20191454/159111379-5f922834-5bcc-4206-af35-3b3478487c13.png)
+
+
+
+
 
 
 
