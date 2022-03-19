@@ -455,12 +455,32 @@ EDA use cases-
 *          - DROPPING - df[~df["Energy"].isnull()].copy()   
 *          - IMPUTE - with mean,median, mode - since its not missing completely at random - 100*df.Energy.value_counts(normalize=True) replace with mode
 *          - identify missing value and find a suitable value - ex if -1 is indication of value not present replace it with nan df[dp["days"]<0,"days"]= np.nan
-* - standarizing values -  
+* - standarizing values -
+*          - Ensure all observation under a variable have a common and consistent unit eg kgs/mgs/ miles to hr,km to m - df.time.apply(lambda x: float(x.split()[0]/60) if x.find("sec") else float(x.split()[0]/60))  
+*          -scale value if required - bring to a common value
+*          - standarizing precesion - round value 
+*          - Remove outliers 
+*             - univariate outlier - boxplot value outside the range of expected values
+*             - multivariate outler - scatter plot when multiple value put together it found its outlier
+*              sometime better to look at medium sometime better to look at quantiles
 * - Fix invalid values - 
+*            - encode unicode properly - cp1252 to UTF-8
+*            - correct incorrect data type - "11" tp int "27aug/2022" tp date
+*            - correct values that go beyond range - if temp less than -273K then we need to fix it
+*            - correct value not in list - blood group contains E and F
+*            - correct value structure - pincode of india of 12 digits
+*            - validate internal rules - date of delivery can't be before date of dete of order  
 * - Filter Data -  
+*            - Deduplicate data - remove duplicate data 
+*            - Filter rows - filter by segment, filter by date period to get rows relevant to analysis
+*            - Filter columns - pick columns relevant to anaylsis
+*            - aggregate data - group by required keys and aggregate the rest
 
 ![image](https://user-images.githubusercontent.com/20191454/159118771-d653e8cd-c388-48c9-bb1a-974f7483abe1.png)
 ![image](https://user-images.githubusercontent.com/20191454/159118665-196cdf22-8492-4ccb-85da-b5389215a108.png)
 ![image](https://user-images.githubusercontent.com/20191454/159119026-b744eafb-5989-4619-aeeb-811d92d4b44a.png)
+![image](https://user-images.githubusercontent.com/20191454/159120581-7888a7c6-b9f4-4638-89ab-ab89db9f8d8f.png)
+![image](https://user-images.githubusercontent.com/20191454/159120609-1cdb634d-5acd-475f-87e7-49d100a9a4eb.png)
+![image](https://user-images.githubusercontent.com/20191454/159120732-7f4cec21-2835-4007-abba-70b92742cab7.png)
 
 
