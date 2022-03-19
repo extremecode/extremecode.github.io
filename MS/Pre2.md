@@ -87,7 +87,8 @@
 * [Bar chart -
 ```markdown
 product_cateogary= np.array(["Furntitue","Technology","Office Supplier"]) product_sales= np.array([1000.11,2002,1500]) plt.bar(product_cateogary,product_sales)plt.show()
-```](./comparision/among-items/one-variable-per-item/few-catrogaries/many-items)
+```
+](./comparision/among-items/one-variable-per-item/few-catrogaries/many-items)
 * [Columns chart](./comparision/among-items/one-variable-per-item/few-catrogaries/few-items)
 
 
