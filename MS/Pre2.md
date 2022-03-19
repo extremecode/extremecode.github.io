@@ -89,6 +89,14 @@
 ![image](https://user-images.githubusercontent.com/20191454/159120732-7f4cec21-2835-4007-abba-70b92742cab7.png)
 
 
+![image](https://user-images.githubusercontent.com/20191454/159130370-69a91488-0110-46f1-bed3-241697b5cc4e.png)
+![image](https://user-images.githubusercontent.com/20191454/159128802-a3d09265-5249-4d0d-8cc6-c68b4647e073.png)
+![image](https://user-images.githubusercontent.com/20191454/159122629-0cf883f3-1724-4468-9452-68a2c1c02698.png)
+![image](https://user-images.githubusercontent.com/20191454/159122507-4d4a0c70-cf72-47f0-8d20-2cbf6050009c.png)
+![image](https://user-images.githubusercontent.com/20191454/159122384-69a3fbee-2df8-4437-91e7-b8968245464f.png)
+![image](https://user-images.githubusercontent.com/20191454/159128673-2572e6bc-4482-4319-bfaf-77fc04573111.png)
+![image](https://user-images.githubusercontent.com/20191454/159129173-1a443a64-5517-4ac2-b9f1-c43d5c1007a1.png)
+
 
 
 
@@ -508,11 +516,63 @@ plt.show()
 *             - analysis between two cateogarical variables - convert a new col to numeric np.where(df.col=="cretiera",1,0)
 *             - mutivariate analysis = create a pivot table res=pd.pivot_table(data=df,index="Genre",columns="Artist.Name",values="HighEnergy")sns.heatmap(res,annot=True,cmap="RdYlGn",center=0.117)plt.show()
 
+Inferential statistics Use cases- 
+- the process of inferring insights from sample data is called infrential statistics. while describing is descriptive analytics.
+-  Probalblity = no of favorable outcome/total out comes = exp- action whose result is uncertain ,event = tossing a coin and getting head,samplespace - total possible outcome of an event constituent of a sample space for equall likely event like toss of a coin , not for not equal likely - if one score 90 othee will score 90 
+- Probablity of multiple events -  n1* n2 ... nk
+- complement of a event - A + Ac =1 but A AC will no overlap
+- union of event A U B - 
+- intersection A intersect B = 
+- mutually exclusive event - if event A and B cannot occur simulatenously, can be represented by a venn diagram
+- independent event - Event whose occurence are not dependent on each other , cannot be represnted by a venn diagram
+- Multiplication rule for independent events: Also known as the specific multiplicationrule, it states that P(A ∩ B) = P(A) x P(B).Note: The probability of mutually exclusive events A and B occurring together is 0, i.e.,P(A and B) or P(A ∩ B) = 0.
+- Multiplication rule for dependent events: Also known as the general multiplication
+rule, it states that P(A ∩ B) = P(A) ⋅ P(B|A).
+- Addition rule When you have the individual probabilities of two events A and B, denoted with P(A) and P(B), respectively, the addition rule states that the probability that either event A or event B occurs is given as: P(A U B) = P(A) + P(B) - P(A ∩ B) If events A and B are mutually exclusive, then P(A ∩ B) = 0. In such a case, P(A U B) = P(A) + P(B).
+- types of probablity - joint probablity -Joint probability is calculated for events whose occurrence is affected by one another.It is defined as the probability of two or more events occurring simultaneously.For example, the joint probability of events A1 and B2is 0.25.
+-                     - marginal probablity - Marginal probability is the probability of an event occurring irrespective of theoutcomes of another event occurring simultaneously. It is computed by adding across rows and down columns; in other words, it is calculated along a table’s margins. For example, the marginal probability of B1 (Fund outperforming the market) = 0.1+ 0.04 = 0.14, or 14%.
+-                     - conditional probablity - Bayers theoram 
+- Random Variable - X is used to express the outcomes in some measurable quantity
+- Probablity Distribution - A probability distribution for X is a representation of how the probabilities are distributed for all possible values of X. It could be a table, a chart, or an equation      
+- A probability distribution looks like a frequency distribution but with a different scale.         
+- Discrete probability distributions: A random variable, say, X, can only take discretevalues, i.e., it can only take finite values.
+- Continuous probability distributions: The random variable, X, can take an infinite number of values
+- expected value (EV) for a variable X is the value of X that we would “expect” to get after performing an experiment once     
+- The variance and standard deviation give us a measure of spread of a random variable, from it’s
+mean or expected value
 
-![image](https://user-images.githubusercontent.com/20191454/159130370-69a91488-0110-46f1-bed3-241697b5cc4e.png)
-![image](https://user-images.githubusercontent.com/20191454/159128802-a3d09265-5249-4d0d-8cc6-c68b4647e073.png)
-![image](https://user-images.githubusercontent.com/20191454/159122629-0cf883f3-1724-4468-9452-68a2c1c02698.png)
-![image](https://user-images.githubusercontent.com/20191454/159122507-4d4a0c70-cf72-47f0-8d20-2cbf6050009c.png)
-![image](https://user-images.githubusercontent.com/20191454/159122384-69a3fbee-2df8-4437-91e7-b8968245464f.png)
-![image](https://user-images.githubusercontent.com/20191454/159128673-2572e6bc-4482-4319-bfaf-77fc04573111.png)
-![image](https://user-images.githubusercontent.com/20191454/159129173-1a443a64-5517-4ac2-b9f1-c43d5c1007a1.png)
+
+![image](https://user-images.githubusercontent.com/20191454/159132570-26fc6969-6c4f-411c-b990-99be39b94589.png)
+![image](https://user-images.githubusercontent.com/20191454/159132143-5973b387-5c6a-4bff-875b-8c2d1105a43c.png)
+![image](https://user-images.githubusercontent.com/20191454/159131549-8ac76718-a79d-4df7-b055-922defbcc142.png)
+![image](https://user-images.githubusercontent.com/20191454/159131172-2e4f73a4-b335-47d8-8378-289055e71ae1.png)
+![image](https://user-images.githubusercontent.com/20191454/159131524-baf763d9-1cf2-4baf-9d1f-34557d1ea8f9.png)
+![image](https://user-images.githubusercontent.com/20191454/159132755-7a60ed46-bd1e-4fb1-8a44-0e1d866cc6c0.png)
+![image](https://user-images.githubusercontent.com/20191454/159132762-76e57fc5-c260-42d9-baf9-ffb134ebd3cc.png)
+![Uploading image.png…]()
+
+
+```markdown
+Consider a bin with 20 balls, of which 4 are yellow, 5 are green, 6 are red, and 5 are blue:
+● Let event A be the probability of drawing a red ball in draw 1.
+● Let event B be the probability of drawing a red ball in draw 2.
+Since we are not replacing the balls, this becomes a case of conditional probability. The
+probability of drawing two yellow balls can be given by P(A በ B). The formula P(B|A) = P(A በ B) /
+P(A) can be written further as P(A በ B) = P(B|A) x P(A):
+● We know that the probability of event A is:
+P(A) = =
+𝑁𝑢𝑚𝑏𝑒𝑟 𝑜𝑓 𝑟𝑒𝑑 𝑏𝑎𝑙𝑙𝑠
+𝑇𝑜𝑡𝑎𝑙 𝑛𝑢𝑚𝑏𝑒𝑟 𝑜𝑓 𝑏𝑎𝑙𝑙𝑠
+6
+20
+● The probability of event B given event A has occurred (without replacement) is:
+P(B|A) = =
+𝑁𝑢𝑚𝑏𝑒𝑟 𝑜𝑓 𝑟𝑒𝑑 𝑏𝑎𝑙𝑙𝑠 𝑙𝑒𝑓𝑡 𝑎𝑓𝑡𝑒𝑟 𝑒𝑣𝑒𝑛𝑡 𝐴 ℎ𝑎𝑠 𝑜𝑐𝑐𝑢𝑟𝑟𝑒𝑑
+𝑇𝑜𝑡𝑎𝑙 𝑛𝑢𝑚𝑏𝑒𝑟 𝑜𝑓 𝑏𝑎𝑙𝑙𝑠 𝑙𝑒𝑓𝑡 𝑎𝑓𝑡𝑒𝑟 𝑒𝑣𝑒𝑛𝑡 𝐴 ℎ𝑎𝑠 𝑜𝑐𝑐𝑢𝑟𝑟𝑒𝑑
+5
+19
+● Hence, P(A በ B) = 6/20 * 5/19 = 3/38 = 0.079. This means there is a 7.9% chance that
+you will draw two red balls from the bin without replacement.
+
+```
+
