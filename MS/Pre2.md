@@ -80,7 +80,13 @@
 * groupby and aggregation = df.groupby(by="column name").aggregation_Func().head() 
 * merge two dataframe- df1.merge(df2,on="common column name",how=(left,right,inner,outer)) - left - from first df all rows , right - from secondf df all rows, outer - union on df1,df2, , inner - intersection of df1,df2
 * create a agg table - comaring index and a range of columns - df.pivot_table(index="Track Name",columns="Energy",values="Liveness",aggfunc="count").head()
-#### Data Visualization usecases - 
+
+![image](https://user-images.githubusercontent.com/20191454/159105658-b3ef6fa7-8b0b-4c6c-8836-e8a4fb984b1e.png
+![image](https://user-images.githubusercontent.com/20191454/159107441-685fa48d-d00f-4345-b7ac-43c88f7607b4.png)
+#### Data Visualization usecases -
+* [Bar chart](./comparision/among items/one-variable-per-item/few-catrogaries/many-items)
+* [Columns chart](./comparision/among items/one-variable-per-item/few-catrogaries/few-items)
+
 
 
 
