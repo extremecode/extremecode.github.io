@@ -84,8 +84,10 @@
 ![image](https://user-images.githubusercontent.com/20191454/159105658-b3ef6fa7-8b0b-4c6c-8836-e8a4fb984b1e.png
 ![image](https://user-images.githubusercontent.com/20191454/159107441-685fa48d-d00f-4345-b7ac-43c88f7607b4.png)
 #### Data Visualization usecases -
-* [Bar chart](./comparision/among items/one-variable-per-item/few-catrogaries/many-items)
-* [Columns chart](./comparision/among items/one-variable-per-item/few-catrogaries/few-items)
+* [Bar chart - ```markdown
+product_cateogary= np.array(["Furntitue","Technology","Office Supplier"]) product_sales= np.array([1000.11,2002,1500]) plt.bar(product_cateogary,product_sales)plt.show()
+```](./comparision/among-items/one-variable-per-item/few-catrogaries/many-items)
+* [Columns chart](./comparision/among-items/one-variable-per-item/few-catrogaries/few-items)
 
 
 
