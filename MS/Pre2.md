@@ -65,6 +65,10 @@
 ![image](https://user-images.githubusercontent.com/20191454/159111014-f6afefcf-7fbc-4403-9e77-ae461a64716e.png)
 ![image](https://user-images.githubusercontent.com/20191454/159111379-5f922834-5bcc-4206-af35-3b3478487c13.png)
 
+![image](https://user-images.githubusercontent.com/20191454/159112815-e2d35d24-d520-4b44-884b-1cbb2dd42ea0.png)
+![image](https://user-images.githubusercontent.com/20191454/159113278-41e02298-e6ef-4efb-92f5-9e8dea54d8e8.png)
+![image](https://user-images.githubusercontent.com/20191454/159113602-b80dcde4-2fe3-412e-b8c8-6cbd6461ed8f.png)
+
 
 #### Numpy usecases
 * create a array of 55 ones - np.ones(55) , multi np.ones((2,2)) similary zeros
@@ -333,10 +337,105 @@ plt.legend(bbox_to_anchor=(1.81,0.4))
 plt.show()
 ```
 ]
+* [ Pie Chart
+```markdown
+plt.pie(df.Genre.value_counts())
+plt.show()
+or 
+df.Genre.value_counts().plot.pie()
+
+```
+](./composition/static/simplesharttotal)
+
+* [ Waterfall Chart
+```markdown
+
+```
+](./composition/static/Accumulationorsubtractiooftotal)
+* [ Stacked Bar Chart
+```markdown
+
+```
+](./composition/static/componentofcomponents)
+* [ Stacked 100% Column Chart - only relative diffrence matter
+```markdown
+
+```
+](./composition/changingovertime/fewperiods)
+* [ Stacked Column Chart - Relative and absolute diffrence matter
+```markdown
+
+```
+](./composition/changingovertime/fewperiods)
+* [ Stacked 100% area Chart - only relative diffrence matter
+```markdown
+
+```
+](./composition/changingovertime/manyperiods)
+* [ Stacked area Chart - Relative and absolute diffrence matter
+```markdown
+
+```
+](./composition/changingovertime/manyperiods)
+
+* Handling data and cleaning 
+* missing values - imputation - replace missing value with another stimated value - df.Popularity.fillna(df["Popularity"].mode()[0]) replaced with mode, dropping null values - you can drop the missing values altogether - df[~df.Popularity.isnull()], keep the missing value - if it doesn't effect the analysis
+* incorrect data types - df.Price = df.Price.apply(lambda x: 0 if x == "0" else float(x[1:])), df.Reviews = df.Reviews.astype("int32")
+* sanity checks - to makes sure clean data makes sense - means if a marks columns has score 110 
+* outlier analysis - we will use boxplot for single variable  = values outside interquartile range - Q1(25%)-1.5IOR(Q3-Q1),Q3+1.5IQR , if outlies are not there for obvous reason remove it, in case of genuine reason think of what to take action.
+* Gauging the spread of quantile values -  increasing the decrease the no of bins gives vertical bar give total no of rec frequency for a give bin size
+* bar chart - cateogaries data for few vari 
+* relationship between two variables - infromation conveyed by joints plots
+*  
+Seaborn Data visulization -
+* [Distribution plots - approximate probablity density frequency
+```markdown
+plt.style.use("ggplot") || plt.style.use("black_background")
+sns.distplot(profit,bins=50)
+plt.show()
+```
+]
+* [Joint plot - relationship between two variables
+```markdown
+%matplotlib inline
+plt.style.use("ggplot")
+sns.jointplot(df["Energy"],df["Liveness"])
+plt.show()
+```
+]
+* [Pair plot - plot scatter for a list of features doing for each is tedious
+```markdown
+sns.pairplot(df[["Energy","Liveness","Popularity"]])
+plt.show()
+```
+]
+* [Heat Map - define the significance of for two cateogaries.
+```markdown
+sns.heatmap(pd.pivot_table(data = df,index="Track Name",columns=["Energy"],aggfunc="count",values="Liveness"))
+plt.show()
+```
+]
+
+* [Stacked bar chart - significace of multiple cateogarien on a gven metric
+```markdown
+pd.pivot_table(data = df,index="Track Name",columns=["Energy"],aggfunc="count",values="Liveness").plot(kind='bar',stacked=True,figsize=[10,])
+plt.show()
+```
+]
 
 
 
 
+![image](https://user-images.githubusercontent.com/20191454/159114618-63dadf28-934c-44c0-aee9-6f00b70b967a.png)
+![image](https://user-images.githubusercontent.com/20191454/159113627-8eb7a21a-3290-4abd-8531-f395db45804b.png)
+![image](https://user-images.githubusercontent.com/20191454/159113935-7fd0c7de-47fa-4125-bb21-257920728c0e.png)
+![image](https://user-images.githubusercontent.com/20191454/159114081-d1a5ae5a-5468-4f82-a7a1-df14a77c520b.png)
+![image](https://user-images.githubusercontent.com/20191454/159114085-6c884aa0-5a09-4614-8bd6-61e2178852e6.png)
+![image](https://user-images.githubusercontent.com/20191454/159114115-8d55d1e1-2fc1-48cc-93dc-0a06eb5fdcb9.png)
+![image](https://user-images.githubusercontent.com/20191454/159114129-75ff772d-0b57-4eec-8905-a35945bdbc3c.png)
+![image](https://user-images.githubusercontent.com/20191454/159114140-6e9269e0-4f32-4193-b419-da749b63e485.png)
+![image](https://user-images.githubusercontent.com/20191454/159114154-58aafb69-c2e2-4622-844d-8fc39198e26d.png)
+![image](https://user-images.githubusercontent.com/20191454/159114410-06e90114-0c14-4af3-bbb0-5c136d6c043e.png)
 
 
 
