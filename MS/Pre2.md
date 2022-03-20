@@ -113,6 +113,14 @@
 ![image](https://user-images.githubusercontent.com/20191454/159133681-81de1521-73fc-46c6-93f6-64337f84cc15.png)
 
 
+![image](https://user-images.githubusercontent.com/20191454/159145084-69b97cd7-063a-4a96-b13a-631d76c351a7.png)
+![image](https://user-images.githubusercontent.com/20191454/159144788-0f758d22-1b80-4c05-85e6-dcb6d6e7e1d6.png)
+![image](https://user-images.githubusercontent.com/20191454/159144353-8c1f5755-e92a-425c-bdb5-40584d8c5369.png)
+![image](https://user-images.githubusercontent.com/20191454/159144456-6670581e-afd5-44e0-b060-57eabd0b41c0.png)
+![image](https://user-images.githubusercontent.com/20191454/159144564-76c78c70-0380-4c21-8a40-1e9e05f8122c.png)
+![image](https://user-images.githubusercontent.com/20191454/159144810-55c364cc-bdc4-4490-9760-a6515ad389c3.png)
+![image](https://user-images.githubusercontent.com/20191454/159145342-63630295-936a-4205-b102-33973b5c0f68.png)
+
 
 
 #### Numpy usecases
@@ -582,14 +590,94 @@ mean or expected value
 -  for population proportion - pbar - poupulaton average prop,
 -  for population proportion steps - 1. select sample size n 2. collect sample 3. assume its std normal distribution 4. select CI 5. compute pbar + z* x root(p(1-p)/n) where z* is critical value pbar is sample proportion, n is sample size
 
+Hypothesis testing use cases (HT)
+- it helps to draw infrences around about the sample mean and sample data using sample data. but to validate our conclusion we need hypotestsis testing.
+- when we perform descriptive,exploratory,inferential analysis we make claim about population claims of such kind is called hypothesis
+- Hypothesis testing starts with two testing - H0 - null hypothesis - the status quo, Ha - alternate hypothesis -  chanllenge the status quo both are mutuall exclusive and exhaustive., H0 - null - we fail to reject but we cannot accept it.
+- someone commit a murder trial - H0 -he is innocent Ha - he is not innocent, 
+- The null hypothesis always has the =, ≤, or ≥ sign.
+- The alternative hypothesis always has the ≠, >, or < sign
+- decison to reject a null or fail to recject if it lies in between x belongs(LCV,UCV) then we failed to reject if it lies in the non rejection region
+- sign to determine type of test - ≠ in Ha → Two-tailed test → Rejection region on both sides of the distribution,< in Ha → Left-tailed test → Rejection region on the left side of the distribution, > in Ha → Right-tailed test → Rejection region on the right side of the distribution
+- critical value method steps for HT - 1. formulate the null and alternate hypothesis 2. decide confidence interval defualt 95% 3.determine the critical Z score LCV,UCV 4. compute the sample Z score 5. reject or fail to reject null hypothesis 
+- Z table link https://cdn.upgrad.com/uploads/production/cbed6db0-2ac8-4e38-a73a-63ca6ec985a1/z-table.pdf
+- p value method - another more common method used in industry, is used to measure the strength of the evidence, consider test statistic is K.p-value os probablity of observing test-statistic at extreme K assuming the null hyporthesis is true. we reject the null hypothesis if p-value is less than significance level.
+- p-Value can be interpreted as the probability that the null hypothesis is correct
+- p-value value method steps for HT - 1. formulate the null and alternate hypothesis 2. decide confidence interval defualt 95% 3. compute the test statistic and calculate p-value after if p-value <=alpha we reject h0 id p-value>H0 then we fail to reject H0
+- for unkown standard deviation assumption - the population standard deviation (σ) is estimated to be equal to the sample standard deviation (s) and a t-test is used to find the test statistic.
+- for small samples we use t-distribution than a normal distribution and has a flatter tail, which would eventually mean it has a larger standard deviation
+- For sample size exceeding 30, the t-distribution approximately equals the normal distribution,Each t-distribution is distinguished by what statisticians call degrees of freedom, which are related to the sample size of a data set. If your sample size is n, then the corresponding t-distribution has n - 1 degrees of freedom., Sample of smaller size have flatter t-distributions than larger samples. And as you may expect, the larger the sample size and the greater the degrees of freedom, the more the t-distribution looks like a standard normal distribution, or a z-distribution.
+- test statistic - x-u/s/root(n) - s  = root(sum(x-Xbar)^2/n-1)
+- testing proportions z statisic = pbar - p/root(p(1-p)/n) for z statistic it has to follow normal dist 1) np ≥ 5 and 2) n(1-p) ≥ 5.
+- A type-I error occurs when the null hypothesis is true but we reject it; in other words, we reject H0 when it is true.
+- The probability of a type-I error is denoted with α (alpha) and is usually 0.05 or 0.01, i.e., only a 5% or 1% chance. Type-I error is also called the level of significance of a hypothesis test
+- A type-II error occurs when the null hypothesis is false but we fail to reject it; inother words, we fail to reject H0 when it is false.
+If, for instance, a defendant is indeed guilty but the jury acquits them, then this would be a type-II error. In practical terms, this is the most serious error you can ever commit. For example, if you let a murderer walk away, they might end up harming more people. The probability of a type-II error is denoted with β (beta).
+- In one-sample testing, the population mean or population proportion is tested against a specific value. However, on many occasions, you may want to compare the population mean with another population whose parameters you know, instead of testing it against some fixed value. We call such tests two-sample tests
+- 2 sample tests 
+-   In the case of a two-tailed test, the null hypothesis is μ1- μ2 = μd and the alternative hypothesis will be μ1 μ2 ≠ μd.
+-   Here, μd denotes the hypothesized difference between μ1 and μ2 ; unless a very rare scenario occurs, μd is usually 0. Therefore, our null hypothesis becomes μ1 - μ2 = 0, which means we want to test whether the mean of two populations is equal or not.
+- In the case of a left-tailed test, the alternative hypothesis will have the “<” sign. The alternative hypothesis becomes μ1 μ2 < μd.
+3. Similarly, if the alternative hypothesis has the “>” sign, i.e., μ1 μ2 > μd, then such a test is called a right-tailed test.
+- for known variance test statisic = (x1bar - x2bar) - (u1bar - u2bar)/root(stdev1^2/n1 +stdev2^2/n2) 𝑥 and represent sample means.
+- for unknown variance means uknown population std dev - (x1bar - x2bar) - (u1bar - u2bar)/root(samplestdev1^2/n1 +samplestdev2^2/n2) 𝑥 and represent sample means.
+- the degree of freedom - (s1^2/n1 + s2^2/n2)/((s1^2/n1)^2/n1-1 + (s2^2/n2)^2/n2-1)
+- comparing match values t = dbar - d0/ sd/root(n) , deg of freedom = n-1 mean dbar = sum(x1i -x2i)/n var sd^2 = 1/n-1 summation(d1i -dbar)
+- tests proprotions = p1-p2/root(pbar(1-pbar)(1/n1+1/n2)) wherer pbar = n1p1+n2p2/n1+n2
+- A/B tests is an industry application of 2 sample tests proportion - A/B testing is entirely based on the two-sample proportion test as this test is used when you want to compare the proportions of two different samples. You can use different tools, platforms, and programming languages, such as R and Optimizely, to conduct A/B tests (or two-sample proportion test).
 
-![image](https://user-images.githubusercontent.com/20191454/159145084-69b97cd7-063a-4a96-b13a-631d76c351a7.png)
-![image](https://user-images.githubusercontent.com/20191454/159144788-0f758d22-1b80-4c05-85e6-dcb6d6e7e1d6.png)
-![image](https://user-images.githubusercontent.com/20191454/159144353-8c1f5755-e92a-425c-bdb5-40584d8c5369.png)
-![image](https://user-images.githubusercontent.com/20191454/159144456-6670581e-afd5-44e0-b060-57eabd0b41c0.png)
-![image](https://user-images.githubusercontent.com/20191454/159144564-76c78c70-0380-4c21-8a40-1e9e05f8122c.png)
-![image](https://user-images.githubusercontent.com/20191454/159144810-55c364cc-bdc4-4490-9760-a6515ad389c3.png)
-![image](https://user-images.githubusercontent.com/20191454/159145342-63630295-936a-4205-b102-33973b5c0f68.png)
+
+
+
+
+
+
+![image](https://user-images.githubusercontent.com/20191454/159145880-c1d89a42-f258-4b0e-be34-58182bea36c7.png)
+![image](https://user-images.githubusercontent.com/20191454/159145961-c69f775a-f676-45fe-99e6-54d0e6fbc5ed.png)
+![image](https://user-images.githubusercontent.com/20191454/159145999-5499e34c-c434-47e3-b707-82487f462d26.png)
+![image](https://user-images.githubusercontent.com/20191454/159146546-610a544a-4011-4a7a-bd87-90cbb15c31e8.png)
+![image](https://user-images.githubusercontent.com/20191454/159146611-b1e3c616-ca12-4cd7-bf74-bb3d0d6cfa2c.png)
+![image](https://user-images.githubusercontent.com/20191454/159147135-37df7640-f4b9-4c0e-aebc-2b5ceb91cbf0.png)
+![image](https://user-images.githubusercontent.com/20191454/159147141-9c115150-e548-4ed8-a64b-c3495b5b364f.png)
+![image](https://user-images.githubusercontent.com/20191454/159147149-da77bf80-cc03-43d1-857e-b9d4633ec2cd.png)
+![image](https://user-images.githubusercontent.com/20191454/159147153-4d996fe5-3e7c-4489-bd38-2dd81ff88103.png)
+![image](https://user-images.githubusercontent.com/20191454/159147164-2918d93d-8383-469f-a935-aa0fc3fd4ba5.png)
+![image](https://user-images.githubusercontent.com/20191454/159147172-83d379d5-dd60-4dde-b4fa-23d06f787a05.png)
+![image](https://user-images.githubusercontent.com/20191454/159147616-fb822ac2-ce6e-411a-8fd0-4ddc6df4e97e.png)
+![image](https://user-images.githubusercontent.com/20191454/159147715-a387a8b5-2708-4f37-b102-519b3c8dd69c.png)
+![image](https://user-images.githubusercontent.com/20191454/159147773-b7eb4e87-2311-4bbc-94f8-91cea5efca22.png)
+![image](https://user-images.githubusercontent.com/20191454/159147781-ff8fdf99-ca83-4062-b853-8ad2e3096dfe.png)
+![image](https://user-images.githubusercontent.com/20191454/159147789-12976949-1a65-4196-b8e5-2ddb0fb802f5.png)
+![image](https://user-images.githubusercontent.com/20191454/159147856-b75f765c-b95b-4e9e-96a5-80f7f1a5497a.png)
+![image](https://user-images.githubusercontent.com/20191454/159148029-d60f93c6-a0cd-4593-83ad-1459e413929e.png)
+![image](https://user-images.githubusercontent.com/20191454/159148175-1721e9ad-e71b-48d4-9a76-e811bada6ec7.png)
+![image](https://user-images.githubusercontent.com/20191454/159148505-5a89e395-93f0-427b-8b5b-d33cf3942b38.png)
+![image](https://user-images.githubusercontent.com/20191454/159148560-26ffecab-e845-4288-8af1-fd9af9377911.png)
+![image](https://user-images.githubusercontent.com/20191454/159148632-ffff82cb-073d-4e8b-8151-b040a5d4f039.png)
+![image](https://user-images.githubusercontent.com/20191454/159148775-2e1f8b77-b9e7-491c-ba90-8ce973aefd00.png)
+![image](https://user-images.githubusercontent.com/20191454/159148816-45c89d6b-d688-4109-8913-8a1da87515a7.png)
+![image](https://user-images.githubusercontent.com/20191454/159148895-7790014f-6ce7-4f71-881f-ea3588a643b4.png)
+![image](https://user-images.githubusercontent.com/20191454/159148918-165340ae-b82f-4cf6-b6c5-723071185f16.png)
+![image](https://user-images.githubusercontent.com/20191454/159149038-201a60d1-5ba5-41c3-966c-d01fb257c317.png)
+![image](https://user-images.githubusercontent.com/20191454/159149070-6ce53336-5f0a-453e-94be-2a13f6cf99d6.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ```markdown
