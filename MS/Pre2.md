@@ -97,6 +97,20 @@
 ![image](https://user-images.githubusercontent.com/20191454/159128673-2572e6bc-4482-4319-bfaf-77fc04573111.png)
 ![image](https://user-images.githubusercontent.com/20191454/159129173-1a443a64-5517-4ac2-b9f1-c43d5c1007a1.png)
 
+![image](https://user-images.githubusercontent.com/20191454/159132570-26fc6969-6c4f-411c-b990-99be39b94589.png)
+![image](https://user-images.githubusercontent.com/20191454/159132143-5973b387-5c6a-4bff-875b-8c2d1105a43c.png)
+![image](https://user-images.githubusercontent.com/20191454/159131549-8ac76718-a79d-4df7-b055-922defbcc142.png)
+![image](https://user-images.githubusercontent.com/20191454/159131172-2e4f73a4-b335-47d8-8378-289055e71ae1.png)
+![image](https://user-images.githubusercontent.com/20191454/159131524-baf763d9-1cf2-4baf-9d1f-34557d1ea8f9.png)
+![image](https://user-images.githubusercontent.com/20191454/159132755-7a60ed46-bd1e-4fb1-8a44-0e1d866cc6c0.png)
+![image](https://user-images.githubusercontent.com/20191454/159132762-76e57fc5-c260-42d9-baf9-ffb134ebd3cc.png)
+![image](https://user-images.githubusercontent.com/20191454/159133212-e5f0204e-b078-48d8-ba67-8cc301efe25b.png)
+![image](https://user-images.githubusercontent.com/20191454/159133260-14f80095-d3b6-4998-b4ee-f6e8830313fa.png)
+![image](https://user-images.githubusercontent.com/20191454/159133375-cc40c249-80dd-4050-8bb1-a13aaf90fa1b.png)
+![image](https://user-images.githubusercontent.com/20191454/159133410-3b2e9c42-8e65-471e-9934-a8615df1da12.png)
+![image](https://user-images.githubusercontent.com/20191454/159133425-dddda7ee-da52-4599-94ff-f81cd5eb47ff.png)
+![image](https://user-images.githubusercontent.com/20191454/159133641-54de5da4-24b6-4890-8acc-d526c5c22cc2.png)
+![image](https://user-images.githubusercontent.com/20191454/159133681-81de1521-73fc-46c6-93f6-64337f84cc15.png)
 
 
 
@@ -540,16 +554,42 @@ rule, it states that P(A ∩ B) = P(A) ⋅ P(B|A).
 - expected value (EV) for a variable X is the value of X that we would “expect” to get after performing an experiment once     
 - The variance and standard deviation give us a measure of spread of a random variable, from it’s
 mean or expected value
+- (Xi-u)^2*P(Xi)
+- Binomial distribution - P(X)=ncrpr(1-p)n-r, E(X) = np v(X) = np(1-p) sd = (np(1-p))^2
+- Cumulative Probablity - The cumulative probability of a variable, say, x, is generally denoted with F(x) ex P(X<=3) = P(0) + P(1) + P(2) + P(3) 
+- Continous Random Variable - infinte values,exacle value ~0,Probablity lies in an interval,defined by a pdf,calc P require find area under interval
+- Continous Comulative Probablity - area P(-1<=x<=1) = area P(-inf<=x<=1)
+- Uniform Distribution - area of rectangle = P(a<=x<=b) = 1 then P(c<=x<=d) = d-c/b-a  E(u) = a+b/2 var = (b-a)^2/12
+- Normal Distribution - bell curve, most common dist,symmetric,centre is mean,50% lies in eithe side of mean , highest value of y at mean, u and std dev, U+1(sd) = 68,(u+2sd)95,(u+3sd)99.7
+- Std Normal Distribution - normal convert to std value using  Z scores. X in normal mean Z in std normal, Z=(X-u)/std, P(a<=x<=b) = P(Za<=Z<=Zb) = P(Zb) - P(Za)
+- sample space - avg time + std dev + some error of margin, leap of faith for sample, then extend to entire population.
+- Sampling - technique to choose sample units (SU)
+-   - Random ,Prob - simple random(SU selected randomly , used when finite not for large population), stratified - people divided in subgroup, select from them in group approiate propportion, cluster - divide into cluster - then choose randomly from some cluster , systematic - SU selected with an interval or some functio
+-   - Non random,non prob - Judgment , convinent sampling
+- sample-  u = sum(Xi)/N(pupulation size) = var (Xi-u)^2/n , Xbar(sample mean) = sum(Xi)/n, var(X) = (X-Xbar)^2/n-1
+- Central Limit Theoram - regardless of how population is distributed mean uxbar = u of population std dev = std dev of pop/root n , when n>30 it can be assumed to be normally distributed.
+- Interval Estimation -
+-  - confidence interval CI- Probablity associated with a claim is confidence interval, final interval
+-  - maximum error - is called margin of error in the sample mean
+-  - significance level(alpha) - 1 - CI
+-  CI for y% is - (Xbar - Z*stddev/rootn,Xbar + Z*stddev/rootn), margin of err = Z*stdev/rootn , common Z values = {50-0.674,80%-1.282,90%-1.645,95-1.960,99-2.576}
+-  for normal dist steps - 1. collect sample n>30 2. compute Xbar,stddev sample 3. using CLT select std normal dist 4. select CI 5. compute (Xbar - Z*stddev/rootn,Xbar + Z*stddev/rootn)
+-  for smaller sample n<30 we use t distribution - heavier tail,more flatter similar to Z curve
+-  if std dev is unkown use t dist if known and n>30 then only use std normal dist
+-  for t distribution - degree of freedom (n(sample size)-1) 
+-  for t dist steps - 1. collect sample n<30 or std dev unkown 2. compute Xbar,stddev sample S 3. using t dist 4. select CI 5. compute (Xbar - t*sample stdev/rootn,Xbar + t*sample std dev/rootn)
+-  for cateogarical data - we will use proportion
+-  for population proportion - pbar - poupulaton average prop,
+-  for population proportion steps - 1. select sample size n 2. collect sample 3. assume its std normal distribution 4. select CI 5. compute pbar + z* x root(p(1-p)/n) where z* is critical value pbar is sample proportion, n is sample size
 
 
-![image](https://user-images.githubusercontent.com/20191454/159132570-26fc6969-6c4f-411c-b990-99be39b94589.png)
-![image](https://user-images.githubusercontent.com/20191454/159132143-5973b387-5c6a-4bff-875b-8c2d1105a43c.png)
-![image](https://user-images.githubusercontent.com/20191454/159131549-8ac76718-a79d-4df7-b055-922defbcc142.png)
-![image](https://user-images.githubusercontent.com/20191454/159131172-2e4f73a4-b335-47d8-8378-289055e71ae1.png)
-![image](https://user-images.githubusercontent.com/20191454/159131524-baf763d9-1cf2-4baf-9d1f-34557d1ea8f9.png)
-![image](https://user-images.githubusercontent.com/20191454/159132755-7a60ed46-bd1e-4fb1-8a44-0e1d866cc6c0.png)
-![image](https://user-images.githubusercontent.com/20191454/159132762-76e57fc5-c260-42d9-baf9-ffb134ebd3cc.png)
-![Uploading image.png…]()
+![image](https://user-images.githubusercontent.com/20191454/159145084-69b97cd7-063a-4a96-b13a-631d76c351a7.png)
+![image](https://user-images.githubusercontent.com/20191454/159144788-0f758d22-1b80-4c05-85e6-dcb6d6e7e1d6.png)
+![image](https://user-images.githubusercontent.com/20191454/159144353-8c1f5755-e92a-425c-bdb5-40584d8c5369.png)
+![image](https://user-images.githubusercontent.com/20191454/159144456-6670581e-afd5-44e0-b060-57eabd0b41c0.png)
+![image](https://user-images.githubusercontent.com/20191454/159144564-76c78c70-0380-4c21-8a40-1e9e05f8122c.png)
+![image](https://user-images.githubusercontent.com/20191454/159144810-55c364cc-bdc4-4490-9760-a6515ad389c3.png)
+![image](https://user-images.githubusercontent.com/20191454/159145342-63630295-936a-4205-b102-33973b5c0f68.png)
 
 
 ```markdown
