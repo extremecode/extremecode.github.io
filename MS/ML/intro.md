@@ -89,6 +89,18 @@ https://online.stat.psu.edu/stat462/node/98/
 ## Residual sum of squares (RSS) and R² (R-squared)
 
 
+![image](https://user-images.githubusercontent.com/20191454/160610971-64eb3f87-099b-4bb6-b106-1b5c01b04625.png)
+![image](https://user-images.githubusercontent.com/20191454/160659038-d37403aa-02a7-441f-be0b-df5885381899.png)
+![image](https://user-images.githubusercontent.com/20191454/160659531-6c9a5430-ae6b-402d-a0f6-4beeb7241b1a.png)
+
+![image](https://user-images.githubusercontent.com/20191454/160659819-04852f76-72b5-47c0-b46c-bf37249879ba.png)
+![image](https://user-images.githubusercontent.com/20191454/160662420-11a5c164-c34e-49a5-953f-8c671c786ba4.png)
+
+Correlation matrix and heat map: A correlation matrix is an “nn matrix” with the cells representing the correlation between its corresponding row and column variable. A heat map assigns a color gradient to these values helping us visualize the correlation better.
+![image](https://user-images.githubusercontent.com/20191454/160666285-f7363138-2030-4ffe-b494-99b233f94df7.png)
+
+![image](https://user-images.githubusercontent.com/20191454/160670740-93d309c4-950b-421c-8a3f-ca087322074f.png)
+
 
 
 
