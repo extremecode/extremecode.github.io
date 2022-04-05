@@ -50,7 +50,46 @@ Automated feature selection
 Finding a balance between two manual feature selection and automated feature selection
  
 
+Linear regression is used in various fields such as real estate, telecom, e-commerce, etc. to build predictive models. Let's look at one such example from the real estate industry. Here, you will predict the price of a house on the basis of some predictor variables, such as floor area, number of bedrooms, parking space, etc.
+
+Problem Statement
+Consider that a real estate company has data about real estate prices in Delhi. The company wants to optimize the selling price of its properties, based on important factors such as area, bedrooms, parking, etc.
+
+ 
+
+Essentially, the company wants:
+
+To identify the variables affecting house prices, e.g., area, number of rooms, bathrooms, etc.
+To create a linear model that quantitatively relates house prices with variables, such as the number of rooms, area, number of bathrooms, etc.
+To know the accuracy of the model, i.e., how well these variables predict house prices
+
+
 
 
 
 ```
+
+
+![image](https://user-images.githubusercontent.com/20191454/161813061-c6ac4ecd-39aa-4958-82e6-5c6f3e0b150f.png)
+![image](https://user-images.githubusercontent.com/20191454/161814368-532e5937-b7ad-42cf-8b90-5286c05d04de.png)
+![image](https://user-images.githubusercontent.com/20191454/161816359-72a981da-6107-45e7-8292-a120e0b721e9.png)
+
+![image](https://user-images.githubusercontent.com/20191454/161820427-41ac613d-d634-47ce-9ce9-6b434de6639c.png)
+![image](https://user-images.githubusercontent.com/20191454/161820495-bd7993bc-c069-41d0-85e0-26c3bd8e0605.png)
+![image](https://user-images.githubusercontent.com/20191454/161821218-0771e2a5-c919-423f-9889-8397c72895cc.png)
+![image](https://user-images.githubusercontent.com/20191454/161822287-5486f154-a397-4d32-9b2d-8bdbe025d530.png)
+![image](https://user-images.githubusercontent.com/20191454/161822890-01efb84f-471c-45e6-8ccc-f6237b1797ae.png)
+
+![image](https://user-images.githubusercontent.com/20191454/161823326-2932ffb8-3a75-4bcb-98d3-55ded9a69a51.png)
+
+always drop one by one 
+Now that you seem to have a fair model, in the next segment, let's perform the final step of building your model: analyze the residual terms and predict the price.
+
+check RSS
+![image](https://user-images.githubusercontent.com/20191454/161824221-c216ad72-d700-4c90-b283-c2f8e37ee531.png)
+
+
+![image](https://user-images.githubusercontent.com/20191454/161824398-42c91ab9-dacf-48e1-8860-9dfedc8c497b.png)
+
+![Uploading image.png…]()
+
