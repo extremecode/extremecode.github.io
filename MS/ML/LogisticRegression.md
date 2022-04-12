@@ -40,4 +40,10 @@ https://towardsdatascience.com/confusion-matrix-for-your-multi-class-machine-lea
 
 
  
- 
+![image](https://user-images.githubusercontent.com/20191454/162979947-3eaba18a-776b-4b01-ba30-397016cb11a5.png)
+![image](https://user-images.githubusercontent.com/20191454/162981000-23d7316a-48e1-4f25-9cc7-db8f036b264c.png)
+
+![image](https://user-images.githubusercontent.com/20191454/162981415-17ff51f0-3d0a-4588-8f1a-9143e189319e.png)
+![image](https://user-images.githubusercontent.com/20191454/162984209-98c8efe5-454e-4e1d-91da-7efbb5507808.png)
+
+
