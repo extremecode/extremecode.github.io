@@ -57,6 +57,18 @@ https://medium.com/@maithilijoshi6/a-comparison-between-linear-and-logistic-regr
 ![image](https://user-images.githubusercontent.com/20191454/163667924-ebbb85a3-1687-4e0f-92a5-4bfbf08c0578.png)
 ![image](https://user-images.githubusercontent.com/20191454/163668896-e6e428d6-a02a-46c2-a292-cf081c311fa8.png)
 ![image](https://user-images.githubusercontent.com/20191454/163668903-920a0e82-c85c-4fb1-b007-6b3b0a9edf67.png)
+![image](https://user-images.githubusercontent.com/20191454/163725968-572cda27-57c0-4bad-b1c5-b610e0b0647a.png)
+![image](https://user-images.githubusercontent.com/20191454/163725981-d8c5c7ca-6f4a-4f2d-a537-23d24c844c89.png)
+![image](https://user-images.githubusercontent.com/20191454/163726051-f3749ffc-f628-4c9b-bdf5-b7451eaf9d5e.png)
+![image](https://user-images.githubusercontent.com/20191454/163726096-5b6ee434-1278-4136-a12c-9a9182fab0e4.png)
+![image](https://user-images.githubusercontent.com/20191454/163726100-7b711234-01db-41dc-8dbe-585683bdbec3.png)
+![image](https://user-images.githubusercontent.com/20191454/163726113-181f335b-8e6f-47d1-b77d-39de9e9a816c.png)
+![image](https://user-images.githubusercontent.com/20191454/163726308-65bc789b-5cbd-4e45-865f-61df8c9c1cb8.png)
+![image](https://user-images.githubusercontent.com/20191454/163726318-ec58b010-d4d8-4322-878e-327439700a53.png)
+![image](https://user-images.githubusercontent.com/20191454/163726390-2d433eb1-8f91-41b0-aa62-54f74fe52f89.png)
+![image](https://user-images.githubusercontent.com/20191454/163726497-cba9c6b5-f388-4b75-8a4b-e7991366e61b.png)
+![image](https://user-images.githubusercontent.com/20191454/163726566-41bf710b-40a8-4c7e-b7b5-37622ad08c55.png)
+![image](https://user-images.githubusercontent.com/20191454/163726573-2471ae2e-df9e-4572-96c5-441c91fe8b94.png)
 
 
 
