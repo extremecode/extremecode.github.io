@@ -73,18 +73,69 @@ https://medium.com/@maithilijoshi6/a-comparison-between-linear-and-logistic-regr
 
 
 
+![image](https://user-images.githubusercontent.com/20191454/163726787-077d6478-dd47-4027-a6ce-61bfc9564c00.png)
+![image](https://user-images.githubusercontent.com/20191454/163726806-b998c0c1-a3f9-4a6f-9ee9-c76b8c52403b.png)
+![image](https://user-images.githubusercontent.com/20191454/163726825-184c2371-18ed-4ffa-af69-30fe53353cd4.png)
+![image](https://user-images.githubusercontent.com/20191454/163726837-44f19ad4-a384-4ce0-919b-1cf8fa4c1060.png)
+![image](https://user-images.githubusercontent.com/20191454/163726908-cd2ed6ce-9322-4508-b970-cba6350fe267.png)
+![image](https://user-images.githubusercontent.com/20191454/163726925-1bf5e53d-8cc7-4c4b-833d-6f81cbb7f341.png)
+![image](https://user-images.githubusercontent.com/20191454/163726931-de7932df-87ed-4a26-bdb7-357db6ecf7d6.png)
+![image](https://user-images.githubusercontent.com/20191454/163726940-46b75389-4f4c-496e-b6b9-5a110dc14d55.png)
+![image](https://user-images.githubusercontent.com/20191454/163726951-33a632d3-fd2b-4918-b589-d0aae6173121.png)
+![image](https://user-images.githubusercontent.com/20191454/163727151-4a382c1a-9b18-44fe-9846-8271c3dd24c6.png)
+![image](https://user-images.githubusercontent.com/20191454/163727160-dbc21c86-0a5d-4f9b-9a41-6f2bbb5c2733.png)
+![image](https://user-images.githubusercontent.com/20191454/163727203-82562564-28a3-499c-ad68-5b48df663872.png)
+![image](https://user-images.githubusercontent.com/20191454/163727209-048a71c7-146b-4742-ad56-b2938adb8cac.png)
+https://www.geeksforgeeks.org/ml-stochastic-gradient-descent-sgd/
+![image](https://user-images.githubusercontent.com/20191454/163727240-8bb19ed4-21c4-4462-832e-0944faab26b2.png)
+https://ml-cheatsheet.readthedocs.io/en/latest/gradient_descent.html
+![image](https://user-images.githubusercontent.com/20191454/163727257-f799ee3e-406a-4c47-9ee9-096426d9d829.png)
+![image](https://user-images.githubusercontent.com/20191454/163727363-f043d56a-0995-4194-bc29-ef4958146ea1.png)
+![image](https://user-images.githubusercontent.com/20191454/163727593-bf6ad01b-3bc9-45ff-ad9a-6090c99f1b02.png)
+
+
+
+
+```markdown
+ns: 
+
+All the mathematical tools and concepts needed to solve a classification problem
+
+The use of these tools to build an algorithm—logistic model—to solve the problem 
+
+Let’s summarize the topics covered in each sub-session.
+
+Mathematical tools and concepts 
+
+Sigmoid function: This is best suited for converting the continuous output of the wTxi term to probabilities. This is the probability of getting a positive class, given the features of the data. 
+
+Odds and log odds: This helps interpret the relationship between the change in the inputs to the change in the probability of the positive class.
+
+Gradient descent algorithm: This algorithm helps minimize the log loss cost function. The negative sign of the gradient of the log loss function gives the direction in which the minima will be found, and its magnitude gives information about how big a step you can take in an iteration.
+
+ Logistic model building
+
+Likelihood function: This gives the likelihood of the guessed labels being equal to the actual labels. It is calculated by combining the probabilities of the Bernoulli process with the sigmoid of the product of features and weights.  
+
+Maximum likelihood estimation: Taking the logarithm and simplifying the likelihood function will give the log-likelihood function. The log-likelihood function gives the probability of the variable y, pi being equal to the actual variable yi, given the parameters of the model—weights and bias/intercept. To fit the assumed parameter to the given data, the log-likelihood needs to be maximized. This process is called maximum likelihood estimation. 
+
+Minimizing the log loss function: In machine learning, it is preferred to minimize a function. So the sign of the maximum likelihood function is flipped to get the log loss function that can be minimized. The sigmoid of 
+β
+T
+b
+i
+ is substituted into the log loss function, and then it is minimized. 
+
+Gradient optimization for the log loss function: The gradient descent algorithm is used to find the weights that will give the minimum loss. Using the weights after convergence and the sigmoid function, the predictions are made for the unseen data points. 
+
+​
+```
 
 
 
 
 
-
-
-
-
-
-
-
+![image](https://user-images.githubusercontent.com/20191454/163727813-72d29225-764b-4169-bb84-5d59dea9ebdf.png)
 
 
 
