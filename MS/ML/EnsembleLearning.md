@@ -1,1 +1,16 @@
 # Ensemble Learning using random forest
+
+![image](https://user-images.githubusercontent.com/20191454/164892024-bb8d2f51-2f0c-490e-a97d-9bbcf5759ce1.png)
+![image](https://user-images.githubusercontent.com/20191454/164892104-1d92f55b-dc8b-4782-b8c7-702625a6bb69.png)
+![image](https://user-images.githubusercontent.com/20191454/164892211-1b84e0b0-e919-4ba8-9968-47201a596cd4.png)
+![image](https://user-images.githubusercontent.com/20191454/164892264-c5b909bf-2a98-4f8d-b7fd-df9f963f71e3.png)
+![image](https://user-images.githubusercontent.com/20191454/164974357-13ff05be-525b-4708-b18d-0ea07b0d7716.png)
+![image](https://user-images.githubusercontent.com/20191454/164974546-b31ce40c-4163-4df4-87a3-091e7d945b10.png)
+![image](https://user-images.githubusercontent.com/20191454/164975161-e721c892-4505-4fe6-abf8-68a7b2faef2d.png)
+![image](https://user-images.githubusercontent.com/20191454/164975567-21a9485e-eba5-4e4c-9711-8f9acc1469f8.png)
+![image](https://user-images.githubusercontent.com/20191454/164976014-f870183f-4168-4f94-b8d7-13c4c4173fac.png)
+![image](https://user-images.githubusercontent.com/20191454/164976162-56a16e3b-d3e0-4d17-8eab-8805387ab702.png)
+![image](https://user-images.githubusercontent.com/20191454/164976411-1cc118ca-af60-4a4c-a0c2-dbd69fbe9f40.png)
+![image](https://user-images.githubusercontent.com/20191454/164976574-5d071a2f-ad48-4195-b818-9af4fb2a96cc.png)
+![image](https://user-images.githubusercontent.com/20191454/164977478-3cf267bf-fe37-41ad-b684-1ed183478504.png)
+![image](https://user-images.githubusercontent.com/20191454/164977799-bbe88928-c5ff-4281-84b7-30e2a76cb288.png)
