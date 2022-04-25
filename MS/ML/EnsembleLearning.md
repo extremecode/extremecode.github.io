@@ -25,3 +25,8 @@ http://www2.math.uu.se/~thulin/mm/breiman.pdf
 ![image](https://user-images.githubusercontent.com/20191454/164984287-a7f2a870-2e96-45e9-a209-af5a9bfb5bb1.png)
 ![image](https://user-images.githubusercontent.com/20191454/164984295-661e31cc-7db8-4f18-89d0-0decb9514cd9.png)
 ![image](https://user-images.githubusercontent.com/20191454/164984420-3a48daa2-8d54-4076-b916-878e80195c9a.png)
+![image](https://user-images.githubusercontent.com/20191454/164986263-180ff1bd-dc81-4b2e-8940-19067da65d0f.png)
+![image](https://user-images.githubusercontent.com/20191454/164986273-c7be882b-1fa7-4d20-ae45-5a461ba058cb.png)
+![image](https://user-images.githubusercontent.com/20191454/164986622-027eb35b-b22b-45be-a5a7-b9b15fa20a7c.png)
+
+![image](https://user-images.githubusercontent.com/20191454/164986604-774af858-f9be-40f8-8d9a-413b1d29502a.png)
