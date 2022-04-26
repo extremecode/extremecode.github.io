@@ -75,10 +75,19 @@ http://www2.math.uu.se/~thulin/mm/breiman.pdf
 ![image](https://user-images.githubusercontent.com/20191454/165365555-8a4efd1e-ed76-4683-a6f9-1d097630a982.png)
 ![image](https://user-images.githubusercontent.com/20191454/165365723-4a2b2f07-ae88-48df-9df2-3fce9d77aba1.png)
 ![image](https://user-images.githubusercontent.com/20191454/165365959-5a0526c4-cb60-4901-932e-4301ba77b480.png)
-![image](https://user-images.githubusercontent.com/20191454/165366865-f9dc8310-3ffb-4778-b130-6bf8a5853207.png)
-![image](https://user-images.githubusercontent.com/20191454/165366892-34e0140a-fcaa-4c60-ac88-1b57ac3ee521.png)
-
-
+![image](https://user-images.githubusercontent.com/20191454/165367063-8001c2e8-74a5-494f-b02b-05dd149b33b2.png)
+![image](https://user-images.githubusercontent.com/20191454/165367181-ffdd184e-3d4d-4490-a5dd-eedcd1f18917.png)
+![image](https://user-images.githubusercontent.com/20191454/165367235-c7e8a85b-0aba-4b6a-a45a-78f9fe1bffb6.png)
+![image](https://user-images.githubusercontent.com/20191454/165367336-32ff1dca-9de2-4df2-a511-c6b4310b823c.png)
+![image](https://user-images.githubusercontent.com/20191454/165367379-1459bb6c-5136-40c9-bafd-f87a500db625.png)
+![image](https://user-images.githubusercontent.com/20191454/165367881-4cc36aba-df55-4411-a220-2917b3d0d601.png)
+![image](https://user-images.githubusercontent.com/20191454/165367992-8fc84368-b407-475c-b9d6-919f5bac60a1.png)
+![image](https://user-images.githubusercontent.com/20191454/165368050-bfdc9635-5881-4405-97df-8b8e6d8d4fc7.png)
+![image](https://user-images.githubusercontent.com/20191454/165376207-cb20fc7a-b1bd-4c28-8f6d-44d35fd1c02f.png)
+https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.GridSearchCV.html
+![image](https://user-images.githubusercontent.com/20191454/165376485-e662decf-66c3-444c-b7ed-4d0a617abc82.png)
+![image](https://user-images.githubusercontent.com/20191454/165376802-81e2f267-c123-49e7-8260-ab5d6c400f0e.png)
+https://www.analyticsvidhya.com/blog/2020/10/how-to-choose-evaluation-metrics-for-classification-model/
 
 
 
