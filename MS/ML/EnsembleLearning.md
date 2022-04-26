@@ -64,6 +64,19 @@ http://www2.math.uu.se/~thulin/mm/breiman.pdf
 ![image](https://user-images.githubusercontent.com/20191454/165220360-202a337f-76b6-4117-9aae-d8cc78c64d43.png)
 ![image](https://user-images.githubusercontent.com/20191454/165221611-cf6e46b0-108f-4c23-b33b-e758180a4797.png)
 ![image](https://user-images.githubusercontent.com/20191454/165221747-65c4c4e0-924e-4cde-bf28-bc09cd26a7c7.png)
+![image](https://user-images.githubusercontent.com/20191454/165246999-bc049849-63ee-475a-bda1-095f7b8ae66b.png)
+![image](https://user-images.githubusercontent.com/20191454/165300322-8b1bdd52-ef2b-4f89-b931-13660f473f9f.png)
+![image](https://user-images.githubusercontent.com/20191454/165305942-cdb293ec-06a1-404c-8dc9-5c1f3cda88df.png)
+![image](https://user-images.githubusercontent.com/20191454/165306050-7ea22f72-7cd0-4834-96bb-e22a74786511.png)
+![image](https://user-images.githubusercontent.com/20191454/165306206-f65b4ab2-147a-4202-97cc-ba36f1f15e74.png)
+![image](https://user-images.githubusercontent.com/20191454/165307177-e9955874-489f-4a5f-8f2e-bb2ebefbe30d.png)
+![image](https://user-images.githubusercontent.com/20191454/165364872-6bbe63d5-c34c-4245-aec0-5ddf45a496ca.png)
+![image](https://user-images.githubusercontent.com/20191454/165365035-7450b4d5-a8c8-4d86-9cf7-2a154b55cf83.png)
+![image](https://user-images.githubusercontent.com/20191454/165365555-8a4efd1e-ed76-4683-a6f9-1d097630a982.png)
+![image](https://user-images.githubusercontent.com/20191454/165365723-4a2b2f07-ae88-48df-9df2-3fce9d77aba1.png)
+![image](https://user-images.githubusercontent.com/20191454/165365959-5a0526c4-cb60-4901-932e-4301ba77b480.png)
+![image](https://user-images.githubusercontent.com/20191454/165366865-f9dc8310-3ffb-4778-b130-6bf8a5853207.png)
+![image](https://user-images.githubusercontent.com/20191454/165366892-34e0140a-fcaa-4c60-ac88-1b57ac3ee521.png)
 
 
 
