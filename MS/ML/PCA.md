@@ -60,10 +60,18 @@ https://www.khanacademy.org/math/algebra-home/alg-matrices/alg-intro-to-matrix-i
 ![image](https://user-images.githubusercontent.com/20191454/166457803-4efccda5-3b97-4658-9fd2-6741d2001c20.png)
 ![image](https://user-images.githubusercontent.com/20191454/166457948-984e4a46-f259-4432-89ab-98068ecacd8f.png)
 ![image](https://user-images.githubusercontent.com/20191454/166459468-9a645f98-b847-45ed-b457-1f55f483fc46.png)
+![image](https://user-images.githubusercontent.com/20191454/166460027-4d8ecf53-faa4-44fa-b3a2-7aafa4096ea7.png)
+![image](https://user-images.githubusercontent.com/20191454/166460217-fe216b39-c779-4948-8e46-5c231b7ac551.png)
+![image](https://user-images.githubusercontent.com/20191454/166460600-b476c46d-5703-472f-a80c-4b04bc30b07f.png)
+variance in the pixel density which making so many information![image](https://user-images.githubusercontent.com/20191454/166460820-8a1dd69b-b7ba-4cc6-abba-aafe1edc6a90.png)
+
+
+
+![image](https://user-images.githubusercontent.com/20191454/166461250-50fe29c5-ea19-4020-a228-b1fe864f59e6.png)
+![image](https://user-images.githubusercontent.com/20191454/166461316-170a73b3-923d-4a94-b861-9b1ad79c53db.png)
+![image](https://user-images.githubusercontent.com/20191454/166461926-7cf6d44e-c814-429c-8560-21580134620a.png)
+![image](https://user-images.githubusercontent.com/20191454/166462001-e4a85286-163c-43fa-92a0-c6e472e68d5b.png)
 ![Uploading image.png…]()
-
-
-
 
 
 
