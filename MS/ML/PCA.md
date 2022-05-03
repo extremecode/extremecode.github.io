@@ -41,7 +41,49 @@ https://www.khanacademy.org/math/algebra-home/alg-matrices/alg-intro-to-matrix-i
 ![image](https://user-images.githubusercontent.com/20191454/166446572-351fa135-aeb0-430c-9f62-d60d4423b535.png)
 
 ![image](https://user-images.githubusercontent.com/20191454/166447090-b3ecf6aa-2ca2-4d24-998b-5dc15f41daf3.png)
+![image](https://user-images.githubusercontent.com/20191454/166448014-a3311131-2192-4b86-bdf8-9474382753d4.png)
+![image](https://user-images.githubusercontent.com/20191454/166448278-0c5bf4bb-2a55-4dda-b823-cb0b0ed15b30.png)
+![image](https://user-images.githubusercontent.com/20191454/166449481-c7ea05f3-0a70-419e-9126-e639b80bfcff.png)
+![image](https://user-images.githubusercontent.com/20191454/166449542-da3f26c5-0b5d-4073-bad3-d94342ac772e.png)
+![image](https://user-images.githubusercontent.com/20191454/166449576-c73add17-1207-4a52-85f4-097cc31ef181.png)
+![image](https://user-images.githubusercontent.com/20191454/166450795-63db2db0-bda9-4043-ab0f-581338003d4e.png)
+![image](https://user-images.githubusercontent.com/20191454/166451361-a79dbfe0-d13f-40bd-b230-0d3105456b3b.png)
+![image](https://user-images.githubusercontent.com/20191454/166451766-4b505140-d3e0-4833-89a6-5a40cfa0f32e.png)
+![image](https://user-images.githubusercontent.com/20191454/166454659-6ebf50a4-08f2-4162-b563-03bdad9c1d6e.png)
+![image](https://user-images.githubusercontent.com/20191454/166454710-e8158aca-ae13-4a4e-8585-94afe22f74e0.png)
+![image](https://user-images.githubusercontent.com/20191454/166456585-3ecbafba-7005-4048-8a71-70397ff03073.png)
+![image](https://user-images.githubusercontent.com/20191454/166457295-4a0b46ec-301d-4be4-8b58-133b72dc5fea.png)
+![image](https://user-images.githubusercontent.com/20191454/166457341-e885bb6c-d3a2-49b4-805a-333e0a21aa93.png)
+![image](https://user-images.githubusercontent.com/20191454/166457413-58cd0713-6615-442e-9f67-535df0e1078a.png)
+![image](https://user-images.githubusercontent.com/20191454/166457463-5bc9e595-145f-4f36-ad8f-3b1364d8d6ea.png)
+![image](https://user-images.githubusercontent.com/20191454/166457495-90d41a40-91b8-4507-b81d-779d971bcc20.png)
+![image](https://user-images.githubusercontent.com/20191454/166457803-4efccda5-3b97-4658-9fd2-6741d2001c20.png)
+![image](https://user-images.githubusercontent.com/20191454/166457948-984e4a46-f259-4432-89ab-98068ecacd8f.png)
+![image](https://user-images.githubusercontent.com/20191454/166459468-9a645f98-b847-45ed-b457-1f55f483fc46.png)
 ![Uploading image.png…]()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
