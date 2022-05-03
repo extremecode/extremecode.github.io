@@ -71,14 +71,47 @@ variance in the pixel density which making so many information![image](https://u
 ![image](https://user-images.githubusercontent.com/20191454/166461316-170a73b3-923d-4a94-b861-9b1ad79c53db.png)
 ![image](https://user-images.githubusercontent.com/20191454/166461926-7cf6d44e-c814-429c-8560-21580134620a.png)
 ![image](https://user-images.githubusercontent.com/20191454/166462001-e4a85286-163c-43fa-92a0-c6e472e68d5b.png)
+![image](https://user-images.githubusercontent.com/20191454/166464101-d6826290-fb5b-419e-bb1d-80c369bb8990.png)
+![image](https://user-images.githubusercontent.com/20191454/166464146-d01da503-4181-45e6-922f-d2edb0c5bec0.png)
+![image](https://user-images.githubusercontent.com/20191454/166465144-fcd14f99-43de-49ac-ab01-30974d2256f4.png)
+![image](https://user-images.githubusercontent.com/20191454/166465204-410ada9f-24ca-4fb2-853b-671655434ce9.png)
+![image](https://user-images.githubusercontent.com/20191454/166465355-a650fd38-6f9f-4a2b-a507-9374ccd0e514.png)
+![image](https://user-images.githubusercontent.com/20191454/166465710-eafcb5d9-92b6-4032-99ec-bc50b38fb637.png)
+![image](https://user-images.githubusercontent.com/20191454/166468569-38dc5543-261e-4539-8a0f-af083f5ef85a.png)
+![image](https://user-images.githubusercontent.com/20191454/166469730-f6419dcd-52db-4397-83e1-056391d82688.png)
+![image](https://user-images.githubusercontent.com/20191454/166470314-e1fe7422-fe32-41e3-8b40-ceaacc57eb95.png)
+![image](https://user-images.githubusercontent.com/20191454/166470427-6e0160c7-cc2f-4f81-8449-4514cef6643d.png)
+![image](https://user-images.githubusercontent.com/20191454/166474262-275d4384-41a5-40b6-9002-6114f34071cf.png)
+![image](https://user-images.githubusercontent.com/20191454/166474473-c5f25847-8726-4062-910e-59b1a3fe8bc4.png)
+![image](https://user-images.githubusercontent.com/20191454/166474750-a2f13601-f0a3-4365-be4f-4f1c9448bccf.png)
+https://learn.upgrad.com/v/course/2151/session/389190/segment/2023475
+
+
+![image](https://user-images.githubusercontent.com/20191454/166475379-2292529e-7923-4992-8397-7303336e7494.png)
+![image](https://user-images.githubusercontent.com/20191454/166475624-063f13b9-5b44-41a5-9931-bcc386ff0afe.png)
+https://learn.upgrad.com/course/1842/segment/17295/108416/327772/1703739
+![image](https://user-images.githubusercontent.com/20191454/166475976-ed56f4c7-d03f-4543-95ad-0325cf02c990.png)
+![image](https://user-images.githubusercontent.com/20191454/166476180-e6381717-ce12-40b7-ab53-6d2a9f6953f7.png)
+https://math.stackexchange.com/questions/23596/why-is-the-eigenvector-of-a-covariance-matrix-equal-to-a-principal-component
+https://arxiv.org/pdf/1404.1100.pdf
+![image](https://user-images.githubusercontent.com/20191454/166481157-99461d50-62d9-4220-bcea-42140fca04f5.png)
+![image](https://user-images.githubusercontent.com/20191454/166481266-8ada05fa-abe7-4069-9c41-28ce93eda128.png)
+![image](https://user-images.githubusercontent.com/20191454/166481360-357c137e-2adc-48e2-be67-d1e794e10c78.png)
+![image](https://user-images.githubusercontent.com/20191454/166481854-ed44f566-1e5f-439c-8270-a5cf03c1c06f.png)
+![image](https://user-images.githubusercontent.com/20191454/166481948-7055c98b-2766-4e9b-88f9-19721dcedf0b.png)
+![image](https://user-images.githubusercontent.com/20191454/166482125-5aa39694-0267-4bce-99af-31fb3ac9d24e.png)
+![image](https://user-images.githubusercontent.com/20191454/166482334-db8c2fad-ed12-4117-a64c-3f6102d35ee3.png)
+![image](https://user-images.githubusercontent.com/20191454/166482964-23eaea4d-caa6-4a71-9a1d-12e380e71f97.png)
+![image](https://user-images.githubusercontent.com/20191454/166483129-33e90125-c483-47e9-a9e6-6e21c0a3cff3.png)
+
+![image](https://user-images.githubusercontent.com/20191454/166486337-5fe2edc0-0474-450f-a419-421943b3eb77.png)
+https://stackoverflow.com/a/42197534
+![image](https://user-images.githubusercontent.com/20191454/166486431-b775613b-4206-480a-a1f4-1906fa29c8df.png)
+![image](https://user-images.githubusercontent.com/20191454/166486555-84c9e617-8900-49fa-bb80-820d68b0e017.png)
+![image](https://user-images.githubusercontent.com/20191454/166487387-da6f7eac-26ce-43ef-b44f-bdbc77c5ee1b.png)
+
+
 ![Uploading image.png…]()
-
-
-
-
-
-
-
 
 
 
