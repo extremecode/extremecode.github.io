@@ -20,3 +20,9 @@ https://learn.upgrad.com/course/1842?courseId=17295
 ![image](https://user-images.githubusercontent.com/20191454/166187376-33966a87-7299-4119-ad49-155d38dc350e.png)
 ![image](https://user-images.githubusercontent.com/20191454/166187400-9edce1bf-cc5f-4525-935a-74b05e658c77.png)
 ![image](https://user-images.githubusercontent.com/20191454/166187414-3c66664a-690c-442b-8ca3-9d2c50388916.png)
+https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.transpose.html
+![image](https://user-images.git![image](https://user-images.githubusercontent.com/20191454/166188459-8d4ee961-f626-4661-a4b1-8a0fb3018b29.png)hubusercontent.com/20191454/166187590-b4fe2d7f-099d-4c9a-8dca-4efe1c333d9f.png)
+![image](https://user-images.githubusercontent.com/20191454/166187651-efdc2698-21db-459d-ba16-99a9b66d9ae8.png)
+![image](https://user-images.githubusercontent.com/20191454/166188496-16a744dc-52da-4245-a485-b218b4e154cb.png)
+![image](https://user-images.githubusercontent.com/20191454/166188498-4dec8ffd-f0f0-4f42-8c86-4f2f27432431.png)
+![image](https://user-images.githubusercontent.com/20191454/166441262-921e05fc-45dc-40d3-acb5-f4288a76fb84.png)
