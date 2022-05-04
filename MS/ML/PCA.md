@@ -135,6 +135,11 @@ https://sgfin.github.io/files/notes/CS229_Lecture_Notes.pdf
 
 
 
+![image](https://user-images.githubusercontent.com/20191454/166730444-6eeb474b-f142-4d2b-aaca-a584c3307695.png)
+![image](https://user-images.githubusercontent.com/20191454/166736902-f0c467ca-8674-4229-9dde-775c9b0096d3.png)
+![image](https://user-images.githubusercontent.com/20191454/166740465-67e6d42c-d6c2-44df-8a92-00d54e538a67.png)
+![image](https://user-images.githubusercontent.com/20191454/166741101-7a0b9157-3500-4541-bf0d-0bda9ff7731b.png)
+![image](https://user-images.githubusercontent.com/20191454/166746761-cc7041b4-c509-43cd-83bb-63b8c30a8083.png)
 
 
 ![Uploading image.png…]()
