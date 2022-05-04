@@ -109,6 +109,32 @@ https://stackoverflow.com/a/42197534
 ![image](https://user-images.githubusercontent.com/20191454/166486431-b775613b-4206-480a-a1f4-1906fa29c8df.png)
 ![image](https://user-images.githubusercontent.com/20191454/166486555-84c9e617-8900-49fa-bb80-820d68b0e017.png)
 ![image](https://user-images.githubusercontent.com/20191454/166487387-da6f7eac-26ce-43ef-b44f-bdbc77c5ee1b.png)
+![image](https://user-images.githubusercontent.com/20191454/166487533-0dccfa67-e992-4b9a-9dc8-9a760d5324e0.png)
+![image](https://user-images.githubusercontent.com/20191454/166487732-dbf27909-4801-4172-bbe2-88d9334c733f.png)
+![image](https://user-images.githubusercontent.com/20191454/166487968-d03db0ed-ecff-4706-845c-56701c4ad583.png)
+![image](https://user-images.githubusercontent.com/20191454/166489299-a2334c66-a95f-40f0-b55e-66e752d86291.png)
+![image](https://user-images.githubusercontent.com/20191454/166489376-372a5d1e-4bc4-4e15-a3f3-c57ed4a34690.png)
+![image](https://user-images.githubusercontent.com/20191454/166489475-b9abbdb7-0b24-40cc-af23-eb8f8c710be7.png)
+![image](https://user-images.githubusercontent.com/20191454/166489558-4a37e9cb-27b5-4c19-bf79-218664b22a8a.png)
+![image](https://user-images.githubusercontent.com/20191454/166489686-657b716e-83cd-4a71-ac34-bd0f806a607d.png)
+![image](https://user-images.githubusercontent.com/20191454/166489839-335908c1-beb3-43ae-8d94-f7a58374ee37.png)
+![image](https://user-images.githubusercontent.com/20191454/166489928-d2ca8257-208b-4078-81ba-37c8ad2458f7.png)
+![image](https://user-images.githubusercontent.com/20191454/166493839-57a60d20-b10e-4eac-96fe-e858cb504a28.png)
+![image](https://user-images.githubusercontent.com/20191454/166496772-5812d327-ca65-49ea-af06-be7f1e0feaa6.png)
+![image](https://user-images.githubusercontent.com/20191454/166497969-3b2730c6-a991-4272-bbac-4828e57b9fd5.png)
+![image](https://user-images.githubusercontent.com/20191454/166499772-49c03e10-f6e3-411e-b051-cb614a7ab56e.png)
+![image](https://user-images.githubusercontent.com/20191454/166501247-e04df7ca-ae2a-49f3-99bc-f47c62dd5d01.png)
+![image](https://user-images.githubusercontent.com/20191454/166501950-25e2e571-147c-4122-87e1-d21a4118dac6.png)
+t-sNE
+https://lvdmaaten.github.io/tsne/
+http://www.jmlr.org/papers/volume9/vandermaaten08a/vandermaaten08a.pdf
+https://distill.pub/2016/misread-tsne/
+ICA
+https://sgfin.github.io/files/notes/CS229_Lecture_Notes.pdf
+![image](https://user-images.githubusercontent.com/20191454/166502355-60433dc7-f6f2-4d69-b295-5c167be5b5de.png)
+
+
+
 
 
 ![Uploading image.png…]()
