@@ -29,3 +29,13 @@
 ![image](https://user-images.githubusercontent.com/20191454/169634858-e966163e-7efe-41d2-8b16-3ec1c37989dd.png)
 ![image](https://user-images.githubusercontent.com/20191454/169634901-9c3eb680-cbed-4083-b26c-04ae31cf8e48.png)
 
+![image](https://user-images.githubusercontent.com/20191454/169635134-635bb0a5-5638-4570-a279-d323145d7cdb.png)
+https://towardsdatascience.com/wth-are-r-squared-and-adjusted-r-squared-7b816eef90d9
+https://machinelearningmastery.com/linear-regression-with-maximum-likelihood-estimation/
+https://machinelearningmastery.com/linear-regression-with-maximum-likelihood-estimation/
+https://www.xlstat.com/en/solutions/features/ordinary-least-squares-regression-ols
+
+![image](https://user-images.githubusercontent.com/20191454/169645299-f301ec10-5ada-4913-a825-40c427e4b751.png)
+![image](https://user-images.githubusercontent.com/20191454/169645331-158a9d59-c3d1-4dc8-a3a2-63496c70fc80.png)
+
+
