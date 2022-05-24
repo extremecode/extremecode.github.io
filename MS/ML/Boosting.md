@@ -44,6 +44,56 @@ http://scikit-learn.org/stable/modules/generated/sklearn.ensemble.AdaBoostClassi
 ![image](https://user-images.githubusercontent.com/20191454/170074162-c03082a4-f903-49f2-ad31-49da96d24395.png)
 ![image](https://user-images.githubusercontent.com/20191454/170074540-e9ae7e96-118a-4dae-b994-9e2c84da9f07.png)
 
+https://learn.upgrad.com/v/course/2151/session/366797/segment/1904372
+![image](https://user-images.githubusercontent.com/20191454/170075006-015365af-4c26-4126-b52c-e019d0d38e80.png)
+![image](https://user-images.githubusercontent.com/20191454/170075827-71821592-5969-41a1-baa1-675285849743.png)
+![image](https://user-images.githubusercontent.com/20191454/170076932-871601ea-252f-4371-94e0-694e4dd64aac.png)
+![image](https://user-images.githubusercontent.com/20191454/170076989-926bd66e-c13d-4015-a068-aa537e42124a.png)
+![image](https://user-images.githubusercontent.com/20191454/170077959-b3f79681-a910-478a-8600-9fa3c86f39da.png)
+![image](https://user-images.githubusercontent.com/20191454/170078046-ee9c77d9-af6d-4625-ab36-09830289102b.png)
+![image](https://user-images.githubusercontent.com/20191454/170078288-cf282aa8-da08-4532-872f-378bcf2715e4.png)
+![image](https://user-images.githubusercontent.com/20191454/170078422-ba197b60-5ef8-4db7-9c08-87b143c1cdbb.png)
+![image](https://user-images.githubusercontent.com/20191454/170078546-eb102f08-4769-40b7-b6a3-c3983a50e88d.png)
+http://tutorial.math.lamar.edu/Classes/CalcIII/PartialDerivatives.aspx#PD_PartialD_Ex1a
+![image](https://user-images.githubusercontent.com/20191454/170078849-fb36a4c7-9ca9-442e-a2a9-da333bae2f83.png)
+![image](https://user-images.githubusercontent.com/20191454/170078968-ab9ec22a-f645-4188-80dd-b87ea3addaac.png)
+![image](https://user-images.githubusercontent.com/20191454/170079946-f9d9b258-ed49-495f-b186-38a47e6a00ee.png)
+https://stats.stackexchange.com/questions/154879/a-list-of-cost-functions-used-in-neural-networks-alongside-applications
+![image](https://user-images.githubusercontent.com/20191454/170080130-e70ca1b5-f840-4635-82d5-a8cf6f70a28c.png)
+![image](https://user-images.githubusercontent.com/20191454/170080224-67ab05c4-f97f-449d-ba0c-afab817311dc.png)
+
+https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.GradientBoostingRegressor.html
+https://drive.google.com/file/d/1yrcBLgTS4kx1i-dAZ0hjeahckdyKXlsE/view?usp=sharing dataset link for GBM attrition rate
+https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.GradientBoostingClassifier.html
+https://drive.google.com/file/d/1ztqRcqePoUOLQZzsQb0ZurXu0P03FusZ/view?usp=sharing dataset link for GBM sales prediction
+
+For practical implementation, please go through this blog.https://benalexkeen.com/gradient-boosting-in-python-using-scikit-learn/
+Visit this kernel to see how each parameter can be tuned for model improvement. https://www.kaggle.com/tansifanzar/gradient-boosting-without-parameter-optimization
+To check how we can do gradient boosting from scratch, you can check this article.https://towardsdatascience.com/gradient-boosting-in-python-from-scratch-4a3d9077367
+To play with different hyperparameters in gradient boosting, visit this website.http://arogozhnikov.github.io/2016/07/05/gradient_boosting_playground.html
+
+
+![image](https://user-images.githubusercontent.com/20191454/170081036-ba58f55f-8b1b-4cd3-87ca-2080bf211515.png)
+![image](https://user-images.githubusercontent.com/20191454/170081767-cfa76864-3e7f-426c-9872-667752318d45.png)
+![image](https://user-images.githubusercontent.com/20191454/170081880-1ca58106-887a-4e50-9b2d-d0024688c6ea.png)
+![image](https://user-images.githubusercontent.com/20191454/170081954-4b622063-a071-445b-927c-88df22b04ea9.png)
+
+![image](https://user-images.githubusercontent.com/20191454/170082099-815c2f39-b2bb-4a79-b1c7-8f75165c501b.p
+![image](https://user-images.githubusercontent.com/20191454/170082188-8b44ccb4-9b30-49a9-bc19-c684df42d615.png)
+![image](https://user-images.githubusercontent.com/20191454/170082465-b22fb6e1-f44f-44df-ac68-9bdc4d3788e6.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
