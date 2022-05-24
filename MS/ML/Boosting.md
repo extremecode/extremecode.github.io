@@ -82,6 +82,17 @@ To play with different hyperparameters in gradient boosting, visit this website.
 ![image](https://user-images.githubusercontent.com/20191454/170082188-8b44ccb4-9b30-49a9-bc19-c684df42d615.png)
 ![image](https://user-images.githubusercontent.com/20191454/170082465-b22fb6e1-f44f-44df-ac68-9bdc4d3788e6.png)
 
+![image](https://user-images.githubusercontent.com/20191454/170082715-358cf1e4-aeb5-41e3-88a8-d042a4e27bfb.png)
+![image](https://user-images.githubusercontent.com/20191454/170082807-04cb369b-889b-433c-8a85-fe9d2fb9c300.png)
+![image](https://user-images.githubusercontent.com/20191454/170082950-bb2f2528-710f-47d1-b34a-a62a10bbb80d.png)
+https://www.kaggle.com/c/talkingdata-adtracking-fraud-detection
+![image](https://user-images.githubusercontent.com/20191454/170087083-031156fd-8b00-4ebf-a84a-16354f3d815f.png)
+![image](https://user-images.githubusercontent.com/20191454/170087164-a9444a2d-e34d-4fd9-a140-5adadeed441c.png)
+![image](https://user-images.githubusercontent.com/20191454/170087225-f7d38001-dd1e-4fb8-9ce4-236b840f6e7f.png)
+![image](https://user-images.githubusercontent.com/20191454/170087636-62a3ef18-d666-4d47-9ed9-83cd1ddcacf5.png)
+![image](https://user-images.githubusercontent.com/20191454/170087807-85ccceee-e481-432f-81ef-8a317349a453.png)
+![image](https://user-images.githubusercontent.com/20191454/170087887-2b2e723f-4469-431e-a410-d35f02fefe3c.png)
+![image](https://user-images.githubusercontent.com/20191454/170088017-67e80ec3-5234-4d0e-93d8-b810012920dc.png)
 
 
 
