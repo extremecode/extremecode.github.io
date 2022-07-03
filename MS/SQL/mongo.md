@@ -66,13 +66,67 @@ https://docs.mongodb.com/manual/tutorial/model-embedded-one-to-many-relationship
 ![image](https://user-images.githubusercontent.com/20191454/177025445-17050520-a8ac-4331-aae5-3cc6a9995d93.png)
 ![image](https://user-images.githubusercontent.com/20191454/177025471-b36dd64c-637c-4ff0-85d5-6429ca442f43.png)
 ![image](https://user-images.githubusercontent.com/20191454/177025483-751c44cf-c892-48de-b26e-31ca76e10a33.png)
+![image](https://user-images.githubusercontent.com/20191454/177025530-dcc94b57-0c37-4dca-8e03-3441ed477140.png)
+![image](https://user-images.githubusercontent.com/20191454/177025551-69fbd926-973d-42af-8cd0-643ab66e99e3.png)
+mongoimport --db blogs --collection blogs --file "C:\Users\guptaaka\Documents\workspace\MS\SQL\blogs.json"
+  
+![image](https://user-images.githubusercontent.com/20191454/177026055-af745cf3-3b0a-4a7d-9c70-d7b701e2dca7.png)
+![image](https://user-images.githubusercontent.com/20191454/177026072-a4921faf-12af-4b9e-a889-8f8623fcc3db.png)
+![image](https://user-images.githubusercontent.com/20191454/177026079-8de2a977-f4fe-4898-8b8a-2fa3406ec821.png)
+![image](https://user-images.githubusercontent.com/20191454/177026104-ff3cc525-dc78-46ab-8fc3-fdd707306d95.png)
+![image](https://user-images.githubusercontent.com/20191454/177026187-f673b0bd-bfd6-4923-ba02-0290f06ae465.png)
+![image](https://user-images.githubusercontent.com/20191454/177026208-ac9cd29d-52c2-4bc1-a9a0-3c39679dbe9d.png)
+![image](https://user-images.githubusercontent.com/20191454/177026268-419b53d7-1962-4a85-96c3-47f282fe76a6.png)
+![image](https://user-images.githubusercontent.com/20191454/177026287-dd117877-49c5-4220-9ac1-5a45dcf76d06.png)
+![image](https://user-images.githubusercontent.com/20191454/177026335-cf96d5ab-bcf2-49c3-8da3-7f8358261799.png)
+
+  ```markdown
+  ## Unwind the data
+db.purchases2.aggregate([{$unwind:'$Pur_hist'}]).pretty()
+
+## Project only the specific fields 
+db.purchases2.aggregate([{$unwind:'$Pur_hist'},{$project:{'Pur_hist.Category':1}}])
+
+## Perform a filter  
+db.purchases2.aggregate([{$unwind:'$Pur_hist'},{$project: {'Pur_hist.Category':1}},{$match:{'Pur_hist.Category':'Technology'}}])
+
+## Peform a count operation
+db.purchases2.aggregate([{$unwind:'$Pur_hist'},{$project: {'Pur_hist.Category':1}},{$match:{'Pur_hist.Category':'Technology'}},{$group: {_id:null,count:{$sum:1}}}])
+
+## Show the total Sales across each Category and Segment combination
+db.purchases2.aggregate( [{$unwind:'$Pur_hist'},{ $group: { _id: { segment: "$Segment", category: "$Pur_hist.Category" }, totalSales: { $sum: "$Pur_hist.Sales" } } }])
+
+db.blogs.aggregate( [{$unwind:'$blogs'}, avgLikes: { $avg: "$blogs.likes" }])
 
   
+## For each segment, show the category having the highest Sales
+db.purchases2.aggregate( [{$unwind:'$Pur_hist'},{ $group: { _id: { segment: "$Segment", category: "$Pur_hist.Category" }, totalSales: { $sum: "$Pur_hist.Sales" } } },{$sort:{totalSales: 1}}])
+  ```
   
+![image](https://user-images.githubusercontent.com/20191454/177026464-100d8163-fa43-4e99-90ad-1c876e3f6b87.png)
+![image](https://user-images.githubusercontent.com/20191454/177026488-b47f7991-075f-4cc9-8c01-f22dfbbe312b.png)
+![image](https://user-images.githubusercontent.com/20191454/177026605-213d0de3-6152-4c06-889e-6ada8e675252.png)
+![image](https://user-images.githubusercontent.com/20191454/177026642-9a1989cc-f0f6-4b72-aeeb-6e6ec500751f.png)
+![image](https://user-images.githubusercontent.com/20191454/177026934-13f336f8-a55f-4f81-b760-756d6eda1941.png)
+![image](https://user-images.githubusercontent.com/20191454/177026939-7deb309f-7d61-49cc-aba4-76fae0d00753.png)
+![image](https://user-images.githubusercontent.com/20191454/177027795-23789dfb-37e2-400d-96a9-85367298a778.png)
+![image](https://user-images.githubusercontent.com/20191454/177027808-a92fe01c-e6d6-400f-b19e-1a0977e11f30.png)
+https://docs.mongodb.com/manual/core/replica-set-elections/
+  ![image](https://user-images.githubusercontent.com/20191454/177027832-6b7ea768-a72a-4aa4-83dd-d47f387c52bb.png)
+![image](https://user-images.githubusercontent.com/20191454/177027851-43d3d247-08aa-4a29-9a07-3a8cf425bd86.png)
+![image](https://user-images.githubusercontent.com/20191454/177027909-a4fec85d-d24e-476c-b557-b70403b76729.png)
+![image](https://user-images.githubusercontent.com/20191454/177028087-3a01a86e-b458-4227-b8eb-908c63d1ba9c.png)
+![image](https://user-images.githubusercontent.com/20191454/177028100-b171be41-8012-4ab6-81a7-938affe3d404.png)
+![image](https://user-images.githubusercontent.com/20191454/177028276-3ac0a0d8-012d-4a32-aee6-0be5ca89ccca.png)
+
+  https://www.techtarget.com/searchdatamanagement/definition/hashing
+  https://www.mongodb.com/docs/manual/core/index-hashed/#:~:text=MongoDB%20hashed%20indexes%20truncate%20floating,2.3%20%2C%202.2%20%2C%20and%202.9%20.
   
-  
-  
-  
+  ![image](https://user-images.githubusercontent.com/20191454/177028315-861321d9-a53f-4704-992d-3dc76158447c.png)
+![image](https://user-images.githubusercontent.com/20191454/177028323-0b645452-416f-48f1-a3e7-99e420f14afe.png)
+![image](https://user-images.githubusercontent.com/20191454/177028335-cc1f91d4-d119-4f19-8255-2ea975499c91.png)
+![image](https://user-images.githubusercontent.com/20191454/177028342-91dd4a2c-f4bd-4039-be8e-bc82a0322db1.png)
+
   
   
   
