@@ -126,6 +126,7 @@ https://docs.mongodb.com/manual/core/replica-set-elections/
 ![image](https://user-images.githubusercontent.com/20191454/177028323-0b645452-416f-48f1-a3e7-99e420f14afe.png)
 ![image](https://user-images.githubusercontent.com/20191454/177028335-cc1f91d4-d119-4f19-8255-2ea975499c91.png)
 ![image](https://user-images.githubusercontent.com/20191454/177028342-91dd4a2c-f4bd-4039-be8e-bc82a0322db1.png)
+![image](https://user-images.githubusercontent.com/20191454/177029462-5e69bca2-bae1-4f42-b012-a020c06cbe67.png)
 
   
   
