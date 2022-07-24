@@ -1,2 +1,17 @@
 # Big Data
 
+![image](https://user-images.githubusercontent.com/20191454/180641511-c69c6230-ac28-4262-b2e3-2d986fa8e843.png)
+![image](https://user-images.githubusercontent.com/20191454/180641541-6db8260b-d263-49ec-af81-cd3cf715c11b.png)
+![image](https://user-images.githubusercontent.com/20191454/180641585-0cd18fbe-4d83-412e-9ee1-5612453e8400.png)
+![image](https://user-images.githubusercontent.com/20191454/180641767-4478a003-dbc4-4f0b-bfb1-847b08b6cf9d.png)
+![image](https://user-images.githubusercontent.com/20191454/180641789-1159a438-ab61-46f6-a544-3733d62778ef.png)
+![image](https://user-images.githubusercontent.com/20191454/180641816-250e8b36-374c-4cb7-8c91-d951c0537aa8.png)
+![image](https://user-images.githubusercontent.com/20191454/180641822-d018643b-9bb8-4098-9050-ca1cb7be8bb9.png)
+![image](https://user-images.githubusercontent.com/20191454/180641859-e9c75ae0-02c5-4fdf-9e50-0fd7bf5120ab.png)
+![image](https://user-images.githubusercontent.com/20191454/180642849-874697ba-feb1-4ee0-8859-0a42c43627e2.png)
+![image](https://user-images.githubusercontent.com/20191454/180642855-3635cfd1-ad1b-409b-bf13-bd5bed899704.png)
+![image](https://user-images.githubusercontent.com/20191454/180642864-50fa79c3-edd8-413b-b4a5-957e9fcca7a7.png)
+![image](https://user-images.githubusercontent.com/20191454/180642874-eb8cbbfe-523e-4bc6-a17b-776d2e95907b.png)
+![image](https://user-images.githubusercontent.com/20191454/180642972-5e4c2889-11f4-449e-b50c-a1a5f2cc746e.png)
+![image](https://user-images.githubusercontent.com/20191454/180642984-8279f7fa-49c6-402e-a857-0c861dd0ee55.png)
+![image](https://user-images.githubusercontent.com/20191454/180642991-c81ddbaa-e229-4146-ad1f-4c1f83aa54cc.png)
