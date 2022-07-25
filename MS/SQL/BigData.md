@@ -24,3 +24,10 @@
 ![image](https://user-images.githubusercontent.com/20191454/180643496-5eccb00a-531a-4da8-b90e-c2a5da6cea7a.png)
 ![image](https://user-images.githubusercontent.com/20191454/180643510-b804a382-bbc0-4e73-81d7-c88e343fe12f.png)
 ![image](https://user-images.githubusercontent.com/20191454/180643526-91f6cbd9-f72a-472c-9cb8-07625600e671.png)
+![image](https://user-images.githubusercontent.com/20191454/180644371-bbc38f35-49f9-4dc6-9bdb-9c65eb6ab007.png)
+![image](https://user-images.githubusercontent.com/20191454/180644445-e0acceae-51c5-40ad-8df6-b15ef49c25b6.png)
+![image](https://user-images.githubusercontent.com/20191454/180644542-ba88a5d2-6cb6-498d-b8cf-9c3d512fcb14.png)
+![image](https://user-images.githubusercontent.com/20191454/180644665-00bf39b4-c7d8-46bf-88bd-63bd16d0dd87.png)
+https://cloud.google.com/dataproc/overview
+https://docs.aws.amazon.com/emr/index.html
+https://mrjob.readthedocs.io/en/latest/
