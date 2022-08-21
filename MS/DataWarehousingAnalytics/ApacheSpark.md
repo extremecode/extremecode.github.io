@@ -403,6 +403,286 @@ Solving problem statements.
 
 
 
+As discussed in the video, you can easily create a paired RDD using the parallelize() function as the base RDDs.
+
+ 
+
+rdd = sc.parallelize([(‘a’, 3), (‘b’, 4), (‘c’, 2), (‘d’, 5)])
+rdd.collect()
+ 
+
+You can also use the following methods to create the paired RDDs:
+
+The textFile() method.
+Transforming base RDDs.
+The limitation with textFile() function is that the structure of the file must be in a <key, value> format to load the data directly in the form of paired RDDs. 
+
+ 
+
+Another method to create paired RDDs is by transforming the base RDDs. Transformations like map() and flatMap() can be used to convert the base RDD into paired RDD.
+
+ 
+
+Let’s look at an example of transforming the base RDDs using map() method.
+
+ 
+
+rdd1 = sc.parallelize([1,2,3,4,5])
+rdd2 = rdd1.map(lambda x:(x,1))
+rdd2.collect()
+
+There are two important methods, reduceByKey() and groupByKey(), in paired RDDs. Let's understand both of them one by one.
+
+ 
+
+reduceByKey(): The reduceByKey() method is used to perform a particular operation on the elements of RDDs. Let’s look at an example.
+
+ 
+
+rdd2 = sc.parallelize([("shampoo", 1), ("soap", 1), ("conditioner", 3), ("brush", 2), ("soap", 2), ("shampoo", 2), ("bread", 2), ("meat", 2), ("tshirt", 2), ("jeans", 2)])
+
+
+sorted(rdd2.reduceByKey(lambda x, y:x+y).collect())
+
+Here, x and y are any two values which are to be added for a particular key. Let’s look at the output of this operation.
+
+ 
+
+[('bread', 2), ('brush', 2), ('conditioner', 3), ('jeans', 2), ('meat', 2), ('shampoo', 3), ('soap', 3), ('tshirt', 2)]
+
+We can see that reduceByKey() will perform the defined operation on the values of a particular key.
+
+ 
+
+Let’s understand this operation with another example.
+
+reduceByKey() example
+reduceByKey() example
+Pro Tip:
+
+The reduce() method in basic RDDs is an action operation that returns a result to the driver program. However, reduceByKey() is a transformation operation that results in a new paired RDD with a key-value pair where the value is now an aggregated result for that particular key.
+
+
+groupByKey(): The groupByKey() method performs the same operation as reduceByKey(), but it creates an iterable for the values for a particular key. You get back an object which allows you to iterate over the results.
+
+Let’s see the example learned in the video. 
+
+ 
+
+
+rdd3 = sc.parallelize([("shampoo", 1), ("soap", 1), ("conditioner", 3), ("brush", 2), ("soap", 2), ("shampoo", 2), ("bread", 2), ("meat", 2), ("tshirt", 2), ("jeans", 2)])
+sorted(rdd3.groupByKey().collect())
+
+ 
+
+The output for this is: 
+
+ 
+
+[('bread', <pyspark.resultiterable.ResultIterable object at 0x7f5fcb4c2bd0>), ('brush', <pyspark.resultiterable.ResultIterable object at 0x7f5fcb4c2e50>), ('conditioner', <pyspark.resultiterable.ResultIterable object at 0x7f5fcb4c2f90>), ('jeans', <pyspark.resultiterable.ResultIterable object at 0x7f5fcb4c2d90>), ('meat', <pyspark.resultiterable.ResultIterable object at 0x7f5fcb4c2510>), ('shampoo', <pyspark.resultiterable.ResultIterable object at 0x7f5fcb4c2f10>), ('soap', <pyspark.resultiterable.ResultIterable object at 0x7f5fcb4c2e90>), ('tshirt', <pyspark.resultiterable.ResultIterable object at 0x7f5fcb4c2650>)]
+
+Now, you can turn the results of groupByKey into a list by calling list() on the values instead of rdd3.groupByKey().collect():
+
+
+sorted(rdd3.groupByKey().map(lambda x : (x[0], list(x[1]))).collect())
+
+The output for this is:
+
+ 
+
+[('bread', [2]), ('brush', [2]), ('conditioner', [3]), ('jeans', [2]), ('meat', [2]), ('shampoo', [1, 2]), ('soap', [1, 2]), ('tshirt', [2])]
+
+The groupByKey() involves a lot of shuffling as it does not combine the keys present in the same executor. Let’s look at an example to understand this.
+
+groupByKey() example
+groupByKey() example
+In the next video, let's look at more operations that are available on paired RDDs.
+
+Let us look at the operations discussed in this video.
+
+mapValues(): This function is used for operating on the value part of the key-value pair. Let’s look at an example.
+
+sales = sc.parallelize([("cosmetics", ["shampoo", "soap", "conditioner", "brush"]), ("food", ["bread", "meat"]), ("clothes", ["tshirt", "jeans"])])
+def f(sales): return len(sales)
+sales.mapValues(f).collect()
+
+The output will be
+
+[('cosmetics', 4), ('food', 2), ('clothes', 2)]
+
+flatMapValues(): FlatMap "breaks down" collections into the elements of the collection. To understand flatMapValues(), let's look at an example.
+
+sales = sc.parallelize([("cosmetics", ["shampoo", "soap", "conditioner", "brush"]), ("food", ["bread", "meat"]), ("clothes", ["tshirt", "jeans"])])
+def f(sales): return sales
+sales.flatMapValues(f).collect()
+ 
+
+The output will be
+
+[('cosmetics', 'shampoo'), ('cosmetics', 'soap'), ('cosmetics', 'conditioner'), ('cosmetics', 'brush'), ('food', 'bread'), ('food', 'meat'), ('clothes', 'tshirt'), ('clothes', 'jeans')]
+keys(): The keys() function creates a new RDD that contains only the keys from the paired RDD.
+
+sales_1 = sc.parallelize([("shampoo", 1), ("soap", 1), ("conditioner", 3), ("brush", 2), ("soap", 2), ("shampoo", 2), ("bread", 2), ("meat", 2), ("tshirt", 2), ("jeans", 2)])
+k = sales_1.keys();
+k.collect()
+
+The output will be
+
+['shampoo', 'soap', 'conditioner', 'brush', 'soap', 'shampoo', 'bread', 'meat', 'tshirt', 'jeans']
+
+By now, you have understood some basic transformation and action operations on paired RDDs. In the upcoming segments, you will learn about various other operators and solve some problem statements using paired RDDs.
+
+Let’s look at each of the operations discussed in the video above.
+
+ 
+
+values(): The values() function creates a new RDD that contains only the values from the paired RDD.
+
+ 
+
+sales_1 = sc.parallelize([("shampoo", 1), ("soap", 1), ("conditioner", 3), ("brush", 2), ("soap", 2), ("shampoo", 2), ("bread", 2), ("meat", 2), ("tshirt", 2), ("jeans", 2)])
+v = sales_1.values() 
+v.collect()
+
+The output will be
+
+ 
+
+[1, 1, 3, 2, 2, 2, 2, 2, 2, 2]
+
+sortByKey(): This operator is used to sort the elements of a paired RDD. The sorting is done based on the key of the paired RDD.
+
+ 
+
+tmp = [('Apple', 12), ('Banana', 11), ('Mango', 14), ('Carrot', 13), ('Orange', 15)]
+sc.parallelize(tmp).sortByKey(True, 1).collect()
+ 
+
+The output will be
+
+ 
+
+[('Apple', 12), ('Banana', 11), ('Carrot', 13), ('Mango', 14), ('Orange', 15)]
+
+ 
+
+subtractByKey(): Return each (key, value) pair in self that has no pair with matching key in other.
+
+ 
+
+x = sc.parallelize([("a", 1), ("b", 4), ("b", 5), ("a", 2)])
+y = sc.parallelize([("a", 3), ("c", None)])
+sorted(x.subtractByKey(y).collect())
+
+The output will be
+
+ 
+
+[('b', 4), ('b', 5)]
+
+join(): Return an RDD containing all pairs of elements with matching keys in self and other. Whenever you do an inner join, the key must be present in both the paired RDDs; however, for an outer join, the key may or may not be present in both the paired RDDs. We will learn more about the inner and outer joins in the upcoming videos.
+
+ 
+
+Consider the following example:
+
+ 
+
+x = sc.parallelize([('Apple', 50), ('Banana', 100), ('Mango', 150), ('Carrot', 120)])
+y = sc.parallelize([('Apple', 100), ('Banana', 120), ('Mango',150)])
+sorted(x.join(y).collect())
+
+Now, if you apply the join operation on these two RDDs, the output is another RDD.
+
+ 
+
+[('Apple', (50, 100)), ('Banana', (100, 120)), ('Mango', (150, 150))]
+
+rightOuterJoin(): The rightOuterJoin() has the option to skip the key that is present on the left side of the operator; however, all keys that are present on the right side of the operator must be present. Let’s look at an example:
+
+rdd2.rightOuterJoin(rdd1)
+
+ 
+
+rdd2 is the operator on the left, and rdd1 is the operator on the right. All keys in the rdd1 must be present in the output. Let's look at an example.
+
+ 
+
+rdd1 = sc.parallelize([('Apple', 50), ('Banana', 100), ('Mango', 150), ('Carrot', 120)])
+rdd2 = sc.parallelize([('Apple', 100), ('Banana', 120), ('Mango',150)])
+sorted(rdd2.rightOuterJoin(rdd1).collect())
+
+The output is
+
+ 
+
+[('Apple', (100, 50)), ('Banana', (120, 100)), ('Carrot', (None, 120)), ('Mango', (150, 150))]
+
+leftOuterJoin(): The leftOuterJoin() has the option to skip the key that is present on the right side of the operator; however,all keys that are present on the left side of the operator must be present. Let’s look at an example.
+
+rdd2.leftOuterJoin(rdd1)
+
+ 
+
+rdd2 is the operator on the left, and rdd1 is the operator on the right. All keys in the rdd2 must be present in the output. Let’s look at an example.
+
+ 
+
+rdd1 = sc.parallelize([('Apple', 50), ('Banana', 100), ('Mango', 150), ('Carrot', 120)])
+rdd2 = sc.parallelize([('Apple', 100), ('Banana', 120), ('Mango',150)])
+sorted(rdd2.leftOuterJoin(rdd1).collect())
+ 
+
+The output will be
+
+ 
+
+[('Apple', (100, 50)), ('Banana', (120, 100)), ('Mango', (150, 150))]
+
+Now let's understand the cogroup() operator in the upcoming video.
+
+cogroup(): In the case of cogroup(), if the key is present in any one of the RDDs, it will be present in the output. For each key k in self or other, return a resulting RDD that contains a tuple with the list of values for that key in self as well as other.
+
+The following operations were discussed in the previous video:
+
+countByKey(): Counts the number of elements for each key.
+lookup(key): Finds all the values associated with the key provided.
+
+![image](https://user-images.githubusercontent.com/20191454/185790765-fa942338-c568-48e6-8353-d70421b77396.png)
+![image](https://user-images.githubusercontent.com/20191454/185790802-c35c95f0-eac5-4dfe-b583-48d36883ab07.png)
+![image](https://user-images.githubusercontent.com/20191454/185790839-6aff8fd5-5c22-4071-a215-8e0e9ebcf155.png)
+![image](https://user-images.githubusercontent.com/20191454/185790858-bc54e0f1-4774-4171-b012-25dfc2fbcb03.png)
+![image](https://user-images.githubusercontent.com/20191454/185790870-0d5069fc-0655-4ca1-9c9a-7abd2eb8109c.png)
+https://learn.upgrad.com/course/2151/segment/23256/150853/463432/2403235
+
+Session-1
+
+ 
+
+“Apache Spark™ is a unified analytics engine for large-scale data processing.’ It is an open-source, distributed computing engine, and it provides a productive environment for data analysis owing to its lightning speed and support for various libraries. 
+The in-memory data processing system makes Spark faster than MapReduce.
+Spark architecture includes driver nodes and worker nodes. Cluster manager is used to allocate resources to each component of the architecture.
+Session-2
+
+ 
+
+There are two different operations that can be performed on RDDs: transformation and action. Transformation operations operate on the elements of the RDD and store them in new RDDs as RDDs are immutable. Action operations cause all the transformations to execute and create a particular output.
+Lazy Evaluation and the use of DAG execution in Spark make RDDs resilient as transformations are only executed once an action is called.
+Session-3
+
+ 
+
+Paired RDDs are key/value pairs that can be created from basic RDDs.
+Due to the difference in structure, there are various operations associated with paired RDDs.
+In the next module, you will learn about Spark Structured APIs. You will be introduced to various dataframe operations that Spark offers for analyzing dataframes which makes it so powerful as well as easy to use.
+
+
+
+
+
+
+
+
 
 
 
