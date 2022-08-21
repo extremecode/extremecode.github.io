@@ -678,7 +678,7 @@ In the next module, you will learn about Spark Structured APIs. You will be intr
 
 
 
-
+https://www.programsbuzz.com/interview-question/apache-spark-architecture-which-following-components-spark-runtime-architecture
 
 
 
