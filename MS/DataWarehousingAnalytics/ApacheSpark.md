@@ -200,6 +200,212 @@ https://spark.apache.org/docs/latest/cluster-overview.html
 ![image](https://user-images.githubusercontent.com/20191454/185779489-d88d9ca4-cafd-4d65-9c5e-65ba9d65d338.png)
 ![image](https://user-images.githubusercontent.com/20191454/185779513-db31ed19-244c-4af5-99dd-23a56677b3e9.png)
 
+![image](https://user-images.githubusercontent.com/20191454/185781345-b31695a9-96f6-4b00-8618-bddb579a7067.png)
+
+https://spark.apache.org/docs/latest/
+https://spark.apache.org/docs/2.3.1/api/python/index.html
+
+RDD
+Resilient Distributed Data sets (RDDs) form the core abstraction of Spark. In this segment, you will understand the structure of an RDD. RDDs are special data types that are tailor-made for Apache Spark. The first boost to the performance of Apache Spark came from the innovative nature of the structure of an RDD. An RDD can be considered a distributed set of elements. Let’s hear about it from our expert Vishwa in the next video.
+
+![image](https://user-images.githubusercontent.com/20191454/185781503-7573f3e8-ec66-4d65-a07b-bab50cd15624.png)
+![image](https://user-images.githubusercontent.com/20191454/185781516-0db33743-deed-4304-a39b-a82731f7aa25.png)
+![image](https://user-images.githubusercontent.com/20191454/185781537-e0511cbb-196e-4612-b7eb-46e4b8539d4d.png)
+![image](https://user-images.githubusercontent.com/20191454/185781566-866e3a41-d4c8-42e4-8f25-76a1c6ab72d4.png)
+![image](https://user-images.githubusercontent.com/20191454/185781591-7c9bae40-3e0b-4bd8-ac90-1d9131c2a512.png)
+https://www.usenix.org/system/files/conference/nsdi12/nsdi12-final138.pdf
+
+![image](https://user-images.githubusercontent.com/20191454/185781606-d407ddc5-9571-43d7-8732-608a906bd85c.png)
+
+---
+sc
+---
+
+The collect() function sends all the values of an RDD back to the driver node. If the RDD is vast, then this function can result in an Out of Memory error.
+
+Note: In the above case the output01 folder(the last folder mentioned in the path) will be created by Spark in the HDFS and should not already exist. 
+
+https://spark.apache.org/docs/latest/rdd-programming-guide.html
+
+RDDs are low-level APIs used by Spark to abstract information on how data is partitioned across various devices in a cluster. Since you can store data in RDDs, you can use multiple operations to manipulate and analyze data stored in RDDs. In the next video, let's hear from Vishwa Mohan, who explains these operations.
+![image](https://user-images.githubusercontent.com/20191454/185782948-8d68555c-1ba7-4984-892e-b78f7e90f115.png)
+
+ Some examples of actions are as follows:
+
+ 
+
+count(): It counts the number of elements in an RDD.
+collect(): It is used to retrieve all the elements of the RDD (from all nodes) to the driver node. 
+reduce(): It reduces the elements through an aggregation function. The most common type of the reduce function is a sum.
+
+https://spark.apache.org/docs/latest/rdd-programming-guide.html
+
+![image](https://user-images.githubusercontent.com/20191454/185783001-5fe2269e-dfed-4748-94e8-93514dea349d.png)
+
+union(): This operation will work on two RDDs and will result in an output that contains all the elements present in both the RDDs.
+
+"rdd1.union(rdd2)"
+
+
+intersection(): This operation will work on two RDDs and will result in an output that contains only those elements that are present in both the RDDs.
+
+“rdd1.intersection(rdd2)”
+
+ 
+
+subtract(): This operation will work on two RDDs and will result in an output that contains all the elements present in rdd1 but not those present in rdd2.
+
+“rdd1.subtract(rdd2)”
+
+ 
+
+cartesian(): This operation will work on two RDDs and will result in an output that contains pairs of each element of rdd1 with each element of rdd2.
+
+"rdd1.cartesian(rdd2)"
+
+ 
+
+Let’s take a look at the following example for cartesian().
+
+document1 = [1,2,3]
+
+document2 = [4,5,6]
+sc.parallelize(document1).cartesian(sc.parallelize(document2)).collect()
+![image](https://user-images.githubusercontent.com/20191454/185787708-f3932d16-dd2f-49f5-992d-3ff7ad00deae.png)
+
+![image](https://user-images.githubusercontent.com/20191454/185787718-e10d7838-4e6e-4ae5-83c2-7fd834e6c557.png)
+
+
+https://spark.apache.org/docs/latest/rdd-programming-guide.html#transformations
+
+In the previous segment, you learned about different transformation functions on RDDs. Transformation functions are used to perform a particular operation on an RDD and store new values in a new RDD, as RDDs are immutable. However, you can get an output or a result only when you apply actions on an RDD. Also, all transformations on an RDD are executed only when an action is performed on that RDD. You will learn about this type of evaluation in the following segments.
+
+ 
+
+In this segment, you will understand what actions are available for RDDs. Let's watch the next video where Vishwa Mohan will discuss action operations on an RDD.
+
+
+Note: In this module, you may sometimes see that the kernel is mentioned as Python 2 instead of PySpark. This is because some of these videos are shot in a local environment/EC2, and the Python 2 kernel had the PySpark libraries installed already. For the current configuration of EMR, you will need to use the PySpark kernel only. The SME has used EC2 instance instead of EMR instance, but you are recommended to use the EMR instance for running all your codes in PySpark kernel.
+
+The action operations discussed in this video are as follows:
+
+ 
+
+collect(): This operation collects all the elements of an RDD from every partition and returns the result as an array to the driver node.
+
+
+count(): This action returns the total number of elements of an RDD.
+
+
+take(num): This operation takes the first num (number) of elements of an RDD.
+
+It first scans one partition and then uses the results from that partition to estimate the number of additional partitions needed to satisfy the limit.
+
+Question: If two RDDs are made from the same data file, with one RDD having n partitions and another RDD having m partitions, will the answer to first() or take(1) operation on both of these RDDs be the same?
+
+Answer: Yes. The answer to first() or take(1) operation for both RDDs will remain the same.
+
+
+top(num): This operator will return the num highest values in an RDD in descending order. 
+
+
+countByValue(): This is a powerful operator. When applied to an RDD, it returns a dictionary of (key, value) pairs, where each key is one element of the RDD, and each value is the number of times an element has appeared in that RDD.
+
+
+Let’s take a look at the following example for countByValue().
+
+ 
+
+#words RDD was created in the previous segment.
+words.countByValue()
+
+ 
+
+collect(): This operation collects all the elements of an RDD from every partition and returns the result as an array to the driver node.
+
+
+count(): This action returns the total number of elements of an RDD.
+
+
+take(num): This operation takes the first num (number) of elements of an RDD.
+
+It first scans one partition and then uses the results from that partition to estimate the number of additional partitions needed to satisfy the limit.
+
+
+
+Pro Tip:
+
+There is one more action operation, rdd.first(). It returns the first element of an RDD. There are two questions that can be asked regarding this action. 
+
+
+Question: Is this action the same as take(1)?
+
+Answer: The output of both first() and take(1) is the same, but the output type is not the same. Take(1) will return the output in the form of an array no matter the number of elements present in that array. On the other hand, first() will return only the first element of an RDD.
+
+
+Question: If two RDDs are made from the same data file, with one RDD having n partitions and another RDD having m partitions, will the answer to first() or take(1) operation on both of these RDDs be the same?
+
+Answer: Yes. The answer to first() or take(1) operation for both RDDs will remain the same.
+
+
+top(num): This operator will return the num highest values in an RDD in descending order. 
+
+
+countByValue(): This is a powerful operator. When applied to an RDD, it returns a dictionary of (key, value) pairs, where each key is one element of the RDD, and each value is the number of times an element has appeared in that RDD.
+
+The output will be 15; x and y signify any two elements of the RDD [1,2,3,4,5].
+
+ 
+
+fold() function: Aggregate the elements of each partition, and then the results for all the partitions, using a given associative function and a neutral zero value.  The zero value is used as the initial value for each partition in folding. It is used to initialize the accumulator for each partition. It acts as an initial call to each partition.
+
+Both reduce() and fold () operations are quite similar with minimal difference between them. The difference is that fold doesn't need to worry about empty partitions or collections, because then it will just use the zero value.
+
+Now, let’s try to understand another action function from Vishwa.
+
+Aggregate() function: Aggregates the elements of each partition and then the results for all the partitions using a given combination of functions and a neutral zero value.
+
+Since RDDs are partitioned, the aggregate takes full advantage of it by first aggregating elements in each partition and then aggregating results of all partitions to get the final result. Aggregate() lets you take an RDD and generate a single value that is of a different type than what was stored in the original RDD.
+
+Let’s understand its arguments. 
+
+seqOp aggregates the elements from all the partitions, and combOp merges all the results of seqOp in all the partitions. Both the operations share the same initial values which are called zeroValue.
+
+Let’s understand these operators in more detail.
+
+zeroValue: Initial value to be used for each partition in aggregation. This value would be used to initialize the accumulator. We mostly use 0 for integers and nil for collections.
+seqOp: It is an operator used to accumulate results within a partition. This operation will walk through all the elements (T) in all the partitions. All the T[0] will merge with zeroValue, and its result will merge with T[1] and so on until it loops over all the partitions. In other words, this sequential operation is just like rolling a given function on RDD.
+combOp: It is an associative operator used to combine results from different partitions. It will return a different type of result compared to the original RDD. As a result, you need to use seqOp to merge all the T in each partition to U, and then use combOp to combine all the U togeth
+
+foreach() function: Applies a function to all elements of this RDD.  
+It does not return any value, and it executes the input function on each element of an RDD. It does not return any value to the driver node, instead, the code is executed and stored in the worker node itself.
+
+https://spark.apache.org/docs/latest/rdd-programming-guide.html#actions
+
+![image](https://user-images.githubusercontent.com/20191454/185788719-d26da9ff-38d6-4afa-a7b1-7778c7b17264.png)
+![image](https://user-images.githubusercontent.com/20191454/185788733-5dd8a280-8e14-4e5f-a576-ced8076aed31.png)
+![image](https://user-images.githubusercontent.com/20191454/185788747-af303d5a-6ca5-4b34-b71a-02776a823372.png)
+
+Spark records each transformation applied to an input RDD as an edge between the input RDD and the resulting RDD. Hence, in a way, the number of edges in the DAG represents the total of transformation applied. In this case, the number of edges present in the DAG is 5. Hence, the answer is 5.
+ 
+
+This session will build on the programming aspect of Spark. You will learn how to process data in Spark paired RDDs using the PySpark API. This session covers:
+
+ 
+
+Creating paired RDDs.
+Operations on paired RDDs.
+Solving problem statements. 
+ The objective of this session is to give you hands-on experience of working on the computation engine of Spark. If you encounter errors while running codes, try debugging them on your own to gain valuable experience in handling Spark jobs.
+
+
+
+
+
+
+
+
+
 
 
 
