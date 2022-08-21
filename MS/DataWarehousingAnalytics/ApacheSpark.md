@@ -130,3 +130,76 @@ Different packages like PySpark, SparkR, etc., help you run queries on big data 
 
 https://www.projectpro.io/article/apache-spark-ecosystem-and-spark-components/219#:~:text=analytics%20than%20Hadoop.-,Apache%20Spark%20Ecosystem,vital%20factor%20in%20its%20growth.
 
+https://www.freecodecamp.org/news/what-is-an-api-in-english-please-b880a3214a82
+
+![image](https://user-images.githubusercontent.com/20191454/185778907-2bc043cb-24ce-4ebe-9201-3f151acc24fd.png)
+
+
+From the image above, it should be clear that the driver and the worker nodes are physical machines on which the driver program and the executor work. The driver program manages the Spark application you submit, and the executor program uses the worker nodes as the distributed storage and processing space to run those applications. Both storage and processing require multiple worker nodes, as you are dealing with the distributed data.
+
+ 
+
+Now you have the driver and worker nodes to perform the tasks that a user submits. However, in a distributed cluster, multiple processes are running at the same time. Therefore, you will also require a resource manager which can efficiently divide the resources. Let’s watch the upcoming video and try to get an understanding of this.
+
+To summarize, the driver program and the executor program are managed by the cluster manager. A cluster manager is a pluggable component in Spark. Because of this, Spark can run on various cluster manager modes, which include the following:
+
+ 
+
+In the Standalone mode, Spark uses its own cluster manager and does not require any external infrastructure.
+However, at an enterprise level, for running large Spark jobs, Spark can be integrated with external cluster managers like Apache YARN or Apache Mesos. This facility allows it to be deployed on the same infrastructure as Hadoop and acts as an advantage for companies looking to use Spark as an analytics platform.
+Apache Mesos is deprecated in the latest version of Spark, but it’s still a widely used cluster in the industry.
+Spark has also added Kubernetes as a cluster manager in its latest version.
+ 
+
+Now, let's understand how a Spark job gets executed in Spark.
+
+![image](https://user-images.githubusercontent.com/20191454/185779052-3045ab7f-75a6-4255-b3a6-7741af0341b9.png)
+
+To understand each process even more efficiently, let's figure out the role of each part in the entire process.
+
+ 
+
+The role of SparkContext:
+
+SparkContext does not execute the code but creates an optimized physical plan of the execution within the Spark architecture. It is the initial entry point of Spark to the distributed environment.
+The role of the driver program:
+
+The driver program is like the main() method that contains the instructions and action steps to be taken on the data present in each worker node.
+A driver program creates a general logical graph of operations. These operations mostly involve the creation of RDD from some source data, transformation functions to manipulate and filter data, and finally, some action to save the data or print it.
+When the driver program runs, the logical graph is turned into an execution plan.
+In Spark terminology, a process or action on data is called a Spark job. A job is further broken down into different stages. These stages help make the Spark environment reliable and fault-tolerant, which we will look at in the later sections. Finally, each stage comprises tasks the executors implement. A task is the most basic unit of work that each executor performs parallelly on the respective partition of data. 
+Once the entire execution plan is ready, the Spark driver coordinates with executors to run various tasks.
+The role of the executors:
+
+Executors are processes that are launched for a Spark application on worker nodes.
+Each worker node consists of one or more executor(s) and is responsible for running the task.
+The main task of an executor is to run the tasks and send results to the driver program.
+It also stores the cached data that is created while running a user program.
+One executor can consume one or more cores on a single worker node.
+
+Assume the following:
+
+If one executor runs on one core, and one worker node contains eight cores, there will be eight executors in a single worker node. Since every executor has only one core to run a process or task, the operations in the program cannot be parallelized.
+If one executor runs on two cores, and one worker node contains eight cores, there will be four executors in a single worker node. Since every executor has two cores to run a process or task, the operations in the program can be parallelized.
+
+If you are running Spark in local mode and not a distributed environment, the driver and executor programs run on the same JVM.
+
+ 
+
+The role of cluster manager:
+
+It launches the executor programs and allocates and manages the resources allocated to each component.
+Now, let’s revisit how the different components in Spark work together to execute the physical plan that SparkContext creates. SparkContext sends the optimized physical plan to a cluster manager (could be Standalone, YARN, or Mesos) in the Spark framework. The cluster manager first checks for the availability of resources in the cluster and then allocates worker nodes based on the requirement. These worker nodes are responsible for loading the data and executing the desired tasks over each partition of the distributed data. This parallelism is responsible for fast computation in Apache Spark.
+
+
+Another added advantage of the Spark architecture is that it can be deployed over distributed storage systems such as Hadoop as it is. No additional support is required to make it functional over these storage systems.
+
+https://spark.apache.org/docs/latest/cluster-overview.html
+![image](https://user-images.githubusercontent.com/20191454/185779194-39184d36-3537-4f1f-8ab1-fbc5b304682d.png)
+
+![image](https://user-images.githubusercontent.com/20191454/185779489-d88d9ca4-cafd-4d65-9c5e-65ba9d65d338.png)
+![image](https://user-images.githubusercontent.com/20191454/185779513-db31ed19-244c-4af5-99dd-23a56677b3e9.png)
+
+
+
+
