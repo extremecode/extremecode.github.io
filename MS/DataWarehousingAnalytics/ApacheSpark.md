@@ -682,6 +682,94 @@ https://www.programsbuzz.com/interview-question/apache-spark-architecture-which-
 
 
 
+![image](https://user-images.githubusercontent.com/20191454/187436926-22cd7600-e768-4d9d-8378-ae1a8ee17236.png)
+
+![image](https://user-images.githubusercontent.com/20191454/187437026-3a000dbb-6290-474e-a183-c6aacf17e4de.png)
+![image](https://user-images.githubusercontent.com/20191454/187437408-74b45d87-8500-41cf-804d-3ae68284cd97.png)
+
+![image](https://user-images.githubusercontent.com/20191454/187438535-ca2b8b70-ebf4-4ad7-b611-afb7cc6b58cc.png)
+![image](https://user-images.githubusercontent.com/20191454/187438645-b944965a-919b-433d-9e80-3bb56365ffc2.png)
+![image](https://user-images.githubusercontent.com/20191454/187439337-5b67ef09-4d6c-4089-a751-355b9fb88bec.png)
+![image](https://user-images.githubusercontent.com/20191454/187439455-d8b7ae5b-edb1-4b7c-ad2c-a9a2edb1ef93.png)
+![image](https://user-images.githubusercontent.com/20191454/187440013-4222d2db-5dc9-4a55-a283-64bc2b922f29.png)
+![image](https://user-images.githubusercontent.com/20191454/187442919-12935a55-a92b-43cc-8669-4eae131152c8.png)
+![image](https://user-images.githubusercontent.com/20191454/187444304-3adb87b6-4f3d-4d86-90c4-27759e755629.png)
+![image](https://user-images.githubusercontent.com/20191454/187444857-7db76512-9af6-4ce1-b2d7-429ec4b69bc8.png)
+![image](https://user-images.githubusercontent.com/20191454/187447173-3c86d2bb-345f-4e57-9f32-ba10a0f896d6.png)
+http://spark.apache.org/docs/2.4.4/api/python/pyspark.sql.html#module-pyspark.sql.functions
+
+https://spark-ml-dataframe.s3.amazonaws.com/bitcoin.csv
+![image](https://user-images.githubusercontent.com/20191454/187450562-916c9400-36cc-4d95-be26-b58c1de73d48.png)
+![image](https://user-images.githubusercontent.com/20191454/187451358-d8ddf3cf-04b4-46a4-b0f6-61e2cf9ed491.png)
+http://koalas.readthedocs.io/en/latest/
+
+http://spark.apache.org/docs/latest/api/python/user_guide/pandas_on_spark/index.html
+http://spark.apache.org/docs/latest/api/python/user_guide/pandas_on_spark/supported_pandas_api.html#dataframe-api
+
+![image](https://user-images.githubusercontent.com/20191454/187455033-2fa95163-e520-4ac0-8637-2b37080faba2.png)
+
+Learn
+Live
+Jobs
+Discussions
+Akash Gupta
+
+Navigate
+
+Q&A
+Summary
+In this session, you learned about structured APIs in Spark and how to perform analysis on them. Let us quickly revise all the concepts that you have learned in this session:
+
+ 
+
+RDDs have a few limitations due to which there is a need for another API for analyzing data. Some of those limitations are below:
+
+The low-level abstraction of data.
+
+Unstructured data is abstracted using RDDs. RDDs cannot handle structured data.
+ 
+
+Spark provides three APIs for structured data:
+
+DataFrames 
+
+Data sets (not available in Python)
+
+Spark SQL
+ 
+
+DataFrames are a Spark API that can be used in place of RDDs for analyzing structured data along with high-level abstraction.
+
+Pandas API enables the Python user to use the Pandas library on the top of the Spark cluster. This makes the Pandas gain efficiency in distributed computing across various Spark nodes.
+
+Datasets contain a combination of the features of both RDDs and DataFrames.
+
+DataFrames can be used for data analysis in Spark. The data inside DataFrames can be manipulated using different DataFrame commands. Some of these commands are as follows:
+
+df.filter(Condition)
+
+df.collect()
+
+df.groupBy()
+
+df.describe
+
+ 
+
+Spark SQL allows us to run SQL- and HIVE-type queries on DataFrames. With the ability to connect to a wide variety of data sources and the simplicity of SQL-type queries, Spark SQL becomes a very powerful tool and is accessible to a lot of people.
+
+ 
+Now that you have learned about structured APIs in Spark in detail, let us proceed to the graded questions in the next segment
+
+
+
+
+
+
+
+
+
+
 
 
 
