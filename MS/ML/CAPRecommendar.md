@@ -4,6 +4,11 @@ Model Building Subtasks
 
 
 Reading Data
+https://uoacapstone.s3.amazonaws.com/app_events.csv
+https://uoacapstone.s3.amazonaws.com/train_event_data.csv
+https://uoacapstone.s3.amazonaws.com/app_events_meta_data.csv
+https://uoacapstone.s3.amazonaws.com/train_mobile_brand.csv
+
 
 Read the data from S3 in EC2
 
