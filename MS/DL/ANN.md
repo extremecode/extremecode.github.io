@@ -1,0 +1,16 @@
+![image](https://user-images.githubusercontent.com/20191454/208247695-f71c0e10-4c04-40b6-aea9-b2ebdda59adf.png)
+![image](https://user-images.githubusercontent.com/20191454/208252896-8328684d-36b7-4564-b24f-61acf47ad081.png)
+![image](https://user-images.githubusercontent.com/20191454/208252913-12d34dd2-511a-4fc6-8ed4-938d25028107.png)
+![image](https://user-images.githubusercontent.com/20191454/208252924-cf6f9206-2167-4d02-afc8-548085cf1c83.png)
+![image](https://user-images.githubusercontent.com/20191454/208253001-dd9762da-3492-4096-94c3-42fdeef4d76d.png)
+![image](https://user-images.githubusercontent.com/20191454/208253006-e99161c7-3ab5-413f-8c02-9ec7429e439c.png)
+![image](https://user-images.githubusercontent.com/20191454/208253013-663c68f9-eb59-4cc2-8e84-790288d28c39.png)
+![image](https://user-images.githubusercontent.com/20191454/208253019-f7a43dd1-39c3-4ee1-ae33-2cd5054d4999.png)
+![image](https://user-images.githubusercontent.com/20191454/208253054-6a6954ba-dd01-42ab-bbee-d183b7173d76.png)
+![image](https://user-images.githubusercontent.com/20191454/208253064-78537d60-ddf9-452f-80e5-b5fa1dda4375.png)
+Tensorflow
+https://cloud.google.com/tpu/docs/intro-to-tpu
+![image](https://user-images.githubusercontent.com/20191454/208253371-3224df15-1be2-4cc4-93ec-c91c3303f829.png)
+![image](https://user-images.githubusercontent.com/20191454/208253681-4acd08c8-4697-404c-a444-0e07de7bb886.png)
+http://www.tensorflow.org/api_docs/python/tf/linalg
+https://www.tensorflow.org/api_docs/python/tf/linalg
