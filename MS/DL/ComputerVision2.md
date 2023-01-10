@@ -55,6 +55,22 @@ https://www.inag.ufscar.br/projects/conv-neural-networks-1
 ![image](https://user-images.githubusercontent.com/20191454/211531816-c29e3c76-104d-434d-bb12-135fc727a0cc.png)
 ![image](https://user-images.githubusercontent.com/20191454/211531894-bfa4442b-ae92-47a8-8042-083bc09a3594.png)
 ![image](https://user-images.githubusercontent.com/20191454/211531955-c16b5ee9-e012-4c08-ba8a-fd32fbc3af86.png)
+http://becominghuman.ai/u-net-architecture-explained-and-implementation-470a5095ad57
+![image](https://user-images.githubusercontent.com/20191454/211544750-4d712e7d-1ddf-4890-871c-37cb7636c1c3.png)
+![image](https://user-images.githubusercontent.com/20191454/211545672-ca186ba1-146c-49e9-b9da-cd69a7b5662c.png)
+![image](https://user-images.githubusercontent.com/20191454/211546726-0a9ec262-3a9b-4d03-a5d8-0530a363ab9f.png)
+![image](https://user-images.githubusercontent.com/20191454/211546831-af67d05c-e58a-4b11-939e-0ccc809999f6.png)
+![image](https://user-images.githubusercontent.com/20191454/211546928-d0e176c3-c000-40b3-891e-d647c8a78ac7.png)
+
+![image](https://user-images.githubusercontent.com/20191454/211546989-83a9346a-ff5c-43be-ae60-91793650eda0.png)
+![image](https://user-images.githubusercontent.com/20191454/211547027-9ef2533c-d860-4984-b1a0-428278b6345e.png)
+![image](https://user-images.githubusercontent.com/20191454/211547066-0e2121e7-52b3-42d8-af68-290cf7651fcd.png)
+![image](https://user-images.githubusercontent.com/20191454/211547114-2b11c601-bbbe-4a42-9ce0-f5c2c69a9b3d.png)
+![image](https://user-images.githubusercontent.com/20191454/211569800-e6c91fc9-8b43-42da-a9b9-33f2abe9a213.png)
+![image](https://user-images.githubusercontent.com/20191454/211571219-d8d8f316-5e46-4073-996e-0055378145bc.png)
+http://www.kaggle.com/code/yerramvarun/understanding-dice-coefficient
+![image](https://user-images.githubusercontent.com/20191454/211572932-2e027d14-10c4-4f0c-befa-095604b2950b.png)
+![image](https://user-images.githubusercontent.com/20191454/211592146-6a9cc8b5-be07-4851-a641-397a4d454ddc.png)
 
 
 
