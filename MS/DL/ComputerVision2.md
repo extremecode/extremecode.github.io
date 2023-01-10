@@ -52,7 +52,9 @@ https://www.inag.ufscar.br/projects/conv-neural-networks-1
 ![image](https://user-images.githubusercontent.com/20191454/211529951-f48562b6-881c-47c1-bd92-fcadf6af86a2.png)
 
 
-
+![image](https://user-images.githubusercontent.com/20191454/211531816-c29e3c76-104d-434d-bb12-135fc727a0cc.png)
+![image](https://user-images.githubusercontent.com/20191454/211531894-bfa4442b-ae92-47a8-8042-083bc09a3594.png)
+![image](https://user-images.githubusercontent.com/20191454/211531955-c16b5ee9-e012-4c08-ba8a-fd32fbc3af86.png)
 
 
 
