@@ -71,6 +71,19 @@ http://becominghuman.ai/u-net-architecture-explained-and-implementation-470a5095
 http://www.kaggle.com/code/yerramvarun/understanding-dice-coefficient
 ![image](https://user-images.githubusercontent.com/20191454/211572932-2e027d14-10c4-4f0c-befa-095604b2950b.png)
 ![image](https://user-images.githubusercontent.com/20191454/211592146-6a9cc8b5-be07-4851-a641-397a4d454ddc.png)
+http://www.researchgate.net/figure/a-Instances-of-annotated-high-resolution-aerial-images-b-Instance-count-for_fig5_344592026
+![image](https://user-images.githubusercontent.com/20191454/211593931-023b588c-bd90-4037-9b77-bdaa960563dc.png)
+![image](https://user-images.githubusercontent.com/20191454/211594040-61dee9a0-4bc5-431f-af08-9c98b45e31fe.png)
+https://arxiv.org/pdf/1703.06870.pdf
+![image](https://user-images.githubusercontent.com/20191454/211594143-23298250-135a-464d-afdb-b72f8f2c1d09.png)
+https://arxiv.org/abs/1703.06870
+![image](https://user-images.githubusercontent.com/20191454/211594912-6c658e57-e9d6-4561-97fc-b51b37c0a1f5.png)
+![image](https://user-images.githubusercontent.com/20191454/211595245-9898a82b-6cc7-45a3-be45-ab0ba22fe1c5.png)
+![image](https://user-images.githubusercontent.com/20191454/211599326-9827bea9-901a-4b8e-a68d-53066ee8ecfe.png)
+![image](https://user-images.githubusercontent.com/20191454/211600133-cb7ce34d-33d8-46ee-884b-d99bfff1a998.png)
+![image](https://user-images.githubusercontent.com/20191454/211600285-070af0b6-8a1b-4dbf-921d-b2cf8edd7267.png)
+![image](https://user-images.githubusercontent.com/20191454/211600529-607b684f-9bbe-4c9f-a362-2859fea581fd.png)
+
 
 
 
