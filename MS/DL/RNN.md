@@ -61,6 +61,15 @@ https://devopedia.org/bidirectional-rnn
 ![image](https://user-images.githubusercontent.com/20191454/215273554-07e17a5a-1d70-4cb0-8b32-9686995ee21f.png)
 ![image](https://user-images.githubusercontent.com/20191454/215273854-a68d796c-0367-4bfe-b91e-1b5b8f39f2f4.png)
 ![image](https://user-images.githubusercontent.com/20191454/215273887-c58df1a8-ea43-408f-beac-3e2c2c53e73d.png)
+![image](https://user-images.githubusercontent.com/20191454/215288224-076cc8f5-10ab-4083-836b-134867c53241.png)
+![image](https://user-images.githubusercontent.com/20191454/215288416-23b73244-8b4b-4a9f-bd6d-53ea2044fa9e.png)
+![image](https://user-images.githubusercontent.com/20191454/215288420-ffb8f0c5-5c89-4b0e-92bd-44b7d87bf7c7.png)
+![image](https://user-images.githubusercontent.com/20191454/215288491-abbc5393-e738-4d7d-b8b2-3b071dfbdaf0.png)
+![image](https://user-images.githubusercontent.com/20191454/215288695-a2f53df2-c724-4c82-bb10-a50e84427dd6.png)
+![image](https://user-images.githubusercontent.com/20191454/215288712-0dc4365f-66b4-408f-9789-f043496659c4.png)
+![image](https://user-images.githubusercontent.com/20191454/215288797-37eb530b-5552-407a-8dfa-ad7fd2fd3768.png)
+![image](https://user-images.githubusercontent.com/20191454/215288998-9d5806fb-2889-4148-a949-490689237fe6.png)
+![image](https://user-images.githubusercontent.com/20191454/215293117-bee5f6fb-beae-4fb1-a003-07c8ba362575.png)
 
 
 
